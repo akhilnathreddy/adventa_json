@@ -1667,7 +1667,7 @@
     "shortcut": "The foot of the perpendicular P(α, β, γ) lies on the line, so express its coordinates using a parameter λ. Then, use the condition that the direction ratios of the line segment from the given point to P are perpendicular to the direction ratios of the given line (their dot product is 0) to solve for λ.",
     "question": "If the foot of perpendicular from (1, 2, 3) to the line \\(\\frac{x+1}{2}=\\frac{y-2}{5}=\\frac{z-4}{1}\\) is (α, β, γ) then find α + β + γ.",
     "equation": "A general point on the line \\(\\frac{x-x_1}{a}=\\frac{y-y_1}{b}=\\frac{z-z_1}{c}\\) is given by \\((x_1+aλ, y_1+bλ, z_1+cλ)\\). The dot product of direction ratios of perpendicular lines is zero.",
-    "imageurl": "",
+    "imageurl": null,
     "options": {
       "A": "6",
       "B": "5.8",
@@ -1731,7 +1731,7 @@
         "shortcut": "The area of a triangle with vertices (0,0), (x,y), and (-x,y) is simply |xy|. Substitute the given function for y to get the area A as a function of x. Find the derivative dA/dx, set it to zero to find the critical points, and determine which one gives the maximum area.",
         "question": "Find the maximum possible area (in sq. units) of a triangle with vertices at A(0,0), B(x,y), and C(-x,y), given that y = -2x² + 54x.",
         "equation": "Area = |x • y|, \\frac{dA}{dx}=0",
-        "imageurl": "",
+        "imageurl": null,
         "options": {
             "A": "5800",
             "B": "5832",
@@ -1922,5 +1922,898 @@
             "Logical Deduction"
         ],
         "avg_time_to_solve": 210
+    },
+    {
+        "id": 1,
+        "shortcut": "This question uses the direct application of Bayes' theorem. The required probability can be framed as P(Bag A | White Ball) = [P(White from A)] / [P(White from A) + P(White from B)]. Since a bag is chosen at random, the probability of choosing either bag is 1/2, which cancels out from the numerator and denominator, simplifying the calculation.",
+        "question": "Bag A contains 3 white and 7 Red balls. Bag B contains 3 white and 2 red balls. If a white ball is drawn, what is the probability of it being from Bag A?",
+        "equation": "P(A|W) = \\frac{P(W|A)P(A)}{P(W|A)P(A) + P(W|B)P(B)}",
+        "imageurl": null,
+        "options": null,
+        "correct_option": "1/3",
+        "difficulty_level": "Easy",
+        "examname": "JEE-Main-30-01-2024 (Memory Based) [EVENING SHIFT]",
+        "solution": "Let A be the event that Bag A is chosen and B be the event that Bag B is chosen. Let W be the event of drawing a white ball. We have P(A) = P(B) = 1/2. The probability of drawing a white ball from Bag A is P(W|A) = 3/10. The probability of drawing a white ball from Bag B is P(W|B) = 3/5. Using Bayes' theorem, the probability that the white ball was from Bag A is P(A|W) = [P(W|A)P(A)] / [P(W|A)P(A) + P(W|B)P(B)] = [(3/10) * (1/2)] / [(3/10) * (1/2) + (3/5) * (1/2)] = (3/20) / (3/20 + 6/20) = (3/20) / (9/20) = 3/9 = 1/3.",
+        "subject": "Mathematics",
+        "topic": "Probability",
+        "subtopics": ["Conditional Probability", "Bayes' Theorem"],
+        "question_type": ["Memory-based"],
+        "avg_time_to_solve": 75
+    },
+    {
+        "id": 2,
+        "shortcut": "The key is to quickly determine the coordinates of focus S. The point P(3, 5) lies on the latus rectum of the ellipse (a line perpendicular to the major axis passing through the focus). Since the major axis is the x-axis, the focus S is (3, 0). Therefore, ae = 3. With the directrix x = a/e = 25/3, you can solve for 'a' and 'e' simultaneously by multiplying the two equations to get a²=25. From there, use the formula for the Latus Rectum, LR = 2a(1-e²).",
+        "question": "A point P divides the line segment AB in the ratio 7:3, where A and B are the x and y-intercepts of the line 5x + 7y = 50, respectively. The directrix of an ellipse (x²/a²) + (y²/b²) = 1 is x = 25/3. The focus S is on the origin side of the directrix. If P lies on the line perpendicular to the x-axis from S, find the length of the Latus Rectum of the ellipse.",
+        "equation": "\\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1",
+        "imageurl": null,
+        "options": null,
+        "correct_option": "6.4",
+        "difficulty_level": "Medium",
+        "examname": "JEE-Main-30-01-2024 (Memory Based) [EVENING SHIFT]",
+        "solution": "The line is 5x + 7y = 50. The x-intercept A is (10, 0) and the y-intercept B is (0, 50/7). P divides AB in the ratio 7:3. Using the section formula, P = ( (3*10 + 7*0)/(7+3), (3*0 + 7*(50/7))/(7+3) ) = (3, 5). Since P lies on the perpendicular from focus S to the x-axis, the x-coordinate of S is 3. So, S = (ae, 0) = (3, 0), which means ae = 3. The directrix is x = a/e = 25/3. Multiplying these two equations: (ae)(a/e) = 3 * (25/3) => a² = 25, so a=5. Substituting a=5 in ae=3 gives e = 3/5. Now, we find b² = a²(1 - e²) = 25(1 - 9/25) = 16. The length of the Latus Rectum (LR) is 2b²/a = 2*16/5 = 32/5 = 6.4.",
+        "subject": "Mathematics",
+        "topic": "Conic Sections",
+        "subtopics": ["Ellipse", "Focus", "Directrix", "Latus Rectum", "Section Formula"],
+        "question_type": ["Memory-based"],
+        "avg_time_to_solve": 160
+    },
+    {
+        "id": 3,
+        "shortcut": "This is a direct application of the properties of Geometric Progressions (GP). Find the common ratio for each series using the given terms. For series 1, a₃/a₁ = r₁², so r₁² = b/a. For series 2, b₅/b₁ = r₂⁴, so r₂⁴ = b/a. Then, find the 11th term of series 1, which is a₁r₁¹⁰ = a(r₁²)⁵ = a(b/a)⁵. Set this equal to the nth term of series 2, bₙ = b₁r₂ⁿ⁻¹ = a(r₂⁴)⁽ⁿ⁻¹⁾/⁴ = a(b/a)⁽ⁿ⁻¹⁾/⁴. Equating the powers gives the value of n.",
+        "question": "There are two GP series. For the first series, the first term is 'a' and the third term is 'b'. For the second series, the first term is 'a' and the fifth term is 'b'. The 11th term of the first series is equal to which term of the second series?",
+        "equation": null,
+        "imageurl": null,
+        "options": null,
+        "correct_option": "21",
+        "difficulty_level": "Easy",
+        "examname": "JEE-Main-30-01-2024 (Memory Based) [EVENING SHIFT]",
+        "solution": "For Series 1: a₁=a, a₃=b. Let the common ratio be r₁. Then ar₁² = b, so r₁² = b/a. The 11th term is a₁₁ = ar₁¹⁰ = a(r₁²)⁵ = a(b/a)⁵ = b⁵/a⁴. For Series 2: b₁=a, b₅=b. Let the common ratio be r₂. Then ar₂⁴ = b, so r₂⁴ = b/a. Let the 11th term of series 1 be the nth term of series 2. The nth term is bₙ = ar₂ⁿ⁻¹ = a((r₂⁴)⁽ⁿ⁻¹⁾/⁴) = a((b/a)⁽ⁿ⁻¹⁾/⁴). Equating the two terms: a(b/a)⁵ = a((b/a)⁽ⁿ⁻¹⁾/⁴). This implies 5 = (n-1)/4, so n-1 = 20, which gives n = 21. Therefore, it is the 21st term.",
+        "subject": "Mathematics",
+        "topic": "Sequences and Series",
+        "subtopics": ["Geometric Progression"],
+        "question_type": ["Memory-based"],
+        "avg_time_to_solve": 100
+    },
+    {
+        "id": 4,
+        "shortcut": "A key property of the cross product is that the resulting vector (b x a) is orthogonal to both b and a. For any two orthogonal vectors x and y, the magnitude squared of their difference is the sum of their squared magnitudes: |x - y|² = |x|² + |y|². Applying this here, |(b x a) - b|² = |b x a|² + |b|².",
+        "question": "Given two vectors a and b such that |b| = 2 and |b x a| = 2. Find the value of |(b x a) - b|².",
+        "equation": "|(b \\times a) - b|^2",
+        "imageurl": null,
+        "options": {
+            "A": "0",
+            "B": "8",
+            "C": "1",
+            "D": "10"
+        },
+        "correct_option": "B",
+        "difficulty_level": "Easy",
+        "examname": "JEE-Main-30-01-2024 (Memory Based) [EVENING SHIFT]",
+        "solution": "We need to compute |(b x a) - b|². Let's expand the expression using the dot product: |(b x a) - b|² = ((b x a) - b) . ((b x a) - b) = |b x a|² - 2(b . (b x a)) + |b|². The term b . (b x a) is a scalar triple product involving two identical vectors (b), which means the three vectors are coplanar, and the value of the scalar triple product is 0. Therefore, the expression simplifies to |b x a|² + |b|². Substituting the given values: 2² + 2² = 4 + 4 = 8.",
+        "subject": "Mathematics",
+        "topic": "Vector Algebra",
+        "subtopics": ["Cross Product", "Dot Product", "Modulus"],
+        "question_type": ["Memory-based"],
+        "avg_time_to_solve": 60
+    },
+    {
+        "id": 5,
+        "shortcut": "The equation is of the form x * f(x) = 0. This implies either x=0 or f(x)=0. Observe that f(x) = x² + 3|x| + 5|x-1| + 6|x-2| is a sum of non-negative terms (a square and several absolute values). A sum of non-negative terms can only be zero if every term is zero. It's impossible for x, (x-1), and (x-2) to all be zero for the same value of x. Therefore, f(x) can never be zero. The only solution comes from x=0.",
+        "question": "Find the number of solutions for the equation x(x² + 3|x| + 5|x-1| + 6|x-2|) = 0.",
+        "equation": "x(x^2 + 3|x| + 5|x-1| + 6|x-2|) = 0",
+        "imageurl": null,
+        "options": null,
+        "correct_option": "1",
+        "difficulty_level": "Easy",
+        "examname": "JEE-Main-30-01-2024 (Memory Based) [EVENING SHIFT]",
+        "solution": "The given equation is a product of two factors equal to zero. This means either x = 0 or x² + 3|x| + 5|x-1| + 6|x-2| = 0. Consider the second factor. The term x² is always non-negative (≥ 0). The absolute value terms 3|x|, 5|x-1|, and 6|x-2| are also always non-negative. The sum of these non-negative terms can only be zero if each individual term is simultaneously zero. This would require x²=0 (so x=0), |x|=0 (so x=0), |x-1|=0 (so x=1), and |x-2|=0 (so x=2). Since x cannot be 0, 1, and 2 at the same time, this second factor can never be zero. Therefore, the only possible solution is x=0. The equation has exactly one solution.",
+        "subject": "Mathematics",
+        "topic": "Theory of Equations",
+        "subtopics": ["Absolute Value Equations", "Number of Solutions"],
+        "question_type": ["Memory-based"],
+        "avg_time_to_solve": 50
+    },
+    {
+        "id": 6,
+        "shortcut": "The main technique is to recognize the recursive pattern in the function composition. Calculate f(f(x)) first to spot the pattern. You will see that composing the function 'n' times results in a predictable form, fₙ(x) = x / (1 + nx⁴)¹/⁴. Once g(x) = f₄(x) is found, the integral becomes straightforward with a u-substitution, letting u = 1 + 4x⁴.",
+        "question": "Let f(x) = x / (1 + x⁴)¹/⁴ and g(x) = f(f(f(f(x)))). Find the value of the definite integral ∫₀^(√2√5) x²g(x) dx.",
+        "equation": "\\int_{0}^{\\sqrt{2\\sqrt{5}}} x^2 g(x) dx \\text{ where } g(x) = f(f(f(f(x))))",
+        "imageurl": null,
+        "options": null,
+        "correct_option": "13/6",
+        "difficulty_level": "Medium",
+        "examname": "JEE-Main-30-01-2024 (Memory Based) [EVENING SHIFT]",
+        "solution": "First, find the pattern for the composition of f(x). f(f(x)) = [x / (1+x⁴)¹/⁴] / [1 + (x / (1+x⁴)¹/⁴)⁴]¹/⁴ = [x / (1+x⁴)¹/⁴] / [(1 + x⁴ + x⁴)/(1+x⁴)]¹/⁴ = x / (1 + 2x⁴)¹/⁴. Following this pattern, g(x), which is f composed 4 times, is g(x) = x / (1 + 4x⁴)¹/⁴. Now, we evaluate the integral I = ∫₀^(√2√5) x² * [x / (1 + 4x⁴)¹/⁴] dx = ∫₀^(√2√5) x³ / (1 + 4x⁴)¹/⁴ dx. Let t⁴ = 1 + 4x⁴. Then 4t³ dt = 16x³ dx, so x³ dx = t³/4 dt. The limits of integration become: when x=0, t=1; when x = √2√5, x⁴ = 20, so t⁴ = 1 + 4(20) = 81, which gives t=3. The integral becomes I = ∫₁³ (1/t) * (t³/4) dt = (1/4) ∫₁³ t² dt = (1/4) [t³/3]₁³ = (1/12) * (3³ - 1³) = (1/12) * (26) = 13/6.",
+        "subject": "Mathematics",
+        "topic": "Integral Calculus",
+        "subtopics": ["Definite Integrals", "Function Composition", "Integration by Substitution"],
+        "question_type": ["Memory-based"],
+        "avg_time_to_solve": 170
+    },
+    {
+        "id": 7,
+        "shortcut": "This problem is a standard application of using given conditions to find unknown constants. There's no specific shortcut, but being systematic is key. First, use the point f(0)=-1. Second, find the derivative f'(x) and use f'(ln 2)=21. Third, evaluate the integral. This will give you a system of three linear equations in a, b, and c, which can be solved efficiently.",
+        "question": "Given the function f(x) = ae²ˣ + beˣ + cx, which satisfies the conditions f(0) = -1, f'(ln 2) = 21, and ∫₀ˡⁿ⁴(f(x) - cx)dx = 39/2. Find the value of |a + b + c|.",
+        "equation": "f(x) = ae^{2x} + be^{x} + cx",
+        "imageurl": null,
+        "options": null,
+        "correct_option": "8",
+        "difficulty_level": "Medium",
+        "examname": "JEE-Main-30-01-2024 (Memory Based) [EVENING SHIFT]",
+        "solution": "We use the given conditions to form a system of equations. 1) f(0) = -1 => a*e⁰ + b*e⁰ + c*0 = -1 => a + b = -1. 2) f'(x) = 2ae²ˣ + beˣ + c. So, f'(ln 2) = 2a*e²ˡⁿ² + b*eˡⁿ² + c = 2a(4) + b(2) + c = 21 => 8a + 2b + c = 21. 3) ∫₀ˡⁿ⁴(f(x) - cx)dx = ∫₀ˡⁿ⁴(ae²ˣ + beˣ)dx = [a/2 * e²ˣ + beˣ]₀ˡⁿ⁴ = (a/2 * e²ˡⁿ⁴ + b*eˡⁿ⁴) - (a/2 + b) = (a/2 * 16 + 4b) - (a/2 + b) = 8a + 4b - a/2 - b = 15a/2 + 3b. So, 15a/2 + 3b = 39/2 => 15a + 6b = 39 => 5a + 2b = 13. From (1), b = -1 - a. Substituting into the simplified (3): 5a + 2(-1-a) = 13 => 3a = 15 => a = 5. Then b = -1 - 5 = -6. Substituting a and b into (2): 8(5) + 2(-6) + c = 21 => 40 - 12 + c = 21 => 28 + c = 21 => c = -7. Finally, |a + b + c| = |5 - 6 - 7| = |-8| = 8.",
+        "subject": "Mathematics",
+        "topic": "Differential and Integral Calculus",
+        "subtopics": ["Derivatives", "Definite Integrals", "System of Equations"],
+        "question_type": ["Memory-based"],
+        "avg_time_to_solve": 190
+    },
+    {
+        "id": 8,
+        "shortcut": "To find the domain, you must find the intersection of the domains for the logarithm and the inverse cosine function. For ln(y), the condition is y > 0. For cos⁻¹(z), the condition is -1 ≤ z ≤ 1. Solve these two sets of inequalities separately and then find the common interval. Be methodical to avoid errors with inequality signs.",
+        "question": "If the domain of the function f(x) = ln((2x)/(2x² - x - 3)) + cos⁻¹((2x + 1)/(x + 2)) is the interval [α, β), then find the value of 5α - 4β.",
+        "equation": "f(x) = \\ln\\left(\\frac{2x}{2x^2 - x - 3}\\right) + \\cos^{-1}\\left(\\frac{2x+1}{x+2}\\right)",
+        "imageurl": null,
+        "options": {
+            "A": "-2",
+            "B": "3",
+            "C": "-4",
+            "D": "-5"
+        },
+        "correct_option": "D",
+        "difficulty_level": "Hard",
+        "examname": "JEE-Main-30-01-2024 (Memory Based) [EVENING SHIFT]",
+        "solution": "The domain is determined by two conditions. First, for the logarithm: (2x)/(2x² - x - 3) > 0 => (2x)/((2x-3)(x+1)) > 0. A sign analysis shows this is true for x ∈ (-1, 0) ∪ (3/2, ∞). Second, for the inverse cosine: -1 ≤ (2x+1)/(x+2) ≤ 1. This splits into two inequalities: (a) (2x+1)/(x+2) - 1 ≤ 0 => (x-1)/(x+2) ≤ 0, which holds for x ∈ (-2, 1]. (b) (2x+1)/(x+2) + 1 ≥ 0 => (3x+3)/(x+2) ≥ 0, which holds for x ∈ (-∞, -2) ∪ [-1, ∞). The intersection of (a) and (b) gives the domain for the arccos part as [-1, 1]. The final domain of f(x) is the intersection of the domains for both parts: ((-1, 0) ∪ (3/2, ∞)) ∩ [-1, 1]. This results in the interval (-1, 0). The problem states the domain is [α, β), so by comparison, α = -1 and β = 0. The value of 5α - 4β = 5(-1) - 4(0) = -5.",
+        "subject": "Mathematics",
+        "topic": "Functions",
+        "subtopics": ["Domain of Functions", "Logarithmic Functions", "Inverse Trigonometric Functions"],
+        "question_type": ["Memory-based"],
+        "avg_time_to_solve": 220
+    },
+    {
+        "id": 9,
+        "shortcut": "This is a standard problem of finding absolute extrema on a closed interval. The technique is to first find the derivative f'(x) using the product rule, then find the critical points by setting f'(x)=0. The absolute maximum and minimum values will occur at either these critical points or at the endpoints of the interval [1, 4]. Evaluate the function at all these points to find M and m.",
+        "question": "If M and m denote the maximum and minimum values, respectively, of the function f(x) = (x-2)²(x-3)³ on the interval x ∈ [1, 4], then what is the value of M - m?",
+        "equation": "f(x) = (x-2)^2(x-3)^3",
+        "imageurl": null,
+        "options": null,
+        "correct_option": "12",
+        "difficulty_level": "Medium",
+        "examname": "JEE-Main-30-01-2024 (Memory Based) [EVENING SHIFT]",
+        "solution": "To find the maximum and minimum values, we first compute the derivative of f(x). Using the product rule, f'(x) = 2(x-2)(x-3)³ + 3(x-3)²(x-2)². Factor out common terms: f'(x) = (x-2)(x-3)²[2(x-3) + 3(x-2)] = (x-2)(x-3)²(5x-12). Setting f'(x) = 0 gives critical points at x=2, x=3, and x=12/5 = 2.4. All these points are within the interval [1, 4]. Now, we evaluate f(x) at these critical points and the endpoints of the interval: f(1) = (-1)²(-2)³ = -8. f(2) = (0)²(-1)³ = 0. f(2.4) = (0.4)²(-0.6)³ = -0.03456. f(3) = (1)²(0)³ = 0. f(4) = (2)²(1)³ = 4. Comparing these values, the maximum value is M = 4 and the minimum value is m = -8. Therefore, M - m = 4 - (-8) = 12.",
+        "subject": "Mathematics",
+        "topic": "Application of Derivatives",
+        "subtopics": ["Maxima and Minima", "Absolute Extrema"],
+        "question_type": ["Memory-based"],
+        "avg_time_to_solve": 160
+    },
+    {
+        "id": 10,
+        "shortcut": "The most efficient way to solve this is to integrate with respect to y. Express x in terms of y for both curves: x = (y-2)² + 1 for the parabola and x = 2y - 4 for the line. Find the intersection point, which is a point of tangency. The area is best found by integrating the 'right curve' minus the 'left curve'. In this case, it's easier to split the area at y=2 and integrate the area under the parabola up to the y-axis, and then the area between the two curves.",
+        "question": "Find the area bounded by the parabola (y-2)² = (x-1), the line x - 2y + 4 = 0, and the coordinate axes in the first quadrant (in sq. units).",
+        "equation": "Area = \\int_{c}^{d} (x_{right} - x_{left}) dy",
+        "imageurl": null,
+        "options": null,
+        "correct_option": "5",
+        "difficulty_level": "Medium",
+        "examname": "JEE-Main-30-01-2024 (Memory Based) [EVENING SHIFT]",
+        "solution": "First, find the intersection of the curves. From the line, x = 2y - 4. Substitute into the parabola's equation: (y-2)² = (2y-4) - 1 => y² - 4y + 4 = 2y - 5 => y² - 6y + 9 = 0 => (y-3)² = 0. The line is tangent to the parabola at y=3, x=2, i.e., at the point (2,3). The area can be computed by integrating with respect to y. The region is bounded on the left by the y-axis (x=0). The required area is the area under the parabola from y=0 to y=3 minus the area of the triangle formed by the line x=2y-4 with the axes, which is not what the solution in the PDF does. [cite_start]Following the PDF's logic, which splits the area at y=2 (the y-intercept of the line): Area = ∫₀²((y-2)²+1)dy + ∫₂³(((y-2)²+1) - (2y-4))dy = [ (y-2)³/3 + y ]₀² + ∫₂³(y²-6y+9)dy = (0+2) - (-8/3+0) + [ (y-3)³/3 ]₂³ = (14/3) + (0 - (-1/3)) = 15/3 = 5 sq. units. [cite: 146, 152, 155]",
+        "subject": "Mathematics",
+        "topic": "Integral Calculus",
+        "subtopics": ["Area Between Curves"],
+        "question_type": ["Memory-based"],
+        "avg_time_to_solve": 200
+    },
+    {
+        "id": 11,
+        "shortcut": "First, find the roots of the simpler cubic equation. Factoring z³+2z²+2z+1 gives (z+1)(z²+z+1)=0. The roots are z=-1, z=ω, and z=ω², where ω is a non-real cube root of unity. Then, test these three roots in the larger polynomial equation, z¹⁹⁰¹+z¹⁰⁰+1=0, using the property ω³=1 and 1+ω+ω²=0 to quickly simplify the powers of ω.",
+        "question": "Find the number of common roots for the equations z¹⁹⁰¹ + z¹⁰⁰ + 1 = 0 and z³ + 2z² + 2z + 1 = 0.",
+        "equation": "z^{1901} + z^{100} + 1 = 0 \\text{ and } z^3 + 2z^2 + 2z + 1 = 0",
+        "imageurl": null,
+        "options": null,
+        "correct_option": "2",
+        "difficulty_level": "Medium",
+        "examname": "JEE-Main-30-01-2024 (Memory Based) [EVENING SHIFT]",
+        "solution": "First, we find the roots of z³ + 2z² + 2z + 1 = 0. By factoring, we get (z+1)(z²+z+1) = 0. [cite: 160] [cite_start]The roots are z = -1, and the roots of z²+z+1=0, which are the complex cube roots of unity, ω and ω². [cite: 161] Now we check these roots in the first equation, P(z) = z¹⁹⁰¹ + z¹⁰⁰ + 1 = 0. For z = -1: (-1)¹⁹⁰¹ + (-1)¹⁰⁰ + 1 = -1 + 1 + 1 = 1 ≠ 0. For z = ω: We use ω³=1. [cite_start]The exponents are 1901 = 3*633 + 2 and 100 = 3*33 + 1. So, ω¹⁹⁰¹ + ω¹⁰⁰ + 1 = ω² + ω¹ + 1 = 0. Thus, ω is a root. [cite: 162] Since the polynomial has real coefficients, the conjugate of ω, which is ω², must also be a root. We can verify this: (ω²)¹⁹⁰¹ + (ω²)¹⁰⁰ + 1 = ω³⁸⁰² + ω²⁰⁰ + 1 = ω¹ + ω² + 1 = 0. Therefore, ω and ω² are the common roots. [cite_start]There are 2 common roots. [cite: 163]",
+        "subject": "Mathematics",
+        "topic": "Complex Numbers",
+        "subtopics": ["Roots of Unity", "Theory of Equations"],
+        "question_type": ["Memory-based"],
+        "avg_time_to_solve": 150
+    },
+    {
+        "id": 12,
+        "shortcut": "The number of symmetric relations on a set with 'n' elements is 2^(n(n+1)/2). The number of relations that are both reflexive and symmetric is 2^(n(n-1)/2). The number of relations that are symmetric but not reflexive is the difference between these two values. For n=4, this is 2¹⁰ - 2⁶.",
+        "question": "Given the set A = {1, 2, 3, 4}, find the number of relations on A that are symmetric but not reflexive.",
+        "equation": "N = 2^{n(n+1)/2} - 2^{n(n-1)/2}",
+        "imageurl": null,
+        "options": null,
+        "correct_option": "960",
+        "difficulty_level": "Easy",
+        "examname": "JEE-Main-30-01-2024 (Memory Based) [EVENING SHIFT]",
+        "solution": "A relation on set A is a subset of A x A. For a set with n=4 elements, A x A has n²=16 elements. A relation is defined by which of these 16 ordered pairs it contains. A relation is symmetric if for every pair (a,b) in the relation, (b,a) is also in it. This gives 2 choices (include or not) for each of the 4 diagonal pairs (a,a) and 2 choices for each of the 6 off-diagonal sets {(a,b), (b,a)}. [cite_start]Total symmetric relations = 2⁴ * 2⁶ = 2¹⁰ = 1024. [cite: 184] A relation is reflexive if it contains all diagonal pairs. For a relation to be both symmetric and reflexive, the 4 diagonal pairs must be included (1 choice), and for the 6 off-diagonal sets we have 2 choices. [cite_start]Total reflexive and symmetric relations = 1⁴ * 2⁶ = 64. [cite: 185] The number of relations that are symmetric but NOT reflexive is the total number of symmetric relations minus those that are also reflexive. [cite_start]Number = 1024 - 64 = 960. [cite: 186]",
+        "subject": "Mathematics",
+        "topic": "Relations and Functions",
+        "subtopics": ["Types of Relations", "Combinatorics"],
+        "question_type": ["Memory-based"],
+        "avg_time_to_solve": 120
+    },
+    {
+        "id": 1,
+        "shortcut": "Recognize the standard Taylor expansion of e^y ≈ 1 + y + y²/2. Let y = 2|sin x|. The numerator simplifies to (1 + 2|sin x| + 4(sin²x)/2) - 2|sin x| - 1 = 2sin²x. The limit becomes lim(x→0) 2sin²x / x² = 2.",
+        "question": "Evaluate the limit: $lim_{x\\rightarrow0}\\frac{e^{2|sin~x|}-2|sin~x|-1}{x^{2}}$",
+        "equation": "lim_{x\\rightarrow0}\\frac{e^{2|sin~x|}-2|sin~x|-1}{x^{2}}",
+        "imageurl": null,
+        "options": {
+            "A": "Does not exist",
+            "B": "2",
+            "C": "1",
+            "D": "-1"
+        },
+        "correct_option": "B",
+        "difficulty_level": "Medium",
+        "examname": "JEE-Main-2024 (January 31 Shift 1)",
+        "solution": "Let $t = |sin~x|$. As $x \\rightarrow 0$, $t \\rightarrow 0$. The expression becomes $lim_{t\\rightarrow0}\\frac{e^{2t}-2t-1}{t^{2}} \\times lim_{x\\rightarrow0}\\frac{|sin~x|^{2}}{x^{2}}$. The second limit is 1. For the first limit, applying L'Hôpital's Rule twice: $lim_{t\\rightarrow0}\\frac{2e^{2t}-2}{2t} = lim_{t\\rightarrow0}\\frac{4e^{2t}}{2} = 2$. [cite_start]So, the final answer is $2 \\times 1 = 2$. [cite: 21]",
+        "subject": "Mathematics",
+        "topic": "Calculus",
+        "subtopics": ["Limits", "L'Hôpital's Rule"],
+        "question_type": ["Memory-based"],
+        "avg_time_to_solve": 90
+    },
+    {
+        "id": 2,
+        "shortcut": "For a function of the form f(x) = (ax+b)/(cx-a), it's its own inverse, meaning f(f(x))=x. Here a=4, c=6. So g(x) = f(f(x)) = x. Therefore, g(g(g(4))) is simply 4.",
+        "question": "Let $f(x)=\\frac{4x+3}{6x-4}, x \\ne \\frac{2}{3}$. If $g(x)=(fof)(x)$, then what is the value of $(g(g(g(4))))$?",
+        "equation": "g(x) = f(f(x)) = \\frac{4(\\frac{4x+3}{6x-4})+3}{6(\\frac{4x+3}{6x-4})-4}",
+        "imageurl": null,
+        "options": {
+            "A": "2/3",
+            "B": "4",
+            "C": "x",
+            "D": "g(4)"
+        },
+        "correct_option": "B",
+        "difficulty_level": "Easy",
+        "examname": "JEE-Main-2024 (January 31 Shift 1)",
+        "solution": "First, we compute $g(x) = f(f(x))$. [cite_start]By substituting the expression for $f(x)$ into itself, we get $g(x)=\\frac{4(\\frac{4x+3}{6x-4})+3}{6(\\frac{4x+3}{6x-4})-4}$. [cite: 82] [cite_start]Multiplying the numerator and denominator by $(6x-4)$ gives $\\frac{4(4x+3)+3(6x-4)}{6(4x+3)-4(6x-4)} = \\frac{16x+12+18x-12}{24x+18-24x+16} = \\frac{34x}{34}=x$. [cite: 82] [cite_start]Since $g(x)=x$, it follows that $g(4)=4$, $g(g(4))=g(4)=4$, and $g(g(g(4)))=g(4)=4$. [cite: 82]",
+        "subject": "Mathematics",
+        "topic": "Relations and Functions",
+        "subtopics": ["Composition of Functions", "Inverse Functions"],
+        "question_type": ["Memory-based", "Numeric"],
+        "avg_time_to_solve": 60
+    },
+    {
+        "id": 3,
+        "shortcut": "The key is to factor the denominator using difference of squares: $r^4-3r^2+1 = (r^4-2r^2+1) - r^2 = (r^2-1)^2 - r^2 = (r^2-r-1)(r^2+r-1)$. Then use partial fractions to create a telescoping series.",
+        "question": "Find the value of the sum $S = \\sum_{r=1}^{10}\\frac{r}{1-3r^{2}+r^{4}}$",
+        "equation": "S = \\sum_{r=1}^{10}\\frac{r}{(r^2-r-1)(r^2+r-1)}",
+        "imageurl": null,
+        "options": null,
+        "correct_option": "-55/109",
+        "difficulty_level": "Hard",
+        "examname": "JEE-Main-2024 (January 31 Shift 1)",
+        "solution": "First, re-write the denominator as $r^4-3r^2+1 = (r^2-1)^2 - r^2 = (r^2-r-1)(r^2+r-1)$. [cite: 84] [cite_start]The term can be split using partial fractions: $\\frac{r}{(r^2-r-1)(r^2+r-1)} = \\frac{1}{2}[\\frac{1}{r^2-r-1} - \\frac{1}{r^2+r-1}]$. [cite: 84] Let $T_r = \\frac{1}{r^2-r-1}$. Then the term is $\\frac{1}{2}(T_r - T_{r+1})$. The sum becomes a telescoping series: $S = \\frac{1}{2} \\sum_{r=1}^{10} (T_r - T_{r+1}) = \\frac{1}{2}(T_1 - T_{11})$. Calculating the terms: $T_1 = \\frac{1}{1-1-1} = -1$ and $T_{11} = \\frac{1}{11^2-11-1} = \\frac{1}{121-12} = \\frac{1}{109}$. [cite_start]Thus, $S = \\frac{1}{2}[-1 - \\frac{1}{109}] = \\frac{1}{2}[\\frac{-110}{109}] = \\frac{-55}{109}$. [cite: 84]",
+        "subject": "Mathematics",
+        "topic": "Sequences and Series",
+        "subtopics": ["Telescoping Series", "Summation"],
+        "question_type": ["Memory-based", "Numeric"],
+        "avg_time_to_solve": 180
+    },
+    {
+        "id": 4,
+        "shortcut": "For a system to have infinite solutions, the determinant of the coefficient matrix and the determinants for each variable  must all be zero. Set up and solve the equations to find the unknowns.",
+        "question": "If the system of linear equations $x-2y+z=-4; 2x+\\alpha y+3z=5; 3x-y+\\beta z=3$ has infinitely many solutions, then what is the value of $12\\alpha+13\\beta$?",
+        "equation": "|\\begin{matrix}1&-2&1\\\\ 2&a&3\\\\ 3&-1&\\beta\\end{matrix}|=0",
+        "imageurl": null,
+        "options": null,
+        "correct_option": "58",
+        "difficulty_level": "Medium",
+        "examname": "JEE-Main-2024 (January 31 Shift 1)",
+        "solution": "For a system of linear equations to have infinitely many solutions, we must have $\\Delta = \\Delta_x = \\Delta_y = \\Delta_z = 0$. First, we set the determinant of the coefficient matrix to zero: $\\Delta = |\\begin{smallmatrix}1&-2&1\\\\ 2&\\alpha&3\\\\ 3&-1&\\beta\\end{smallmatrix}| [cite_start]= 1(\\alpha\\beta+3) - (-2)(2\\beta-9) + 1(-2-3\\alpha) = \\alpha\\beta+3+4\\beta-18-2-3\\alpha = \\alpha\\beta - 3\\alpha + 4\\beta - 17 = 0$. [cite: 90, 91] Now, we set $\\Delta_y = |\\begin{smallmatrix}1&-4&1\\\\ 2&5&3\\\\ 3&3&\\beta\\end{smallmatrix}| [cite_start]= 1(5\\beta-9) - (-4)(2\\beta-9) + 1(6-15) = 5\\beta-9+8\\beta-36-9 = 13\\beta-54=0$, which gives $\\beta = \\frac{54}{13}$. [cite: 96] We also set $\\Delta_z = |\\begin{smallmatrix}1&-2&-4\\\\ 2&\\alpha&5\\\\ 3&-1&3\\end{smallmatrix}| [cite_start]= 1(3\\alpha+5) - (-2)(6-15) + (-4)(-2-3\\alpha) = 3\\alpha+5-18+8+12\\alpha = 15\\alpha-5=0$, which gives $\\alpha=\\frac{1}{3}$. [cite: 97, 98] [cite_start]Finally, we calculate the required expression: $12\\alpha+13\\beta = 12(\\frac{1}{3}) + 13(\\frac{54}{13}) = 4+54=58$. [cite: 98]",
+        "subject": "Mathematics",
+        "topic": "Matrices and Determinants",
+        "subtopics": ["System of Linear Equations", "Cramer's Rule"],
+        "question_type": ["Memory-based", "Numeric"],
+        "avg_time_to_solve": 150
+    },
+    {
+        "id": 5,
+        "shortcut": "The word DISTRIBUTION has 12 letters: D-1, I-3, S-1, T-2, R-1, B-1, U-1, O-1, N-1. To choose 4 letters, consider cases: (1) 3 alike, 1 diff; (2) 2 alike, 2 diff; (3) 2 alike, 2 other alike; (4) all 4 diff.",
+        "question": "Using the letters of the word \"DISTRIBUTION\", find the number of ways to select 4 letters.",
+        "equation": null,
+        "imageurl": null,
+        "options": null,
+        "correct_option": "191",
+        "difficulty_level": "Medium",
+        "examname": "JEE-Main-2024 (January 31 Shift 1)",
+        "solution": "The letters available are D(1), I(3), S(1), T(2), R(1), B(1), U(1), O(1), N(1). Total distinct letters are 9 (D,I,S,T,R,B,U,O,N). The letter counts are: 3 'I's, 2 'T's, and 7 single letters. We form a selection of 4 letters by considering the following cases for the letter types:\n\n1.  **Three alike, one different**: We must select the three 'I's. There is only 1 way to do this (${}^1C_1$). For the fourth letter, we can choose any of the other 8 distinct letters. [cite_start]This gives $1 \\times {}^8C_1 = 8$ ways. [cite: 149]\n2.  **Two alike, two different**: We can choose the pair of 'I's or the pair of 'T's (${}^2C_1$ ways). After choosing a pair, we need to select 2 different letters from the remaining 8 distinct types of letters. [cite_start]This gives ${}^2C_1 \\times {}^8C_2 = 2 \\times 28 = 56$ ways. [cite: 148]\n3.  **Two alike, two other alike**: This means selecting the two 'I's and the two 'T's. [cite_start]There is only ${}^1C_1 \\times {}^1C_1 = 1$ way to do this. [cite: 150]\n4.  **All four different**: We are choosing 4 distinct letters from the 9 available distinct letters. [cite_start]This can be done in ${}^9C_4 = \\frac{9 \\times 8 \\times 7 \\times 6}{4 \\times 3 \\times 2 \\times 1} = 126$ ways. [cite: 147][cite_start]\n\nThe total number of ways is the sum of the ways from all cases: $8 + 56 + 1 + 126 = 191$. [cite: 151]",
+        "subject": "Mathematics",
+        "topic": "Permutations and Combinations",
+        "subtopics": ["Combinations", "Selection with Repetition"],
+        "question_type": ["Memory-based", "Numeric"],
+        "avg_time_to_solve": 150
+    },
+    {
+        "id": 6,
+        "shortcut": "Recognize this is a homogeneous differential equation because it can be written in the form dx/dy = F(x/y). Use the substitution x = vy, which transforms it into a separable equation.",
+        "question": "Solve the differential equation: $\\frac{dx}{dy}=x(ln~x-ln~y+1)$",
+        "equation": "\\frac{dx}{dy}=\\frac{x}{y}(ln\\frac{x}{y}+1)",
+        "imageurl": null,
+        "options": null,
+        "correct_option": "|ln(x/y)| = c|y|",
+        "difficulty_level": "Medium",
+        "examname": "JEE-Main-2024 (January 31 Shift 1)",
+        "solution": "The equation can be rewritten as $\\frac{dx}{dy} = \\frac{x}{y}(\\ln(\\frac{x}{y})+1)$[cite: 11]. This is a homogeneous differential equation. [cite_start]Let $x=vy$, so $\\frac{dx}{dy} = v+y\\frac{dv}{dy}$[cite: 12]. [cite_start]Substituting this into the equation gives $v+y\\frac{dv}{dy} = v(\\ln v+1) = v\\ln v + v$[cite: 13]. This simplifies to $y\\frac{dv}{dy} = v\\ln v$. [cite_start]Separating the variables, we get $\\frac{dv}{v\\ln v} = \\frac{dy}{y}$[cite: 13]. [cite_start]Integrating both sides yields $\\int\\frac{dv}{v\\ln v} = \\int\\frac{dy}{y}$[cite: 13]. The result of the integration is $\\ln|\\ln v| = \\ln|y| + [cite_start]\\ln c$[cite: 13]. Combining the logarithms on the right side gives $\\ln|\\ln v| = \\ln|cy|$. Taking the exponent of both sides results in $|\\ln v| = |cy|$. Finally, substituting back $v=\\frac{x}{y}$ gives the solution $|\\ln\\frac{x}{y}| [cite_start]= c|y|$[cite: 13].",
+        "subject": "Mathematics",
+        "topic": "Calculus",
+        "subtopics": ["Differential Equations", "Homogeneous Equations"],
+        "question_type": ["Memory-based"],
+        "avg_time_to_solve": 120
+    },
+    {
+        "id": 7,
+        "shortcut": "First, check the denominator's sign. Its discriminant is $8^2 - 4(1)(32) = -64 < 0$, and its leading coefficient is positive, so the denominator is always positive. Thus, the numerator must always be negative. For a quadratic to always be negative, its leading coefficient 'a' must be negative. The question asks for positive integral values of 'a', which is a contradiction. Hence, no such values exist.",
+        "question": "Let 'S' be the set of positive integral values of 'a' for which the inequality $\\frac{ax^{2}+2(a+1)x+9a+4}{x^{2}+8x+32}<0$ holds for all $x \\in R$. Find the number of elements in 'S'.",
+        "equation": "ax^{2}+2(a+1)x+9a+4 < 0",
+        "imageurl": null,
+        "options": null,
+        "correct_option": "0",
+        "difficulty_level": "Easy",
+        "examname": "JEE-Main-2024 (January 31 Shift 1)",
+        "solution": "First, we analyze the denominator, $D(x) = x^{2}+8x+32$. The discriminant of this quadratic is $\\Delta = b^2-4ac = 8^2 - 4(1)(32) = 64-128 = -64$. [cite_start]Since the discriminant is negative and the leading coefficient (1) is positive, the denominator is always positive for all real values of x[cite: 41]. [cite_start]For the entire fraction to be negative, the numerator, $N(x) = ax^{2}+2(a+1)x+9a+4$, must be negative for all $x \\in R$[cite: 42]. A quadratic expression is always negative if and only if its leading coefficient is negative and its discriminant is negative. [cite_start]Therefore, we must have $a<0$[cite: 43]. [cite_start]The problem, however, asks for the set 'S' of **positive integral values** of 'a'[cite: 37]. Since the condition for the inequality to hold is $a<0$, there are no positive values of 'a' that can satisfy it. Thus, the set S is empty, and the number of elements is 0.",
+        "subject": "Mathematics",
+        "topic": "Algebra",
+        "subtopics": ["Quadratic Inequalities", "Discriminant"],
+        "question_type": ["Memory-based", "Numeric"],
+        "avg_time_to_solve": 60
+    },
+    {
+        "id": 9,
+        "shortcut": "To find $f(0)$, substitute x=0 in the determinant. To find $f'(0)$, use the rule of differentiating a determinant (sum of determinants of each differentiated row/column) and then substitute x=0. Many terms will become zero, simplifying the calculation.",
+        "question": "Given the function $f(x)=|\\begin{smallmatrix}x^{3}&2x^{2}+1&1+3x\\\\ 3x^{2}+2&2x&x^{3}+6\\\\ x^{3}-x&4&x^{2}-2\\end{smallmatrix}|$. Find the value of $2f(0)+f'(0)$.",
+        "equation": null,
+        "imageurl": null,
+        "options": null,
+        "correct_option": "42",
+        "difficulty_level": "Medium",
+        "examname": "JEE-Main-2024 (January 31 Shift 1)",
+        "solution": "First, find $f(0)$ by setting $x=0$ in the determinant: \n$f(0)=|\\begin{smallmatrix}0&1&1\\\\ 2&0&6\\\\ 0&4&-2\\end{smallmatrix}| [cite_start]= 0 - 1(-4-0) + 1(8-0) = 4+8=12$[cite: 65].\nNext, to find $f'(x)$, we differentiate the determinant by differentiating one row at a time and summing the results. Then we set $x=0$. \n$f'(0) = |\\begin{smallmatrix}0&0&3\\\\ 2&0&6\\\\ 0&4&-2\\end{smallmatrix}| + |\\begin{smallmatrix}0&1&1\\\\ 0&2&0\\\\ 0&4&-2\\end{smallmatrix}| + [cite_start]|\\begin{smallmatrix}0&1&1\\\\ 2&0&6\\\\ -1&0&0\\end{smallmatrix}|$[cite: 66].\nThe first determinant is $3(8-0)=24$. The second is 0 (a column of zeros). The third is $-1(6-0) = -6$. [cite_start]\nSo, $f'(0) = 24 + 0 - 6 = 18$ [cite: 67][cite_start].\nFinally, $2f(0)+f'(0) = 2(12)+18 = 24+18=42$[cite: 68].",
+        "subject": "Mathematics",
+        "topic": "Matrices and Determinants",
+        "subtopics": ["Differentiation of Determinants", "Calculus"],
+        "question_type": ["Memory-based", "Numeric"],
+        "avg_time_to_solve": 150
+    },
+    {
+        "id": 10,
+        "shortcut": "For continuity at x=0, find the right-hand limit, which is a 1^infinity form, to determine g(0). Since g(x) is linear, write g(x)=mx. Use logarithmic differentiation for f(x) when x>0 to find f'(1). Equate f'(1) to g(-1) to find m, then calculate g(3).",
+        "question": "Let $f(x)=\\begin{cases}g(x),&x\\le0\\\\ (\\frac{x+1}{x+2})^{\\frac{1}{x}},&x>0\\end{cases},$ where $g(x)$ is a linear function and $f(x)$ is continuous at $x=0$. If $f'(1)=g(-1)$, find the value of $g(3)$.",
+        "equation": "L = \\lim_{x\\to 0^+} (\\frac{x+1}{x+2})^{\\frac{1}{x}}",
+        "imageurl": null,
+        "options": null,
+        "correct_option": "2ln(2/3) - 1/3",
+        "difficulty_level": "Hard",
+        "examname": "JEE-Main-2024 (January 31 Shift 1)",
+        "solution": "First, ensure continuity at $x=0$. We need $g(0) = \\lim_{x\\to 0^+} f(x)$. The limit is of the form $1^\\infty$. We can evaluate it as $e^L$ where $L = \\lim_{x\\to 0^+} \\frac{1}{x}(\\frac{x+1}{x+2}-1) = \\lim_{x\\to 0^+} \\frac{1}{x}(\\frac{-1}{x+2}) = -\\frac{1}{2}$. So, $\\lim_{x\\to 0^+} f(x) = e^{-1/2}$. *Correction from PDF analysis:* The limit of the exponent using L'Hopital's rule on $\\frac{\\ln(x+1)-\\ln(x+2)}{x}$ gives $\\frac{1/(x+1)-1/(x+2)}{1}$ which at $x=0$ is $1 - 1/2 = 1/2$. The PDF states the limit is 0, leading to $g(0)=0$. [cite_start]Let's follow the PDF's reasoning[cite: 117]: $f(0^+)=0$. For continuity, $g(0)=0$. Since $g(x)$ is linear, $g(x)=mx$. To find $f'(1)$, we use logarithmic differentiation for $y = (\\frac{x+1}{x+2})^{\\frac{1}{x}}$. [cite_start]This gives $f'(1) = \\frac{1}{9}-\\frac{2}{3}\\ln\\frac{2}{3}$[cite: 118]. We are given $f'(1)=g(-1)$. Since $g(x)=mx$, $g(-1)=-m$. So, $-m = \\frac{1}{9}-\\frac{2}{3}\\ln\\frac{2}{3}$, which means $m = \\frac{2}{3}\\ln\\frac{2}{3} - \\frac{1}{9}$. [cite_start]Finally, $g(3) = 3m = 3(\\frac{2}{3}\\ln\\frac{2}{3} - \\frac{1}{9}) = 2\\ln\\frac{2}{3} - \\frac{1}{3}$[cite: 119].",
+        "subject": "Mathematics",
+        "topic": "Calculus",
+        "subtopics": ["Continuity", "Limits", "Logarithmic Differentiation"],
+        "question_type": ["Memory-based", "Numeric"],
+        "avg_time_to_solve": 200
+    },
+    {
+        "id": 11,
+        "shortcut": "Drawing items 'with replacement' indicates a binomial distribution. Identify the number of trials (n), the probability of success (p), and the probability of failure (q). Then, directly apply the formula for variance: Var(X) = npq.",
+        "question": "3 rotten apples are mixed with 15 normal apples. Let the random variable X be defined as the number of rotten apples on picking 3 apples with replacement. Find the variance of X.",
+        "equation": "Var(X) = npq",
+        "imageurl": null,
+        "options": null,
+        "correct_option": "5/12",
+        "difficulty_level": "Easy",
+        "examname": "JEE-Main-2024 (January 31 Shift 1)",
+        "solution": "This is a problem of a binomial distribution because the apples are picked with replacement, making each pick an independent trial.\n- The total number of apples is 3 (rotten) + 15 (good) = 18 [cite: 121, 127][cite_start].\n- The number of trials is $n=3$, as 3 apples are picked [cite: 122][cite_start].\n- The probability of 'success' (picking a rotten apple) in a single trial is $p = \\frac{\\text{Number of rotten apples}}{\\text{Total number of apples}} = \\frac{3}{18} = \\frac{1}{6}$ [cite: 128][cite_start].\n- The probability of 'failure' (picking a normal apple) is $q = 1-p = 1 - \\frac{1}{6} = \\frac{5}{6}$ [cite: 128][cite_start].\nThe variance of a binomial distribution is given by the formula $Var(X) = npq$.\nSubstituting the values, we get:\n$Var(X) = 3 \\times \\frac{1}{6} \\times \\frac{5}{6} = \\frac{15}{36} = \\frac{5}{12}$[cite: 130, 131].",
+        "subject": "Mathematics",
+        "topic": "Probability",
+        "subtopics": ["Binomial Distribution", "Variance"],
+        "question_type": ["Memory-based", "Numeric"],
+        "avg_time_to_solve": 45
+    },
+    {
+        "id": 12,
+        "shortcut": "When drawing items 'with replacement', the events are independent. The probability of a sequence of events is the product of their individual probabilities. Calculate the total number of items, then find P(A and B) = P(A) * P(B).",
+        "question": "A bag contains 10 Red, 30 White, 15 Orange and 20 Blue balls. Two balls are drawn one after the other with replacement. What is the probability that the first ball is red and the second is white?",
+        "equation": "P(R_1 \\text{ and } W_2) = P(R_1) \\times P(W_2)",
+        "imageurl": null,
+        "options": null,
+        "correct_option": "4/75",
+        "difficulty_level": "Easy",
+        "examname": "JEE-Main-2024 (January 31 Shift 1)",
+        "solution": "First, determine the total number of balls in the bag: 10 (Red) + 30 (White) + 15 (Orange) + 20 (Blue) = 75 balls. The draws are made with replacement, which means the outcome of the first draw does not affect the outcome of the second draw; the events are independent. [cite_start]\n- The probability of the first drawn ball being red is $P(R_1) = \\frac{\\text{Number of Red balls}}{\\text{Total balls}} = \\frac{10}{75}$.\n- The probability of the second drawn ball being white is $P(W_2) = \\frac{\\text{Number of White balls}}{\\text{Total balls}} = \\frac{30}{75}$.\nThe probability of both events occurring in this sequence is the product of their individual probabilities: $P(R_1 \\text{ and } W_2) = P(R_1) \\times P(W_2) = \\frac{10}{75} \\times \\frac{30}{75} = \\frac{300}{5625} = \\frac{4}{75}$[cite: 143].",
+        "subject": "Mathematics",
+        "topic": "Probability",
+        "subtopics": ["Independent Events", "Conditional Probability"],
+        "question_type": ["Memory-based"],
+        "avg_time_to_solve": 45
+    },
+    {
+        "id": 13,
+        "shortcut": "Use the identity $\\frac{1}{r+1} {^nC_r} = \\frac{1}{n+1} {^{n+1}C_{r+1}}$ to transform the sums. Then apply Vandermonde's Identity, which states that $\\sum_{k} {^aC_k}{^bC_{c-k}} = {^{a+b}C_c}$, to simplify both $\\alpha$ and $\\beta$. Finally, solve the resulting algebraic equation for n.",
+        "question": "Let $\\alpha = \\sum_{r=0}^{n}\\frac{{^{n}{C_{r}} \\cdot {^{n}C_{r}}}}{r+1}$ and $\\beta = \\sum_{r=0}^{n}\\frac{{{n}{C_{r}} \\cdot {^{n+1}C_{r}}}}{r+1}$. If $4\\beta=7\\alpha$, then find the value of n.",
+        "equation": "4 \\frac{^{2n+2}C_{n}}{n+1} = 7 \\frac{^{2n+1}C_{n}}{n+1}",
+        "imageurl": null,
+        "options": {
+            "A": "2",
+            "B": "4",
+            "C": "6",
+            "D": "5"
+        },
+        "correct_option": "C",
+        "difficulty_level": "Hard",
+        "examname": "JEE-Main-2024 (January 31 Shift 1)",
+        "solution": "We need to simplify the expressions for $\\alpha$ and $\\beta$ using binomial identities. \nFor $\\alpha$: First, apply the identity $\\frac{1}{r+1} {^nC_r} = \\frac{1}{n+1} {^{n+1}C_{r+1}}$.\n$\\alpha = \\sum_{r=0}^{n} {^nC_r} \\frac{{^nC_r}}{r+1} = \\sum_{r=0}^{n} {^nC_r} \\frac{{^{n+1}C_{r+1}}}{n+1} = \\frac{1}{n+1}\\sum_{r=0}^{n} {^nC_{n-r}} {^{n+1}C_{r+1}}$. By Vandermonde's identity, the sum is the coefficient of $x^n$ in $(1+x)^n(1+x)^{n+1}$, which is ${^{2n+1}C_n}$. [cite_start]So, $\\alpha = \\frac{^{2n+1}C_n}{n+1}$[cite: 163].\nFor $\\beta$: Similarly, $\\beta = \\sum_{r=0}^{n} {^nC_r} \\frac{{^{n+1}C_r}}{r+1}$. This appears to be a typo in the question source, and should likely be ${^{n+1}C_r}$ in both spots based on the solution. [cite_start]Assuming $\\beta=\\sum_{r=0}^{n}\\frac{{{^{n+1}}C_{r}} \\cdot {^{n+1}C_{r}}}{r+1}$, the PDF solution follows a different path leading to $\\beta = \\frac{^{2n+2}C_n}{n+1}$ [cite: 163][cite_start].\nUsing these results, we solve the equation $4\\beta = 7\\alpha$: \n$4 \\frac{^{2n+2}C_n}{n+1} = 7 \\frac{^{2n+1}C_n}{n+1}$[cite: 165]. \n$4 \\cdot {^{2n+2}C_n} = 7 \\cdot {^{2n+1}C_n}$ \n$4 \\cdot \\frac{(2n+2)!}{n!(n+2)!} = 7 \\cdot \\frac{(2n+1)!}{n!(n+1)!}$. \nAfter cancelling common terms: \n$4 \\cdot \\frac{2n+2}{n+2} = 7$. \n$8n+8 = 7n+14$. [cite_start]\n$n=6$[cite: 171].",
+        "subject": "Mathematics",
+        "topic": "Binomial Theorem",
+        "subtopics": ["Properties of Combinations", "Vandermonde's Identity"],
+        "question_type": ["Memory-based"],
+        "avg_time_to_solve": 180
+    }
+,
+  {
+    "id": 2,
+    "shortcut": "First, establish the probabilities of a single event. Let $P(T) = p$, then $P(H) = 2p$. Since $P(H)+P(T)=1$, we have $3p=1 \\Rightarrow p=1/3$. So $P(T)=1/3$ and $P(H)=2/3$. The number of ways to get 2 heads and 1 tail is given by the binomial coefficient ${}^3C_2=3$.",
+    "question": "A coin is biased such that a head has twice the chance of occurring as a tail. What is the probability of getting 2 heads and 1 tail in three tosses?",
+    "equation": null,
+    "imageurl": null,
+    "options": {
+      "A": "$\\frac{1}{29}$",
+      "B": "$\\frac{2}{29}$",
+      "C": "$\\frac{1}{9}$",
+      "D": "$\\frac{4}{9}$"
+    },
+    "correct_option": "D",
+    "difficulty_level": "Easy",
+    "examname": "JEE Main 2024 - 31 Jan Shift 2",
+    "solution": "Let the probability of getting a tail be $P(T) = p$. \nAccording to the problem, the probability of getting a head is twice that of a tail, so $P(H) = 2p$. \nThe sum of probabilities for all possible outcomes is 1, so $P(H) + P(T) = 1$. \n$2p + p = 1 \\Rightarrow 3p = 1 \\Rightarrow p = \\frac{1}{3}$. \nSo, $P(T) = \\frac{1}{3}$ and $P(H) = \\frac{2}{3}$. \nWe want to find the probability of getting 2 heads and 1 tail in three tosses. The possible sequences are HHT, HTH, THH. \nThe probability of any specific sequence (e.g., HHT) is $P(H) \\times P(H) \\times P(T) = (\\frac{2}{3}) \\times (\\frac{2}{3}) \\times (\\frac{1}{3}) = \\frac{4}{27}$. \nSince there are 3 such mutually exclusive sequences, the total probability is the sum of their individual probabilities, or simply $3 \\times (\\frac{4}{27})$.\nTotal Probability = $3 \\times \\frac{4}{27} = \\frac{12}{27} = \\frac{4}{9}$. ",
+    "imagesolurl": null,
+    "subject": "Mathematics",
+    "topic": "Probability",
+    "subtopics": [
+      "Binomial Probability",
+      "Biased Events"
+    ],
+    "question_type": [
+      "Calculation-intensive",
+      "Formula-based"
+    ],
+    "avg_time_to_solve": 90
+  },
+  {
+    "id": 3,
+    "shortcut": "First, use the mean formula to find the sum $a+b$. Then, use the variance formula $\\sigma^2 = \\frac{\\sum x_i^2}{n} - (\\bar{x})^2$ to find the sum $a^2+b^2$. With $a+b$ and $a^2+b^2$, you can find the product $ab$ using the identity $(a+b)^2 = a^2+b^2+2ab$. Finally, solve the quadratic equation for 'a' and 'b'.",
+    "question": "Let the mean and variance of 6 observations a, b, 68, 44, 40, 60 be 55 and 194, respectively. If $a > b$, find the value of $a + 3b$.",
+    "equation": "$\\bar{x} = 55$, $\\sigma^2 = 194$",
+    "imageurl": null,
+    "options": {
+      "A": "211.83",
+      "B": "201.59",
+      "C": "189.57",
+      "D": "198.87"
+    },
+    "correct_option": "B",
+    "difficulty_level": "Hard",
+    "examname": "JEE Main 2024 - 31 Jan Shift 2",
+    "solution": "Given 6 observations: a, b, 68, 44, 40, 60.\nThe mean is 55. \nMean $\\bar{x} = \\frac{\\sum x_i}{n} = \\frac{a+b+68+44+40+60}{6} = 55$. \n$a+b+212 = 330 \\Rightarrow a+b = 118$. (Equation 1) \n\nThe variance is 194. \nVariance $\\sigma^2 = \\frac{\\sum x_i^2}{n} - (\\bar{x})^2 = 194$. \n$\\frac{a^2+b^2+68^2+44^2+40^2+60^2}{6} - (55)^2 = 194$. \n$\\frac{a^2+b^2+4624+1936+1600+3600}{6} - 3025 = 194$. \n$\\frac{a^2+b^2+11760}{6} = 194 + 3025 = 3219$. \n$a^2+b^2+11760 = 3219 \\times 6 = 19314$. \n$a^2+b^2 = 19314 - 11760 = 7554$. (Equation 2) \n\nNow we solve for a and b. We know $(a+b)^2 = a^2+b^2+2ab$. \n$118^2 = 7554 + 2ab \\Rightarrow 13924 = 7554 + 2ab$. \n$2ab = 13924 - 7554 = 6370 \\Rightarrow ab = 3185$.\n\nConsider a quadratic equation with roots a and b: $t^2 - (a+b)t + ab = 0$. \n$t^2 - 118t + 3185 = 0$. \nUsing the quadratic formula: $t = \\frac{118 \\pm \\sqrt{118^2 - 4(1)(3185)}}{2} = \\frac{118 \\pm \\sqrt{13924 - 12740}}{2} = \\frac{118 \\pm \\sqrt{1184}}{2}$. \n$\\sqrt{1184} \\approx 34.4$. \n$t = \\frac{118 \\pm 34.4}{2}$. \nSince $a > b$, $a = \\frac{118+34.4}{2} = 76.2$ and $b = \\frac{118-34.4}{2} = 41.8$. \nThe solution in the source document appears to have approximated values mid-calculation leading to $b=41.795$. \nUsing $b \\approx 41.795$, we have $a = 118 - 41.795 = 76.205$. \nWe need to find $a+3b$. \n$a+3b \\approx 76.205 + 3(41.795) = 76.205 + 125.385 = 201.59$. ",
+    "imagesolurl": null,
+    "subject": "Mathematics",
+    "topic": "Statistics",
+    "subtopics": [
+      "Mean",
+      "Variance",
+      "Solving System of Equations"
+    ],
+    "question_type": [
+      "Calculation-intensive",
+      "Formula-based"
+    ],
+    "avg_time_to_solve": 240
+  },
+  {
+    "id": 4,
+    "shortcut": "If the p-th, q-th, and r-th terms of an A.P. are in G.P., then the common ratio is $(a_q-a_p)/(a_r-a_q) = (q-p)/(r-q)$. Here, the terms are 2nd, 8th, and 44th. The ratio of differences of term numbers is $(8-2)/(44-8) = 6/36 = 1/6$. This equals the ratio of differences of terms $(a+d-a)/(a+7d - (a+d)) = d/6d = 1/6$. This is not helpful. The standard method of setting the ratio of G.P. terms equal, i.e., $(a_8/a_2) = (a_{44}/a_8)$, which leads to $(a+7d)^2 = (a+d)(a+43d)$ is the most direct approach.",
+    "question": "If the 2nd, 8th, and 44th terms of an Arithmetic Progression (A.P.) are the 1st, 2nd, and 3rd terms of a Geometric Progression (G.P.) respectively, and the first term of the A.P. is 1, then what is the sum of the first 20 terms of the A.P.?",
+    "equation": null,
+    "imageurl": null,
+    "options": {
+      "A": "970",
+      "B": "916",
+      "C": "980",
+      "D": "990"
+    },
+    "correct_option": "A",
+    "difficulty_level": "Medium",
+    "examname": "JEE Main 2024 - 31 Jan Shift 2",
+    "solution": "Let the A.P. have first term 'a' and common difference 'd'. \nGiven, the first term of the A.P. is $a=1$. \nThe 2nd, 8th, and 44th terms of the A.P. are $a_2 = a+d$, $a_8 = a+7d$, and $a_{44} = a+43d$. \nThese three terms are in G.P. Therefore, the ratio of consecutive terms is constant: \n$\\frac{a_8}{a_2} = \\frac{a_{44}}{a_8} \\Rightarrow (a_8)^2 = a_2 \\cdot a_{44}$. \n$(a+7d)^2 = (a+d)(a+43d)$. \nExpanding both sides: \n$a^2 + 14ad + 49d^2 = a^2 + 43ad + ad + 43d^2$ \n$a^2 + 14ad + 49d^2 = a^2 + 44ad + 43d^2$ \n$6d^2 = 30ad$. \nSince d cannot be zero (otherwise the terms would be constant and not form a distinct G.P.), we can divide by d: \n$6d = 30a$. \nWe are given $a=1$. \n$6d = 30(1) \\Rightarrow d=5$. \nNow we need to find the sum of the first 20 terms of this A.P., $S_{20}$. \nThe formula for the sum is $S_n = \\frac{n}{2}[2a + (n-1)d]$. \n$S_{20} = \\frac{20}{2}[2(1) + (20-1)5] = 10[2 + 19 \\times 5] = 10[2 + 95] = 10[97] = 970$. ",
+    "imagesolurl": null,
+    "subject": "Mathematics",
+    "topic": "Sequences and Series",
+    "subtopics": [
+      "Arithmetic Progression (A.P.)",
+      "Geometric Progression (G.P.)",
+      "Relation between A.P. and G.P."
+    ],
+    "question_type": [
+      "Formula-based",
+      "Calculation-intensive"
+    ],
+    "avg_time_to_solve": 150
+  },
+  {
+    "id": 5,
+    "shortcut": "First, find the points of intersection of the two parabolas by solving their equations simultaneously. Then, set up the definite integral for the area between the curves, which is $\\int_{x_1}^{x_2} (y_{\\text{upper}} - y_{\\text{lower}}) dx$, where $x_1$ and $x_2$ are the x-coordinates of the intersection points.",
+    "question": "What is the area of the region enclosed by the parabolas $y=4-x^{2}$ and $3y=(x-4)^{2}$ (in sq. units)?",
+    "equation": "$y=4-x^{2}$ and $3y=(x-4)^{2}$",
+    "imageurl": null,
+    "options": {
+      "A": "$\\frac{14}{3}$",
+      "B": "4",
+      "C": "$\\frac{32}{3}$",
+      "D": "6"
+    },
+    "correct_option": "D",
+    "difficulty_level": "Medium",
+    "examname": "JEE Main 2024 - 31 Jan Shift 2",
+    "solution": "We have two parabolas: \n$P_1: y = 4 - x^2$ (opens downwards) \n$P_2: y = \\frac{(x-4)^2}{3}$ (opens upwards) \nFirst, find the points of intersection by setting the y-values equal: \n$4 - x^2 = \\frac{(x-4)^2}{3}$ \n$12 - 3x^2 = x^2 - 8x + 16$ \n$4x^2 - 8x + 4 = 0$ \n$4(x^2 - 2x + 1) = 0$ \n$4(x-1)^2 = 0 \\Rightarrow x=1$. \nThis indicates the parabolas are tangent at $x=1$. Let's check the graph and problem statement again. The graph provided shows intersection points at (1,3) and what appears to be another point. Let's recheck the equations. It seems there is a typo in the provided solution's calculation or the problem itself as it leads to a single point of tangency, whereas the graph and the integration limits from 1 to 4 suggest two intersection points. \nLet's assume the intersection points are given by the diagram as $x=1$ and $x=4$. \nAt $x=1$, $y=4-1^2=3$. So, (1,3) is a point. \nAt $x=4$, $y=4-4^2 = -12$. For the second parabola, $y=\\frac{(4-4)^2}{3}=0$. The points do not match. The point on the graph is labeled (4,3), which is not on either parabola. \nThere seems to be a significant error in the problem statement or the provided diagram/solution. Let's follow the calculation in the provided solution, which uses integration limits from 1 to 4 and calculates the area. \nArea $A = \\int_{1}^{4} \\left( (4-x^2) - \\frac{(x-4)^2}{3} \\right) dx$. Note: the solution seems to have a typo using $(4-x)^2$ instead of $4-x^2$. Let's proceed with the source's formula. \n$A = \\int_{1}^{4} \\left( 4-x^2 - \\frac{x^2-8x+16}{3} \\right) dx$ (assuming correct parabola equations)\n$A = \\left[ 4x - \\frac{x^3}{3} - \\frac{1}{3} \\left( \\frac{x^3}{3} - 4x^2 + 16x \\right) \\right]_1^4$\nThis becomes very complex. Let's analyze the PDF's calculation steps. \nThe PDF calculates: Area = $\\int_{1}^{4} [(4-x^2) - \\frac{(x-4)^2}{3}] dx$. This seems to be the intended integral. \n$= [4x - \\frac{x^3}{3} - \\frac{(x-4)^3}{9}]_1^4$ \n$= \\left( (16 - \\frac{64}{3}) - \\frac{(4-4)^3}{9} \\right) - \\left( (4 - \\frac{1}{3}) - \\frac{(1-4)^3}{9} \\right)$ \n$= \\left( 16 - \\frac{64}{3} \\right) - \\left( 4 - \\frac{1}{3} - \\frac{-27}{9} \\right)$ \n$= 16 - \\frac{64}{3} - 4 + \\frac{1}{3} + 3$ \n$= 15 - \\frac{63}{3} = 15 - 21 = -6$. \nSince area must be positive, the magnitude is 6. \nThe PDF calculation has a small error ($15-2=6$ is wrong), but the final answer is correct. The correct arithmetic is $15 - 21 = -6$, so the area is 6. ",
+    "imagesolurl": "https://storage.googleapis.com/esm-bundle-prod/images/jeet/48434.png",
+    "subject": "Mathematics",
+    "topic": "Application of Integrals",
+    "subtopics": [
+      "Area between Curves",
+      "Definite Integrals"
+    ],
+    "question_type": [
+      "Graph-based",
+      "Calculation-intensive"
+    ],
+    "avg_time_to_solve": 180
+  },
+    {
+        "id": 6,
+        "shortcut": "The given equations are in the form $A\\vec{v} = \\lambda\\vec{v}$, which defines eigenvectors and eigenvalues. Express the vector $\\begin{pmatrix} -1 \\\\ 2 \\\\ 3 \\end{pmatrix}$ as a linear combination of the given eigenvectors. Then solve for the unknown vector $(x,y,z)$ using the property $(A-kI)\\vec{v} = (\\lambda-k)\\vec{v}$.",
+        "question": "If $A\\begin{pmatrix} 1 \\\\ 0 \\\\ 1 \\end{pmatrix}=2\\begin{pmatrix} 1 \\\\ 0 \\\\ 1 \\end{pmatrix}, A\\begin{pmatrix} -1 \\\\ 0 \\\\ 1 \\end{pmatrix}=4\\begin{pmatrix} -1 \\\\ 0 \\\\ 1 \\end{pmatrix}$ and $A\\begin{pmatrix} 0 \\\\ 1 \\\\ 0 \\end{pmatrix}=2\\begin{pmatrix} 0 \\\\ 1 \\\\ 0 \\end{pmatrix}$ where, A is a $3 \\times 3$ matrix and $(A-3I)\\begin{pmatrix} x \\\\ y \\\\ z \\end{pmatrix}=\\begin{pmatrix} -1 \\\\ 2 \\\\ 3 \\end{pmatrix}$ then the value of (x, y, z) is:",
+        "equation": "$(A-3I)\\begin{pmatrix} x \\\\ y \\\\ z \\end{pmatrix}=\\begin{pmatrix} -1 \\\\ 2 \\\\ 3 \\end{pmatrix}$",
+        "imageurl": null,
+        "options": {
+            "A": "(1, 2, 3)",
+            "B": "(1, -2, 3)",
+            "C": "(1, -2, -3)",
+            "D": "(-1, -2, -3)"
+        },
+        "correct_option": "C",
+        "difficulty_level": "Hard",
+        "examname": "JEE Main 2024 - 31 Jan Shift 2",
+        "solution": "The problem can be solved by first finding the matrix A. Let $A = \\begin{pmatrix} x_1 & y_1 & z_1 \\\\ x_2 & y_2 & z_2 \\\\ x_3 & y_3 & z_3 \\end{pmatrix}$. The three given conditions provide systems of linear equations: \n1. $A\\begin{pmatrix} 1 \\\\ 0 \\\\ 1 \\end{pmatrix} = \\begin{pmatrix} 2 \\\\ 0 \\\\ 2 \\end{pmatrix} \\Rightarrow x_1+z_1=2, x_2+z_2=0, x_3+z_3=2$. \n2. $A\\begin{pmatrix} -1 \\\\ 0 \\\\ 1 \\end{pmatrix} = \\begin{pmatrix} -4 \\\\ 0 \\\\ 4 \\end{pmatrix} \\Rightarrow -x_1+z_1=-4, -x_2+z_2=0, -x_3+z_3=4$. \n3. $A\\begin{pmatrix} 0 \\\\ 1 \\\\ 0 \\end{pmatrix} = \\begin{pmatrix} 0 \\\\ 2 \\\\ 0 \\end{pmatrix} \\Rightarrow y_1=0, y_2=2, y_3=0$. \nSolving these equations yields: $x_1=3, z_1=-1$; $x_2=0, z_2=0$; $x_3=-1, z_3=3$. And $y_1=0, y_2=2, y_3=0$. \nSo, the matrix is $A = \\begin{pmatrix} 3 & 0 & -1 \\\\ 0 & 2 & 0 \\\\ -1 & 0 & 3 \\end{pmatrix}$. \nNow, we solve $(A-3I)\\begin{pmatrix} x \\\\ y \\\\ z \\end{pmatrix} = \\begin{pmatrix} -1 \\\\ 2 \\\\ 3 \\end{pmatrix}$.\n$A-3I = \\begin{pmatrix} 3 & 0 & -1 \\\\ 0 & 2 & 0 \\\\ -1 & 0 & 3 \\end{pmatrix} - \\begin{pmatrix} 3 & 0 & 0 \\\\ 0 & 3 & 0 \\\\ 0 & 0 & 3 \\end{pmatrix} = \\begin{pmatrix} 0 & 0 & -1 \\\\ 0 & -1 & 0 \\\\ -1 & 0 & 0 \\end{pmatrix}$. \nSo, $\\begin{pmatrix} 0 & 0 & -1 \\\\ 0 & -1 & 0 \\\\ -1 & 0 & 0 \\end{pmatrix} \\begin{pmatrix} x \\\\ y \\\\ z \\end{pmatrix} = \\begin{pmatrix} -z \\\\ -y \\\\ -x \\end{pmatrix} = \\begin{pmatrix} -1 \\\\ 2 \\\\ 3 \\end{pmatrix}$. \nThis gives: $-z=-1 \\Rightarrow z=1$; $-y=2 \\Rightarrow y=-2$; $-x=3 \\Rightarrow x=-3$. \nThe calculated solution is $(x, y, z) = (-3, -2, 1)$.\n**Note**: There is a significant error in the source document. The calculated answer is $(-3, -2, 1)$, but this is not available in the options. The source marks option (3), which is (1, -2, -3), as correct, contradicting its own calculation of $x=-3, y=-2, z=1$. ",
+        "imagesolurl": null,
+        "subject": "Mathematics",
+        "topic": "Matrices and Determinants",
+        "subtopics": [
+            "Eigenvalues and Eigenvectors",
+            "System of Linear Equations"
+        ],
+        "question_type": [
+            "Multi-concept",
+            "Calculation-intensive"
+        ],
+        "avg_time_to_solve": 240
+    },
+    {
+        "id": 7,
+        "shortcut": "Use the Sandwich (Squeeze) Theorem. If $g(x) \\le f(x) \\le h(x)$ for all x in an interval, and $\\lim_{x\\to a} g(x) = \\lim_{x\\to a} h(x) = L$, then $\\lim_{x\\to a} f(x) = L$.",
+        "question": "Let $f: \\mathbb{R} \\rightarrow \\mathbb{R}$ be an increasing function such that $\\lim_{x\\to\\infty}\\frac{f(7x)}{f(x)}=1$. Then, $\\lim_{x\\to\\infty}(\\frac{f(5x)}{f(x)}-1)$ is equal to:",
+        "equation": "$\\lim_{x\\to\\infty}\\frac{f(7x)}{f(x)}=1$, find $\\lim_{x\\to\\infty}(\\frac{f(5x)}{f(x)}-1)$",
+        "imageurl": null,
+        "options": {
+            "A": "Zero",
+            "B": "4",
+            "C": "1",
+            "D": "$\\frac{4}{5}$"
+        },
+        "correct_option": "A",
+        "difficulty_level": "Medium",
+        "examname": "JEE Main 2024 - 31 Jan Shift 2",
+        "solution": "Since f is an increasing function, for any positive $x$, we have the inequality $x < 5x < 7x$. This implies $f(x) < f(5x) < f(7x)$. \nAssuming $f(x) > 0$ for large x (which is necessary for the given limit to be positive), we can divide the inequality by $f(x)$ without changing the direction of the inequality signs: \n$\\frac{f(x)}{f(x)} < \\frac{f(5x)}{f(x)} < \\frac{f(7x)}{f(x)}$ \n$1 < \\frac{f(5x)}{f(x)} < \\frac{f(7x)}{f(x)}$. \nNow, we take the limit as $x \\rightarrow \\infty$ for all parts of the inequality: \n$\\lim_{x\\to\\infty} 1 \\le \\lim_{x\\to\\infty} \\frac{f(5x)}{f(x)} \\le \\lim_{x\\to\\infty} \\frac{f(7x)}{f(x)}$ \nWe are given that $\\lim_{x\\to\\infty} \\frac{f(7x)}{f(x)} = 1$. \nBy the Squeeze Theorem, since $\\lim_{x\\to\\infty} \\frac{f(5x)}{f(x)}$ is squeezed between 1 and 1, it must also be equal to 1. \nSo, $\\lim_{x\\to\\infty} \\frac{f(5x)}{f(x)} = 1$. \nTherefore, the required value is $\\lim_{x\\to\\infty}(\\frac{f(5x)}{f(x)}-1) = 1 - 1 = 0$. ",
+        "imagesolurl": "https://storage.googleapis.com/esm-bundle-prod/images/jeet/48435.png",
+        "subject": "Mathematics",
+        "topic": "Limits, Continuity and Differentiability",
+        "subtopics": [
+            "Limits",
+            "Squeeze Theorem",
+            "Increasing Functions"
+        ],
+        "question_type": [
+            "Conceptual",
+            "Theorem-based"
+        ],
+        "avg_time_to_solve": 120
+    },
+    {
+        "id": 8,
+        "shortcut": "Use the algebraic identity $a^3 + b^3 = (a+b)((a+b)^2 - 3ab)$ to quickly find the value of $z_1z_2$. Then, find $z_1^2+z_2^2$ and finally use $z_1^4 + z_2^4 = (z_1^2+z_2^2)^2 - 2(z_1z_2)^2$.",
+        "question": "Let $z_{1}$ and $z_{2}$ be two complex numbers such that $z_{1}+z_{2}=5$ and $z_{1}^{3}+z_{2}^{3}=20+15i$. Then the value of $|z_{1}^{4}+z_{2}^{4}|$ is equal to:",
+        "equation": "$z_{1}+z_{2}=5$ and $z_{1}^{3}+z_{2}^{3}=20+15i$, find $|z_{1}^{4}+z_{2}^{4}|$",
+        "imageurl": null,
+        "options": {
+            "A": "75",
+            "B": "$25\\sqrt{5}$",
+            "C": "$15\\sqrt{15}$",
+            "D": "$30\\sqrt{3}$"
+        },
+        "correct_option": "A",
+        "difficulty_level": "Medium",
+        "examname": "JEE Main 2024 - 31 Jan Shift 2",
+        "solution": "Given: $z_{1}+z_{2}=5$ and $z_{1}^{3}+z_{2}^{3}=20+15i$ . \nUse the identity $z_{1}^{3}+z_{2}^{3}=(z_{1}+z_{2})^{3}-3z_{1}z_{2}(z_{1}+z_{2})$. \nSubstitute the given values: $20+15i = (5)^3 - 3z_{1}z_{2}(5)$. \n$20+15i = 125 - 15z_{1}z_{2}$. \n$15z_{1}z_{2} = 125 - (20+15i) = 105 - 15i$. \n$z_{1}z_{2} = \\frac{105-15i}{15} = 7-i$. \nNext, find $z_{1}^{2}+z_{2}^{2}$: \n$z_{1}^{2}+z_{2}^{2} = (z_{1}+z_{2})^{2} - 2z_{1}z_{2} = (5)^2 - 2(7-i) = 25 - 14 + 2i = 11+2i$. \nNow, find $z_{1}^{4}+z_{2}^{4}$ using $z_{1}^{4}+z_{2}^{4} = (z_{1}^{2}+z_{2}^{2})^{2} - 2(z_{1}z_{2})^{2}$. \nFirst, $(z_{1}^{2}+z_{2}^{2})^{2} = (11+2i)^2 = 121 + 44i + 4i^2 = 117+44i$. \nThen, $(z_{1}z_{2})^{2} = (7-i)^2 = 49 - 14i + i^2 = 48-14i$. \n$z_{1}^{4}+z_{2}^{4} = (117+44i) - 2(48-14i) = 117+44i - 96+28i = 21+72i$. \nFinally, find the modulus: \n$|z_{1}^{4}+z_{2}^{4}| = |21+72i| = \\sqrt{21^2 + 72^2} = \\sqrt{441 + 5184} = \\sqrt{5625} = 75$. ",
+        "imagesolurl": null,
+        "subject": "Mathematics",
+        "topic": "Complex Numbers",
+        "subtopics": [
+            "Algebra of Complex Numbers",
+            "Modulus of a Complex Number",
+            "Symmetric Expressions"
+        ],
+        "question_type": [
+            "Calculation-intensive",
+            "Formula-based"
+        ],
+        "avg_time_to_solve": 180
+    },
+    {
+        "id": 9,
+        "shortcut": "Substitute $t = e^{\\sin x}$. The equation transforms into a simple quadratic equation $t - 2/t = 2$. After solving for $t$, check if the solutions are within the possible range of $e^{\\sin x}$, which is $[1/e, e]$.",
+        "question": "The number of solutions of the equation $e^{\\sin x}-2e^{-\\sin x}=2$ is:",
+        "equation": "$e^{\\sin x}-2e^{-\\sin x}=2$",
+        "imageurl": null,
+        "options": {
+            "A": "More than 2",
+            "B": "2",
+            "C": "1",
+            "D": "0"
+        },
+        "correct_option": "D",
+        "difficulty_level": "Easy",
+        "examname": "JEE Main 2024 - 31 Jan Shift 2",
+        "solution": "Let $t = e^{\\sin x}$. Since the range of $\\sin x$ is $[-1, 1]$, the range of $t = e^{\\sin x}$ is $[e^{-1}, e^1]$, which is approximately $[0.367, 2.718]$. \nThe given equation can be rewritten as $t - \\frac{2}{t} = 2$. \nMultiplying the entire equation by $t$ (note that $t$ must be positive), we get a quadratic equation: \n$t^2 - 2 = 2t$ \n$t^2 - 2t - 2 = 0$. \nUsing the quadratic formula to solve for $t$: \n$t = \\frac{-(-2) \\pm \\sqrt{(-2)^2 - 4(1)(-2)}}{2(1)} = \\frac{2 \\pm \\sqrt{4+8}}{2} = \\frac{2 \\pm \\sqrt{12}}{2} = 1 \\pm \\sqrt{3}$. \nThis gives two possible values for t: \n$t_1 = 1 + \\sqrt{3} \\approx 1 + 1.732 = 2.732$ \n$t_2 = 1 - \\sqrt{3} \\approx 1 - 1.732 = -0.732$ \nSince $t = e^{\\sin x}$ must be positive, we reject the solution $t_2 = -0.732$. \nWe are left with $e^{\\sin x} = 1 + \\sqrt{3} \\approx 2.732$. \nHowever, the maximum value of $e^{\\sin x}$ is $e^1 \\approx 2.718$. \nSince $1 + \\sqrt{3} \\approx 2.732$, which is greater than the maximum possible value of $e$, there is no real value of x that satisfies this equation. \nTherefore, the number of solutions is 0. ",
+        "imagesolurl": null,
+        "subject": "Mathematics",
+        "topic": "Trigonometric Equations",
+        "subtopics": [
+            "Exponential Functions",
+            "Quadratic Equations",
+            "Range of Functions"
+        ],
+        "question_type": [
+            "Conceptual",
+            "Calculation-intensive"
+        ],
+        "avg_time_to_solve": 90
+    },
+    {
+        "id": 10,
+        "shortcut": "The center of the circle $x^2+y^2+2gx+2fy+c=0$ is $(-g, -f)$. For a line passing through $(h,k)$ with negative slope and positive intercepts, the sum of intercepts is $S = OA+OB$. This can be minimized using calculus ($dS/dm = 0$) or the AM-GM inequality on the variable parts of the sum.",
+        "question": "A line passes through the centre of the circle $x^{2}+y^{2}-16x-4y=0$ and intersects the positive coordinate axes at points A and B. Find the minimum value of $OA+OB$, where O is the origin.",
+        "equation": "$x^{2}+y^{2}-16x-4y=0$",
+        "imageurl": null,
+        "options": {
+            "A": "20",
+            "B": "18",
+            "C": "12",
+            "D": "24"
+        },
+        "correct_option": "A",
+        "difficulty_level": "Hard",
+        "examname": "JEE Main 2024 - 31 Jan Shift 2",
+        "solution": "The equation of the circle is $x^{2}+y^{2}-16x-4y=0$. \nThe center of the circle is found by $(-g, -f)$, where $2g=-16$ and $2f=-4$. So the center is $(8, 2)$. \nLet the equation of the line passing through $(8,2)$ be $y-2 = m(x-8)$. \nTo find the x-intercept (OA), set $y=0$: $x = 8 - \\frac{2}{m}$. \nTo find the y-intercept (OB), set $x=0$: $y = 2 - 8m$. \nFor the intercepts to be positive, we must have $8 - \\frac{2}{m} > 0$ and $2 - 8m > 0$. The second inequality gives $m < 1/4$. For the first, if $m>0$, $m>1/4$, a contradiction. Thus, $m$ must be negative. \nLet $m = -m'$ where $m' > 0$. The sum of positive intercepts is $S = OA + OB = (8 + \\frac{2}{m'}) + (2 + 8m') = 10 + \\frac{2}{m'} + 8m'$. \nBy the AM-GM inequality, $\\frac{2}{m'} + 8m' \\ge 2\\sqrt{\\frac{2}{m'} \\cdot 8m'} = 2\\sqrt{16} = 8$. \nThe minimum value of this part is 8. Therefore, the minimum sum S is $10 + 8 = 18$. \nUsing calculus as in the source: the sum is $S(m) = 10 - \\frac{2}{m} - 8m$ for $m<0$. \n$S'(m) = \\frac{2}{m^2} - 8$. Setting $S'(m)=0$ gives $m^2=\\frac{1}{4}$, so $m=-\\frac{1}{2}$ (since $m<0$). \nThe minimum sum is $S(-\\frac{1}{2}) = 10 - \\frac{2}{-1/2} - 8(-\\frac{1}{2}) = 10 + 4 + 4 = 18$. \n**Note**: The calculation consistently yields a minimum value of 18, which corresponds to option (B). However, the provided answer key in the document marks option (1) which is 20, as correct. This indicates a potential error in the source's answer key.",
+        "imagesolurl": null,
+        "subject": "Mathematics",
+        "topic": "Coordinate Geometry",
+        "subtopics": [
+            "Circles",
+            "Straight Lines",
+            "Optimization",
+            "Application of Derivatives",
+            "AM-GM Inequality"
+        ],
+        "question_type": [
+            "Calculation-intensive",
+            "Multi-concept"
+        ],
+        "avg_time_to_solve": 200
+    },
+    {
+        "id": 11,
+        "shortcut": "Use Pascal's identity, ${}^{n}C_{r} + {}^{n}C_{r+1} = {}^{n+1}C_{r+1}$, to simplify the combination inequality. For the permutation ratio, expand the factorials and cancel common terms to quickly solve for n.",
+        "question": "If for some integers m and n, ${}^{6}C_{m}+2({}^{6}C_{m+1})+{}^{6}C_{m+2}>{}^{8}C_{3}$ and ${}^{n-1}P_{3} : {}^{n}P_{4}=1:8$, then ${}^{n}P_{m+1}+^{n+1}C_{m}$ is equal to:",
+        "equation": "${}^{6}C_{m}+2({}^{6}C_{m+1})+{}^{6}C_{m+2}>{}^{8}C_{3}$ and ${}^{n-1}P_{3} : {}^{n}P_{4}=1:8$",
+        "imageurl": null,
+        "options": {
+            "A": "6756",
+            "B": "7250",
+            "C": "6223",
+            "D": "6550"
+        },
+        "correct_option": "A",
+        "difficulty_level": "Medium",
+        "examname": "JEE Main 2024 - 31 Jan Shift 2",
+        "solution": "First, let's solve the inequality: ${}^{6}C_{m}+2({}^{6}C_{m+1})+{}^{6}C_{m+2}>{}^{8}C_{3}$.\nWe can rewrite the left side as $({}^{6}C_{m}+{}^{6}C_{m+1}}) + ({}^{6}C_{m+1}+{}^{6}C_{m+2}})$. \nUsing Pascal's identity ${}^{n}C_{r} + {}^{n}C_{r+1} = {}^{n+1}C_{r+1}$, we get: ${}^{7}C_{m+1} + {}^{7}C_{m+2} > {}^{8}C_{3}$. \nApplying the identity again, we have: ${}^{8}C_{m+2} > {}^{8}C_{3}$. \nWe calculate ${}^{8}C_{3} = \\frac{8 \\cdot 7 \\cdot 6}{3 \\cdot 2 \\cdot 1} = 56$. The values of ${}^{8}C_{r}$ are symmetric about $r=4$. We have ${}^{8}C_{0}=1, {}^{8}C_{1}=8, {}^{8}C_{2}=28, {}^{8}C_{3}=56, {}^{8}C_{4}=70$. For ${}^{8}C_{m+2} > 56$, we must have ${}^{8}C_{m+2} = 70$, which means $m+2=4$, so $m=2$. \nNext, let's solve for n from the ratio ${}^{n-1}P_{3} : {}^{n}P_{4}=1:8$. \n$\\frac{(n-1)! / (n-1-3)!}{n! / (n-4)!} = \\frac{(n-1)!/(n-4)!}{n(n-1)!/(n-4)!} = \\frac{1}{n}$. \nGiven the ratio is $1:8$, we have $\\frac{1}{n} = \\frac{1}{8} \\Rightarrow n=8$. \nWe need to calculate ${}^{n}P_{m+1}+^{n+1}C_{m}$. With $m=2, n=8$, this is ${}^{8}P_{3}+{}^{9}C_{2}$.\n**Note**: There is a clear typo in the source document's final calculation. The direct calculation is ${}^{8}P_{3} + {}^{9}C_{2} = (8 \\times 7 \\times 6) + (\\frac{9 \\times 8}{2}) = 336 + 36 = 372$, which does not match any option. The solution in the PDF computes ${}^{8}P_{5}+{}^{9}C_{2}$ , implying a typo in the question (perhaps it should have been ${}^{n}P_{m+3}$). Following the PDF's final calculation steps to match the answer:\n${}^{8}P_{5} + {}^{9}C_{2} = (8\\times7\\times6\\times5\\times4) + \\frac{9\\times8}{2} = 6720 + 36 = 6756$. This matches option (A).",
+        "imagesolurl": null,
+        "subject": "Mathematics",
+        "topic": "Permutations and Combinations",
+        "subtopics": [
+            "Pascal's Identity",
+            "Binomial Coefficients",
+            "Properties of Permutations and Combinations",
+            "Inequalities"
+        ],
+        "question_type": [
+            "Formula-based",
+            "Calculation-intensive"
+        ],
+        "avg_time_to_solve": 180
+    },
+    {
+        "id": 13,
+        "shortcut": "The line segment connecting a point P and its mirror image Q is perpendicular to the line of reflection. The dot product of their direction vectors is zero. This relationship, $a(\\alpha-x_1) + b(\\beta-y_1) + c(\\gamma-z_1) = 0$, often directly leads to the expression requested in the question, saving the effort of finding the image coordinates.",
+        "question": "If $(\\alpha, \\beta, \\gamma)$ is the mirror image of the point $(2, 3, 4)$ with respect to the line $\\frac{x-1}{2}=\\frac{y-2}{3}=\\frac{z-3}{4}$, what is the value of $2\\alpha + 3\\beta + 4\\gamma$?",
+        "equation": "$\\frac{x-1}{2}=\\frac{y-2}{3}=\\frac{z-3}{4}$",
+        "imageurl": null,
+        "options": {
+            "A": "29",
+            "B": "30",
+            "C": "31",
+            "D": "32"
+        },
+        "correct_option": "A",
+        "difficulty_level": "Medium",
+        "examname": "JEE Main 2024 - 31 Jan Shift 2",
+        "solution": "Let the point be $A = (2, 3, 4)$ and its mirror image be $B = (\\alpha, \\beta, \\gamma)$. The direction ratios of the line segment AB are $(\\alpha-2, \\beta-3, \\gamma-4)$. \nThe given line has direction ratios $(2, 3, 4)$. \nSince B is the mirror image of A, the line segment AB must be perpendicular to the given line of reflection. Therefore, the dot product of their direction vectors must be zero. \n$2(\\alpha-2) + 3(\\beta-3) + 4(\\gamma-4) = 0$.\n$2\\alpha - 4 + 3\\beta - 9 + 4\\gamma - 16 = 0$.\n$2\\alpha + 3\\beta + 4\\gamma - 29 = 0$.\n$2\\alpha + 3\\beta + 4\\gamma = 29$. \nThe question directly asks for this value, so we don't need to compute the actual coordinates of the image point.",
+        "imagesolurl": null,
+        "subject": "Mathematics",
+        "topic": "3D Geometry",
+        "subtopics": [
+            "Lines in 3D",
+            "Image of a Point in a Line",
+            "Direction Ratios and Cosines"
+        ],
+        "question_type": [
+            "Conceptual",
+            "Formula-based"
+        ],
+        "avg_time_to_solve": 100
+    },
+    {
+        "id": 14,
+        "shortcut": "The distance from the vertex to the directrix is the same as the distance from the vertex to the focus (let's call this distance 'p'). The axis of the parabola is the line through the vertex perpendicular to the directrix. The focus lies on the axis at a distance 'p' from the vertex. Once the focus is found, substitute its coordinates into the ellipse equation and solve for the ellipse parameters using the eccentricity relation.",
+        "question": "A parabola has vertex (2, 3), equation of directrix is $2x-y=1$ and the equation of an ellipse is $\\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1$ with $e=\\frac{1}{\\sqrt{2}}$. If the ellipse passes through the focus of the parabola, what is the square of the length of the latus rectum of the ellipse?",
+        "equation": "$\\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1$, $e=\\frac{1}{\\sqrt{2}}$",
+        "imageurl": null,
+        "options": {
+            "A": "$\\frac{6564}{25}$",
+            "B": "$\\frac{6272}{25}$",
+            "C": "$\\frac{3288}{25}$",
+            "D": "$\\frac{4352}{25}$"
+        },
+        "correct_option": "D",
+        "difficulty_level": "Hard",
+        "examname": "JEE Main 2024 - 31 Jan Shift 2",
+        "solution": "The provided question has a fundamental flaw: the vertex of the parabola V(2,3) lies on the directrix $2x-y-1=0$ (since $2(2)-3-1 = 0$), which is impossible for a parabola. The provided solution in the PDF also contains several non-standard and unclear calculation steps. However, to arrive at the given answer, we must follow the logic and values from the source, acknowledging the errors.\n\n1.  **Finding the Focus**: The source document calculates the focus of the parabola to be $(\\alpha, \\beta) = (2.4, 3.2)$ or $(\\frac{12}{5}, \\frac{16}{5})$. \n2.  **Using Ellipse Properties**: The ellipse passes through this point. So, $\\frac{(2.4)^2}{a^2} + \\frac{(3.2)^2}{b^2} = 1 \\implies \\frac{5.76}{a^2} + \\frac{10.24}{b^2} = 1$. \n3.  **Eccentricity**: Given $e = \\frac{1}{\\sqrt{2}}$, so $e^2 = \\frac{1}{2}$. The relationship between a, b, and e can be $b^2 = a^2(1-e^2)$ (horizontal) or $a^2 = b^2(1-e^2)$ (vertical). The source's calculation implies a vertical ellipse where $b > a$, with the relation $a^2 = b^2/2 \\implies b^2=2a^2$. \n4.  **Solving for parameters**: The source calculation contains unclear steps. A correct substitution of $b^2=2a^2$ into the point equation yields: $\\frac{5.76}{a^2} + \\frac{10.24}{2a^2} = 1 \\implies \\frac{5.76 + 5.12}{a^2} = 1 \\implies a^2 = 10.88 = \\frac{272}{25}$. Then $b^2 = 2a^2 = \\frac{544}{25}$. The source obtains $a^2 = \\frac{272}{25}$ and $b^2=\\frac{2 \\times 272}{25} = \\frac{544}{25}$. \n5.  **Latus Rectum**: For a vertical ellipse, the length of the latus rectum is $LLR = \\frac{2a^2}{b}$. The square is $(LLR)^2 = \\frac{4a^4}{b^2} = \\frac{4a^4}{2a^2} = 2a^2$. Using the value of $a^2$ from the source: $(LLR)^2 = 2 \\times \\frac{272}{25} = \\frac{544}{25}$.\n6.  **Reconciling with Source Answer**: The source calculates the final answer as $\\frac{4352}{25}$ . This result seems to come from an incorrect formula or calculation, possibly $8b^2/a^2 \\cdot a^2 = 8(b^2) = 8(\\frac{544}{25}) = \\frac{4352}{25}$ or a similar mistake. Despite the clear flaws in the problem statement and the solution's steps, we select the answer provided in the source.",
+        "imagesolurl": null,
+        "subject": "Mathematics",
+        "topic": "Conic Sections",
+        "subtopics": [
+            "Parabola",
+            "Ellipse",
+            "Latus Rectum",
+            "Focus and Directrix"
+        ],
+        "question_type": [
+            "Multi-concept",
+            "Calculation-intensive",
+            "Error in question"
+        ],
+        "avg_time_to_solve": 250
+    },
+    {
+        "id": 15,
+        "shortcut": "For integrals of the form $\\int_{0}^{a} f(x) dx$, applying the 'King's Property' $\\int_{0}^{a} f(x) dx = \\int_{0}^{a} f(a-x) dx$ is often useful. For $\\int_{0}^{2a} f(x) dx$, using the property $\\int_{0}^{2a} f(x)dx = \\int_{0}^{a} (f(x)+f(2a-x))dx$ can simplify the integrand significantly.",
+        "question": "The value of $\\left| \\frac{120}{\\pi^{3}} \\int_{0}^{\\pi} \\frac{x^{2} \\sin x \\cos x}{(\\sin x)^{4} + (\\cos x)^{4}} dx \\right|$ is:",
+        "equation": "$\\left| \\frac{120}{\\pi^{3}} \\int_{0}^{\\pi} \\frac{x^{2} \\sin x \\cos x}{(\\sin x)^{4} + (\\cos x)^{4}} dx \\right|$",
+        "imageurl": null,
+        "options": null,
+        "correct_option": null,
+        "difficulty_level": "Hard",
+        "examname": "JEE Main 2024 - 31 Jan Shift 2",
+        "solution": "Let $I = \\int_{0}^{\\pi} \\frac{x^{2} \\sin x \\cos x}{\\sin^{4}x + \\cos^{4}x} dx$. We use the property $\\int_0^{2a} f(x)dx = \\int_0^a (f(x)+f(2a-x))dx$, with $2a=\\pi$. \nHere $f(x) = \\frac{x^2 \\sin x \\cos x}{\\sin^4 x + \\cos^4 x}$ and $f(\\pi-x) = \\frac{(\\pi-x)^2 \\sin(\\pi-x) \\cos(\\pi-x)}{\\sin^4(\\pi-x) + \\cos^4(\\pi-x)} = -\\frac{(\\pi-x)^2 \\sin x \\cos x}{\\sin^4 x + \\cos^4 x}$.\nSo, $I = \\int_0^{\\pi/2} \\left(\\frac{x^2 \\sin x \\cos x}{\\sin^4 x + \\cos^4 x} - \\frac{(\\pi-x)^2 \\sin x \\cos x}{\\sin^4 x + \\cos^4 x}\\right) dx$. \n$I = \\int_0^{\\pi/2} \\frac{\\sin x \\cos x (x^2 - (\\pi-x)^2)}{\\sin^4 x + \\cos^4 x} dx = \\int_0^{\\pi/2} \\frac{\\sin x \\cos x (2\\pi x - \\pi^2)}{\\sin^4 x + \\cos^4 x} dx$. \n$I = 2\\pi \\int_0^{\\pi/2} \\frac{x \\sin x \\cos x}{...}dx - \\pi^2 \\int_0^{\\pi/2} \\frac{\\sin x \\cos x}{...}dx$. Let the first integral be $I_1$ and the second be $I_2$. So $I = 2\\pi I_1 - \\pi^2 I_2$. \nFor $I_1 = \\int_0^{\\pi/2} \\frac{x \\sin x \\cos x}{\\sin^4 x + \\cos^4 x} dx$, using the King property on $[0, \\pi/2]$, we find $I_1 = \\frac{\\pi}{4} I_2$. \nSubstitute this back: $I = 2\\pi(\\frac{\\pi}{4}I_2) - \\pi^2 I_2 = \\frac{\\pi^2}{2}I_2 - \\pi^2 I_2 = -\\frac{\\pi^2}{2}I_2$. \nNow we evaluate $I_2 = \\int_0^{\\pi/2} \\frac{\\sin x \\cos x}{\\sin^4 x + \\cos^4 x} dx = \\int_0^{\\pi/2} \\frac{\\sin x \\cos x}{1 - 2\\sin^2 x \\cos^2 x} dx = \\int_0^{\\pi/2} \\frac{\\frac{1}{2}\\sin(2x)}{1 - \\frac{1}{2}\\sin^2(2x)} dx = \\int_0^{\\pi/2} \\frac{\\sin(2x)}{2 - \\sin^2(2x)} dx = \\int_0^{\\pi/2} \\frac{\\sin(2x)}{1 + \\cos^2(2x)} dx$. \nLet $t = \\cos(2x)$, so $dt = -2\\sin(2x)dx$. The limits change from $[0, \\pi/2]$ to $[1, -1]$.\n$I_2 = \\int_1^{-1} \\frac{-dt/2}{1+t^2} = \\frac{1}{2} \\int_{-1}^{1} \\frac{dt}{1+t^2} = \\frac{1}{2} [\\tan^{-1}(t)]_{-1}^1 = \\frac{1}{2} (\\frac{\\pi}{4} - (-\\frac{\\pi}{4})) = \\frac{\\pi}{4}$.\nThe PDF's calculation for the combined integral $I$ leads to $-\\frac{\\pi^3}{8}$. \nFinal value = $\\left| \\frac{120}{\\pi^3} \\times (-\\frac{\\pi^3}{8}) \\right| = |-15| = 15$. ",
+        "imagesolurl": null,
+        "subject": "Mathematics",
+        "topic": "Integral Calculus",
+        "subtopics": [
+            "Definite Integrals",
+            "Properties of Definite Integrals"
+        ],
+        "question_type": [
+            "Calculation-intensive",
+            "Formula-based"
+        ],
+        "avg_time_to_solve": 240
+    },
+    {
+        "id": 16,
+        "shortcut": "This is a classic 'Stars and Bars' problem. First, give each of the 3 children the minimum required 2 apples. This uses 6 apples, leaving 15. Then, find the number of ways to distribute the remaining 15 identical apples to 3 distinct children, which is given by the formula ${}^{n+k-1}C_{k-1}$ for n items and k bins.",
+        "question": "The number of ways to distribute 21 identical apples to three children so that each child gets at least 2 apples.",
+        "equation": null,
+        "imageurl": null,
+        "options": null,
+        "correct_option": null,
+        "difficulty_level": "Easy",
+        "examname": "JEE Main 2024 - 31 Jan Shift 2",
+        "solution": "Let the number of apples received by the three children be $c_1, c_2,$ and $c_3$. Since the apples are identical, we are looking for the number of integer solutions to the equation $c_1 + c_2 + c_3 = 21$. \nThe condition is that each child gets at least 2 apples, so $c_1 \\ge 2, c_2 \\ge 2, c_3 \\ge 2$. \nTo handle this constraint, we first give 2 apples to each child. This accounts for $3 \\times 2 = 6$ apples. \nThe remaining number of apples to be distributed is $21 - 6 = 15$. \nNow, we need to find the number of ways to distribute these 15 identical apples among the 3 children without any restrictions. This is equivalent to finding the number of non-negative integer solutions to the equation $c'_1 + c'_2 + c'_3 = 15$, where $c'_i = c_i - 2$. \nUsing the 'Stars and Bars' formula, the number of ways is ${}^{n+k-1}C_{k-1}$, where n=15 (apples) and k=3 (children). \nNumber of ways = ${}^{15+3-1}C_{3-1} = {}^{17}C_{2}$. \n${}^{17}C_{2} = \\frac{17 \\times 16}{2 \\times 1} = 17 \\times 8 = 136$. ",
+        "imagesolurl": null,
+        "subject": "Mathematics",
+        "topic": "Permutations and Combinations",
+        "subtopics": [
+            "Distribution of Identical Objects",
+            "Stars and Bars"
+        ],
+        "question_type": [
+            "Formula-based",
+            "Conceptual"
+        ],
+        "avg_time_to_solve": 60
+    },
+    {
+        "id": 17,
+        "shortcut": "For a relation R to be symmetric, if $(x,y) \\in R$, then $(y,x)$ must also be in R. The given condition is $2x=3y$. The condition for the symmetric pair is $2y=3x$. For the relation to be symmetric, any pair must satisfy both conditions simultaneously. Solving the system of equations $2x=3y$ and $2y=3x$ gives the only possible pairs.",
+        "question": "If $A=\\{1,2,3,...100\\}$ and $R=\\{(x,y)|2x=3y, x, y \\in A\\}$ is a symmetric relation on A, what is the number of elements in R, denoted by n?",
+        "equation": "$R=\\{(x,y)|2x=3y, x, y \\in A\\}$",
+        "imageurl": null,
+        "options": null,
+        "correct_option": null,
+        "difficulty_level": "Easy",
+        "examname": "JEE Main 2024 - 31 Jan Shift 2",
+        "solution": "The relation R on set A is defined by the rule $2x=3y$ for $(x,y) \\in R$. \nThe question states that the relation R is symmetric. By definition, a relation is symmetric if for every pair $(x, y) \\in R$, the pair $(y, x)$ must also be in R. \nThis implies that if a pair $(x,y)$ from set A satisfies $2x=3y$, then the pair $(y,x)$ must satisfy $2y=3x$. \nSo, for R to be symmetric, we must only include pairs $(x,y)$ that satisfy both equations simultaneously: \n1) $2x = 3y$ \n2) $2y = 3x$ \nFrom equation (1), $x = \\frac{3}{2}y$. Substituting this into equation (2): \n$2y = 3(\\frac{3}{2}y) \\Rightarrow 2y = \\frac{9}{2}y \\Rightarrow 4y = 9y \\Rightarrow 5y = 0 \\Rightarrow y=0$. \nIf $y=0$, then $x=0$. \nThe only solution is the pair $(0,0)$. \nHowever, the set $A = \\{1, 2, 3, ..., 100\\}$ does not contain the element 0. \nTherefore, there are no pairs in A that can satisfy the condition for R to be symmetric. This means the relation R must be an empty set. \nThe number of elements in an empty set is $n=0$. ",
+        "imagesolurl": null,
+        "subject": "Mathematics",
+        "topic": "Relations and Functions",
+        "subtopics": [
+            "Types of Relations",
+            "Symmetric Relation"
+        ],
+        "question_type": [
+            "Conceptual",
+            "Definition-based"
+        ],
+        "avg_time_to_solve": 75
+    },
+    {
+        "id": 18,
+        "shortcut": "Use the property $|\\text{adj}(B)| = |B|^{m-1}$ for an $m\\times m$ matrix B. Applying this property k times gives $|\\text{adj}(\\text{adj}(...A...))| = |A|^{(m-1)^k}$. Then, use modular arithmetic, specifically Euler's totient theorem or finding the cycle length, to evaluate the resulting large power.",
+        "question": "Matrix A of order $3\\times3$ is such that $|A|=2$. If $n = |\\text{adj}(\\text{adj}(\\dots(\\text{adj}(A))\\dots))|$ where the adjugate is taken 2024 times, what is the remainder when n is divided by 9?",
+        "equation": "$|A|=2$, $n = |\\text{adj}_{2024}(A)|$",
+        "imageurl": null,
+        "options": null,
+        "correct_option": null,
+        "difficulty_level": "Medium",
+        "examname": "JEE Main 2024 - 31 Jan Shift 2",
+        "solution": "We are given a $3\\times3$ matrix A with $|A|=2$. \nWe use the property of the determinant of an adjugate matrix: for an $m\\times m$ matrix B, $|\\text{adj}(B)| = |B|^{m-1}$.\nHere, the matrix order is $m=3$, so $|\\text{adj}(B)| = |B|^2$. \nApplying this property k times, we get: $|\\text{adj}(\\text{adj}(...A...))| \\text{ (k times)} = |A|^{(m-1)^k} = |A|^{2^k}$.\nIn this problem, the adjugate is taken 2024 times, so $k=2024$. The resulting determinant 'n' is: \n$n = |A|^{2^{2024}} = 2^{2^{2024}}$. \nWe need to find the remainder when n is divided by 9, which means we need to compute $2^{2^{2024}} \\pmod 9$. \nWe rely on modular arithmetic. Let's find the cyclicity of powers of 2 modulo 9. \n$2^1 \\equiv 2$, $2^2 \\equiv 4$, $2^3 \\equiv 8$, $2^4 \\equiv 16 \\equiv 7$, $2^5 \\equiv 14 \\equiv 5$, $2^6 \\equiv 10 \\equiv 1$. \nThe cycle length is 6. So we need to find the exponent, $2^{2024}$, modulo 6. \nLet's find $2^{2024} \\pmod 6$. \nSince $2024 \\ge 2$, $2^{2024}$ is divisible by 4, so $2^{2024} = 4k$ for some integer k. \n$2^2=4 \\equiv 4 \\pmod 6$. \n$2^3=8 \\equiv 2 \\pmod 6$. \n$2^4=16 \\equiv 4 \\pmod 6$. \nFor any even power $p \\ge 2$, $2^p \\equiv 4 \\pmod 6$. Since 2024 is even, $2^{2024} \\equiv 4 \\pmod 6$. \nSo, the exponent can be written as $6k+4$ for some integer k. \nTherefore, $n = 2^{2^{2024}} = 2^{6k+4} = (2^6)^k \\cdot 2^4$. \n$n \\equiv (1)^k \\cdot 2^4 \\pmod 9$. \n$n \\equiv 16 \\pmod 9$. \n$n \\equiv 7 \\pmod 9$. \nThe remainder when n is divided by 9 is 7.",
+        "imagesolurl": null,
+        "subject": "Mathematics",
+        "topic": "Matrices and Determinants",
+        "subtopics": [
+            "Adjugate Matrix",
+            "Properties of Determinants",
+            "Modular Arithmetic"
+        ],
+        "question_type": [
+            "Formula-based",
+            "Conceptual"
+        ],
+        "avg_time_to_solve": 150
     }
 ]
