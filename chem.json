@@ -2406,5 +2406,1495 @@
             "Reaction-based"
         ],
         "avg_time_to_solve": 75
-    }
+    },
+  {
+    "id": 1,
+    "shortcut": "Transition metal complexes with metals in high oxidation states and no d-electrons (like $Mn^{7+}$ in $KMnO_4$) are colored due to Ligand-to-Metal Charge Transfer (LMCT).",
+    "question": "Why $KMnO_{4}$ shows colour?",
+    "equation": "$KMnO_{4}$",
+    "imageurl": null,
+    "options": {
+      "A": "Due to d-d transition",
+      "B": "Due to metal to ligand charge transfer",
+      "C": "Due to ligand to metal charge transfer",
+      "D": "Due to F - center"
+    },
+    "correct_option": "C",
+    "difficulty_level": "Medium",
+    "examname": "JEE-Main-30-01-2024 (Memory Based) [EVENING SHIFT]",
+    "solution": "The color of potassium permanganate ($KMnO_{4}$) is due to a Ligand to Metal Charge Transfer (LMCT). In the permanganate ion ($MnO_4^-$), the manganese is in a +7 oxidation state, which means it has no d-electrons ($d^0$ configuration). Therefore, d-d transitions are not possible. Instead, an electron from a nonbonding 2p orbital of an oxygen atom (the ligand) is transferred to an empty d-orbital of the manganese atom (the metal) upon absorbing light in the visible region. [cite_start]This electronic transition is responsible for its intense purple color. [cite: 14, 15]",
+    "imagesolurl": null,
+    "subject": "Chemistry",
+    "topic": "d-block and f-block elements",
+    "subtopics": [
+      "Potassium Permanganate",
+      "Charge Transfer Spectra",
+      "Coordination Compounds"
+    ],
+    "question_type": [
+      "Conceptual",
+      "Memory-based"
+    ],
+    "avg_time_to_solve": 45
+  },
+  {
+    "id": 2,
+    "shortcut": "The mole fraction of any component in a mixture is simply its individual moles divided by the total moles of all components combined.",
+    "question": "C is added to a solution of A and B, find the mole fraction of C.",
+    "equation": null,
+    "imageurl": null,
+    "options": {
+      "A": "$n_{c}/(n_{A}+n_{B}+n_{c})$",
+      "B": "$n_{c}/(n_{A}-n_{B}+n_{c})$",
+      "C": "$n_{c}/(n_{A}-n_{c}+n_{B})$",
+      "D": "$n_{c}/(n_{A}+n_{B})$"
+    },
+    "correct_option": "A",
+    "difficulty_level": "Easy",
+    "examname": "JEE-Main-30-01-2024 (Memory Based) [EVENING SHIFT]",
+    "solution": "The mole fraction of a component in a solution is a fundamental concept defined as the ratio of the number of moles of that specific component to the total number of moles of all components present in the solution. [cite: 24, 25, 26] If we have a solution containing components A, B, and C with moles $n_A$, $n_B$, and $n_C$ respectively, the total moles in the solution will be ($n_A + n_B + n_C$). [cite_start]Therefore, the mole fraction of C, denoted as $x_C$, is calculated by the formula: \n $$x_C = \\frac{n_C}{n_A + n_B + n_C}$$ [cite: 18]",
+    "imagesolurl": null,
+    "subject": "Chemistry",
+    "topic": "Some Basic Concepts of Chemistry",
+    "subtopics": [
+      "Mole Concept",
+      "Mole Fraction",
+      "Solutions"
+    ],
+    "question_type": [
+      "Formula-based",
+      "Conceptual"
+    ],
+    "avg_time_to_solve": 20
+  },
+  {
+    "id": 3,
+    "shortcut": "For alkynes, always start numbering the longest carbon chain from the end that is closest to the carbon-carbon triple bond to give it the lowest possible locant.",
+    "question": "What is the IUPAC name of the compound: \nCH3-CH-C≡CH\n  |\n $CH_{3}$",
+    "equation": "$CH_{3}-CH(CH_{3})-C\\equiv CH$",
+    "imageurl": "https://res.cloudinary.com/dscgkuvkd/image/upload/v1754981240/Screenshot_2025-08-12_at_12.17.06_PM_m9nuox.png",
+    "options": {
+      "A": "2-Methylbutyne",
+      "B": "3-Methylbut-1-yne",
+      "C": "2-Methylbutene",
+      "D": "3-Mehtylbutane"
+    },
+    "correct_option": "B",
+    "difficulty_level": "Easy",
+    "examname": "JEE-Main-30-01-2024 (Memory Based) [EVENING SHIFT]",
+    "solution": "To determine the correct IUPAC name for the given structure, we follow these steps:\n1.  **Identify the Parent Chain**: The longest continuous carbon chain that includes the triple bond consists of four carbon atoms. The suffix for a four-carbon chain is 'but', and for a triple bond is '-yne'. [cite_start]So, the parent name is butyne. [cite: 53]\n2.  **Number the Carbon Chain**: We must number the chain to give the triple bond the lowest possible position number. [cite_start]Numbering from right to left, the triple bond starts at carbon 1. If we number from left to right, it would start at carbon 3. Therefore, we number from the right, and the name becomes but-1-yne. [cite: 53]\n3.  [cite_start]**Identify and Locate Substituents**: There is a methyl group ($-CH_3$) attached to the third carbon atom in the chain (from the right). [cite: 53]\n4.  [cite_start]**Assemble the Full Name**: Combining the substituent name and position with the parent name gives **3-Methylbut-1-yne**. [cite: 37, 53]",
+    "imagesolurl": "https://res.cloudinary.com/dscgkuvkd/image/upload/v1754981238/Screenshot_2025-08-12_at_12.17.13_PM_duxym2.png",
+    "subject": "Chemistry",
+    "topic": "Organic Chemistry - Basic Principles and Techniques",
+    "subtopics": [
+      "IUPAC Nomenclature",
+      "Alkynes"
+    ],
+    "question_type": [
+      "Nomenclature",
+      "Rule-based"
+    ],
+    "avg_time_to_solve": 40
+  },
+  {
+    "id": 4,
+    "shortcut": "The Reimer-Tiemann reaction (Phenol + Chloroform ($CHCl_3$) + NaOH) is a classic named reaction that specifically yields salicylaldehyde.",
+    "question": "Which reagent on reacting with phenol gives salicylaldehyde?",
+    "equation": null,
+    "imageurl": null,
+    "options": {
+      "A": "$CO_{2}$, NaOH",
+      "B": "$CHCl_{3}$, NaOH",
+      "C": "$CCl_{4}$, NaOH",
+      "D": "$H_2O, H^{+}$"
+    },
+    "correct_option": "B",
+    "difficulty_level": "Easy",
+    "examname": "JEE-Main-30-01-2024 (Memory Based) [EVENING SHIFT]",
+    "solution": "The formation of salicylaldehyde from phenol is a well-known named reaction in organic chemistry called the **Reimer-Tiemann reaction**. [cite: 63] [cite_start]In this reaction, phenol is treated with **chloroform ($CHCl_3$) in the presence of a strong base like sodium hydroxide (NaOH)**. [cite: 59, 63] [cite_start]This process introduces an aldehyde group (-CHO) onto the benzene ring, predominantly at the ortho position relative to the hydroxyl (-OH) group, to yield salicylaldehyde. [cite: 81] The other options are incorrect; for example, using $CO_2$ and NaOH (Kolbe's reaction) would produce salicylic acid.",
+    "imagesolurl": "https://res.cloudinary.com/dscgkuvkd/image/upload/v1754981178/Screenshot_2025-08-12_at_12.16.13_PM_t1nvqz.png",
+    "subject": "Chemistry",
+    "topic": "Organic Chemistry - Alcohols, Phenols and Ethers",
+    "subtopics": [
+      "Reactions of Phenols",
+      "Reimer-Tiemann Reaction",
+      "Named Reactions"
+    ],
+    "question_type": [
+      "Memory-based",
+      "Reaction-based"
+    ],
+    "avg_time_to_solve": 30
+  },
+  {
+    "id": 5,
+    "shortcut": "Quickly determine the steric number (bond pairs + lone pairs) for the central atom. For a square pyramidal shape, the steric number must be 6 with one lone pair ($AX_5E_1$). Only $BrF_5$ fits this pattern (5 BP + 1 LP).",
+    "question": "Which of the following has a square pyramidal shape?",
+    "equation": null,
+    "imageurl": null,
+    "options": {
+      "A": "$CIF_{3}$",
+      "B": "$BrF_{5}$",
+      "C": "$XeF_{4}$",
+      "D": "$NH_3$"
+    },
+    "correct_option": "B",
+    "difficulty_level": "Medium",
+    "examname": "JEE-Main-30-01-2024 (Memory Based) [EVENING SHIFT]",
+    "solution": "To determine the molecular shape, we apply the Valence Shell Electron Pair Repulsion (VSEPR) theory.\n\n* **$BrF_5$**: The central atom, Bromine (Br), is in Group 17 and has 7 valence electrons. It forms 5 single bonds with 5 Fluorine (F) atoms and has 1 remaining lone pair of electrons. The total number of electron pairs is 5 (bond pairs) + 1 (lone pair) = 6. This corresponds to an octahedral electron geometry. [cite_start]With one lone pair, the molecular shape is **square pyramidal** ($AX_5E_1$). [cite: 85]\n\n* **$ClF_3$**: The central atom, Chlorine (Cl), has 7 valence electrons. It forms 3 bonds with F atoms and has 2 lone pairs. The total is 5 electron pairs, leading to a trigonal bipyramidal electron geometry. [cite_start]With two lone pairs, the shape is T-shaped ($AX_3E_2$). [cite: 84, 90]\n\n* **$XeF_4$**: The central atom, Xenon (Xe), has 8 valence electrons. It forms 4 bonds with F atoms and has 2 lone pairs. The total is 6 electron pairs, leading to an octahedral electron geometry. [cite_start]With two lone pairs, the shape is square planar ($AX_4E_2$). [cite: 87, 98]\n\n* **$NH_3$**: The central atom, Nitrogen (N), has 5 valence electrons. It forms 3 bonds with H atoms and has 1 lone pair. The total is 4 electron pairs, leading to a tetrahedral electron geometry. [cite_start]With one lone pair, the shape is trigonal pyramidal ($AX_3E_1$). [cite: 86, 104]\n\nTherefore, $BrF_5$ is the molecule with a square pyramidal shape.",
+    "imagesolurl": [
+      "https://res.cloudinary.com/dscgkuvkd/image/upload/v1754981123/Screenshot_2025-08-12_at_12.15.08_PM_az8fht.png",
+      "https://res.cloudinary.com/dscgkuvkd/image/upload/v1754981117/Screenshot_2025-08-12_at_12.15.13_PM_sg1tbs.png"
+    ],
+    "subject": "Chemistry",
+    "topic": "Chemical Bonding and Molecular Structure",
+    "subtopics": [
+      "VSEPR Theory",
+      "Molecular Geometry",
+      "Interhalogen Compounds"
+    ],
+    "question_type": [
+      "Conceptual",
+      "Application-based"
+    ],
+    "avg_time_to_solve": 90
+  },
+  {
+    "id": 6,
+    "shortcut": "Remember that in $NH_3$, the individual N-H bond dipoles and the lone pair dipole moment add up. In $NF_3$, the N-F bond dipoles oppose the lone pair dipole, leading to a much smaller overall dipole moment for $NF_3$.",
+    "question": "Statement I: $NH_{3}$ has lower dipole moment than $NF_{3}$. \nStatement II: In $NF_{3}$ flow of electron is in same direction.",
+    "equation": null,
+    "imageurl": null,
+    "options": {
+      "A": "Both statement I and statement II are false",
+      "B": "Statement I is true but statement II is false",
+      "C": "Statement I is false but statement II is true",
+      "D": "Both statement I and statement II are true"
+    },
+    "correct_option": "A",
+    "difficulty_level": "Medium",
+    "examname": "JEE-Main-30-01-2024 (Memory Based) [EVENING SHIFT]",
+    "solution": "Both statements are false.\n\n**Statement I:** This statement is false. The experimental dipole moment of ammonia ($NH_3$) is approximately 1.46 D, whereas the dipole moment for nitrogen trifluoride ($NF_3$) is only about 0.24 D. Thus, $NH_3$ has a significantly higher dipole moment than $NF_3$.\n\n**Statement II:** This statement is false. The direction of electron flow (bond dipoles) is not uniform. In $NH_3$, nitrogen is more electronegative than hydrogen, so the N-H bond dipoles point towards nitrogen. The orbital dipole of the lone pair also points away from the nitrogen atom, in the same general direction as the resultant of the bond dipoles. These vectors add together, resulting in a large net dipole moment. In contrast, in $NF_3$, fluorine is more electronegative than nitrogen. Therefore, the N-F bond dipoles point away from the nitrogen towards the fluorine atoms. The orbital dipole of the lone pair points in the opposite direction to the resultant of the three N-F bond dipoles. This opposition causes a large degree of cancellation, leading to a very small net dipole moment.",
+    "imagesolurl": "https://res.cloudinary.com/dscgkuvkd/image/upload/v1754980955/Screenshot_2025-08-12_at_12.12.30_PM_esttdt.png",
+    "subject": "Chemistry",
+    "topic": "Chemical Bonding and Molecular Structure",
+    "subtopics": [
+      "Dipole Moment",
+      "VSEPR Theory",
+      "Electronegativity"
+    ],
+    "question_type": [
+      "Conceptual",
+      "Assertion-Reason"
+    ],
+    "avg_time_to_solve": 75
+  },
+  {
+    "id": 8,
+    "shortcut": "The Cannizzaro reaction occurs with aldehydes lacking α-hydrogens in the presence of a strong base. It always yields two products: a carboxylate salt (from oxidation) and an alcohol (from reduction).",
+    "question": "When m-chlorobenzaldehyde is treated with 50% KOH solution, the product(s) obtained is:",
+    "equation": null,
+    "imageurl": null,
+    "options": {
+      "A": "https://res.cloudinary.com/dscgkuvkd/image/upload/v1754980696/Screenshot_2025-08-12_at_12.05.26_PM_gvlkky.png",
+      "B": "https://res.cloudinary.com/dscgkuvkd/image/upload/v1754980699/Screenshot_2025-08-12_at_12.05.32_PM_wev0yv.png",
+      "C": "https://res.cloudinary.com/dscgkuvkd/image/upload/v1754980700/Screenshot_2025-08-12_at_12.05.38_PM_vbubvu.png",
+      "D": "https://res.cloudinary.com/dscgkuvkd/image/upload/v1754980702/Screenshot_2025-08-12_at_12.05.45_PM_pvb1em.png"
+    },
+    "correct_option": "B",
+    "difficulty_level": "Medium",
+    "examname": "JEE-Main-30-01-2024 (Memory Based) [EVENING SHIFT]",
+    "solution": "This is an example of the **Cannizzaro reaction**. This reaction is characteristic of aldehydes that **do not have an α-hydrogen** (a hydrogen atom on the carbon adjacent to the aldehyde group). m-chlorobenzaldehyde fits this description.\n\nWhen treated with a concentrated strong base like 50% KOH, the aldehyde undergoes a self-redox (disproportionation) reaction.\n\n* One molecule of m-chlorobenzaldehyde is **reduced** to the corresponding primary alcohol, which is **m-chlorobenzyl alcohol**.\n* Another molecule of m-chlorobenzaldehyde is **oxidized** to the corresponding carboxylic acid (m-chlorobenzoic acid), which is then deprotonated by the strong basic medium (KOH) to form its salt, **potassium m-chlorobenzoate**.\n\nTherefore, the two products are potassium m-chlorobenzoate and m-chlorobenzyl alcohol.",
+    "imagesolurl": "https://res.cloudinary.com/dscgkuvkd/image/upload/v1754980560/Screenshot_2025-08-12_at_12.05.54_PM_meghdm.png",
+    "subject": "Chemistry",
+    "topic": "Organic Chemistry - Aldehydes, Ketones and Carboxylic Acids",
+    "subtopics": [
+      "Cannizzaro Reaction",
+      "Reactions of Aldehydes",
+      "Named Reactions"
+    ],
+    "question_type": [
+      "Reaction-based",
+      "Memory-based"
+    ],
+    "avg_time_to_solve": 60
+  },
+  {
+    "id": 9,
+    "shortcut": "When naming a nitrile, the carbon of the -CN group is always C1. Then, identify substituents and number their positions accordingly.",
+    "question": "The correct IUPAC name for the given compound is:\n$CH_{3}-CH(NH_{2})-CH_{2}-CN$",
+    "equation": "$CH_{3}-CH(NH_{2})-CH_{2}-CN$",
+    "imageurl": null,
+    "options": {
+      "A": "3-aminobutanenitrile",
+      "B": "3-amino cyano butane",
+      "C": "2-aminobutanenitrile",
+      "D": "1-aminobutanenitrile"
+    },
+    "correct_option": "A",
+    "difficulty_level": "Easy",
+    "examname": "JEE-Main-30-01-2024 (Memory Based) [EVENING SHIFT]",
+    "solution": "To determine the IUPAC name, we follow the standard rules:\n\n1.  **Identify the Principal Functional Group**: The nitrile group ($-CN$) has a higher priority than the amine group ($-NH_2$), so the compound is named as a nitrile. The suffix is '-nitrile'.\n2.  **Identify the Parent Chain**: The longest carbon chain that includes the carbon of the nitrile group contains four carbon atoms. Thus, the parent alkane name is butane, which becomes 'butanenitrile'.\n3.  **Number the Chain**: The numbering of the carbon chain must start from the carbon of the principal functional group. So, the nitrile carbon is C1. Following this, the carbons are numbered 1 to 4 from right to left.\n    $CH_3(4)-CH(NH_2)(3)-CH_2(2)-CN(1)$\n4.  **Identify and Name Substituents**: An amino group ($-NH_2$) is present on carbon C3.\n5.  **Assemble the Full Name**: The substituent's name and position are placed as a prefix to the parent name. This gives **3-aminobutanenitrile**.",
+    "imagesolurl": null,
+    "subject": "Chemistry",
+    "topic": "Organic Chemistry - Basic Principles and Techniques",
+    "subtopics": [
+      "IUPAC Nomenclature",
+      "Nitriles",
+      "Functional Group Priority"
+    ],
+    "question_type": [
+      "Nomenclature",
+      "Rule-based"
+    ],
+    "avg_time_to_solve": 45
+  },
+  {
+    "id": 10,
+    "shortcut": "This is a standard synthesis of an azo dye: Benzene is nitrated, reduced to aniline, diazotized, and finally coupled with phenol. Coupling with phenol is para-directing, leading to p-hydroxyazobenzene.",
+    "question": "Find the final product B in the following reaction sequence:",
+    "equation": null,
+    "imageurl": "https://res.cloudinary.com/dscgkuvkd/image/upload/v1754980431/Screenshot_2025-08-12_at_12.03.46_PM_ex7zfo.png",
+    "options": {
+      "A": "p-hydroxy azobenzene",
+      "B": "o-hydroxy azobenzene",
+      "C": "m-hydroxy azobenzene",
+      "D": "Azodye"
+    },
+    "correct_option": "A",
+    "difficulty_level": "Hard",
+    "examname": "JEE-Main-30-01-2024 (Memory Based) [EVENING SHIFT]",
+    "solution": "The given reaction sequence is a multi-step organic synthesis. Let's trace the transformation from the starting material (benzene) to the final product (B).\n\n1.  **Step 1: Nitration.** Benzene is treated with a mixture of concentrated nitric acid ($HNO_3$) and concentrated sulfuric acid ($H_2SO_4$). [cite_start]This is an electrophilic aromatic substitution reaction that introduces a nitro group ($-NO_2$) onto the benzene ring, forming **nitrobenzene**. [cite: 204]\n\n2.  **Step 2: Reduction.** The intermediate, nitrobenzene, is treated with Sn/HCl. This is a standard method for the reduction of a nitro group to an amino group ($-NH_2$). The product is **aniline**. [cite_start]This is compound A. [cite: 202, 205, 207]\n\n3.  **Step 3: Diazotization.** Aniline (A) is reacted with sodium nitrite ($NaNO_2$) and hydrochloric acid (HCl) at low temperatures . [cite_start]This process converts the primary aromatic amine into a diazonium salt, forming **benzene diazonium chloride** ($C_6H_5N_2^+Cl^-$). [cite: 203, 206, 211]\n\n4.  **Step 4: Azo Coupling.** The benzene diazonium salt is then coupled with phenol. Phenol has a highly activating hydroxyl ($-OH$) group, which directs the incoming electrophile (the diazonium ion) to the ortho and para positions. Due to steric hindrance from the bulky diazonium group at the ortho position, the coupling predominantly occurs at the para position. [cite_start]The final product (B) is **p-hydroxyazobenzene**, a brightly colored azo dye. [cite: 209, 210]",
+    "imagesolurl": "https://res.cloudinary.com/dscgkuvkd/image/upload/v1754980457/Screenshot_2025-08-12_at_12.04.12_PM_anhkpm.png",
+    "subject": "Chemistry",
+    "topic": "Organic Chemistry - Amines",
+    "subtopics": [
+      "Diazotization",
+      "Azo Coupling Reaction",
+      "Aromatic Compounds",
+      "Multi-step Synthesis"
+    ],
+    "question_type": [
+      "Reaction-based",
+      "Multi-step"
+    ],
+    "avg_time_to_solve": 120
+  },
+  {
+    "id": 11,
+    "shortcut": "The first reaction is the chromyl chloride test, forming sodium chromate ($Na_2CrO_4$). The second reaction is the characteristic test for chromate, where $H_2O_2$ in an acidic medium produces the blue, butterfly-shaped chromium peroxide ($CrO_5$).",
+    "question": "In the given reactions, A and B respectively are:\n$CrO_{2}Cl_{2}+NaOH\rightarrow A+NaCl+H_{2}O$\n$H_{2}SO_{4}+A+H_{2}O_{2}\rightarrow B$ [cite: 214, 215]",
+    "equation": "$CrO_{2}Cl_{2}+NaOH\\rightarrow A+NaCl+H_{2}O \\newline H_{2}SO_{4}+A+H_{2}O_{2}\\rightarrow B$",
+    "imageurl": null,
+    "options": {
+      "A": "$Na_{2}CrO_{4},$ and $CrO_{5}$",
+      "B": "$CrO_{5}$ and $Na_{2}CrO_{3}$",
+      "C": "$Na_{2}CrO_{4}$ and $CrO_{3}$",
+      "D": "$Na_2Cr_2O_7$ and $Na_2CrO_4$"
+    },
+    "correct_option": "A",
+    "difficulty_level": "Medium",
+    "examname": "JEE-Main-30-01-2024 (Memory Based) [EVENING SHIFT]",
+    "solution": "Let's analyze the two sequential chemical reactions:\n\n1.  **First Reaction**: Chromyl chloride ($CrO_2Cl_2$), a red vapor, reacts with an aqueous solution of sodium hydroxide (NaOH). This is a hydrolysis reaction in a basic medium. The product is sodium chromate, which is a yellow-colored salt. [cite_start]The balanced chemical equation is:\n    $CrO_2Cl_2 + 4NaOH \rightarrow Na_2CrO_4 + 2NaCl + 2H_2O$\n    Therefore, compound **A is Sodium Chromate ($Na_2CrO_4$)**. [cite: 227, 228]\n\n2.  **Second Reaction**: The sodium chromate (A) is first acidified with sulfuric acid ($H_2SO_4$) and then treated with hydrogen peroxide ($H_2O_2$). This is a distinctive confirmatory test for chromium. The chromate ion reacts to form chromium(VI) peroxide, $CrO_5$, which has a characteristic deep blue color and a butterfly-like structure. [cite_start]The balanced equation is:\n    $Na_2CrO_4 + H_2SO_4 + 2H_2O_2 \rightarrow CrO_5 + Na_2SO_4 + 2H_2O$\n    Therefore, compound **B is Chromium Peroxide ($CrO_5$)**. [cite: 229]\n\nThus, A and B are $Na_2CrO_4$ and $CrO_5$ respectively.",
+    "imagesolurl": null,
+    "subject": "Chemistry",
+    "topic": "d-block and f-block elements",
+    "subtopics": [
+      "Chromyl Chloride Test",
+      "Chromium Compounds",
+      "Peroxides"
+    ],
+    "question_type": [
+      "Reaction-based",
+      "Conceptual"
+    ],
+    "avg_time_to_solve": 90
+  },
+  {
+    "id": 12,
+    "shortcut": "The separation technique fundamentally based on the differential distribution of components between a stationary phase and a mobile phase (driven by solubility differences) is chromatography.",
+    "question": "_______ is based on the difference in the solubility of different components of a mixture with a solvent. [cite: 233, 234]",
+    "equation": null,
+    "imageurl": null,
+    "options": {
+      "A": "Filtration",
+      "B": "Sublimation",
+      "C": "Crystallization",
+      "D": "Chromatography"
+    },
+    "correct_option": "D",
+    "difficulty_level": "Easy",
+    "examname": "JEE-Main-30-01-2024 (Memory Based) [EVENING SHIFT]",
+    "solution": "The correct answer is **Chromatography**. [cite: 240] \n\n* **Chromatography** is a powerful laboratory technique for the separation of a mixture. The principle behind it is the differential partitioning or distribution of components between two phases: a stationary phase and a mobile phase. This differential distribution is governed by properties like adsorption and solubility, which cause different substances to travel at different rates through the medium, leading to their separation.\n* **Crystallization** also relies on solubility differences, but it is primarily a purification technique for a single substance from a solution, not a method for separating multiple components of a mixture simultaneously.\n* **Filtration** separates insoluble solids from liquids.\n* **Sublimation** separates a volatile solid from a non-volatile one.",
+    "imagesolurl": null,
+    "subject": "Chemistry",
+    "topic": "Analytical Chemistry",
+    "subtopics": [
+      "Separation Techniques",
+      "Chromatography",
+      "Purification"
+    ],
+    "question_type": [
+      "Conceptual",
+      "Definition-based"
+    ],
+    "avg_time_to_solve": 30
+  },
+  {
+    "id": 13,
+    "shortcut": "Remember that $Mn_2(CO)_{10}$ is a simple structure with no bridging carbonyls. It's just two $Mn(CO)_5$ units connected by a direct Mn-Mn bond.",
+    "question": "What is the structure of $Mn_2(CO)_{10}$? [cite: 241]",
+    "equation": "$Mn_2(CO)_{10}$",
+    "imageurl": null,
+    "options": {
+      "A": "Two square pyramidal units joined by bridging CO ligands",
+      "B": "Two square pyramidal units joined by Mn-Mn Bond",
+      "C": "Two tetrahedral units joined by Mn-Mn Bond",
+      "D": "Two square planer units joined by Mn-Mn Bond"
+    },
+    "correct_option": "B",
+    "difficulty_level": "Medium",
+    "examname": "JEE-Main-30-01-2024 (Memory Based) [EVENING SHIFT]",
+    "solution": "The structure of dimanganese decacarbonyl, $Mn_2(CO)_{10}$, is characterized by a direct **manganese-manganese (Mn-Mn) bond**. [cite: 247] Each manganese atom is bonded to five terminal carbonyl (CO) ligands and the other manganese atom. There are **no bridging CO ligands** in this molecule. The geometry around each manganese atom is approximately **square pyramidal**, with four CO ligands forming the base and one CO ligand at the apex. [cite_start]These two square pyramidal $Mn(CO)_5$ units are then joined together through the Mn-Mn bond. [cite: 244, 247]",
+    "imagesolurl": "https://res.cloudinary.com/dscgkuvkd/image/upload/v1754980264/Screenshot_2025-08-12_at_12.00.57_PM_nccozr.png",
+    "subject": "Chemistry",
+    "topic": "Coordination Compounds",
+    "subtopics": [
+      "Metal Carbonyls",
+      "18-Electron Rule",
+      "Molecular Structure"
+    ],
+    "question_type": [
+      "Structural",
+      "Memory-based"
+    ],
+    "avg_time_to_solve": 60
+  },
+  {
+    "id": 14,
+    "shortcut": "In Group 16, as you go down the group, bond strength to hydrogen decreases, so acidity increases. Thus, $H_2Te$ is more acidic than $H_2S$ because its H-Te bond is weaker.",
+    "question": "Statement I: $H_{2}Te$ is more acidic than $H_{2}S$. \nStatement II: $H_{2}Te$ has more BDE (Bond Dissociation Enthalpy) than $H_2S$.",
+    "equation": null,
+    "imageurl": null,
+    "options": {
+      "A": "Statement I and II both are correct",
+      "B": "Statement I and II both are incorrect",
+      "C": "Statement I is incorrect and Statement II is correct",
+      "D": "Statement I is correct and Statement II is incorrect"
+    },
+    "correct_option": "D",
+    "difficulty_level": "Medium",
+    "examname": "JEE-Main-30-01-2024 (Memory Based) [EVENING SHIFT]",
+    "solution": "Let's evaluate each statement based on the periodic trends of Group 16 hydrides.\n\n**Statement I:** This statement is **correct**. The acidic strength of the hydrides of Group 16 elements ($H_2O, H_2S, H_2Se, H_2Te$) increases down the group. This is because the bond dissociation enthalpy (BDE) of the H–E bond decreases as the size of the central atom (E) increases. A lower BDE means the bond is weaker, and the proton ($H^+$) can be donated more readily. [cite_start]Thus, $H_2Te$ is a stronger acid than $H_2S$. [cite: 262]\n\n**Statement II:** This statement is **incorrect**. The Bond Dissociation Enthalpy (BDE) is the energy required to break a bond. As we move down Group 16 from Sulfur to Tellurium, the atomic size increases. This results in a longer and weaker H–E bond due to less effective orbital overlap. [cite_start]Therefore, the BDE of $H_2Te$ is lower than that of $H_2S$. [cite: 262]\n\nSince Statement I is correct and Statement II is incorrect, the correct option is (d).",
+    "imagesolurl": null,
+    "subject": "Chemistry",
+    "topic": "p-Block Elements",
+    "subtopics": [
+      "Group 16 Elements",
+      "Hydrides",
+      "Acidic Strength",
+      "Bond Dissociation Enthalpy"
+    ],
+    "question_type": [
+      "Conceptual",
+      "Assertion-Reason",
+      "Trend-based"
+    ],
+    "avg_time_to_solve": 60
+  },
+  {
+    "id": 15,
+    "shortcut": "For a symmetrical molecule like 2,3-dichlorobutane with n=2 chiral centers, the number of optically active forms is given by the formula $2^{n-1}$. This gives $2^{2-1} = 2$.",
+    "question": "How many optically active stereoisomers exist for 2,3-Dichlorobutane?",
+    "equation": null,
+    "imageurl": "https://res.cloudinary.com/dscgkuvkd/image/upload/v1754980175/Screenshot_2025-08-12_at_11.59.21_AM_qlcv9g.png",
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4"
+    },
+    "correct_option": "B",
+    "difficulty_level": "Medium",
+    "examname": "JEE-Main-30-01-2024 (Memory Based) [EVENING SHIFT]",
+    "solution": "The molecule 2,3-Dichlorobutane ($CH_3-CHCl-CHCl-CH_3$) has two chiral centers at C2 and C3. [cite_start]Since the groups attached to both ends of the chiral segment are identical ($CH_3-CHCl-$), the molecule is symmetrical.\n\nFor a symmetrical molecule with an even number of chiral centers (n), the number of stereoisomers is calculated as follows:\n* Number of optically active forms (enantiomers, d and l) = $2^{n-1}$ [cite: 275][cite_start]\n* Number of optically inactive meso forms = $2^{(n/2) - 1}$ [cite: 276]\n\nIn this case, n = 2.\n* Number of optically active forms = $2^{2-1} = 2^1 = 2$. [cite_start]These are the (d) and (l) enantiomeric pair.\n* Number of meso forms = $2^{(2/2) - 1} = 2^{1-1} = 2^0 = 1$. [cite: 276][cite_start]\n\nThe total number of stereoisomers is the sum of the optically active and meso forms, which is 2 + 1 = 3. [cite: 277] However, the question specifically asks for the number of **optically active** compounds, which is **2**.",
+    "imagesolurl": "https://res.cloudinary.com/dscgkuvkd/image/upload/v1754980193/Screenshot_2025-08-12_at_11.59.48_AM_q8gj3p.png",
+    "subject": "Chemistry",
+    "topic": "Organic Chemistry - Stereochemistry",
+    "subtopics": [
+      "Chirality",
+      "Enantiomers",
+      "Meso Compounds",
+      "Optical Isomerism"
+    ],
+    "question_type": [
+      "Conceptual",
+      "Formula-based"
+    ],
+    "avg_time_to_solve": 90
+  },
+  {
+    "id": 16,
+    "shortcut": "The maximum number of spectral lines for a transition from $n_2$ to $n_1$ is given by the formula $\\frac{\\Delta n (\\Delta n + 1)}{2}$, where $\\Delta n = n_2 - n_1$.",
+    "question": "What is the number of spectral lines observed in the $He^+$ spectrum for the transition from n=5 to n=1?",
+    "equation": "$He^+$",
+    "imageurl": null,
+    "options": {
+      "A": "8",
+      "B": "9",
+      "C": "10",
+      "D": "12"
+    },
+    "correct_option": "C",
+    "difficulty_level": "Easy",
+    "examname": "JEE-Main-30-01-2024 (Memory Based) [EVENING SHIFT]",
+    "solution": "The maximum number of spectral lines produced when an electron transitions from a higher energy level, $n_2$, to a lower energy level, $n_1$, can be calculated using the formula for the combination of transitions.\n\nThe formula is: Number of lines = $\\frac{\\Delta n (\\Delta n + 1)}{2}$, where $\\Delta n = n_2 - n_1$. [cite: 279][cite_start]\n\nFor this problem:\n* The initial energy level is $n_2 = 5$.\n* The final energy level is $n_1 = 1$.\n\nFirst, we calculate the difference in energy levels:\n$\\Delta n = 5 - 1 = 4$. [cite: 279][cite_start]\n\nNext, we substitute this value into the formula:\nNumber of lines = $\\frac{4 (4 + 1)}{2} = \\frac{4 \\times 5}{2} = \\frac{20}{2} = 10$. [cite: 279]\n\nTherefore, a maximum of 10 spectral lines can be observed. The fact that the species is a helium ion ($He^+$) affects the wavelengths of these lines but not the total number of possible transitions.",
+    "imagesolurl": null,
+    "subject": "Chemistry",
+    "topic": "Atomic Structure",
+    "subtopics": [
+      "Bohr's Model",
+      "Emission Spectrum",
+      "Hydrogen Spectrum"
+    ],
+    "question_type": [
+      "Formula-based",
+      "Calculation-intensive"
+    ],
+    "avg_time_to_solve": 45
+  },
+  {
+    "id": 1,
+    "shortcut": "In Kjeldahl's method, remember the roles: Conc. $H_2SO_4$ for digestion, $CuSO_4$ or K2SO4 as a catalyst to speed up digestion, and NaOH for distillation of ammonia.",
+    "question": "In Kjeldahl's estimation of nitrogen, CuSO4 act as",
+    "equation": null,
+    "imageurl": null,
+    "options": {
+      "A": "Oxidizing agent",
+      "B": "Reducing agent",
+      "C": "Catalyst",
+      "D": "Reagent"
+    },
+    "correct_option": "C",
+    "difficulty_level": "Easy",
+    "examname": "JEE Main 2024 - 1 Feb Shift 1",
+    "solution": "In the Kjeldahl method for the estimation of nitrogen, the organic compound is heated with concentrated sulfuric acid. Copper sulfate ($CuSO_4$) is added to act as a catalyst, which increases the rate of the digestion process, converting the nitrogen in the organic compound into ammonium sulfate.",
+    "imagesolurl": null,
+    "subject": "Chemistry",
+    "topic": "Practical Organic Chemistry",
+    "subtopics": [
+      "Kjeldahl's Method",
+      "Nitrogen Estimation",
+      "Catalysis"
+    ],
+    "question_type": [
+      "Memory-based",
+      "Conceptual"
+    ],
+    "avg_time_to_solve": 30
+  },
+  {
+    "id": 2,
+    "shortcut": "Electrophilic attack is fastest on rings with strong electron-donating groups (activating groups). The activation strength order is generally -OH > -CH3 > -Cl. Phenol (-OH) is the most activated.",
+    "question": "Which of the following is most likely attacked by electrophile?",
+    "equation": null,
+    "imageurl": [
+      "https://res.cloudinary.com/dscgkuvkd/image/upload/v1755264193/Screenshot_2025-08-15_at_6.52.26_PM_lhf8k8.png",
+      "https://res.cloudinary.com/dscgkuvkd/image/upload/v1755264194/Screenshot_2025-08-15_at_6.52.31_PM_vt5syf.png",
+      "https://res.cloudinary.com/dscgkuvkd/image/upload/v1755264197/Screenshot_2025-08-15_at_6.52.38_PM_bzbz5o.png",
+      "https://res.cloudinary.com/dscgkuvkd/image/upload/v1755264199/Screenshot_2025-08-15_at_6.52.44_PM_gdi9lg.png"
+    ],
+    "options": {
+      "A": "The compound with the -OH group (Phenol).",
+      "B": "The compound with the -CH3 group (Toluene).",
+      "C": "The compound with the -Cl group (Chlorobenzene).",
+      "D": "The unlabeled benzene ring."
+    },
+    "correct_option": "A",
+    "difficulty_level": "Medium",
+    "examname": "JEE Main 2024 - 1 Feb Shift 1",
+    "solution": "The reactivity of a substituted benzene ring towards an electrophile depends on the electron-donating or electron-withdrawing nature of the substituent. \n - The -OH group in phenol is a strong activating group due to its strong +M (mesomeric) effect, which significantly increases the electron density on the benzene ring. \n - The -CH3 group in toluene is an activating group due to hyperconjugation and a weak +I (inductive) effect. \n - The -Cl group in chlorobenzene is a deactivating group because its strong -I effect outweighs its weaker +M effect. \n The order of reactivity towards electrophilic substitution is: Phenol (-OH) > Toluene (-CH3) > Benzene > Chlorobenzene (-Cl). Therefore, phenol is the most likely to be attacked by an electrophile.",
+    "imagesolurl": null,
+    "subject": "Chemistry",
+    "topic": "Organic Chemistry",
+    "subtopics": [
+      "Aromatic Compounds",
+      "Electrophilic Aromatic Substitution",
+      "Substituent Effects"
+    ],
+    "question_type": [
+      "Conceptual",
+      "Comparative Analysis"
+    ],
+    "avg_time_to_solve": 60
+  },
+  {
+    "id": 3,
+    "shortcut": "Hydrogen bonding occurs with N, O, and F. The presence of H-bonding in $NH_3$ drastically increases its boiling point compared to $PH_3$, where only weaker van der Waals forces exist. The second statement incorrectly swaps the forces.",
+    "question": "Statement-I: $PH_3$ will have low boiling point than $NH_3$. \n Statement-II: There are strong van der Wall forces in $NH_3$ and strong hydrogen bonding in $PH_3$.",
+    "equation": null,
+    "imageurl": null,
+    "options": {
+      "A": "Statement-I and statement-II both are true",
+      "B": "Statement-I and statement-II both are false",
+      "C": "Statement-I is true but statement-II is false",
+      "D": "Statement-I is false but statement-II is true"
+    },
+    "correct_option": "C",
+    "difficulty_level": "Easy",
+    "examname": "JEE Main 2024 - 1 Feb Shift 1",
+    "solution": "Statement-I is true. The boiling point of ammonia ($NH_3$, 239.7 K) is significantly higher than that of phosphine ($PH_3$, 185.5 K). \n Statement-II is false. The reason for the higher boiling point of $NH_3$ is the presence of strong intermolecular hydrogen bonding, which is possible due to the high electronegativity of the nitrogen atom. In contrast, $PH_3$ molecules are held together by much weaker van der Waals forces, as phosphorus is not electronegative enough to form hydrogen bonds. The statement incorrectly attributes hydrogen bonding to $PH_3$ and only van der Waals forces to $NH_3$.",
+    "imagesolurl": null,
+    "subject": "Chemistry",
+    "topic": "Inorganic Chemistry",
+    "subtopics": [
+      "p-Block Elements",
+      "Group 15 Elements",
+      "Intermolecular Forces",
+      "Hydrogen Bonding"
+    ],
+    "question_type": [
+      "Assertion-Reason",
+      "Conceptual"
+    ],
+    "avg_time_to_solve": 45
+  },
+  {
+    "id": 4,
+    "shortcut": "For main group elements, use VSEPR theory. A central atom with 5 electron pairs (all bonding, AX5 type) will have a trigonal bipyramidal geometry. This applies to $PF_5, PCl_5, PBr_5$. For coordination compounds, $[Fe(CO)_5]$ is a classic example of TBP geometry.",
+    "question": "Which of the following have trigonal bipyramidal shape? \n $PF_5, PBr_5, [PtCl_4]^{2-}, SF_6, BF_3, BrF_5, PCl_5, [Fe(CO)_5]$",
+    "equation": "$PF_5, PBr_5, [PtCl_4]^{2-}, SF_6, BF_3, BrF_5, PCl_5, [Fe(CO)_5]$",
+    "imageurl": null,
+    "options": {
+      "A": "$PF_5, PBr_5, PCl_5$ and $Fe(CO)_5$ only",
+      "B": "$BrF_5, PF_5, PCl_5$ and $PBr_5$ only",
+      "C": "$PF_5, PCl_5$ and $[Fe(CO)_5]$ only",
+      "D": "$[Fe(CO)_5], BrF_5, PF_5, PBr_5, PCl_5$ only"
+    },
+    "correct_option": "A",
+    "difficulty_level": "Medium",
+    "examname": "JEE Main 2024 - 1 Feb Shift 1",
+    "solution": "Let's determine the shape of each species: \n - $PF_5, PCl_5, PBr_5$: In these molecules, the central phosphorus atom has 5 valence electrons and forms 5 single bonds. This corresponds to an AX5 type molecule with 5 bond pairs and 0 lone pairs, resulting in a **trigonal bipyramidal** geometry. \n - $[Fe(CO)_5]$: This is a coordination compound with five CO ligands bonded to a central iron atom. Its stable geometry is **trigonal bipyramidal**. \n - $[PtCl_4]^{2-}$: A complex with a $d^8$ metal ion ($Pt^{2+}$) and four ligands typically adopts a **square planar** geometry. \n - $SF_6$: The central sulfur atom has 6 bond pairs and 0 lone pairs (AX6), resulting in an **octahedral** geometry. \n - $BF_3$: The central boron atom has 3 bond pairs and 0 lone pairs (AX3), resulting in a **trigonal planar** geometry. \n - $BrF_5$: The central bromine atom has 5 bond pairs and 1 lone pair (AX5E), resulting in a **square pyramidal** geometry. \n Therefore, the species with a trigonal bipyramidal shape are $PF_5, PBr_5, PCl_5,$ and $[Fe(CO)_5]$.",
+    "imagesolurl": null,
+    "subject": "Chemistry",
+    "topic": "Chemical Bonding",
+    "subtopics": [
+      "VSEPR Theory",
+      "Molecular Geometry",
+      "Coordination Compounds"
+    ],
+    "question_type": [
+      "Conceptual",
+      "Memory-based"
+    ],
+    "avg_time_to_solve": 90
+  },
+  {
+    "id": 5,
+    "shortcut": "The key terms define the conditions: 'Adiabatic' means $q=0$. 'Free expansion' (against vacuum) means external pressure is zero, so work done $W = -P_{ext}\\Delta V = 0$. By the first law, $\\Delta U = q + W$, so $\\Delta U$ must also be 0.",
+    "question": "Which of the following is correct for adiabatic free expansion against vacuum",
+    "equation": null,
+    "imageurl": null,
+    "options": {
+      "A": "$q=0, \\Delta U=0, W=0$",
+      "B": "$q \\ne 0, W=0, \\Delta U=0$",
+      "C": "$q=0, \\Delta U \\ne 0, W=0$",
+      "D": "$q=0, \\Delta U \\ne 0, W \\ne 0$"
+    },
+    "correct_option": "A",
+    "difficulty_level": "Easy",
+    "examname": "JEE Main 2024 - 1 Feb Shift 1",
+    "solution": "We analyze the process based on the given terms: \n 1.  **Adiabatic process**: An adiabatic process is one where no heat is transferred between the system and its surroundings. Therefore, the heat change, $q$, is zero. \n 2.  **Free expansion against a vacuum**: This implies that the external pressure ($P_{ext}$) is zero. The work done (W) during an expansion is calculated as $W = -P_{ext}\\Delta V$. Since $P_{ext} = 0$, the work done $W$ is also zero. \n 3.  **First Law of Thermodynamics**: The change in internal energy ($\\Delta U$) is given by the equation $\\Delta U = q + W$. \n Substituting the values from the conditions above: \n $\\Delta U = 0 + 0 = 0$. \n Thus, for an adiabatic free expansion against a vacuum, all three thermodynamic quantities—q, W, and $\\Delta U$—are equal to zero.",
+    "imagesolurl": null,
+    "subject": "Chemistry",
+    "topic": "Thermodynamics",
+    "subtopics": [
+      "First Law of Thermodynamics",
+      "Adiabatic Process",
+      "Work and Heat",
+      "Free Expansion"
+    ],
+    "question_type": [
+      "Conceptual",
+      "Formula-based"
+    ],
+    "avg_time_to_solve": 40
+  },
+  {
+    "id": 6,
+    "shortcut": "The de Broglie equation is $λ = h/p$. This shows an inverse relationship ($y \\propto 1/x$), which is always represented graphically by a rectangular hyperbola.",
+    "question": "Which of the following is the correct plot between λ (de Broglie wavelength) and p(momentum)?",
+    "equation": null,
+    "imageurl": [
+      "https://res.cloudinary.com/dscgkuvkd/image/upload/v1755264446/Screenshot_2025-08-15_at_6.56.42_PM_aaopfj.png",
+      "https://res.cloudinary.com/dscgkuvkd/image/upload/v1755264462/Screenshot_2025-08-15_at_6.56.47_PM_kjjymv.png",
+      "https://res.cloudinary.com/dscgkuvkd/image/upload/v1755264484/Screenshot_2025-08-15_at_6.56.52_PM_kqfuhv.png",
+      "https://res.cloudinary.com/dscgkuvkd/image/upload/v1755264487/Screenshot_2025-08-15_at_6.56.57_PM_ovju4x.png"
+    ],
+    "options": {
+      "A": "The graph showing a rectangular hyperbola.",
+      "B": "The graph showing an upward-opening parabola.",
+      "C": "The graph showing a straight line passing through the origin.",
+      "D": "The graph plotting λ vs 1/p."
+    },
+    "correct_option": "A",
+    "difficulty_level": "Easy",
+    "examname": "JEE Main 2024 - 1 Feb Shift 1",
+    "solution": "According to the de Broglie hypothesis, the wavelength (λ) of a particle is inversely proportional to its momentum (p). The mathematical relationship is given by the equation: \n $$ \\lambda = \\frac{h}{p} $$ \n where 'h' is Planck's constant. \n This equation can be expressed as $λp = h$. Since h is a constant, this relationship is of the form $yx = k$, which is the equation for a rectangular hyperbola. Therefore, the correct plot of λ on the y-axis versus p on the x-axis is a rectangular hyperbola.",
+    "imagesolurl": null,
+    "subject": "Chemistry",
+    "topic": "Atomic Structure",
+    "subtopics": [
+      "de Broglie Wavelength",
+      "Dual Nature of Matter",
+      "Graphical Representation"
+    ],
+    "question_type": [
+      "Graph-based",
+      "Formula-based",
+      "Conceptual"
+    ],
+    "avg_time_to_solve": 40
+  },
+  {
+    "id": 7,
+    "shortcut": "To quickly balance this redox half-reaction: 1. Balance Cr (already done: $Cr_2 \\rightarrow 2Cr$). 2. Balance O with $H_2O$ (7 $O \\rightarrow 7 H_2O$). 3. Balance H with $H^+$ (14 $H \\rightarrow 14 H^+$). 4. Balance charge with $e^-$ (LHS charge = +12, RHS = +6; add 6 $e^-$ to LHS).",
+    "question": "Balance the following reaction and find the values of x, y, and A:",
+    "equation": "$Cr_2O_7^{2-} + xH^+ + ye^- \\rightarrow 2Cr^{3+} + AH_2O$",
+    "imageurl": null,
+    "options": {
+      "A": "x=7, y=6, A=14",
+      "B": "x=14, y=6, A=7",
+      "C": "x=14, y=3, A=7",
+      "D": "x=8, y=2, A=1"
+    },
+    "correct_option": "B",
+    "difficulty_level": "Easy",
+    "examname": "JEE Main 2024 - 1 Feb Shift 1",
+    "solution": "We need to balance the reduction half-reaction of the dichromate ion in an acidic medium. Here are the steps: \n 1.  **Balance atoms other than O and H**: The chromium atoms are already balanced on both sides. \n $$Cr_2O_7^{2-} \\rightarrow 2Cr^{3+}$$ \n 2.  **Balance Oxygen atoms**: There are 7 oxygen atoms on the left side. We balance this by adding 7 $H_2O$ molecules to the right side. This gives A = 7. \n $$Cr_2O_7^{2-} \\rightarrow 2Cr^{3+} + 7H_2O$$ \n 3.  **Balance Hydrogen atoms**: There are now $7 \\times 2 = 14$ hydrogen atoms on the right side. We balance this by adding 14 $H^+$ ions to the left side. This gives x = 14. \n $$Cr_2O_7^{2-} + 14H^+ \\rightarrow 2Cr^{3+} + 7H_2O$$ \n 4.  **Balance the charge**: Calculate the total charge on both sides. \n Left side: $(-2) + (+14) = +12$. \n Right side: $2 \\times (+3) = +6$. \n To equalize the charge, we must add 6 electrons ($e^-$) to the more positive (left) side. This gives y = 6. \n $$Cr_2O_7^{2-} + 14H^+ + 6e^- \\rightarrow 2Cr^{3+} + 7H_2O$$ \n Thus, the balanced equation gives us x = 14, y = 6, and A = 7.",
+    "imagesolurl": null,
+    "subject": "Chemistry",
+    "topic": "Redox Reactions",
+    "subtopics": [
+      "Balancing Redox Reactions",
+      "Half-Reaction Method"
+    ],
+    "question_type": [
+      "Calculation-intensive",
+      "Conceptual"
+    ],
+    "avg_time_to_solve": 75
+  },
+  {
+    "id": 8,
+    "shortcut": "Use the DNA base-pairing rule: A pairs with T (A-T) and G pairs with C (G-C). Apply this to each letter in the sequence.",
+    "question": "The complementary strand of the DNA sequence ATGCTTCA is:",
+    "equation": null,
+    "imageurl": null,
+    "options": {
+      "A": "TACGAAGA",
+      "B": "TACGAAGT",
+      "C": "TAGCAACA",
+      "D": "TAGCTACT"
+    },
+    "correct_option": "B",
+    "difficulty_level": "Easy",
+    "examname": "JEE Main 2024 - 1 Feb Shift 1",
+    "solution": "To find the complementary strand for a given DNA sequence, we apply the rules of base pairing: Adenine (A) pairs with Thymine (T), and Guanine (G) pairs with Cytosine (C). \n Given the DNA strand: A T G C T T C A \n The complementary bases are: \n - A → T \n - T → A \n - G → C \n - C → G \n - T → A \n - T → A \n - C → G \n - A → T \n Assembling the complementary bases in order, we get the sequence: T A C G A A G T.",
+    "imagesolurl": null,
+    "subject": "Chemistry",
+    "topic": "Biomolecules",
+    "subtopics": [
+      "Nucleic Acids",
+      "DNA Structure",
+      "Base Pairing"
+    ],
+    "question_type": [
+      "Memory-based",
+      "Conceptual"
+    ],
+    "avg_time_to_solve": 30
+  },
+  {
+    "id": 9,
+    "shortcut": "For a salt of a weak acid and a weak base, if their dissociation constants are equal ($K_a = K_b$), the resulting solution will be neutral with a pH of 7 at 25°C.",
+    "question": "What is the pH of $CH_3COO^-NH_4^+$ salt? (Given $K_a$ of $CH_3COOH = 1.8 \\times 10^{-5}$ and $K_b$ of $NH_4OH = 1.8 \\times 10^{-5}$ at 25°C)",
+    "equation": "$K_a = 1.8 \\times 10^{-5}, K_b = 1.8 \\times 10^{-5}$",
+    "imageurl": null,
+    "options": {
+      "A": "7",
+      "B": "9",
+      "C": "8.9",
+      "D": "7.8"
+    },
+    "correct_option": "A",
+    "difficulty_level": "Easy",
+    "examname": "JEE Main 2024 - 1 Feb Shift 1",
+    "solution": "Ammonium acetate ($CH_3COO^-NH_4^+$) is a salt formed from a weak acid, acetic acid ($CH_3COOH$), and a weak base, ammonium hydroxide ($NH_4OH$). \n The pH of a solution of such a salt is determined by the formula: \n $$ pH = \\frac{1}{2} (pK_w + pK_a - pK_b) $$ \n Where $pK_w$ is the ionic product of water (14 at 25°C), $pK_a = -log(K_a)$, and $pK_b = -log(K_b)$. \n In this problem, we are given that $K_a = K_b = 1.8 \\times 10^{-5}$. \n This means that $pK_a = pK_b$. \n Therefore, the term $(pK_a - pK_b)$ in the equation becomes zero. \n The formula simplifies to: \n $$ pH = \\frac{1}{2} (pK_w) = \\frac{14}{2} = 7 $$ \n Thus, the pH of the solution is 7.",
+    "imagesolurl": null,
+    "subject": "Chemistry",
+    "topic": "Ionic Equilibrium",
+    "subtopics": [
+      "Salt Hydrolysis",
+      "pH Calculation",
+      "Weak Acids and Bases"
+    ],
+    "question_type": [
+      "Formula-based",
+      "Conceptual"
+    ],
+    "avg_time_to_solve": 60
+  },
+  {
+    "id": 10,
+    "shortcut": "While ideally, a strong electrolyte like NaCl has a constant van't Hoff factor (i=2), in reality, 'i' increases as the solution gets more dilute because inter-ionic attractions decrease. Therefore, the lowest concentration will have the highest 'i'.",
+    "question": "We are given 3 NaCl samples with different concentrations and their corresponding van't Hoff factors as shown in the table. Choose the correct relationship between the van't Hoff factors.",
+    "equation": null,
+    "imageurl": "https://res.cloudinary.com/dscgkuvkd/image/upload/v1755264714/Screenshot_2025-08-15_at_7.01.49_PM_lrv6gn.png",
+    "options": {
+      "A": "$i_1 = i_2 = i_3$",
+      "B": "$i_1 > i_2 > i_3$",
+      "C": "$i_3 > i_2 > i_1$",
+      "D": "$i_1 > i_3 > i_2$"
+    },
+    "correct_option": "C",
+    "difficulty_level": "Medium",
+    "examname": "JEE Main 2024 - 1 Feb Shift 1",
+    "solution": "NaCl is a strong electrolyte, dissociating into $Na^+$ and $Cl^-$ ions. The van't Hoff factor (i) indicates the number of particles a solute forms in solution. \n There are two ways to interpret this: \n 1.  **Ideal Assumption:** Often, for introductory chemistry problems, strong electrolytes are assumed to dissociate completely (100%) regardless of concentration. Under this assumption, one unit of NaCl always produces two ions, so $i = 2$ for all samples. This would mean $i_1 = i_2 = i_3$. \n 2.  **Real Solution Behavior:** In reality, the dissociation of even strong electrolytes is not 100% perfect, especially at higher concentrations, due to attractions between the positive and negative ions. As the solution is diluted (concentration decreases), the ions move farther apart, reducing these inter-ionic attractions. This leads to a more complete dissociation. Therefore, the degree of dissociation, and consequently the van't Hoff factor, increases as the concentration decreases. \n The concentrations are: Sample 1 (0.1M) > Sample 2 (0.01M) > Sample 3 (0.001M). \n Based on real behavior, the van't Hoff factors would follow the opposite trend: $i_3 > i_2 > i_1$. This is the physically correct answer. The provided exam key might have used the ideal assumption, but understanding the effect of dilution is crucial.",
+    "imagesolurl": null,
+    "subject": "Chemistry",
+    "topic": "Solutions",
+    "subtopics": [
+      "Colligative Properties",
+      "Van't Hoff Factor",
+      "Strong Electrolytes",
+      "Degree of Dissociation"
+    ],
+    "question_type": [
+      "Conceptual",
+      "Comparative Analysis"
+    ],
+    "avg_time_to_solve": 70
+  },
+  {
+    "id": 12,
+    "shortcut": "The heat capacity of a gas mixture is the mole-weighted average of the individual gas heat capacities. Use the formula $C_{v,mix} = \\frac{n_1C_{v,1} + n_2C_{v,2}}{n_1 + n_2}$.",
+    "question": "We have a mixture of gases containing 2 moles of a monoatomic gas ($C_{v,m} = \\frac{3R}{2}$) and 6 moles of a diatomic gas ($C_{v,m} = \\frac{5R}{2}$). Find the molar heat capacity at constant volume ($C_{v,m}$) of the mixture.",
+    "equation": "$C_{v,m(mono)} = \\frac{3R}{2}, C_{v,m(dia)} = \\frac{5R}{2}$",
+    "imageurl": null,
+    "options": {
+      "A": "$\\frac{9R}{4}$",
+      "B": "$\\frac{9R}{2}$",
+      "C": "3R",
+      "D": "4R"
+    },
+    "correct_option": "A",
+    "difficulty_level": "Easy",
+    "examname": "JEE Main 2024 - 1 Feb Shift 1",
+    "solution": "The molar heat capacity at constant volume for a mixture of non-reacting gases ($C_{v,mix}$) is the weighted average of the molar heat capacities of the individual gases, based on their mole fractions. \nThe formula is: \n $$ C_{v,mix} = \\frac{n_1C_{v,1} + n_2C_{v,2}}{n_1 + n_2} $$ \n Given values are: \n - $n_1$ (monoatomic gas) = 2 mol \n - $C_{v,1}$ (monoatomic gas) = $\\frac{3R}{2}$ \n - $n_2$ (diatomic gas) = 6 mol \n - $C_{v,2}$ (diatomic gas) = $\\frac{5R}{2}$ \n \n Plugging these values into the formula: \n $$ C_{v,mix} = \\frac{(2 \\times \\frac{3R}{2}) + (6 \\times \\frac{5R}{2})}{2 + 6} $$ \n $$ C_{v,mix} = \\frac{3R + 15R}{8} $$ \n $$ C_{v,mix} = \\frac{18R}{8} $$ \n Simplifying the fraction gives: \n $$ C_{v,mix} = \\frac{9R}{4} $$",
+    "imagesolurl": null,
+    "subject": "Chemistry",
+    "topic": "Thermodynamics",
+    "subtopics": [
+      "Heat Capacity",
+      "Kinetic Theory of Gases",
+      "Mixture of Gases"
+    ],
+    "question_type": [
+      "Formula-based",
+      "Calculation-intensive"
+    ],
+    "avg_time_to_solve": 60
+  },
+  {
+    "id": 13,
+    "shortcut": "Remember that KCN is ionic, freeing the $CN^-$ ion to attack with its carbon end (forming cyanide). AgCN is covalent, so the nitrogen's lone pair must attack (forming isocyanide). The reason given is false because AgCN's covalent character is key.",
+    "question": "Assertion (A): KCN reacts with an alkyl halide (R-X) to give an alkyl cyanide (R-CN), while AgCN reacts with R-X to give an alkyl isocyanide (R-NC) mainly. \n Reason (R): KCN and AgCN are both ionic compounds.",
+    "equation": null,
+    "imageurl": null,
+    "options": {
+      "A": "Both Assertion and Reason are true and Reason explains Assertion",
+      "B": "Both Assertion and Reason are true but Reason does not explain Assertion",
+      "C": "Assertion is true and Reason is false",
+      "D": "Assertion is false but Reason is true"
+    },
+    "correct_option": "C",
+    "difficulty_level": "Medium",
+    "examname": "JEE Main 2024 - 1 Feb Shift 1",
+    "solution": "**Assertion (A):** The assertion is correct. The cyanide ion ($CN^-$) is an ambident nucleophile, capable of attacking through either its carbon or nitrogen atom. The product depends on the nature of the cyanide reagent. \n - **Reaction with KCN:** Potassium cyanide is an ionic compound ($K^+CN^-$). In solution, it provides free cyanide ions. The attack by the carbon atom is preferred because it leads to a more stable C-C bond, thus forming alkyl cyanides (R-CN). \n - **Reaction with AgCN:** Silver cyanide is predominantly covalent. The nitrogen atom's lone pair is available for donation, so the nucleophilic attack occurs through nitrogen, forming alkyl isocyanides (R-NC). \n \n **Reason (R):** The reason is incorrect. The crucial difference between the two reagents is that KCN is ionic, while AgCN is covalent. This difference in bonding directly explains the different reaction outcomes. Since the reason states they are both ionic, it is a false statement. \n \n Therefore, the Assertion is true, but the Reason is false.",
+    "imagesolurl": null,
+    "subject": "Chemistry",
+    "topic": "Organic Chemistry",
+    "subtopics": [
+      "Haloalkanes and Haloarenes",
+      "Nucleophilic Substitution",
+      "Ambident Nucleophiles"
+    ],
+    "question_type": [
+      "Assertion-Reason",
+      "Conceptual"
+    ],
+    "avg_time_to_solve": 70
+  },
+  {
+    "id": 14,
+    "shortcut": "Color in transition metal complexes requires unpaired d-electrons for d-d transitions. In $[Ni(H_2O)_6]^{2+}$, $H_2O$ is a weak ligand, leaving unpaired electrons (colored). In $[Ni(CN)_4]^{2-}$, $CN^-$ is a strong ligand, forcing all electrons to pair up (colorless).",
+    "question": "Consider the following two statements. \n Statement I: $[Ni(H_2O)_6]^{2+}$ is green. \n Statement II: $[Ni(CN)_4]^{2-}$ is colourless.",
+    "equation": "$[Ni(H_2O)_6]^{2+}, [Ni(CN)_4]^{2-}$",
+    "imageurl": null,
+    "options": {
+      "A": "Statement I is true, statement II is false",
+      "B": "Statement I is true, statement II is true",
+      "C": "Statement I is false, statement II is true",
+      "D": "Statement I is false, statement II is false"
+    },
+    "correct_option": "B",
+    "difficulty_level": "Medium",
+    "examname": "JEE Main 2024 - 1 Feb Shift 1",
+    "solution": "Both statements are correct. The color of transition metal complexes is related to the presence of unpaired d-electrons and the possibility of d-d electronic transitions. \n **Statement I: $[Ni(H_2O)_6]^{2+}$ is green.** \n In this complex, Nickel has an oxidation state of +2, so it is a $Ni^{2+}$ ion with a $3d^8$ electronic configuration. Water ($H_2O$) is a weak-field ligand, so it does not cause the pairing of d-electrons. In the octahedral field, the configuration is $t_{2g}^6 e_g^2$, which has two unpaired electrons. These unpaired electrons can be excited from the $t_{2g}$ level to the $e_g$ level by absorbing light from the visible spectrum (specifically, red light). The complementary color, green, is transmitted, making the complex appear green. Thus, Statement I is true. \n **Statement II: $[Ni(CN)_4]^{2-}$ is colourless.** \n Here, Nickel is also in the +2 oxidation state ($Ni^{2+}$, $3d^8$). However, cyanide ($CN^-$) is a strong-field ligand. This complex has a square planar geometry, and the strong ligand field forces all eight d-electrons to pair up. With no unpaired electrons, d-d transitions by absorbing visible light cannot occur. Therefore, the complex is colourless. Thus, Statement II is true.",
+    "imagesolurl": null,
+    "subject": "Chemistry",
+    "topic": "Coordination Compounds",
+    "subtopics": [
+      "Crystal Field Theory",
+      "Color of Coordination Compounds",
+      "Ligand Field Strength"
+    ],
+    "question_type": [
+      "Conceptual"
+    ],
+    "avg_time_to_solve": 80
+  },
+  {
+    "id": 15,
+    "shortcut": "KHP is a textbook example of a primary standard used to titrate bases. Phenolphthalein is a very common indicator for weak acid-strong base titrations, as its color change pH range brackets the equivalence point.",
+    "question": "Statement-I: Potassium hydrogen phthalate is a primary standard for NaOH solution. \n Statement-II: Phenolphthalein is used to detect the completion of the titration.",
+    "equation": null,
+    "imageurl": null,
+    "options": {
+      "A": "Both statement-I and statement-II are correct",
+      "B": "Statement-I is correct and statement-II is incorrect",
+      "C": "Statement-I is incorrect and statement-II is correct",
+      "D": "Both statement-I and statement-II are incorrect"
+    },
+    "correct_option": "A",
+    "difficulty_level": "Easy",
+    "examname": "JEE Main 2024 - 1 Feb Shift 1",
+    "solution": "Let's evaluate both statements. \n **Statement-I:** This is correct. A primary standard is a substance that is stable, has high purity, is not hygroscopic, and has a high molar mass to minimize weighing errors. Potassium hydrogen phthalate (KHP, $C_8H_5KO_4$) fulfills all these requirements and is a common choice for standardizing basic solutions like sodium hydroxide (NaOH). \n **Statement-II:** This is also correct. The titration of KHP (a weak acid) with NaOH (a strong base) results in an equivalence point in the basic pH range (typically 8-9). Phenolphthalein is an acid-base indicator that changes color from colorless to pink in the pH range of 8.2-10. This range effectively brackets the equivalence point of the titration, making it an excellent indicator to signal the completion (endpoint) of the reaction. \n Since both statements are correct, option A is the right answer.",
+    "imagesolurl": null,
+    "subject": "Chemistry",
+    "topic": "Ionic Equilibrium",
+    "subtopics": [
+      "Acid-Base Titrations",
+      "Primary Standards",
+      "Indicators"
+    ],
+    "question_type": [
+      "Memory-based",
+      "Conceptual"
+    ],
+    "avg_time_to_solve": 45
+  },
+  {
+    "id": 16,
+    "shortcut": "The $-NH_2$ group is a strong activator (+M effect), so Statement I is false. Aniline is a Lewis base and reacts with the Lewis acid catalyst ($AlCl_3$) used in Friedel-Crafts reactions, deactivating the ring and preventing the reaction. So, Statement II is true.",
+    "question": "Statement-I: In aniline, the $-NH_2$ group is a strong deactivating group for all electrophilic substitution reactions (ESR). \n Statement-II: Aniline does not undergo the Friedel-Crafts alkylation reaction.",
+    "equation": null,
+    "imageurl": null,
+    "options": {
+      "A": "Both statement-I and statement-II are correct",
+      "B": "Both statement-I and statement-II are incorrect",
+      "C": "Statement-I is correct and statement-II is incorrect",
+      "D": "Statement-I is incorrect and statement-II is correct"
+    },
+    "correct_option": "D",
+    "difficulty_level": "Medium",
+    "examname": "JEE Main 2024 - 1 Feb Shift 1",
+    "solution": "**Statement-I:** This statement is incorrect. The amino group ($-NH_2$) in aniline possesses a lone pair of electrons on the nitrogen atom. Through resonance (+M effect), this lone pair delocalizes into the benzene ring, increasing its electron density, particularly at the ortho and para positions. [cite_start]This makes the $-NH_2$ group a **strong activating group** for electrophilic substitution reactions. [cite: 230] \n\n**Statement-II:** This statement is correct. Aniline does not undergo Friedel-Crafts reactions. The reason is that the $-NH_2$ group is basic and reacts with the Lewis acid catalyst (e.g., anhydrous $AlCl_3$) required for the reaction. [cite_start]This acid-base reaction forms a salt, which places a positive charge on the nitrogen, making the group strongly deactivating and thus preventing the reaction. [cite: 231, 232]\n\nSince Statement-I is incorrect and Statement-II is correct, the correct choice is (D).",
+    "imagesolurl": "https://res.cloudinary.com/dscgkuvkd/image/upload/v1755264939/Screenshot_2025-08-15_at_7.05.23_PM_xanh8o.png",
+    "subject": "Chemistry",
+    "topic": "Organic Chemistry",
+    "subtopics": [
+      "Amines",
+      "Electrophilic Aromatic Substitution",
+      "Friedel-Crafts Reaction",
+      "Activating and Deactivating Groups"
+    ],
+    "question_type": [
+      "Assertion-Reason",
+      "Conceptual"
+    ],
+    "avg_time_to_solve": 75
+  },
+  {
+    "id": 17,
+    "shortcut": "The term 'homoleptic' means having only one type of ligand. Scan the formulas to find the one where the central metal is attached to identical groups within the coordination sphere.",
+    "question": "Which of the following is a homoleptic complex?",
+    "equation": null,
+    "imageurl": null,
+    "options": {
+      "A": "$[Ni(CN)_4]^{2-}$",
+      "B": "$[Cu(H_2O)_3Cl_3]$",
+      "C": "$[PtCl_2Br_2]^{2-}$",
+      "D": "$[Cu(NH_3)_5Cl]Cl_2$"
+    },
+    "correct_option": "A",
+    "difficulty_level": "Easy",
+    "examname": "JEE Main 2024 - 1 Feb Shift 1",
+    "solution": "A homoleptic complex is a coordination complex where the central metal atom is bonded to only one kind of ligand. [cite: 244] Complexes with multiple types of ligands are called heteroleptic.\n- **A. $[Ni(CN)_4]^{2-}$**: The central Ni atom is bonded only to cyanide ($CN^-$) ligands. [cite_start]This is a **homoleptic** complex. [cite: 238]\n- **B. $[Cu(H_2O)_3Cl_3]$**: The Cu atom is bonded to two different ligands: $H_2O$ and $Cl^-$. [cite_start]This is heteroleptic. [cite: 239]\n- **C. $[PtCl_2Br_2]^{2-}$**: The Pt atom is bonded to two different ligands: $Cl^-$ and $Br^-$. [cite_start]This is heteroleptic. [cite: 241]\n- **D. $[Cu(NH_3)_5Cl]Cl_2$**: The Cu atom in the coordination sphere is bonded to two different ligands: $NH_3$ and $Cl^-$. [cite_start]This is heteroleptic. [cite: 242]\nTherefore, the only homoleptic complex is $[Ni(CN)_4]^{2-}$.",
+    "imagesolurl": null,
+    "subject": "Chemistry",
+    "topic": "Coordination Compounds",
+    "subtopics": [
+      "Nomenclature and Definitions",
+      "Ligands",
+      "Homoleptic and Heteroleptic Complexes"
+    ],
+    "question_type": [
+      "Memory-based",
+      "Conceptual"
+    ],
+    "avg_time_to_solve": 30
+  },
+  {
+    "id": 18,
+    "shortcut": "The word 'ionic' points to the answer. Ionic reactions involve ions (cations, anions), which are formed when a bond breaks unevenly. This uneven breaking is called heterolytic cleavage.",
+    "question": "For an ionic reaction in an organic compound, which type of bond cleavage occurs?",
+    "equation": null,
+    "imageurl": null,
+    "options": {
+      "A": "Heterolytic cleavage",
+      "B": "Homolytic cleavage",
+      "C": "Free radical",
+      "D": "No cleavage of bond"
+    },
+    "correct_option": "A",
+    "difficulty_level": "Easy",
+    "examname": "JEE Main 2024 - 1 Feb Shift 1",
+    "solution": "Ionic reactions in organic chemistry proceed through charged intermediates like carbocations and carbanions. The formation of these ions from a neutral molecule requires a specific type of bond breaking. \n- **Heterolytic cleavage**: In this process, a covalent bond breaks such that one of the atoms takes both electrons from the bond, leading to the formation of a positive ion (cation) and a negative ion (anion). [cite_start]This is the characteristic bond cleavage for ionic reactions. [cite: 252]\n- **Homolytic cleavage**: In this process, the bond breaks symmetrically, with each atom getting one electron, leading to the formation of neutral species called free radicals. [cite_start]This type of cleavage is characteristic of free-radical reactions, not ionic ones.\nTherefore, for an ionic reaction, heterolytic cleavage must occur. [cite: 252]",
+    "imagesolurl": null,
+    "subject": "Chemistry",
+    "topic": "General Organic Chemistry",
+    "subtopics": [
+      "Reaction Mechanisms",
+      "Bond Cleavage",
+      "Heterolysis",
+      "Homolysis"
+    ],
+    "question_type": [
+      "Conceptual",
+      "Memory-based"
+    ],
+    "avg_time_to_solve": 30
+  },
+  {
+    "id": 19,
+    "shortcut": "Acidic strength is directly proportional to the acid dissociation constant, $K_a$. A larger $K_a$ value (or less negative power of 10) corresponds to a stronger acid. Simply order the given $K_a$ values from largest to smallest.",
+    "question": "The $K_a$ values of three acids A, B, and C are $10^{-3}$, $5 \\times 10^{-9}$, and $9 \\times 10^{-11}$ respectively. The order of acidic strength of these acids is:",
+    "equation": "$K_{a,A} = 10^{-3}, K_{a,B} = 5 \\times 10^{-9}, K_{a,C} = 9 \\times 10^{-11}$",
+    "imageurl": null,
+    "options": {
+      "A": "A > B > C",
+      "B": "B > A > C",
+      "C": "C > B > A",
+      "D": "C > A > B"
+    },
+    "correct_option": "A",
+    "difficulty_level": "Easy",
+    "examname": "JEE Main 2024 - 1 Feb Shift 1",
+    "solution": "The acid dissociation constant, $K_a$, is a direct measure of the strength of an acid. [cite_start]A stronger acid ionizes more completely in water, which corresponds to a higher $K_a$ value. [cite: 295]\nWe are given the following $K_a$ values:\n- Acid A: $K_a = 10^{-3}$\n- Acid B: $K_a = 5 \\times 10^{-9}$\n- Acid C: $K_a = 9 \\times 10^{-11}$\n\nBy comparing the magnitudes of these numbers, we can see:\n$10^{-3}$ is the largest value.\n$5 \\times 10^{-9}$ is the second largest.\n$9 \\times 10^{-11}$ is the smallest.\n\nSince acidic strength is directly proportional to $K_a$, the order of strength is A > B > C.",
+    "imagesolurl": null,
+    "subject": "Chemistry",
+    "topic": "Ionic Equilibrium",
+    "subtopics": [
+      "Acids and Bases",
+      "Acid Dissociation Constant",
+      "Acid Strength"
+    ],
+    "question_type": [
+      "Conceptual",
+      "Comparative Analysis"
+    ],
+    "avg_time_to_solve": 40
+  },
+  {
+    "id": 20,
+    "shortcut": "A disproportionation reaction is where an element in an intermediate oxidation state is both oxidized (oxidation state increases) and reduced (oxidation state decreases). Check each reaction to see if one reactant species forms products with both higher and lower oxidation states.",
+    "question": "Which of the following are disproportionation reactions? \n A. $Cu^+ \\rightarrow Cu^{2+} + Cu$ \n B. $MnO_4^{2-} \\rightarrow MnO_4^- + MnO_2$ \n C. $H_2O_2 \\rightarrow O_2 + H_2O$ \n D. $CrO_4^{2-} \\rightarrow Cr^{3+} + H_2O$",
+    "equation": null,
+    "imageurl": null,
+    "options": {
+      "A": "All A, B, C and D",
+      "B": "A and B only",
+      "C": "A and C only",
+      "D": "A, B and C only"
+    },
+    "correct_option": "D",
+    "difficulty_level": "Medium",
+    "examname": "JEE Main 2024 - 1 Feb Shift 1",
+    "solution": "A disproportionation reaction is a redox reaction in which a substance is simultaneously oxidized and reduced, forming two different products. [cite: 272] Let's analyze the oxidation states in each reaction:\n\n- **A. $Cu^+ \\rightarrow Cu^{2+} + Cu$**: Copper goes from oxidation state +1 in $Cu^+$ to +2 in $Cu^{2+}$ (oxidation) and to 0 in Cu (reduction). [cite_start]This is a disproportionation reaction. [cite: 274]\n\n- **B. $MnO_4^{2-} \\rightarrow MnO_4^- + MnO_2$**: Manganese goes from oxidation state +6 in $MnO_4^{2-}$ to +7 in $MnO_4^-$ (oxidation) and to +4 in $MnO_2$ (reduction). [cite_start]This is a disproportionation reaction. [cite: 280]\n\n- **C. $H_2O_2 \\rightarrow O_2 + H_2O$**: Oxygen goes from oxidation state -1 in $H_2O_2$ to 0 in $O_2$ (oxidation) and to -2 in $H_2O$ (reduction). [cite_start]This is a disproportionation reaction. [cite: 284]\n\n- **D. $CrO_4^{2-} \\rightarrow Cr^{3+} + H_2O$**: Chromium goes from oxidation state +6 in $CrO_4^{2-}$ to +3 in $Cr^{3+}$. [cite_start]This is only a reduction. [cite: 287] It is not a disproportionation reaction.\n\nTherefore, reactions A, B, and C are disproportionation reactions.",
+    "imagesolurl": "https://res.cloudinary.com/dscgkuvkd/image/upload/v1755265018/Screenshot_2025-08-15_at_7.06.45_PM_v5uhqm.png",
+    "subject": "Chemistry",
+    "topic": "Redox Reactions",
+    "subtopics": [
+      "Oxidation State",
+      "Disproportionation",
+      "Types of Redox Reactions"
+    ],
+    "question_type": [
+      "Conceptual",
+      "Identification"
+    ],
+    "avg_time_to_solve": 90
+  },
+  {
+    "id": 1,
+    "shortcut": "When unpolarized light passes through the first polariser, its intensity becomes half ($I_0/2$). Then, apply Malus's Law, $I_{final} = I_{initial} \\cos^2(\\theta)$, for the second polariser.",
+    "question": "Two polarisers A and B are kept one after the other. Their pass axis makes an angle of 45° with each other. An unpolarized light of intensity $I_0$ strikes A first and then B. Find the intensity of the light emergent from B.",
+    "equation": "$I_0, \\theta = 45°$",
+    "imageurl": null,
+    "options": {
+      "A": null,
+      "B": "$\\frac{I_{0}}{2}$"
+    },
+    "correct_option": "B",
+    "difficulty_level": "Easy",
+    "examname": "JEE-Main-30-01-2024 (Memory Based) [EVENING SHIFT]",
+    "solution": "When unpolarized light of intensity $I_0$ passes through the first polariser (A), its intensity becomes half, regardless of the orientation of the polariser's pass axis. \n Intensity after polariser A, $I_A = \\frac{I_0}{2}$. \n\n Now, this polarized light passes through the second polariser (B), whose pass axis is at an angle of $\\theta = 45°$ with respect to the first polariser. According to Malus's Law, the intensity of the emergent light is given by: \n $I_B = I_A \\cos^2(\\theta)$ \n Substituting the values: \n $I_B = (\\frac{I_0}{2}) \\cos^2(45°) = (\\frac{I_0}{2}) (\\frac{1}{\\sqrt{2}})^2 = (\\frac{I_0}{2}) (\\frac{1}{2}) = \\frac{I_0}{4}$. \n\n *Note: Based on the physics principles, the correct answer is $\\frac{I_0}{4}$. The provided source indicates option (b) is the answer, which corresponds to $\\frac{I_{0}}{2}$. This suggests a possible error in the source's provided answer key or option transcription.*",
+    "imagesolurl": null,
+    "subject": "Physics",
+    "topic": "Wave Optics",
+    "subtopics": [
+      "Polarisation of Light",
+      "Polarisers",
+      "Malus's Law"
+    ],
+    "question_type": [
+      "Formula-based",
+      "Conceptual"
+    ],
+    "avg_time_to_solve": 60
+  },
+  {
+    "id": 2,
+    "shortcut": "Time period of a simple pendulum is $T \\propto \\frac{1}{\\sqrt{g}}$. At a height $h=R$, the acceleration due to gravity becomes $g' = g/4$. Therefore, the new time period $T' = T \\sqrt{g/g'} = T \\sqrt{4} = 2T$. Calculate the initial period $T$ on the surface and double it.",
+    "question": "Simple pendulum of length $l=4m$ is taken to height 'R' above earth surface calculate time period at its height {R → Radius of Earth & Taken $\\pi^{2}=g$}",
+    "equation": "$l=4m, h=R, \\pi^{2}=g$",
+    "imageurl": null,
+    "options": {
+      "A": "4 sec",
+      "B": "8 sec",
+      "C": "2 sec",
+      "D": "10 sec"
+    },
+    "correct_option": "B",
+    "difficulty_level": "Medium",
+    "examname": "JEE-Main-30-01-2024 (Memory Based) [EVENING SHIFT]",
+    "solution": "First, we calculate the time period of the simple pendulum on the surface of the Earth. The formula for the time period is: \n $T = 2\\pi\\sqrt{\\frac{l}{g}}$ \n Given that $l=4$ m and $g = \\pi^2$: \n $T = 2\\pi\\sqrt{\\frac{4}{\\pi^2}} = 2\\pi(\\frac{2}{\\pi}) = 4$ seconds. \n\n Next, we need to find the acceleration due to gravity ($g'$) at a height $h=R$ above the Earth's surface. The formula is: \n $g' = g(\\frac{R}{R+h})^2$ \n Substituting $h=R$: \n $g' = g(\\frac{R}{R+R})^2 = g(\\frac{R}{2R})^2 = g(\\frac{1}{2})^2 = \\frac{g}{4}$. \n\n Now, we calculate the new time period ($T'$) at this height using $g'$: \n $T' = 2\\pi\\sqrt{\\frac{l}{g'}} = 2\\pi\\sqrt{\\frac{l}{g/4}} = 2\\pi\\sqrt{\\frac{4l}{g}} = 2(2\\pi\\sqrt{\\frac{l}{g}})$ \n We can see that $T' = 2T$. \n Substituting the value of T: \n $T' = 2 \\times 4 = 8$ seconds.",
+    "imagesolurl": null,
+    "subject": "Physics",
+    "topic": "Gravitation",
+    "subtopics": [
+      "Simple Pendulum",
+      "Variation in 'g' with Altitude",
+      "Time Period"
+    ],
+    "question_type": [
+      "Formula-based",
+      "Calculation-intensive"
+    ],
+    "avg_time_to_solve": 90
+  },
+  {
+    "id": 3,
+    "shortcut": "The escape speed is given by $v_e = \\sqrt{\\frac{2GM}{R}}$. To find the escape speed of the new planet, use the ratio: $\\frac{v_P}{v_E} = \\sqrt{\\frac{M_P}{M_E} \\cdot \\frac{R_E}{R_P}}$.",
+    "question": "If for a given planet $R_{P}=\\frac{1}{3}R_{E}$ & $M_{P}=\\frac{1}{6}M_{E}$ then find the escape speed for this planet if the escape speed of earth is $11.2~km/hr$",
+    "equation": "$R_{P}=\\frac{1}{3}R_{E}, M_{P}=\\frac{1}{6}M_{E}$",
+    "imageurl": null,
+    "options": {
+      "A": "7.9 km/hr",
+      "B": "11.2 km/hr",
+      "C": "7.9 m/s",
+      "D": "8.5 m/s"
+    },
+    "correct_option": "A",
+    "difficulty_level": "Easy",
+    "examname": "JEE-Main-30-01-2024 (Memory Based) [EVENING SHIFT]",
+    "solution": "The formula for the escape speed ($v_e$) from a celestial body is: \n $v_e = \\sqrt{\\frac{2GM}{R}}$ \n where G is the gravitational constant, M is the mass, and R is the radius of the body. \n\n For Earth, the escape speed is $v_E = \\sqrt{\\frac{2GM_E}{R_E}} = 11.2$ km/hr. \n For the planet, the escape speed is $v_P = \\sqrt{\\frac{2GM_P}{R_P}}$. \n\n To find the planet's escape speed, we can take the ratio of the two escape speeds: \n $\\frac{v_P}{v_E} = \\frac{\\sqrt{\\frac{2GM_P}{R_P}}}{\\sqrt{\\frac{2GM_E}{R_E}}} = \\sqrt{\\frac{M_P}{M_E} \\times \\frac{R_E}{R_P}}$ \n\n We are given the relations $M_P = \\frac{1}{6}M_E$ and $R_P = \\frac{1}{3}R_E$. Substituting these into the ratio equation: \n $\\frac{v_P}{v_E} = \\sqrt{(\\frac{1}{6}) \\times (\\frac{1}{1/3})} = \\sqrt{\\frac{1}{6} \\times 3} = \\sqrt{\\frac{1}{2}} = \\frac{1}{\\sqrt{2}}$ \n\n Now, we can calculate the escape speed of the planet: \n $v_P = \\frac{v_E}{\\sqrt{2}} = \\frac{11.2 \\text{ km/hr}}{\\sqrt{2}} \\approx \\frac{11.2}{1.414} \\approx 7.92$ km/hr. \n This value corresponds to option A.",
+    "imagesolurl": null,
+    "subject": "Physics",
+    "topic": "Gravitation",
+    "subtopics": [
+      "Escape Velocity"
+    ],
+    "question_type": [
+      "Formula-based",
+      "Ratio and Proportion"
+    ],
+    "avg_time_to_solve": 75
+  },
+  {
+    "id": 4,
+    "shortcut": "Magnitude of work done by friction is $|W_f| = f_k \\cdot d$. On an inclined plane, the kinetic friction force is $f_k = \\mu N = \\mu mg \\cos(\\theta)$. So, just calculate $|W_f| = (\\mu mg \\cos(\\theta)) \\cdot d$. The pulling force is irrelevant for this specific question.",
+    "question": "A block of mass 1 kg is pulled up on an inclined plane $60^{\\circ}$ by a force of 10 N. Coefficient of friction is $\\mu=0.1$. Find the magnitude of Work done by the friction by the time block moves up by 10 m.",
+    "equation": "$m=1 \\text{ kg}, \\theta=60^{\\circ}, F=10 \\text{ N}, \\mu=0.1, d=10 \\text{ m}$",
+    "imageurl": null,
+    "options": {
+      "A": "5 x 10^{-2} J",
+      "B": "5 J",
+      "C": "5000 J",
+      "D": "500 J"
+    },
+    "correct_option": "B",
+    "difficulty_level": "Easy",
+    "examname": "JEE-Main-30-01-2024 (Memory Based) [EVENING SHIFT]",
+    "solution": "The work done by the force of friction ($W_f$) is given by $W_f = -f_k \\cdot d$, where $f_k$ is the kinetic friction force and $d$ is the distance moved. The question asks for the magnitude, so we need to calculate $|W_f| = f_k \\cdot d$. \n\n 1.  **Find the Normal Force (N):** On an inclined plane, the normal force is the component of gravity perpendicular to the surface. \n $N = mg \\cos(\\theta)$ \n Assuming $g = 10 \\text{ m/s}^2$: \n $N = (1 \\text{ kg})(10 \\text{ m/s}^2) \\cos(60^{\\circ}) = 10 \\times 0.5 = 5$ N. \n\n 2.  **Find the Frictional Force ($f_k$):** The kinetic friction force is calculated using the coefficient of kinetic friction $\\mu$. \n $f_k = \\mu N$ \n $f_k = 0.1 \\times 5 \\text{ N} = 0.5$ N. \n\n 3.  **Calculate the Work Done by Friction:** The block moves a distance $d = 10$ m. \n $|W_f| = f_k \\cdot d$ \n $|W_f| = 0.5 \\text{ N} \\times 10 \\text{ m} = 5$ J. \n\n The magnitude of the work done by friction is 5 J. The information about the 10 N pulling force is not required to answer this question.",
+    "imagesolurl": null,
+    "subject": "Physics",
+    "topic": "Work, Energy and Power",
+    "subtopics": [
+      "Work Done by a Constant Force",
+      "Friction",
+      "Inclined Plane"
+    ],
+    "question_type": [
+      "Formula-based",
+      "Calculation-intensive"
+    ],
+    "avg_time_to_solve": 60
+  },
+  {
+    "id": 5,
+    "shortcut": "Write down the dimensions of all physical constants ($C, G, h$). Substitute them into the equation $M^{1}=[C^{P}G^{-1/2}h^{1/2}]$. Then, solve for the exponent 'P' by equating the powers of the fundamental dimensions (M, L, T) on both sides.",
+    "question": "Find value of P is the dimensional equation $M^{1}=[C^{P}G^{-\\frac{1}{2}}h^{1/2}]$, where (1) C is the speed of light, (2) G is the Universal gravitational constant, and (3) h is Planck's constant.",
+    "equation": "$M^{1}=[C^{P}G^{-\\frac{1}{2}}h^{1/2}]$",
+    "imageurl": null,
+    "options": {
+      "A": "1",
+      "B": "$\\frac{1}{2}$",
+      "C": "$-\\frac{1}{2}$",
+      "D": "-1"
+    },
+    "correct_option": "B",
+    "difficulty_level": "Medium",
+    "examname": "JEE-Main-30-01-2024 (Memory Based) [EVENING SHIFT]",
+    "solution": "To find the value of P, we need to perform a dimensional analysis of the given equation.\n\n1.  **List the dimensions of each constant:**\n    * Mass [M] = $M^1 L^0 T^0$\n    * Speed of light [C] = $L T^{-1}$\n    * Gravitational constant [G]: From $F = G\\frac{m_1m_2}{r^2}$, the dimension is $[G] = M^{-1} L^3 T^{-2}$.\n    * Planck's constant [h]: From $E = hf$, the dimension is $[h] = ML^2T^{-1}$.\n\n2.  **Substitute the dimensions into the equation:**\n    $M^{1}L^{0}T^{0} = (L T^{-1})^P (M^{-1} L^3 T^{-2})^{-1/2} (ML^2T^{-1})^{1/2}$\n\n3.  **Simplify the powers on the right side:**\n    $M^{1}L^{0}T^{0} = (L^P T^{-P}) (M^{1/2} L^{-3/2} T^{1}) (M^{1/2} L^{1} T^{-1/2})$\n\n4.  **Combine the terms for each dimension (M, L, T):**\n    $M^{1}L^{0}T^{0} = M^{(1/2 + 1/2)} L^{(P - 3/2 + 1)} T^{(-P + 1 - 1/2)}$\n    $M^{1}L^{0}T^{0} = M^{1} L^{(P - 1/2)} T^{(-P + 1/2)}$\n\n5.  **Equate the powers of each dimension from both sides:**\n    * For L: $0 = P - 1/2 \\implies P = 1/2$\n    * For T: $0 = -P + 1/2 \\implies P = 1/2$\n\nBoth calculations yield the same result. Thus, the value of P is 1/2.",
+    "imagesolurl": null,
+    "subject": "Physics",
+    "topic": "Units and Measurement",
+    "subtopics": [
+      "Dimensional Analysis",
+      "Fundamental Constants",
+      "Principle of Homogeneity"
+    ],
+    "question_type": [
+      "Formula-based",
+      "Calculation-intensive"
+    ],
+    "avg_time_to_solve": 120
+  },
+  {
+    "id": 6,
+    "shortcut": "The electric force from the wire provides the centripetal force for the rotation: $F_e = F_c$. This gives $qE = mv^2/r$. For an infinite wire, $E = 2k\\rho/r$. Substitute E to find v, and then use the time period formula $T = 2\\pi r / v$.",
+    "question": "A charge -q is rotating around an infinite long wire having a linear charge density $\\rho$ at a distance r. Calculate the time period of the charge -q.",
+    "equation": null,
+    "imageurl": null,
+    "options": {
+      "A": "$2\\pi\\sqrt{\\frac{mr^{2}}{2k\\rho q}}$",
+      "B": "$\\pi\\sqrt{\\frac{mr^{2}}{2k\\rho q}}$",
+      "C": "$2\\pi\\sqrt{\\frac{mr^{2}}{k\\rho q}}$",
+      "D": "$\\pi\\sqrt{\\frac{mr^{2}}{k\\rho q}}$"
+    },
+    "correct_option": "A",
+    "difficulty_level": "Medium",
+    "examname": "JEE-Main-30-01-2024 (Memory Based) [EVENING SHIFT]",
+    "solution": "1.  The electric field (E) produced by an infinitely long wire with linear charge density $\\rho$ at a perpendicular distance r is given by $E = \\frac{2k\\rho}{r}$, where $k$ is Coulomb's constant.\n2.  The electric force ($F_e$) on the charge -q due to this field is $F_e = qE = \\frac{2k\\rho q}{r}$. This force is attractive, pointing towards the wire, and provides the necessary centripetal force for the circular motion.\n3.  The centripetal force ($F_c$) required for a mass m to move in a circle of radius r with velocity v is $F_c = \\frac{mv^2}{r}$.\n4.  By equating the electric force and the centripetal force ($F_e = F_c$):\n    $\\frac{2k\\rho q}{r} = \\frac{mv^2}{r}$\n5.  Solving for the velocity squared ($v^2$):\n    $v^2 = \\frac{2k\\rho q}{m}$\n6.  The time period (T) of the revolution is the circumference of the orbit divided by the velocity: $T = \\frac{2\\pi r}{v}$.\n7.  Squaring the time period equation, we get $T^2 = \\frac{4\\pi^2 r^2}{v^2}$.\n8.  Substituting the expression for $v^2$ into the equation for $T^2$:\n    $T^2 = \\frac{4\\pi^2 r^2}{\\frac{2k\\rho q}{m}} = \\frac{4\\pi^2 mr^2}{2k\\rho q}$\n9.  Taking the square root of both sides gives the time period:\n    $T = \\sqrt{\\frac{4\\pi^2 mr^2}{2k\\rho q}} = 2\\pi\\sqrt{\\frac{mr^2}{2k\\rho q}}$",
+    "imagesolurl": null,
+    "subject": "Physics",
+    "topic": "Electrostatics",
+    "subtopics": [
+      "Electric Field",
+      "Line Charge",
+      "Circular Motion",
+      "Centripetal Force"
+    ],
+    "question_type": [
+      "Formula-based",
+      "Derivation"
+    ],
+    "avg_time_to_solve": 150
+  },
+  {
+    "id": 7,
+    "shortcut": "This is a direct memory recall question. Match the mathematical expressions of the integral form of Maxwell's Equations to their respective names.",
+    "question": "Match the following physical laws with their mathematical representations:\n(A) $\\oint\\vec{B}\\cdot d\\vec{A}=0$\n(B) $\\oint\\vec{E}\\cdot d\\vec{A}=\\frac{Q_{in}}{\\epsilon_{0}}$\n(C) $\\oint\\vec{B}\\cdot d\\vec{l}=\\mu_{0}i_{(enclosed)}$\n(D) $\\oint\\vec{E}\\cdot d\\vec{l}=\\frac{-d\\phi_{B}}{dt}$\n\n(P) Faraday & Lenz's law\n(Q) Gauss law on magnetism\n(R) Ampere's law\n(S) Gauss law of Electrostatics",
+    "equation": null,
+    "imageurl": null,
+    "options": {
+      "A": "A→Q, B→S, C→R, D→P",
+      "B": "A→S, B→S, C→P, D→R",
+      "C": "A→S, B→Q, C→R, D→P",
+      "D": "A→Q, B→P, C→S, D→R"
+    },
+    "correct_option": "A",
+    "difficulty_level": "Easy",
+    "examname": "JEE-Main-30-01-2024 (Memory Based) [EVENING SHIFT]",
+    "solution": "This question requires matching the integral forms of fundamental laws of electromagnetism with their names.\n\n* **(A) $\\oint\\vec{B}\\cdot d\\vec{A}=0$:** This law states that the net magnetic flux through any closed surface is always zero. This is known as **Gauss's law for magnetism (Q)**. It implies that magnetic monopoles do not exist.\n\n* **(B) $\\oint\\vec{E}\\cdot d\\vec{A}=\\frac{Q_{in}}{\\epsilon_{0}}$:** This law relates the net electric flux out of a closed surface to the net electric charge enclosed within that surface. This is **Gauss's law for electrostatics (S)**.\n\n* **(C) $\\oint\\vec{B}\\cdot d\\vec{l}=\\mu_{0}i_{(enclosed)}$:** This is **Ampere's circuital law (R)**, which relates the integrated magnetic field around a closed loop to the electric current passing through that loop.\n\n* **(D) $\\oint\\vec{E}\\cdot d\\vec{l}=\\frac{-d\\phi_{B}}{dt}$:** This is **Faraday's law of induction (P)**. It states that a changing magnetic flux through a surface induces an electromotive force (EMF) in any boundary path of that surface. The negative sign is a consequence of **Lenz's law**.\n\nThe correct matching is therefore A→Q, B→S, C→R, and D→P.",
+    "imagesolurl": null,
+    "subject": "Physics",
+    "topic": "Electromagnetism",
+    "subtopics": [
+      "Maxwell's Equations",
+      "Gauss's Law",
+      "Ampere's Law",
+      "Faraday's Law of Induction"
+    ],
+    "question_type": [
+      "Memory-based",
+      "Conceptual"
+    ],
+    "avg_time_to_solve": 45
+  },
+  {
+    "id": 8,
+    "shortcut": "Conserve volume to find the radius of the big drop ($R$) in terms of the small drops' radius ($r$): $N r^3 = R^3 \\implies R = N^{1/3}r$. The surface energy is proportional to the total surface area. The ratio is $E_1/E_2 = (N \\cdot 4\\pi r^2) / (4\\pi R^2) = N r^2 / (N^{1/3}r)^2 = N^{1/3}$.",
+    "question": "If 1000 drops of a liquid, having a total surface energy $E_{1}$, are merged to form 1 bigger drop of Surface Energy $E_{2}$, then find the ratio $E_{1}/E_{2}$.",
+    "equation": "Number of drops, N = 1000",
+    "imageurl": null,
+    "options": {
+      "A": null,
+      "B": null,
+      "C": null,
+      "D": null
+    },
+    "correct_option": null,
+    "difficulty_level": "Medium",
+    "examname": "JEE-Main-30-01-2024 (Memory Based) [EVENING SHIFT]",
+    "solution": "1.  Let 'r' be the radius of each of the 1000 small drops and 'R' be the radius of the single large drop. Let S be the surface tension of the liquid.\n2.  Surface energy is the product of surface tension and surface area. The total initial surface energy ($E_1$) of 1000 small drops is the sum of their individual surface energies:\n    $E_1 = 1000 \\times (S \\times \\text{Area of one small drop}) = 1000 \\times S \\times 4\\pi r^2$.\n3.  The final surface energy ($E_2$) of the single large drop is:\n    $E_2 = S \\times \\text{Area of large drop} = S \\times 4\\pi R^2$.\n4.  When the small drops merge, the total volume of the liquid is conserved.\n    Volume of 1000 small drops = Volume of 1 large drop\n    $1000 \\times \\frac{4}{3}\\pi r^3 = \\frac{4}{3}\\pi R^3$\n    $1000 r^3 = R^3$\n    Taking the cube root, we find the relation between the radii: $R = 10r$.\n5.  Now, we can compute the ratio $E_1 / E_2$:\n    $\\frac{E_1}{E_2} = \\frac{1000 \\times S \\times 4\\pi r^2}{S \\times 4\\pi R^2} = \\frac{1000 r^2}{R^2}$\n6.  Substitute the relation $R = 10r$ into the ratio:\n    $\\frac{E_1}{E_2} = \\frac{1000 r^2}{(10r)^2} = \\frac{1000 r^2}{100 r^2} = 10$.\n\n    The ratio $E_1/E_2$ is 10.",
+    "imagesolurl": null,
+    "subject": "Physics",
+    "topic": "Properties of Matter",
+    "subtopics": [
+      "Surface Tension",
+      "Surface Energy",
+      "Fluid Dynamics"
+    ],
+    "question_type": [
+      "Formula-based",
+      "Conceptual",
+      "Calculation-intensive"
+    ],
+    "avg_time_to_solve": 90
+  },
+  {
+    "id": 9,
+    "shortcut": "Use the formula for the adiabatic index of a mixture: $\\frac{n_1+n_2}{\\gamma_{mix}-1} = \\frac{n_1}{\\gamma_1-1} + \\frac{n_2}{\\gamma_2-1}$. Note that based on the answer, the problem likely intended to state 3 moles of monatomic gas and 2 moles of diatomic gas.",
+    "question": "2 moles of monatomic gas is mixed with 3 moles of diatomic gas. Find $\\gamma$ of the mixture. (Note: The problem statement in the source document appears to have swapped the number of moles for each gas type. The solution proceeds with 3 moles of monatomic gas and 2 moles of diatomic gas to match the provided answer.)",
+    "equation": "$\\gamma_{mono} = 5/3, \\gamma_{di} = 7/5$",
+    "imageurl": null,
+    "options": {
+      "A": "5/3",
+      "B": "29/19",
+      "C": "11/7",
+      "D": "39/29"
+    },
+    "correct_option": "B",
+    "difficulty_level": "Medium",
+    "examname": "JEE-Main-30-01-2024 (Memory Based) [EVENING SHIFT]",
+    "solution": "The adiabatic index ($\\gamma$) for a mixture of gases can be found using the relation for internal energy or specific heats. [cite_start]A direct formula is:\n$\\frac{n_{total}}{\\gamma_{mix}-1} = \\frac{n_1}{\\gamma_1-1} + \\frac{n_2}{\\gamma_2-1}$\n\nThere seems to be a typo in the question's text[cite: 102]. To arrive at the correct option, we must assume the mixture consists of **$n_1=3$ moles of monatomic gas** and **$n_2=2$ moles of diatomic gas**.\n\n* For a monatomic gas, $\\gamma_1 = 5/3$.\n* For a diatomic gas, $\\gamma_2 = 7/5$.\n* Total moles, $n_{total} = n_1 + n_2 = 3 + 2 = 5$.\n\nSubstituting these values into the formula:\n$\\frac{5}{\\gamma_{mix}-1} = \\frac{3}{5/3-1} + \\frac{2}{7/5-1}$\n$\\frac{5}{\\gamma_{mix}-1} = \\frac{3}{2/3} + \\frac{2}{2/5}$\n$\\frac{5}{\\gamma_{mix}-1} = \\frac{9}{2} + 5 = \\frac{9+10}{2} = \\frac{19}{2}$\n\nNow, solve for $\\gamma_{mix}$:\n$\\gamma_{mix}-1 = 5 \\times \\frac{2}{19} = \\frac{10}{19}$\n$\\gamma_{mix} = 1 + \\frac{10}{19} = \\frac{19+10}{19} = \\frac{29}{19}$\n\nThus, the adiabatic index of the mixture is 29/19.",
+    "imagesolurl": null,
+    "subject": "Physics",
+    "topic": "Thermodynamics",
+    "subtopics": [
+      "Kinetic Theory of Gases",
+      "Specific Heat Capacity",
+      "Adiabatic Index"
+    ],
+    "question_type": [
+      "Formula-based",
+      "Calculation-intensive"
+    ],
+    "avg_time_to_solve": 150
+  },
+  {
+    "id": 10,
+    "shortcut": "The magnetic field at the center of a square loop of side 'a' carrying current 'I' is given by the standard formula $B = \\frac{2\\sqrt{2}\\mu_0 I}{\\pi a}$. Directly substitute the given values to find B and then solve for x.",
+    "question": "The image shows a square loop of side 1 m carrying a current of 5 A. The magnetic field at its center 'O' is given as $x\\sqrt{2}\\times10^{-7}$ Tesla. Find the value of x.",
+    "equation": "B = x\\sqrt{2}\\times10^{-7} T",
+    "imageurl": null,
+    "options": {
+      "A": null,
+      "B": null,
+      "C": null,
+      "D": null
+    },
+    "correct_option": null,
+    "difficulty_level": "Medium",
+    "examname": "JEE-Main-30-01-2024 (Memory Based) [EVENING SHIFT]",
+    "solution": "1.  The magnetic field at the center of a current-carrying square loop is the vector sum of the fields from its four wire segments.\n2.  The general formula for the magnetic field at the center of a square loop of side 'a' carrying current 'I' is:\n    $B_{center} = \\frac{2\\sqrt{2}\\mu_0 I}{\\pi a}$\n3.  [cite_start]We are given the following values:\n    * Current, $I = 5$ A [cite: 111][cite_start]\n    * Side length, $a = 1$ m [cite: 112, 114]\n    * Permeability of free space, $\\mu_0 = 4\\pi \\times 10^{-7}$ T·m/A\n4.  Substitute these values into the formula:\n    $B_{center} = \\frac{2\\sqrt{2}(4\\pi \\times 10^{-7} T\\cdot m/A)(5 A)}{\\pi (1 m)}$\n5.  Cancel $\\pi$ from the numerator and denominator:\n    $B_{center} = 2\\sqrt{2} \\times (4 \\times 10^{-7}) \\times 5$ T\n    $B_{center} = (2 \\times 4 \\times 5) \\sqrt{2} \\times 10^{-7}$ T\n    $B_{center} = 40\\sqrt{2} \\times 10^{-7}$ T\n6.  [cite_start]The problem states that the magnetic field is $x\\sqrt{2}\\times10^{-7}$ Tesla. [cite: 110]\n7.  By comparing our calculated result with the given expression, we can determine the value of x:\n    $40\\sqrt{2} \\times 10^{-7} = x\\sqrt{2}\\times10^{-7}$\n    Therefore, $x = 40$.",
+    "imagesolurl": null,
+    "subject": "Physics",
+    "topic": "Magnetic Effects of Current",
+    "subtopics": [
+      "Biot-Savart Law",
+      "Magnetic Field of a Current Loop"
+    ],
+    "question_type": [
+      "Formula-based",
+      "Calculation-intensive"
+    ],
+    "avg_time_to_solve": 120
+  },
+  {
+    "id": 11,
+    "shortcut": "Magnetic moment $\\mu$ is proportional to the product of electron velocity (v) and orbital radius (r). In Bohr's model, $v \\propto 1/n$ and $r \\propto n^2$. Therefore, $\\mu \\propto vr \\propto (1/n)(n^2) = n$. So, p=1.",
+    "question": "The magnetic moment of an electron in a hydrogen-like atom is proportional to $n^{p}$, where 'n' is the principal quantum number. Find the value of P.",
+    "equation": "$\\mu \\propto n^{p}$",
+    "imageurl": null,
+    "options": {
+      "A": "3",
+      "B": "2",
+      "C": "4",
+      "D": "1"
+    },
+    "correct_option": "D",
+    "difficulty_level": "Easy",
+    "examname": "JEE-Main-30-01-2024 (Memory Based) [EVENING SHIFT]",
+    "solution": "1.  The magnetic moment ($\\mu$) associated with an electron revolving in an orbit is given by $\\mu = I \\cdot A$, where I is the equivalent current and A is the area of the orbit.\n2.  The equivalent current is the charge 'e' divided by the time period 'T' of revolution: $I = e/T$. The time period is $T = 2\\pi r / v$, where 'r' is the orbital radius and 'v' is the electron's speed. This gives $I = \\frac{ev}{2\\pi r}$.\n3.  The area of the orbit is $A = \\pi r^2$.\n4.  Substituting these into the formula for magnetic moment:\n    $\\mu = (\\frac{ev}{2\\pi r})(\\pi r^2) = \\frac{evr}{2}$\n5.  According to Bohr's atomic model for the n-th orbit:\n    * The orbital radius is directly proportional to the square of the principal quantum number: $r_n \\propto n^2$.\n    * The electron's speed is inversely proportional to the principal quantum number: $v_n \\propto \\frac{1}{n}$.\n6.  Now, let's find the proportionality of the magnetic moment with n:\n    $\\mu_n \\propto v_n \\cdot r_n$\n    $\\mu_n \\propto (\\frac{1}{n}) \\cdot (n^2) = n^1$\n7.  [cite_start]The question states that the magnetic moment is proportional to $n^p$. [cite: 117] By comparing our derived relation ($\mu_n \\propto n^1$) with the given one, we can conclude that $p = 1$.",
+    "imagesolurl": null,
+    "subject": "Physics",
+    "topic": "Modern Physics",
+    "subtopics": [
+      "Bohr's Atomic Model",
+      "Magnetic Dipole Moment of Electron"
+    ],
+    "question_type": [
+      "Conceptual",
+      "Formula-based",
+      "Derivation"
+    ],
+    "avg_time_to_solve": 75
+  },
+  {
+    "id": 12,
+    "shortcut": "Heat $H = \\frac{V^2t}{R}$. Cutting the wire in half means each new part has resistance R/2. Connecting them in parallel gives an equivalent resistance of $R_{eq} = R/4$. Since H is inversely proportional to R, the new heat $H'$ will be $H/(1/4) = 4H$.",
+    "question": "The heat developed in a wire connected to a voltage source is H. If the wire is cut into 2 equal parts and these parts are joined in parallel to the same source, what will be the new heat dissipated in the same amount of time?",
+    "equation": null,
+    "imageurl": null,
+    "options": {
+      "A": "H",
+      "B": "2H",
+      "C": "3H",
+      "D": "4H"
+    },
+    "correct_option": "D",
+    "difficulty_level": "Easy",
+    "examname": "JEE-Main-30-01-2024 (Memory Based) [EVENING SHIFT]",
+    "solution": "1.  Let the original resistance of the wire be R. Assuming the wire is connected to a voltage source V for a time t, the heat developed (H) is given by Joule's law of heating:\n    $H = \\frac{V^2}{R}t$\n2.  [cite_start]The wire is cut into two equal parts. [cite: 124] Since resistance is proportional to length ($R \\propto L$), the resistance of each of the two new parts will be half of the original resistance, i.e., $R_1 = R/2$ and $R_2 = R/2$.\n3.  [cite_start]These two parts are then joined in parallel. [cite: 124] The equivalent resistance ($R_{eq}$) of the parallel combination is calculated as:\n    $\\frac{1}{R_{eq}} = \\frac{1}{R_1} + \\frac{1}{R_2} = \\frac{1}{R/2} + \\frac{1}{R/2} = \\frac{2}{R} + \\frac{2}{R} = \\frac{4}{R}$\n    This gives $R_{eq} = \\frac{R}{4}$.\n4.  This new combination is connected to the same voltage source V for the same time t. The new heat dissipated ($H'$) is:\n    $H' = \\frac{V^2}{R_{eq}}t$\n5.  Substitute the value of $R_{eq}$:\n    $H' = \\frac{V^2}{(R/4)}t = 4 \\left(\\frac{V^2}{R}t\\right)$\n6.  Since $H = \\frac{V^2}{R}t$, we can write:\n    $H' = 4H$\n\nThe new heat dissipated will be 4 times the original heat.",
+    "imagesolurl": null,
+    "subject": "Physics",
+    "topic": "Current Electricity",
+    "subtopics": [
+      "Heating Effect of Current",
+      "Joule's Law of Heating",
+      "Combination of Resistors"
+    ],
+    "question_type": [
+      "Conceptual",
+      "Formula-based"
+    ],
+    "avg_time_to_solve": 60
+  },
+  {
+    "id": 13,
+    "shortcut": "The number of spectral lines for a transition from $n_2$ to $n_1$ is given by the combination formula $\\frac{(n_2 - n_1)(n_2 - n_1 + 1)}{2}$. The type of ion (He+) is not needed for this calculation.",
+    "question": "Calculate the number of spectral lines for a He+ ion for a transition from n=5 to n=1.",
+    "equation": "$n_2=5, n_1=1$",
+    "imageurl": null,
+    "options": {
+      "A": "6",
+      "B": "10",
+      "C": "12",
+      "D": "3"
+    },
+    "correct_option": "B",
+    "difficulty_level": "Easy",
+    "examname": "JEE-Main-30-01-2024 (Memory Based) [EVENING SHIFT]",
+    "solution": "1.  The number of spectral lines emitted during the de-excitation of an electron from a higher energy level ($n_2$) to a lower energy level ($n_1$) is determined by the number of possible pathways the electron can take.\n2.  A direct formula can be used to calculate this. Let $\\Delta n = n_2 - n_1$.\nThe number of spectral lines = $\\frac{\\Delta n (\\Delta n + 1)}{2}$.\n3.  For this transition, the electron moves from $n_2 = 5$ to $n_1 = 1$.\n4.  First, calculate the difference in the principal quantum numbers:\n    $\\Delta n = 5 - 1 = 4$.\n5.  Now, substitute this value into the formula:\n    Number of lines = $\\frac{4 (4 + 1)}{2} = \\frac{4 \\times 5}{2} = \\frac{20}{2} = 10$.\n6.  Therefore, there are 10 possible spectral lines that can be emitted. The fact that the ion is He+ affects the energy and wavelength of these lines but not the total number of possible transitions.",
+    "imagesolurl": null,
+    "subject": "Physics",
+    "topic": "Modern Physics",
+    "subtopics": [
+      "Atomic Structure",
+      "Bohr's Model",
+      "Emission Spectra",
+      "Spectral Lines"
+    ],
+    "question_type": [
+      "Formula-based"
+    ],
+    "avg_time_to_solve": 45
+  },
+  {
+    "id": 14,
+    "shortcut": "The Ge and Si diodes are in forward bias. Their combined voltage drop is $0.3V + 0.7V = 1.0V$. The remaining voltage, $15V - 1.0V = 14V$, is dropped across the total resistance of $1.5k\\Omega + 2.5k\\Omega = 4k\\Omega$. Find the current and then the voltage across the 2.5kΩ resistor.",
+    "question": "Find the voltage across the 2.5 kΩ resistor in the circuit shown.",
+    "equation": "$V_{source} = 15 V, R_1 = 1.5 k\\Omega, R_2 = 2.5 k\\Omega$",
+    "imageurl": "https://res.cloudinary.com/dscgkuvkd/image/upload/v1755283255/Screenshot_2025-08-16_at_12.10.18_AM_eywz7s.png",
+    "options": {
+      "A": "8.75 V",
+      "B": "7.75 V",
+      "C": "6.75 V",
+      "D": "5.75 V"
+    },
+    "correct_option": "A",
+    "difficulty_level": "Medium",
+    "examname": "JEE-Main-30-01-2024 (Memory Based) [EVENING SHIFT]",
+    "solution": "1.  The given circuit shows a DC voltage source, a Germanium (Ge) diode, a Silicon (Si) diode, and two resistors connected in series.\n2.  Both diodes are connected in forward bias. In this configuration, each diode introduces a nearly constant voltage drop, known as the knee voltage.\n    * Knee voltage for Ge diode ($V_{Ge}$) is approximately 0.3 V.\n    * Knee voltage for Si diode ($V_{Si}$) is approximately 0.7 V.\n3.  The total voltage drop across both diodes is $V_{diodes} = V_{Ge} + V_{Si} = 0.3 V + 0.7 V = 1.0 V$.\n4.  The total resistance in the circuit is $R_{total} = 1.5 k\\Omega + 2.5 k\\Omega = 4.0 k\\Omega$.\n5.  According to Kirchhoff's Voltage Law (KVL), the sum of voltage drops around the closed loop must equal the source voltage. The voltage available to the resistive part of the circuit is:\n    $V_{resistors} = V_{source} - V_{diodes} = 15 V - 1.0 V = 14 V$.\n6.  Now, we can calculate the current (I) flowing through the series circuit using Ohm's law:\n    $I = \\frac{V_{resistors}}{R_{total}} = \\frac{14 V}{4.0 k\\Omega} = 3.5$ mA.\n7.  Finally, the voltage across the 2.5 kΩ resistor ($V_{R2}$) is found using Ohm's law again:\n    $V_{R2} = I \\times R_2 = (3.5 \\text{ mA}) \\times (2.5 k\\Omega) = 3.5 \\times 2.5 V = 8.75 V$.",
+    "imagesolurl": null,
+    "subject": "Physics",
+    "topic": "Semiconductor Electronics",
+    "subtopics": [
+      "Diodes",
+      "Forward Bias",
+      "Kirchhoff's Laws",
+      "Series Circuits"
+    ],
+    "question_type": [
+      "Formula-based",
+      "Circuit Analysis"
+    ],
+    "avg_time_to_solve": 120
+  },
+  {
+    "id": 15,
+    "shortcut": "This is an inelastic rotational collision, so conserve angular momentum ($L_i = L_f$) to find the final angular velocity ($\omega_f$). The change in kinetic energy is then $\\Delta KE = KE_f - KE_i = \\frac{1}{2}(I_1+I_2)\\omega_f^2 - (\\frac{1}{2}I_1\\omega_1^2 + \\frac{1}{2}I_2\\omega_2^2)$.",
+    "question": "A disc of Moment of Inertia $4~kgm^{2}$ is spinning freely at $10~rad/s$. A second disc of Moment of Inertia $2~Kgm^{2}$ and angular speed 4 rad/s is put on the first disc, and they finally rotate together with the same angular speed. What is the change in Kinetic Energy?",
+    "equation": "$I_1=4, \\omega_1=10, I_2=2, \\omega_2=4$",
+    "imageurl": null,
+    "options": {
+      "A": null,
+      "B": null,
+      "C": null,
+      "D": null
+    },
+    "correct_option": null,
+    "difficulty_level": "Medium",
+    "examname": "JEE-Main-30-01-2024 (Memory Based) [EVENING SHIFT]",
+    "solution": "1.  Since no external torque acts on the system of the two discs, their total angular momentum is conserved. We assume both discs are initially rotating in the same direction.\n2.  **Initial Angular Momentum ($L_i$):**\n    $L_i = I_1\\omega_1 + I_2\\omega_2 = (4)(10) + (2)(4) = 40 + 8 = 48$ kg·m²/s.\n3.  **Final Angular Momentum ($L_f$):**\n    When the discs rotate together, their moments of inertia add up. $I_f = I_1 + I_2 = 4 + 2 = 6$ kg·m². Let their common final angular velocity be $\\omega_f$.\n    $L_f = I_f\\omega_f = 6\\omega_f$.\n4.  **Find Final Angular Velocity:** By conservation of angular momentum, $L_i = L_f$.\n    $48 = 6\\omega_f \\implies \\omega_f = 8$ rad/s.\n5.  **Calculate Initial Kinetic Energy ($KE_i$):**\n    $KE_i = \\frac{1}{2}I_1\\omega_1^2 + \\frac{1}{2}I_2\\omega_2^2 = \\frac{1}{2}(4)(10^2) + \\frac{1}{2}(2)(4^2) = 2(100) + 1(16) = 200 + 16 = 216$ J.\n6.  **Calculate Final Kinetic Energy ($KE_f$):**\n    $KE_f = \\frac{1}{2}I_f\\omega_f^2 = \\frac{1}{2}(6)(8^2) = 3(64) = 192$ J.\n7.  **Calculate the Change in Kinetic Energy:**\n    $\\Delta KE = KE_f - KE_i = 192 J - 216 J = -24$ J.\nThe change in kinetic energy is -24 J. The negative sign signifies a loss of energy due to the inelastic nature of the collision.",
+    "imagesolurl": null,
+    "subject": "Physics",
+    "topic": "Rotational Motion",
+    "subtopics": [
+      "Conservation of Angular Momentum",
+      "Rotational Kinetic Energy",
+      "Moment of Inertia",
+      "Inelastic Collisions"
+    ],
+    "question_type": [
+      "Formula-based",
+      "Calculation-intensive"
+    ],
+    "avg_time_to_solve": 150
+  }
 ]
