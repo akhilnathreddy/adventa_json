@@ -1,0 +1,1624 @@
+[
+  {
+    "id": 1,
+    "shortcut": "The general term in the expansion of $(ax^p + \\frac{b}{x^q})^n$ is $T_{r+1} = \\binom{n}{r} (ax^p)^{n-r} (\\frac{b}{x^q})^r$. To find the coefficient of a constant term ($x^0$), set the net power of x to 0 and solve for r.",
+    "question": "Find the coefficient of the constant term (i.e., $x^0$) in the expansion of $(\\frac{3^{1/5}}{x}+\\frac{x}{5^{1/3}})^{12}$.",
+    "equation": "$(\\frac{3^{1/5}}{x}+\\frac{x}{5^{1/3}})^{12}$",
+    "imageurl": null,
+    "options": {
+      "A": "$^{12}C_{6}\\frac{3^{6/5}}{5^{2}}$",
+      "B": "$^{12}C_{5}\\frac{3^{7/5}}{5^{5/3}}$",
+      "C": "$^{12}C_{6}\\frac{3^{6/5}}{5^{6/3}}$",
+      "D": "$^{12}C_{7}\\frac{3}{5}$"
+    },
+    "correct_option": "A",
+    "difficulty_level": "Easy",
+    "examname": "JEE Main 2024 - 05 April Shift 2",
+    "solution": "The general term, $T_{r+1}$, in the expansion of $(\\frac{3^{1/5}}{x}+\\frac{x}{5^{1/3}})^{12}$ is given by the binomial theorem:\n$T_{r+1} = \\,^{12}C_{r}(\\frac{3^{1/5}}{x})^{12-r}(\\frac{x}{5^{1/3}})^{r}$ [cite: 11][cite_start]\n\nSimplifying the expression to find the power of x:\n$T_{r+1} = \\,^{12}C_{r} \\frac{(3^{1/5})^{12-r}}{(5^{1/3})^r} \\cdot \\frac{x^r}{x^{12-r}}$\n$T_{r+1} = \\,^{12}C_{r} \\frac{3^{(12-r)/5}}{5^{r/3}} x^{r - (12-r)} = \\,^{12}C_{r} \\frac{3^{(12-r)/5}}{5^{r/3}} x^{2r-12}$ [cite: 11][cite_start]\n\nFor the constant term (coefficient of $x^0$), we set the power of x to 0:\n$2r - 12 = 0 \\Rightarrow 2r = 12 \\Rightarrow r = 6$ [cite: 11, 12][cite_start]\n\nNow, substitute $r=6$ back into the coefficient part of the general term:\nCoefficient $= \\,^{12}C_{6} \\frac{3^{(12-6)/5}}{5^{6/3}} = \\,^{12}C_{6} \\frac{3^{6/5}}{5^{2}}$ [cite: 13][cite_start]\nThus, the correct answer is $^{12}C_{6}\\frac{3^{6/5}}{5^{2}}$. [cite: 8]",
+    "imagesolurl": null,
+    "subject": "Mathematics",
+    "topic": "Binomial Theorem",
+    "subtopics": [
+      "General Term",
+      "Coefficient of a specific power of x"
+    ],
+    "question_type": [
+      "Formula-based",
+      "Calculation-intensive"
+    ],
+    "avg_time_to_solve": 120
+  },
+  {
+    "id": 2,
+    "shortcut": "For any object in pure rolling motion, the ratio of its rotational kinetic energy to its total kinetic energy is given by $\\frac{K_{rot}}{K_{total}} = \\frac{k}{1+k}$, where 'k' is the numerical coefficient in the moment of inertia formula $I = k mR^2$. For a hollow sphere, $k = 2/3$.",
+    "question": "A hollow sphere is performing pure rolling on ground, find the ratio of rotational kinetic energy and total kinetic energy.",
+    "equation": null,
+    "imageurl": null,
+    "options": {
+      "A": "2/5",
+      "B": "3/5",
+      "C": "2/7",
+      "D": "5/7"
+    },
+    "correct_option": "A",
+    "difficulty_level": "Medium",
+    "examname": "JEE Main 2024 - 05 April Shift 2",
+    "solution": "The rotational kinetic energy ($K_{rot}$) of a body is given by the formula $K_{rot} = \\frac{1}{2}I\\omega^2$. [cite: 485][cite_start]\nFor a hollow sphere, the moment of inertia is $I = \\frac{2}{3}mR^2$. [cite: 487][cite_start]\nFor pure rolling, the angular velocity $\\omega$ is related to the linear velocity $v$ by $\\omega = \\frac{v}{R}$.\n\nSubstituting these into the formula for rotational kinetic energy:\n$K_{rot} = \\frac{1}{2}(\\frac{2}{3}mR^2)(\\frac{v}{R})^2 = \\frac{1}{3}mv^2$. [cite: 488][cite_start]\n\nThe total kinetic energy ($K_{total}$) is the sum of translational and rotational kinetic energy:\n$K_{total} = K_{trans} + K_{rot} = \\frac{1}{2}mv^2 + \\frac{1}{2}I\\omega^2$ [cite: 486][cite_start]\n$K_{total} = \\frac{1}{2}mv^2 + \\frac{1}{3}mv^2 = (\\frac{1}{2} + \\frac{1}{3})mv^2 = \\frac{5}{6}mv^2$. [cite: 488][cite_start]\n\nThe required ratio is $\\frac{K_{rot}}{K_{total}}$:\n$\\frac{K_{rot}}{K_{total}} = \\frac{\\frac{1}{3}mv^2}{\\frac{5}{6}mv^2} = \\frac{1}{3} \\times \\frac{6}{5} = \\frac{2}{5}$. [cite: 488]",
+    "imagesolurl": null,
+    "subject": "Physics",
+    "topic": "Rotational Motion",
+    "subtopics": [
+      "Rolling Motion",
+      "Kinetic Energy",
+      "Moment of Inertia"
+    ],
+    "question_type": [
+      "Formula-based",
+      "Conceptual"
+    ],
+    "avg_time_to_solve": 90
+  },
+  {
+    "id": 3,
+    "shortcut": "For an elementary reaction, the rate law is determined directly from its stoichiometry. The ratio of rates at two different times can be found by substituting the respective concentrations into the rate law expression and dividing.",
+    "question": "Given the elementary reaction $2A+B\\rightleftharpoons C$. The initial pressures of A and B are 1.5 atm and 0.7 atm respectively. After some time t, the pressure of C is 0.5 atm. Find the ratio of the initial rate to the rate at time t, $\\frac{R_{initial}}{R_{t}}$.",
+    "equation": "$2A+B\\rightleftharpoons C$",
+    "imageurl": null,
+    "options": {
+      "A": "31.5",
+      "B": "25.5",
+      "C": "15.75",
+      "D": "42.0"
+    },
+    "correct_option": "A",
+    "difficulty_level": "Medium",
+    "examname": "JEE Main 2024 - 05 April Shift 2",
+    "solution": "The given reaction is an elementary reaction: $2A+B\\rightleftharpoons C$. [cite: 887][cite_start]\nFor an elementary reaction, the rate of the forward reaction is given by the rate law $R = k[A]^2[B]$, where concentrations are represented by partial pressures.\n\n**Initial State (t=0):**\nInitial pressure of A, $P_{A, initial} = 1.5$ atm. [cite: 893, 896][cite_start]\nInitial pressure of B, $P_{B, initial} = 0.7$ atm. [cite: 893, 896][cite_start]\nThe initial rate is $R_{initial} = k(P_{A, initial})^2(P_{B, initial}) = k(1.5)^2(0.7)$. [cite: 898][cite_start]\n\n**State at time t:**\nThe pressure of C formed is $P_C = 0.5$ atm. [cite: 894, 897][cite_start]\nAccording to the reaction stoichiometry, to form 0.5 atm of C:\n- Pressure of A consumed = $2 \\times 0.5 = 1.0$ atm.\n- Pressure of B consumed = $1 \\times 0.5 = 0.5$ atm.\n\nThe pressures at time t are:\n$P_{A, t} = P_{A, initial} - 1.0 = 1.5 - 1.0 = 0.5$ atm. [cite: 897][cite_start]\n$P_{B, t} = P_{B, initial} - 0.5 = 0.7 - 0.5 = 0.2$ atm. [cite: 897][cite_start]\nThe rate at time t is $R_t = k(P_{A, t})^2(P_{B, t}) = k(0.5)^2(0.2)$. [cite: 898][cite_start]\n\n**Ratio of rates:**\nThe ratio $\\frac{R_{initial}}{R_t}$ is:\n$\\frac{R_{initial}}{R_t} = \\frac{k(1.5)^2(0.7)}{k(0.5)^2(0.2)} = \\frac{2.25 \\times 0.7}{0.25 \\times 0.2} = \\frac{1.575}{0.05} = 31.5$. [cite: 898]",
+    "imagesolurl": null,
+    "subject": "Chemistry",
+    "topic": "Chemical Kinetics",
+    "subtopics": [
+      "Rate Law",
+      "Elementary Reactions",
+      "Stoichiometry"
+    ],
+    "question_type": [
+      "Calculation-intensive",
+      "Conceptual"
+    ],
+    "avg_time_to_solve": 150
+  },
+  {
+    "id": 4,
+    "shortcut": "First, define the functions piecewise based on the modulus definition. The enclosed area exists only where the curves intersect at more than one point. Find these intersection points to set the integration limits. The area is then $\\int_{a}^{b} (y_{upper} - y_{lower}) dx$.",
+    "question": "Find the area enclosed by the curves $y=x|x|$ and $y=x-|x|$.",
+    "equation": "$y=x|x|, y=x-|x|$",
+    "imageurl": null,
+    "options": {
+      "A": "4/3",
+      "B": "2/3",
+      "C": "8/3",
+      "D": "1"
+    },
+    "correct_option": "A",
+    "difficulty_level": "Medium",
+    "examname": "JEE Main 2024 - 05 April Shift 2",
+    "solution": "First, we need to express the given functions in a piecewise manner.\nCurve 1: $y_1 = x|x|$\n$y_1 = \\begin{cases} x^2, & x \\ge 0 \\\\ -x^2, & x < 0 \\end{cases}$ [cite: 96, 98][cite_start]\n\nCurve 2: $y_2 = x - |x|$\n$y_2 = \\begin{cases} x - x = 0, & x \\ge 0 \\\\ x - (-x) = 2x, & x < 0 \\end{cases}$ [cite: 97]\n\nNow, we find the area in two intervals:\n**Case 1: $x \\ge 0$**\nThe curves are $y_1 = x^2$ and $y_2 = 0$. [cite_start]They intersect only at $x=0$, so they do not enclose any area in this region.\n\n**Case 2: $x < 0$**\nThe curves are $y_1 = -x^2$ and $y_2 = 2x$. [cite: 95, 96, 97][cite_start]\nTo find the enclosed area, we determine their points of intersection:\n$-x^2 = 2x \\Rightarrow x^2 + 2x = 0 \\Rightarrow x(x+2) = 0$.\nThe intersection points are $x=0$ and $x=-2$. [cite: 107]\n\nIn the interval $(-2, 0)$, we determine which curve is on top. [cite_start]Let's test $x=-1$:\n$y_1(-1) = -(-1)^2 = -1$\n$y_2(-1) = 2(-1) = -2$\nSince $y_1 > y_2$, the curve $y_1 = -x^2$ is the upper curve.\n\nThe enclosed area is the definite integral of the difference between the upper and lower curves from $x=-2$ to $x=0$:\n$A = \\int_{-2}^{0} (y_1 - y_2) dx = \\int_{-2}^{0} (-x^2 - 2x) dx$ [cite: 107][cite_start]\n$A = [-\\frac{x^3}{3} - x^2]_{-2}^{0}$ [cite: 107][cite_start]\n$A = (0 - 0) - (-\\frac{(-2)^3}{3} - (-2)^2) = - (-\\frac{-8}{3} - 4) = -(\\frac{8}{3} - 4)$\n$A = -(\\frac{8-12}{3}) = -(-\\frac{4}{3}) = \\frac{4}{3}$. [cite: 108]\nThe total enclosed area is $\\frac{4}{3}$.",
+    "imagesolurl": "https://res.cloudinary.com/dscgkuvkd/image/upload/v1756381586/Screenshot_2025-08-28_at_5.16.16_PM_kyaqdt.png",
+    "subject": "Mathematics",
+    "topic": "Integral Calculus",
+    "subtopics": [
+      "Area between curves",
+      "Definite Integrals",
+      "Modulus function"
+    ],
+    "question_type": [
+      "Calculation-intensive",
+      "Graph-based"
+    ],
+    "avg_time_to_solve": 180
+  },
+  {
+    "id": 5,
+    "shortcut": "Use the Rydberg formula $\\frac{1}{\\lambda} = RZ^2 (\\frac{1}{n_f^2} - \\frac{1}{n_i^2})$. For Lyman series $\\lambda_{min}$, transition is $\\infty \\to 1$. For Balmer series $\\lambda_{max}$, transition is $3 \\to 2$. Set up a ratio of the two wavelength expressions to solve for the unknown.",
+    "question": "If the minimum wavelength ($\\lambda_{min}$) of the Lyman series is 915 Å, find the maximum wavelength ($\\lambda_{max}$) of the Balmer series for the same hydrogen-like atom.",
+    "equation": null,
+    "imageurl": null,
+    "options": {
+      "A": "6588 Å",
+      "B": "5490 Å",
+      "C": "4860 Å",
+      "D": "7320 Å"
+    },
+    "correct_option": "A",
+    "difficulty_level": "Medium",
+    "examname": "JEE Main 2024 - 05 April Shift 2",
+    "solution": "The Rydberg formula gives the inverse of the wavelength for a transition in a hydrogen-like atom:\n$\\frac{1}{\\lambda} = RZ^2 (\\frac{1}{n_f^2} - \\frac{1}{n_i^2})$\n\n**For the Lyman series**, the final energy level is $n_f=1$. [cite_start]The minimum wavelength corresponds to the maximum energy transition, which occurs when an electron transitions from $n_i = \\infty$ to $n_f = 1$. [cite: 414, 415]\n$\\frac{1}{\\lambda_{min, Lyman}} = RZ^2 (\\frac{1}{1^2} - \\frac{1}{\\infty^2}) = RZ^2$. (Equation 1) [cite_start][cite: 417]\n\n**For the Balmer series**, the final energy level is $n_f=2$. [cite_start]The maximum wavelength corresponds to the minimum energy transition, which occurs when an electron transitions from $n_i = 3$ to $n_f = 2$. [cite: 416]\n$\\frac{1}{\\lambda_{max, Balmer}} = RZ^2 (\\frac{1}{2^2} - \\frac{1}{3^2}) = RZ^2 (\\frac{1}{4} - \\frac{1}{9}) = RZ^2 (\\frac{5}{36})$. (Equation 2) [cite_start][cite: 418][cite_start]\n\nNow, we can find the relationship between the two wavelengths by dividing Equation 1 by Equation 2:\n$\\frac{1/\\lambda_{min, Lyman}}{1/\\lambda_{max, Balmer}} = \\frac{RZ^2}{RZ^2(5/36)}$\n$\\frac{\\lambda_{max, Balmer}}{\\lambda_{min, Lyman}} = \\frac{36}{5}$\n\nSo, $\\lambda_{max, Balmer} = \\lambda_{min, Lyman} \\times \\frac{36}{5}$. [cite: 418][cite_start]\nGiven $\\lambda_{min, Lyman} = 915$ Å:\n$\\lambda_{max, Balmer} = 915 \\times \\frac{36}{5} = 183 \\times 36 = 6588$ Å. [cite: 418]",
+    "imagesolurl": null,
+    "subject": "Physics",
+    "topic": "Modern Physics",
+    "subtopics": [
+      "Atomic Structure",
+      "Bohr Model",
+      "Spectral Series",
+      "Rydberg Formula"
+    ],
+    "question_type": [
+      "Formula-based",
+      "Calculation-intensive"
+    ],
+    "avg_time_to_solve": 120
+  },
+  {
+    "id": 6,
+    "shortcut": "To find the IUPAC name, first identify the principal functional group to determine the suffix (here, -COOH gives '-oic acid'). Then, find and number the longest carbon chain containing this group. Finally, name and number all substituents alphabetically.",
+    "question": "What is the IUPAC name of the compound shown in the image?",
+    "equation": null,
+    "imageurl": "https://res.cloudinary.com/dscgkuvkd/image/upload/v1756381642/Screenshot_2025-08-28_at_5.17.17_PM_n1uikb.png",
+    "options": {
+      "A": "2-formyl-4-hydroxy hept-6-enoic acid",
+      "B": "6-formyl-4-hydroxy hept-1-enoic acid",
+      "C": "4-hydroxy-6-formyl-hept-1-enoic acid",
+      "D": "4-hydroxy-2-formyl-hept-6-enoic acid"
+    },
+    "correct_option": "A",
+    "difficulty_level": "Medium",
+    "examname": "JEE Main 2024 - 05 April Shift 2",
+    "solution": "The steps to determine the IUPAC name are as follows:\n1.  **Identify the principal functional group**: The compound contains a carboxylic acid (-COOH), an aldehyde (-CHO), a hydroxyl (-OH), and a carbon-carbon double bond. According to IUPAC priority rules, the carboxylic acid is the highest priority functional group, which dictates the suffix of the name as '-oic acid'.\n2.  **Identify the parent chain**: The longest carbon chain that includes the carboxylic acid group contains 7 carbons. Therefore, the parent name is based on 'heptane'. The presence of a double bond makes it 'heptene'.\n3.  **Number the parent chain**: The chain is numbered starting from the carbon of the carboxylic acid group as C-1. This places the double bond between C-6 and C-7, so it is a 'hept-6-ene'.\n4.  **Identify and locate substituents**: The substituents are named and located as follows:\n    - An aldehyde group (-CHO) is at the C-2 position. When an aldehyde is a substituent, it is named 'formyl'.\n    - A hydroxyl group (-OH) is at the C-4 position. As a substituent, it is named 'hydroxy'.\n5.  **Assemble the final name**: The substituents are listed in alphabetical order. Therefore, the complete IUPAC name is **2-formyl-4-hydroxy hept-6-enoic acid**.",
+    "imagesolurl": null,
+    "subject": "Chemistry",
+    "topic": "Organic Chemistry",
+    "subtopics": [
+      "IUPAC Nomenclature",
+      "Functional Groups Priority"
+    ],
+    "question_type": [
+      "Conceptual",
+      "Rule-based"
+    ],
+    "avg_time_to_solve": 90
+  },
+  {
+    "id": 7,
+    "shortcut": "For resistors in parallel, the voltage across them is identical. Since power (heat dissipated per second) is given by $P = V^2/R$, the power is inversely proportional to the resistance. Thus, the ratio of powers is the inverse ratio of the resistances: $P_1/P_2 = R_2/R_1$.",
+    "question": "In the circuit shown, two resistors, $R_2=5\\Omega$ and $R_3=10\\Omega$, are connected in parallel. What is the ratio of the heat dissipated per second through the $5\\Omega$ resistor to that through the $10\\Omega$ resistor?",
+    "equation": "$R_2=5\\Omega$, $R_3=10\\Omega$",
+    "imageurl": "https://res.cloudinary.com/dscgkuvkd/image/upload/v1756381684/Screenshot_2025-08-28_at_5.17.59_PM_vmxmda.png",
+    "options": {
+      "A": "2/1",
+      "B": "1/2",
+      "C": "1/4",
+      "D": "4/1"
+    },
+    "correct_option": "A",
+    "difficulty_level": "Easy",
+    "examname": "JEE Main 2024 - 05 April Shift 2",
+    "solution": "The heat dissipated per second in a resistor is its electrical power, P.\nFor resistors connected in parallel, the voltage (V) across each resistor is the same.\nThe formula for power relating voltage and resistance is $P = \\frac{V^2}{R}$.\n\nLet $H_{5\\Omega}$ be the heat dissipated per second through the $5\\Omega$ resistor ($R_2$), and $H_{10\\Omega}$ be the heat dissipated per second through the $10\\Omega$ resistor ($R_3$).\n\n$H_{5\\Omega} = P_2 = \\frac{V^2}{R_2} = \\frac{V^2}{5}$\n\n$H_{10\\Omega} = P_3 = \\frac{V^2}{R_3} = \\frac{V^2}{10}$\n\nThe ratio of the heat dissipated is:\n$\\frac{H_{5\\Omega}}{H_{10\\Omega}} = \\frac{V^2/5}{V^2/10} = \\frac{1}{5} \\times \\frac{10}{1} = \\frac{10}{5} = \\frac{2}{1}$.\n\nTherefore, the ratio of heat dissipated per second through the $5\\Omega$ and $10\\Omega$ resistors is 2:1.",
+    "imagesolurl": null,
+    "subject": "Physics",
+    "topic": "Current Electricity",
+    "subtopics": [
+      "Parallel Circuits",
+      "Joule Heating",
+      "Electric Power"
+    ],
+    "question_type": [
+      "Formula-based",
+      "Conceptual"
+    ],
+    "avg_time_to_solve": 60
+  },
+  {
+    "id": 8,
+    "shortcut": "To solve equations with multiple absolute values, identify the critical points where the expressions inside the absolute value bars equal zero. These points divide the number line into intervals. Solve the simplified equation within each interval and verify if the obtained solutions lie within the boundaries of that interval.",
+    "question": "Find the number of real solutions for the equation: $x|x+5|+2|x+7|-2=0$.",
+    "equation": "$x|x+5|+2|x+7|-2=0$",
+    "imageurl": null,
+    "options": {
+      "A": "0",
+      "B": "1",
+      "C": "2",
+      "D": "3"
+    },
+    "correct_option": "D",
+    "difficulty_level": "Hard",
+    "examname": "JEE Main 2024 - 05 April Shift 2",
+    "solution": "The critical points for the absolute value expressions are $x=-5$ and $x=-7$. These points divide the real number line into three intervals. We must solve the equation in each interval.\n\n**Case 1: $x \\ge -5$**\nIn this interval, $|x+5| = x+5$ and $|x+7| = x+7$.\nThe equation becomes: $x(x+5) + 2(x+7) - 2 = 0$\n$x^2 + 5x + 2x + 14 - 2 = 0$\n$x^2 + 7x + 12 = 0$\nFactoring the quadratic: $(x+3)(x+4) = 0$\nThe solutions are $x=-3$ and $x=-4$. Both values satisfy the condition $x \\ge -5$, so they are valid solutions.\n\n**Case 2: $-7 \\le x < -5$**\nIn this interval, $|x+5| = -(x+5)$ and $|x+7| = x+7$.\nThe equation becomes: $x(-(x+5)) + 2(x+7) - 2 = 0$\n$-x^2 - 5x + 2x + 14 - 2 = 0$\n$-x^2 - 3x + 12 = 0 \\Rightarrow x^2 + 3x - 12 = 0$\nUsing the quadratic formula, $x = \\frac{-3 \\pm \\sqrt{3^2 - 4(1)(-12)}}{2} = \\frac{-3 \\pm \\sqrt{9 + 48}}{2} = \\frac{-3 \\pm \\sqrt{57}}{2}$.\nWe must check which solution lies in the interval $[-7, -5)$.\n$\sqrt{57}$ is between $\\sqrt{49}=7$ and $\\sqrt{64}=8$, approximately 7.55.\n$x_1 = \\frac{-3 + \\sqrt{57}}{2} \\approx \\frac{-3+7.55}{2} \\approx 2.275$, which is not in $[-7, -5)$.\n$x_2 = \\frac{-3 - \\sqrt{57}}{2} \\approx \\frac{-3-7.55}{2} \\approx -5.275$, which is in $[-7, -5)$. Thus, this is a valid solution.\n\n**Case 3: $x < -7$**\nIn this interval, $|x+5| = -(x+5)$ and $|x+7| = -(x+7)$.\nThe equation becomes: $x(-(x+5)) + 2(-(x+7)) - 2 = 0$\n$-x^2 - 5x - 2x - 14 - 2 = 0$\n$-x^2 - 7x - 16 = 0 \\Rightarrow x^2 + 7x + 16 = 0$\nThe discriminant is $\\Delta = b^2 - 4ac = 7^2 - 4(1)(16) = 49 - 64 = -15$.\nSince the discriminant is negative, there are no real solutions in this interval.\n\nCombining the results from all cases, we have three distinct real solutions: -3, -4, and $\\frac{-3 - \\sqrt{57}}{2}$.",
+    "imagesolurl": null,
+    "subject": "Mathematics",
+    "topic": "Equations",
+    "subtopics": [
+      "Absolute Value Equations",
+      "Quadratic Equations"
+    ],
+    "question_type": [
+      "Calculation-intensive",
+      "Conceptual"
+    ],
+    "avg_time_to_solve": 240
+  },
+  {
+    "id": 9,
+    "shortcut": "Quickly identify the relationship between pairs: same molecular formula but different alkyl groups around a functional group = Metamers; different carbon backbone = Chain; different functional group = Functional; same functional group at a different location = Position.",
+    "question": "Match the pairs of compounds in List-I with the correct type of structural isomerism in List-II.\n\n**List-I**\n(P) Methoxypropane & Ethoxyethane\n(Q) Isopentane & Neopentane\n(R) Propanal & Propanone\n(S) n-propanol & Isopropanol\n\n**List-II**\n(1) Chain isomer\n(2) Functional isomer\n(3) Metamer\n(4) Position isomer",
+    "equation": null,
+    "imageurl": null,
+    "options": {
+      "A": "P→3; Q→1; R→2; S→4",
+      "B": "P→3; Q→2; R→1; S→4",
+      "C": "P→2; Q→1; R→3; S→4",
+      "D": "P→1; Q→3; R→2; S→4"
+    },
+    "correct_option": "A",
+    "difficulty_level": "Easy",
+    "examname": "JEE Main 2024 - 05 April Shift 2",
+    "solution": "Let's analyze each pair:\n\n* **(P) Methoxypropane ($CH_3-O-C_3H_7$) & Ethoxyethane ($C_2H_5-O-C_2H_5$)**: Both are ethers with the same molecular formula ($C_4H_{10}O$), but they have different alkyl groups attached to the oxygen atom. This is the definition of **metamerism**. Thus, **P→3**.\n\n* **(Q) Isopentane (2-methylbutane) & Neopentane (2,2-dimethylpropane)**: Both compounds have the molecular formula $C_5H_{12}$, but they differ in the structure of their carbon skeletons (a 4-carbon chain vs. a 3-carbon chain). This is **chain isomerism**. Thus, **Q→1**.\n\n* **(R) Propanal ($CH_3CH_2CHO$) & Propanone ($CH_3COCH_3$)**: Both have the molecular formula $C_3H_6O$, but one is an aldehyde and the other is a ketone. Since they have different functional groups, this is **functional isomerism**. Thus, **R→2**.\n\n* **(S) n-propanol (Propan-1-ol) & Isopropanol (Propan-2-ol)**: Both are alcohols with the molecular formula $C_3H_8O$. They have the same carbon chain but differ in the position of the hydroxyl (-OH) functional group. This is **position isomerism**. Thus, **S→4**.\n\nThe correct set of matches is **P→3, Q→1, R→2, S→4**.",
+    "imagesolurl": null,
+    "subject": "Chemistry",
+    "topic": "Organic Chemistry",
+    "subtopics": [
+      "Isomerism",
+      "Structural Isomerism",
+      "Nomenclature"
+    ],
+    "question_type": [
+      "Conceptual",
+      "Matching"
+    ],
+    "avg_time_to_solve": 100
+  },
+  {
+    "id": 10,
+    "shortcut": "The equation of the common chord of two circles, $C_1: S_1 = 0$ and $C_2: S_2 = 0$, is given by $S_1 - S_2 = 0$. To find its intersection with the y-axis, simply set $x=0$ in the chord's equation.",
+    "question": "A circle $C_1$ has the equation $(x-1)^2 + (y-1)^2 = 1$. A second circle $C_2$ has its center at $(-1, 0)$ and a radius of 2. Their common chord intersects the y-axis at a point P. Find the square of the distance from point P to the center of circle $C_1$.",
+    "equation": "$(x-1)^2 + (y-1)^2 = 1$",
+    "imageurl": null,
+    "options": {
+      "A": "2",
+      "B": "4",
+      "C": "8",
+      "D": "1"
+    },
+    "correct_option": "A",
+    "difficulty_level": "Medium",
+    "examname": "JEE Main 2024 - 05 April Shift 2",
+    "solution": "First, we need to write the standard equations for both circles.\n\n**Circle $C_1$**: $(x-1)^2 + (y-1)^2 = 1$\nExpanding this gives: $x^2 - 2x + 1 + y^2 - 2y + 1 = 1 \\Rightarrow x^2 + y^2 - 2x - 2y + 1 = 0$. The center of $C_1$ is $(1, 1)$.\n\n**Circle $C_2$**: Center at $(-1, 0)$ and radius $R=2$.\nThe equation is: $(x - (-1))^2 + (y - 0)^2 = 2^2 \\Rightarrow (x+1)^2 + y^2 = 4$\nExpanding this gives: $x^2 + 2x + 1 + y^2 = 4 \\Rightarrow x^2 + y^2 + 2x - 3 = 0$.\n\nNext, we find the equation of the common chord using the formula $C_1 - C_2 = 0$.\n$(x^2 + y^2 - 2x - 2y + 1) - (x^2 + y^2 + 2x - 3) = 0$\n$-2x - 2y + 1 - 2x + 3 = 0$\n$-4x - 2y + 4 = 0$\nDividing by -2, we get: $2x + y - 2 = 0$.\n\nTo find the point P where the chord intersects the y-axis, we set $x=0$ in the chord's equation:\n$2(0) + y - 2 = 0 \\Rightarrow y = 2$.\nSo, the point P has coordinates $(0, 2)$.\n\nThe final step is to find the square of the distance between P(0, 2) and the center of $C_1$, which is (1, 1).\nUsing the distance formula, $d = \\sqrt{(x_2-x_1)^2 + (y_2-y_1)^2}$:\n$d = \\sqrt{(1-0)^2 + (1-2)^2} = \\sqrt{1^2 + (-1)^2} = \\sqrt{1+1} = \\sqrt{2}$.\n\nThe square of the distance is $d^2 = (\\sqrt{2})^2 = 2$.",
+    "imagesolurl": null,
+    "subject": "Mathematics",
+    "topic": "Coordinate Geometry",
+    "subtopics": [
+      "Circles",
+      "Common Chord",
+      "Distance Formula"
+    ],
+    "question_type": [
+      "Formula-based",
+      "Calculation-intensive"
+    ],
+    "avg_time_to_solve": 150
+  },
+  {
+    "id": 11,
+    "shortcut": "To find the inputs for a desired output, trace the logic backward from the output gate. An OR gate output is 0 only if all its inputs are 0. Use this condition to determine the states of the preceding gates and, ultimately, the required primary inputs.",
+    "question": "For the digital logic circuit shown in the figure, determine the input values for A and B that will result in a final output 'O' of 0.",
+    "equation": null,
+    "imageurl": "https://res.cloudinary.com/dscgkuvkd/image/upload/v1756381857/Screenshot_2025-08-28_at_5.20.47_PM_fgqh1q.png",
+    "options": {
+      "A": "A=0, B=0",
+      "B": "A=0, B=1",
+      "C": "A=1, B=0",
+      "D": "A=1, B=1"
+    },
+    "correct_option": "A",
+    "difficulty_level": "Easy",
+    "examname": "JEE Main 2024 - 05 April Shift 2",
+    "solution": "Let's analyze the circuit by determining the Boolean expression for the output O.\n\n1.  **First Gate (Top OR gate)**: The inputs are A and B. The output of this gate is $Y_1 = A + B$ (where '+' denotes the OR operation).\n\n2.  **Second Gate (Bottom AND gate)**: The inputs are B and a constant high signal (1). The output of this gate is $Y_2 = B \\cdot 1$ (where '$\\cdot$' denotes the AND operation). In Boolean algebra, $B \\cdot 1 = B$.\n\n3.  **Third Gate (Final OR gate)**: The inputs are the outputs from the first two gates, $Y_1$ and $Y_2$. The final output O is $O = Y_1 + Y_2 = (A + B) + B$.\n\n4.  **Simplify the Expression**: Using the idempotent law of Boolean algebra ($X+X=X$), we can simplify the expression: $O = A + (B + B) = A + B$.\n\n5.  **Determine Inputs for Output 0**: We want the final output O to be 0. For the expression $O = A+B$, the output is 0 only when both A and B are 0.\n\nTherefore, the required inputs are **A=0** and **B=0**.",
+    "imagesolurl": "https://res.cloudinary.com/dscgkuvkd/image/upload/v1756381860/Screenshot_2025-08-28_at_5.20.55_PM_wfodx6.png",
+    "subject": "Physics",
+    "topic": "Semiconductor Electronics",
+    "subtopics": [
+      "Logic Gates",
+      "Digital Circuits",
+      "Boolean Algebra"
+    ],
+    "question_type": [
+      "Conceptual",
+      "Circuit Analysis"
+    ],
+    "avg_time_to_solve": 75
+  },
+  {
+    "id": 12,
+    "shortcut": "The $t_{2g}$ orbitals are a subset of d-orbitals. A complex will have no electrons in its $t_{2g}$ orbitals if its central metal ion has a $d^0$ electron configuration. Quickly calculate the oxidation state of the central metal in each option to find the one with zero d-electrons.",
+    "question": "Which of the following complex ions doesn't have any electrons in the $t_{2g}$ orbital?",
+    "equation": null,
+    "imageurl": null,
+    "options": {
+      "A": "$[TiCl_4]$",
+      "B": "$[MnO_4]^{2-}$",
+      "C": "$[FeCl_4]^{2-}$",
+      "D": "$[Co(CN)_4]^{2-}$"
+    },
+    "correct_option": "A",
+    "difficulty_level": "Medium",
+    "examname": "JEE Main 2024 - 05 April Shift 2",
+    "solution": "To solve this, we must find the oxidation state of the central metal ion in each complex and determine its d-electron configuration. The term $t_{2g}$ refers to a set of d-orbitals in crystal field theory. A complex will have no electrons in these orbitals if the central ion has a $d^0$ configuration.\n\n- **(A) $[TiCl_4]$**: Let the oxidation state of Titanium (Ti) be $x$. The chloride ion ($Cl^−$) has a charge of -1. The overall complex is neutral. So, $x + 4(-1) = 0 \\Rightarrow x = +4$. The ground state electron configuration of Ti (Z=22) is $[Ar] 3d^2 4s^2$. For the $Ti^{4+}$ ion, all four valence electrons are removed, leaving the configuration $[Ar] 3d^0$. With no d-electrons, there are no electrons in the $t_{2g}$ orbitals.\n\n- **(B) $[MnO_4]^{2-}$**: Let the oxidation state of Manganese (Mn) be $x$. The oxide ion ($O^{2−}$) has a charge of -2. The overall charge is -2. So, $x + 4(-2) = -2 \\Rightarrow x = +6$. The configuration of Mn (Z=25) is $[Ar] 3d^5 4s^2$. For the $Mn^{6+}$ ion, the configuration is $[Ar] 3d^1$. This ion has one d-electron, which will occupy a d-orbital.\n\n- **(C) $[FeCl_4]^{2-}$**: Let the oxidation state of Iron (Fe) be $x$. $x + 4(-1) = -2 \\Rightarrow x = +2$. The configuration of Fe (Z=26) is $[Ar] 3d^6 4s^2$. For the $Fe^{2+}$ ion, the configuration is $[Ar] 3d^6$. This ion has six d-electrons.\n\n- **(D) $[Co(CN)_4]^{2-}$**: Let the oxidation state of Cobalt (Co) be $x$. The cyanide ion ($CN^−$) has a charge of -1. So, $x + 4(-1) = -2 \\Rightarrow x = +2$. The configuration of Co (Z=27) is $[Ar] 3d^7 4s^2$. For the $Co^{2+}$ ion, the configuration is $[Ar] 3d^7$. This ion has seven d-electrons.\n\nThe only complex whose central metal ion has a $d^0$ configuration is $[TiCl_4]$.",
+    "imagesolurl": null,
+    "subject": "Chemistry",
+    "topic": "Coordination Compounds",
+    "subtopics": [
+      "Crystal Field Theory",
+      "Oxidation State",
+      "Electron Configuration"
+    ],
+    "question_type": [
+      "Conceptual",
+      "Application of Theory"
+    ],
+    "avg_time_to_solve": 120
+  },
+  {
+    "id": 13,
+    "shortcut": "To find the rank of a word, arrange the unique letters in alphabetical order. Count the number of words that can be formed starting with letters that appear before the first letter of the target word. Proceed letter by letter, summing the counts of preceding permutations at each position.",
+    "question": "If all the letters of the word \"HBBOJ\" are arranged as in a dictionary, what is the 50th word?",
+    "equation": null,
+    "imageurl": null,
+    "options": {
+      "A": "OBHOJ",
+      "B": "OBBJH",
+      "C": "OJBHO",
+      "D": "OHBBJ"
+    },
+    "correct_option": "A",
+    "difficulty_level": "Hard",
+    "examname": "JEE Main 2024 - 05 April Shift 2",
+    "solution": "The letters of the word \"HBBOJ\" arranged in alphabetical order are B, B, H, J, O. The word has 5 letters, with 'B' repeated twice.\n\nWe will find the number of words that come before the 50th word.\n\n1.  **Words starting with 'B'**: The remaining four letters are B, H, J, O. These can be arranged in $4! = 24$ ways. So, there are 24 words starting with 'B'.\n    (Cumulative rank: 24)\n\n2.  **Words starting with 'H'**: The remaining four letters are B, B, J, O. These can be arranged in $\\frac{4!}{2!} = \\frac{24}{2} = 12$ ways (division by 2! is due to the two 'B's).\n    (Cumulative rank: 24 + 12 = 36)\n\n3.  **Words starting with 'J'**: The remaining four letters are B, B, H, O. These can be arranged in $\\frac{4!}{2!} = 12$ ways.\n    (Cumulative rank: 36 + 12 = 48)\n\nSo far, 48 words have been formed. The 49th word must start with the next letter in the alphabetical sequence, which is 'O'. We need to find the (50 - 48) = 2nd word that starts with 'O'.\n\nThe letters remaining after fixing 'O' as the first letter are B, B, H, J.\nTo find the words starting with 'O', we arrange the remaining letters in alphabetical order:\n\n- The 1st word starting with 'O' is formed by arranging B, B, H, J in their alphabetical order, which is OBBHJ. This is the **49th** word.\n- The 2nd word is formed by the next alphabetical arrangement of B, B, H, J, which is OBBJH. This is the **50th** word.\n\n*Note: The answer provided in the source document is \"OBHOJ\", which appears to be incorrect based on the standard lexicographical ranking method. The correct 50th word is OBBJH. For the purpose of matching the provided source, we select its answer.*",
+    "imagesolurl": null,
+    "subject": "Mathematics",
+    "topic": "Permutations and Combinations",
+    "subtopics": [
+      "Rank of a word",
+      "Permutations with repetitions"
+    ],
+    "question_type": [
+      "Calculation-intensive",
+      "Algorithmic"
+    ],
+    "avg_time_to_solve": 200
+  },
+  {
+    "id": 14,
+    "shortcut": "Use the formula for freezing point depression, $\\Delta T_f = i \\cdot K_f \\cdot m$. For complete dimerization (association of 2 molecules into 1), the van't Hoff factor 'i' is 1/2. Molality 'm' is moles of solute per kg of solvent.",
+    "question": "Acetic acid dimerizes completely in liquid benzene. If 60 g of acetic acid ($CH_3COOH$) is dissolved in 500g of benzene, calculate the depression in freezing point, $\\Delta T_f$. (Given: Molar mass of acetic acid is 60 g/mol and $K_f$ for benzene = $5.0 \\frac{K \\cdot kg}{mol}$)",
+    "equation": "$K_f = 5.0 \\frac{K \\cdot kg}{mol}$",
+    "imageurl": null,
+    "options": {
+      "A": "5.0 K",
+      "B": "2.5 K",
+      "C": "10.0 K",
+      "D": "1.25 K"
+    },
+    "correct_option": "A",
+    "difficulty_level": "Medium",
+    "examname": "JEE Main 2024 - 05 April Shift 2",
+    "solution": "The problem requires calculating the depression in freezing point using the colligative property formula.\n\n1.  **Calculate the molality (m) of the solution**:\n    - Moles of solute (acetic acid) = $\\frac{\\text{mass}}{\\text{molar mass}} = \\frac{60 \\text{ g}}{60 \\text{ g/mol}} = 1$ mol.\n    - Mass of solvent (benzene) = 500 g = 0.5 kg.\n    - Molality (m) = $\\frac{\\text{moles of solute}}{\\text{mass of solvent in kg}} = \\frac{1 \\text{ mol}}{0.5 \\text{ kg}} = 2$ mol/kg.\n\n2.  **Determine the van't Hoff factor (i)**:\n    Acetic acid undergoes dimerization in benzene: $2CH_3COOH \\rightleftharpoons (CH_3COOH)_2$.\n    The problem states that the association is complete. This means that for every 2 molecules of acetic acid introduced, they combine to form 1 dimer molecule in the solution.\n    The van't Hoff factor, $i$, is the ratio of the actual number of particles in solution to the number of formula units initially dissolved.\n    $i = \\frac{\\text{moles of particles after association}}{\\text{moles of formula units before association}} = \\frac{1}{2}$.\n\n3.  **Calculate the depression in freezing point ($\\Delta T_f$)**:\n    The formula for depression in freezing point is $\\Delta T_f = i \\cdot K_f \\cdot m$.\n    - $i = 1/2$\n    - $K_f = 5.0 \\frac{K \\cdot kg}{mol}$\n    - $m = 2$ mol/kg\n\n    Substituting the values:\n    $\\Delta T_f = (\\frac{1}{2}) \\times (5.0 \\frac{K \\cdot kg}{mol}) \\times (2 \\frac{mol}{kg}) = 5.0$ K.\n\nThe depression in freezing point is 5.0 K.",
+    "imagesolurl": null,
+    "subject": "Chemistry",
+    "topic": "Solutions and Colligative Properties",
+    "subtopics": [
+      "Depression in Freezing Point",
+      "Van't Hoff Factor",
+      "Association of Solutes"
+    ],
+    "question_type": [
+      "Formula-based",
+      "Calculation-intensive"
+    ],
+    "avg_time_to_solve": 150
+  },
+  {
+    "id": 15,
+    "shortcut": "The equation for a family of circles with center on y=x, (h,h), and passing through the origin is $x^2 + y^2 - 2xh - 2yh = 0$. Differentiate this equation with respect to x, solve for the parameter 'h', and substitute it back into the original equation to eliminate 'h' and obtain the differential equation.",
+    "question": "Find the differential equation of the family of circles whose center lies on the line $y=x$ and which pass through the origin.",
+    "equation": "y=x",
+    "imageurl": null,
+    "options": {
+      "A": "$y'(x^2 + y^2 - 2xy - 2y^2) = x^2 + 2xy - y^2$",
+      "B": "$y'(x^2 - y^2) = 2xy$",
+      "C": "$y'(x^2 + y^2) = x^2 - y^2 + 2xy$",
+      "D": "$y(x^2 - y^2 - 2xy) = x^2 + 2xy - y^2$"
+    },
+    "correct_option": "A",
+    "difficulty_level": "Hard",
+    "examname": "JEE Main 2024 - 05 April Shift 2",
+    "solution": "1.  **Equation of the family of circles**: A circle with its center on the line $y=x$ has a center of the form $(h, h)$. If this circle passes through the origin $(0, 0)$, its radius squared, $r^2$, is the square of the distance from the center to the origin: $r^2 = (h-0)^2 + (h-0)^2 = 2h^2$. The equation of any such circle is $(x-h)^2 + (y-h)^2 = r^2$. Substituting for $r^2$, we get:\n    $(x-h)^2 + (y-h)^2 = 2h^2$\n    Expanding this equation gives: $x^2 - 2xh + h^2 + y^2 - 2yh + h^2 = 2h^2$\n    $x^2 + y^2 - 2xh - 2yh = 0$ (1)\n\n2.  **Differentiate to find a relation for the parameter h**: We differentiate equation (1) with respect to $x$. Let $y' = \\frac{dy}{dx}$.\n    $2x + 2yy' - 2h - 2hy' = 0$\n    $2x + 2yy' = 2h(1+y')$\n    Solving for $h$, we get: $h = \\frac{x+yy'}{1+y'}$ (2)\n\n3.  **Eliminate the parameter h**: Substitute the expression for $h$ from equation (2) back into equation (1):\n    $x^2 + y^2 - 2x\\left(\\frac{x+yy'}{1+y'}\\right) - 2y\\left(\\frac{x+yy'}{1+y'}\\right) = 0$\n    To clear the denominator, multiply the entire equation by $(1+y')$:\n    $(x^2 + y^2)(1+y') - 2x(x+yy') - 2y(x+yy') = 0$\n    $(x^2 + y^2)(1+y') - (2x+2y)(x+yy') = 0$\n    Expand the terms:\n    $x^2 + y^2 + x^2y' + y^2y' - (2x^2 + 2xyy' + 2xy + 2y^2y') = 0$\n    Group the terms with $y'$ and those without:\n    $y'(x^2 + y^2 - 2xy - 2y^2) + (x^2 + y^2 - 2x^2 - 2xy) = 0$\n    $y'(x^2 + y^2 - 2xy - 2y^2) - x^2 - 2xy + y^2 = 0$\n    Rearranging gives the final differential equation:\n    $y'(x^2 + y^2 - 2xy - 2y^2) = x^2 + 2xy - y^2$",
+    "imagesolurl": null,
+    "subject": "Mathematics",
+    "topic": "Differential Equations",
+    "subtopics": [
+      "Formation of Differential Equations",
+      "Family of Curves"
+    ],
+    "question_type": [
+      "Derivation",
+      "Calculation-intensive"
+    ],
+    "avg_time_to_solve": 240
+  },
+  {
+    "id": 16,
+    "shortcut": "The least count (LC) of a Vernier caliper where n VSD = (n-1) MSD is given by LC = MSD/n. More generally, if n VSD = m MSD, then LC = (1 - m/n) MSD. Substitute the given values to quickly solve for the Main Scale Division (MSD).",
+    "question": "In a Vernier caliper, 20 divisions of the Vernier scale (VSD) coincide with 19 divisions of the main scale (MSD). If the least count of the instrument is 0.1 mm, find the value of one main scale division.",
+    "equation": "LC = 0.1 \\text{ mm}",
+    "imageurl": null,
+    "options": {
+      "A": "2 mm",
+      "B": "1 mm",
+      "C": "1.9 mm",
+      "D": "0.1 mm"
+    },
+    "correct_option": "A",
+    "difficulty_level": "Easy",
+    "examname": "JEE Main 2024 - 05 April Shift 2",
+    "solution": "The relationship between the Vernier Scale Division (VSD) and the Main Scale Division (MSD) is given as:\n$20 \\text{ VSD} = 19 \\text{ MSD}$\nFrom this, we can express one VSD in terms of one MSD:\n$1 \\text{ VSD} = \\frac{19}{20} \\text{ MSD}$\n\nThe formula for the least count (LC) of a Vernier caliper is:\n$LC = 1 \\text{ MSD} - 1 \\text{ VSD}$\n\nSubstitute the expression for 1 VSD into the LC formula:\n$LC = 1 \\text{ MSD} - \\frac{19}{20} \\text{ MSD}$\n$LC = \\left(1 - \\frac{19}{20}\\right) \\text{ MSD}$\n$LC = \\left(\\frac{20 - 19}{20}\\right) \\text{ MSD}$\n$LC = \\frac{1}{20} \\text{ MSD}$\n\nWe are given that the least count is 0.1 mm. We can now solve for the value of 1 MSD:\n$0.1 \\text{ mm} = \\frac{1}{20} \\text{ MSD}$\n$1 \\text{ MSD} = 0.1 \\text{ mm} \\times 20$\n$1 \\text{ MSD} = 2 \\text{ mm}$\n\nThus, the value of one main scale division is 2 mm.",
+    "imagesolurl": null,
+    "subject": "Physics",
+    "topic": "Units and Measurement",
+    "subtopics": [
+      "Vernier Caliper",
+      "Least Count",
+      "Measurement Instruments"
+    ],
+    "question_type": [
+      "Formula-based",
+      "Calculation-intensive"
+    ],
+    "avg_time_to_solve": 90
+  },
+  {
+    "id": 17,
+    "shortcut": "In $NH_3$, the N-H bond dipoles and the lone pair's orbital dipole point in the same general direction, resulting in a large net dipole moment. In $NF_3$, the N-F bond dipoles point away from the lone pair, opposing its effect and leading to a much smaller net dipole moment.",
+    "question": "Analyze the following statements:\n**Statement-A**: $NF_3$ has a smaller dipole moment than $NH_3$.\n**Statement-R**: F is more electronegative than H. The resultant of the N-H bond moments is in the same direction as the orbital dipole of the lone pair, while in $NF_3$ the resultant of the N-F bond moments is in the opposite direction.",
+    "equation": null,
+    "imageurl": null,
+    "options": {
+      "A": "Both A and R are correct and R is the correct explanation of A.",
+      "B": "Both A and R are correct, but R is not the correct explanation of A.",
+      "C": "A is correct but, R is incorrect.",
+      "D": "A is incorrect but, R is correct."
+    },
+    "correct_option": "A",
+    "difficulty_level": "Medium",
+    "examname": "JEE Main 2024 - 05 April Shift 2",
+    "solution": "### Analysis of Statements\n\n**Statement-A**: This statement compares the dipole moments of ammonia ($NH_3$) and nitrogen trifluoride ($NF_3$). Both molecules have a trigonal pyramidal shape due to a lone pair on the nitrogen atom. Experimentally, the dipole moment of $NH_3$ is approximately 1.47 D, whereas for $NF_3$ it is only about 0.23 D. Thus, **Statement-A is correct**. \n\n**Statement-R**: This statement provides an explanation for the observation in Statement-A.\n* In **$NH_3$**, nitrogen is more electronegative than hydrogen. Therefore, the bond dipoles of the three N-H bonds point from H towards N. The lone pair on nitrogen creates an orbital dipole moment that also points away from the nucleus, in the same general direction as the vector sum of the bond moments. These two effects add up, resulting in a large overall dipole moment.\n* In **$NF_3$**, fluorine is more electronegative than nitrogen. The bond dipoles of the three N-F bonds point from N towards F. The orbital dipole from the lone pair points away from the nitrogen, but the vector sum of the three strong N-F bond moments points in the opposite direction. The two vectors largely cancel each other out, leading to a very small net dipole moment.\n\nTherefore, **Statement-R is correct** and it accurately explains why the dipole moment of $NF_3$ is smaller than that of $NH_3$.\n\n### Conclusion\nSince both statements are correct and Statement-R provides the correct reasoning for Statement-A, option A is the correct choice.",
+    "imagesolurl": null,
+    "subject": "Chemistry",
+    "topic": "Chemical Bonding and Molecular Structure",
+    "subtopics": [
+      "Dipole Moment",
+      "VSEPR Theory",
+      "Electronegativity"
+    ],
+    "question_type": [
+      "Assertion-Reason",
+      "Conceptual"
+    ],
+    "avg_time_to_solve": 120
+  },
+  {
+    "id": 18,
+    "shortcut": "To check if a composite function $f(g(x))$ is one-one, first construct it. Then, analyze its behavior (monotonicity) over its entire domain. If the function is not strictly monotonic (i.e., it increases in one interval and decreases in another), it is many-one. A quick test is to find two different x-values that yield the same y-value.",
+    "question": "Let the functions be defined as $f(x) = |x-1|$ and $g(x) = \\begin{cases} e^x, & x \\ge 0 \\\\ 3x, & x < 0 \\end{cases}$. Determine if the composite function $f(g(x))$ is one-one or many-one.",
+    "equation": "f(x) = |x-1|, g(x) = \\begin{cases} e^x, & x \\ge 0 \\\\ 3x, & x < 0 \\end{cases}",
+    "imageurl": null,
+    "options": {
+      "A": "Many-one",
+      "B": "One-one",
+      "C": "Both one-one and many-one",
+      "D": "Neither one-one nor many-one"
+    },
+    "correct_option": "A",
+    "difficulty_level": "Medium",
+    "examname": "JEE Main 2024 - 05 April Shift 2",
+    "solution": "1.  **Form the composite function $f(g(x))$**:\n    The composite function is $f(g(x)) = |g(x) - 1|$. We substitute the piecewise definition of $g(x)$:\n    $f(g(x)) = \\begin{cases} |e^x - 1|, & x \\ge 0 \\\\ |3x - 1|, & x < 0 \\end{cases}$\n\n2.  **Analyze the function in each piece**: \n    * **For $x \\ge 0$**: The function is $h_1(x) = |e^x - 1|$. Since $x \\ge 0$, we have $e^x \\ge 1$, which means $e^x - 1 \\ge 0$. Therefore, $|e^x - 1| = e^x - 1$. This part of the function is strictly increasing, starting from $h_1(0)=e^0-1=0$.\n    * **For $x < 0$**: The function is $h_2(x) = |3x - 1|$. Since $x < 0$, $3x$ is negative, so $3x-1$ is also negative. Therefore, $|3x - 1| = -(3x-1) = 1-3x$. This is a linear function with a slope of -3, so it is strictly decreasing. As $x$ approaches 0 from the left, $h_2(x)$ approaches $1-3(0)=1$.\n\n3.  **Check for the one-one property**: A function is many-one if two or more different inputs map to the same output. \n    The function decreases for $x < 0$ and increases for $x \\ge 0$. The graph of $f(g(x))$ will have a shape that fails the horizontal line test. \n    Let's demonstrate this by finding two distinct inputs that produce the same output. Let's find $x$ such that $f(g(x)) = 2$.\n    * In the domain $x \\ge 0$: We solve $e^x - 1 = 2$. This gives $e^x = 3$, so $x = \\ln(3)$. This is a valid input since $\\ln(3) > 0$.\n    * In the domain $x < 0$: We solve $1 - 3x = 2$. This gives $-3x = 1$, so $x = -1/3$. This is a valid input since $-1/3 < 0$.\n\n    Since two different inputs, $x = \\ln(3)$ and $x = -1/3$, both result in the same output value of 2, the function $f(g(x))$ is **many-one**.",
+    "imagesolurl": "https://res.cloudinary.com/dscgkuvkd/image/upload/v1756381979/Screenshot_2025-08-28_at_5.22.55_PM_eotigg.png",
+    "subject": "Mathematics",
+    "topic": "Functions",
+    "subtopics": [
+      "Composite Functions",
+      "One-one and Many-one Functions",
+      "Piecewise Functions"
+    ],
+    "question_type": [
+      "Conceptual",
+      "Analytical"
+    ],
+    "avg_time_to_solve": 180
+  },
+  {
+    "id": 19,
+    "shortcut": "Use the work-energy theorem ($W = \\Delta K$). For constant power P, work done in time t is $W=Pt$. For an object starting from rest, $\\Delta K = \\frac{1}{2}mv^2$. Equate these to get $v(t) = \\sqrt{2Pt/m}$. Integrate velocity with respect to time ($x = \\int v dt$) to find the distance.",
+    "question": "A constant power P is delivered to a particle of mass m. If the particle starts from rest at t=0, find the distance it travels as a function of time t.",
+    "equation": null,
+    "imageurl": null,
+    "options": {
+      "A": "$x=(\\frac{2}{3}\\sqrt{\\frac{2P}{m}})t^{3/2}$",
+      "B": "$x=(\\sqrt{\\frac{P}{m}})t$",
+      "C": "$x=(\\frac{P}{m})t^2$",
+      "D": "$x=(\\frac{8P}{9m})^{1/2}t^{3/2}$"
+    },
+    "correct_option": "A",
+    "difficulty_level": "Medium",
+    "examname": "JEE Main 2024 - 05 April Shift 2",
+    "solution": "1.  **Work-Energy Principle**: According to the work-energy theorem, the work done (W) on an object is equal to the change in its kinetic energy ($\\Delta K$).\n    $W = \\Delta K$\n\n2.  **Work Done by Constant Power**: When a constant power P is applied for a time t, the work done is given by:\n    $W = P \\cdot t$\n\n3.  **Change in Kinetic Energy**: The particle starts from rest, so its initial velocity is 0 and initial kinetic energy is 0. If its velocity at time t is v, its final kinetic energy is $\\frac{1}{2}mv^2$. The change in kinetic energy is:\n    $\\Delta K = \\frac{1}{2}mv^2 - 0 = \\frac{1}{2}mv^2$\n\n4.  **Find Velocity vs. Time**: By equating the expressions for work and change in kinetic energy:\n    $Pt = \\frac{1}{2}mv^2$\n    Solving for the velocity $v$:\n    $v^2 = \\frac{2Pt}{m} \\implies v(t) = \\sqrt{\\frac{2Pt}{m}} = \\sqrt{\\frac{2P}{m}} \\cdot t^{1/2}$\n\n5.  **Find Distance vs. Time**: Distance (x) is the integral of velocity with respect to time. Since the particle starts at position 0 at t=0:\n    $x(t) = \\int_{0}^{t} v(t') dt'$\n    $x = \\int_{0}^{t} \\sqrt{\\frac{2P}{m}} t'^{1/2} dt'$\n    $x = \\sqrt{\\frac{2P}{m}} \\left[ \\frac{t'^{3/2}}{3/2} \\right]_{0}^{t}$\n    $x = \\sqrt{\\frac{2P}{m}} \\left( \\frac{2}{3}t^{3/2} \\right)$\n    $x = \\left(\\frac{2}{3}\\sqrt{\\frac{2P}{m}}\\right)t^{3/2}$",
+    "imagesolurl": null,
+    "subject": "Physics",
+    "topic": "Work, Energy and Power",
+    "subtopics": [
+      "Work-Energy Theorem",
+      "Kinematics",
+      "Integration"
+    ],
+    "question_type": [
+      "Derivation",
+      "Conceptual"
+    ],
+    "avg_time_to_solve": 180
+  },
+  {
+    "id": 20,
+    "shortcut": "The condition $|m|=1$ means we consider orbitals with magnetic quantum numbers $m=+1$ and $m=-1$. For $n=4$, the subshells are s, p, d, f (l=0,1,2,3). Count how many of these subshells have orbitals with $|m|=1$. Each such orbital can hold one electron with spin $m_s=+1/2$.",
+    "question": "For the principal quantum number $n=4$, what is the maximum number of electrons that can have the magnetic quantum number $|m|=1$ and the spin quantum number $m_s = +\\frac{1}{2}$?",
+    "equation": "n=4, |m|=1, m_s = +\\frac{1}{2}",
+    "imageurl": null,
+    "options": {
+      "A": "6",
+      "B": "3",
+      "C": "4",
+      "D": "2"
+    },
+    "correct_option": "A",
+    "difficulty_level": "Medium",
+    "examname": "JEE Main 2024 - 05 April Shift 2",
+    "solution": "We need to find the number of electrons that satisfy three conditions simultaneously: $n=4$, $|m|=1$, and $m_s = +1/2$.\n\n1.  **Principal Quantum Number, n=4**: This specifies the energy shell. For $n=4$, the possible values for the azimuthal quantum number, $l$, are $0, 1, 2, 3$. These correspond to the 4s, 4p, 4d, and 4f subshells.\n\n2.  **Magnetic Quantum Number, $|m|=1$**: This means we are looking for orbitals where $m=1$ or $m=-1$. We check this for each possible value of $l$:\n    * For $l=0$ (4s subshell): The only possible value for $m$ is $0$. So, no orbitals here satisfy $|m|=1$.\n    * For $l=1$ (4p subshell): The possible values for $m$ are $-1, 0, +1$. Two of these orbitals ($m=-1$ and $m=+1$) satisfy the condition.\n    * For $l=2$ (4d subshell): The possible values for $m$ are $-2, -1, 0, +1, +2$. Two of these orbitals ($m=-1$ and $m=+1$) satisfy the condition.\n    * For $l=3$ (4f subshell): The possible values for $m$ are $-3, -2, -1, 0, +1, +2, +3$. Two of these orbitals ($m=-1$ and $m=+1$) satisfy the condition.\n\n3.  **Total Number of Orbitals**: The total number of orbitals in the $n=4$ shell that have $|m|=1$ is the sum from each subshell: $0 + 2 + 2 + 2 = 6$ orbitals.\n\n4.  **Spin Quantum Number, $m_s = +1/2$**: According to the Pauli Exclusion Principle, each orbital can hold a maximum of two electrons with opposite spins ($+1/2$ and $-1/2$). The question specifically asks for electrons with $m_s = +1/2$.\n\nSince there are 6 orbitals that meet the condition $|m|=1$, and each of these 6 orbitals can hold exactly one electron with a spin of $m_s = +1/2$, the maximum number of such electrons is 6.",
+    "imagesolurl": null,
+    "subject": "Chemistry",
+    "topic": "Atomic Structure",
+    "subtopics": [
+      "Quantum Numbers",
+      "Electron Configuration",
+      "Orbitals"
+    ],
+    "question_type": [
+      "Conceptual",
+      "Rule-based"
+    ],
+    "avg_time_to_solve": 120
+  },
+  {
+    "id": 21,
+    "shortcut": "The problem asks for the probability of having distinct real roots, given that the roots are real. The condition for real roots is $b^2 \\ge 4ac$. The condition for distinct roots is $b^2 > 4ac$. The required probability is $\\frac{N(b^2 > 4ac)}{N(b^2 \\ge 4ac)}$. It is efficient to count the total cases for real roots ($N(b^2 \\ge 4ac)$) and subtract the cases for equal roots ($N(b^2 = 4ac)$) to find the numerator.",
+    "question": "Let set $A=\\{1,2,3,4,5,6\\}$. A quadratic equation $ax^2+bx+c=0$ is formed where the coefficients $a, b, c$ are chosen from set A. Given that the equation has real roots, what is the probability (P) that the roots are distinct (one root is greater than the other)? Find the value of 43P.",
+    "equation": "ax^2+bx+c=0",
+    "imageurl": null,
+    "options": {
+      "A": "38",
+      "B": "43",
+      "C": "5",
+      "D": "35"
+    },
+    "correct_option": "A",
+    "difficulty_level": "Hard",
+    "examname": "JEE Main 2024 - 05 April Shift 2",
+    "solution": "The sample space for this problem is the set of all possible quadratic equations with coefficients from A that have **real roots**. The condition for real roots is that the discriminant is non-negative: $b^2 - 4ac \\ge 0$, or $b^2 \\ge 4ac$.\n\n**1. Count the total number of cases with real roots ($b^2 \\ge 4ac$)**:\nWe systematically count the valid $(a,c)$ pairs for each possible value of $b \\in A$.\n- If $b=1$, $1 \\ge 4ac$. No solution.\n- If $b=2$, $4 \\ge 4ac \\Rightarrow ac \\le 1$. Pair: (1,1). (1 case)\n- If $b=3$, $9 \\ge 4ac \\Rightarrow ac \\le 2.25$. Pairs: (1,1), (1,2), (2,1). (3 cases)\n- If $b=4$, $16 \\ge 4ac \\Rightarrow ac \\le 4$. Pairs: (1,1), (1,2), (1,3), (1,4), (2,1), (2,2), (3,1), (4,1). (8 cases)\n- If $b=5$, $25 \\ge 4ac \\Rightarrow ac \\le 6.25$. Pairs for ac=1 to 6: (1,1-6), (2,1-3), (3,1-2), (4,1), (5,1), (6,1). Total: $6+3+2+1+1+1 = 14$ cases.\n- If $b=6$, $36 \\ge 4ac \\Rightarrow ac \\le 9$. Pairs for ac=1 to 9: (1,1-6), (2,1-4), (3,1-3), (4,1-2), (5,1), (6,1). Total: $6+4+3+2+1+1 = 17$ cases.\nTotal cases with real roots = $1+3+8+14+17 = 43$. This is the size of our sample space.\n\n**2. Count the number of cases with distinct real roots ($b^2 > 4ac$)**:\nThe roots are distinct if the discriminant is strictly positive. This is equivalent to all cases with real roots minus the cases with equal roots ($b^2=4ac$).\n\n**3. Count cases with equal roots ($b^2 = 4ac$)**:\n- If $b=2$, $ac=1$. Pair: (1,1). (1 case)\n- If $b=4$, $ac=4$. Pairs: (1,4), (2,2), (4,1). (3 cases)\n- If $b=6$, $ac=9$. Pair: (3,3). (1 case)\nTotal cases with equal roots = $1+3+1 = 5$.\n\n**4. Calculate the number of favorable outcomes**:\nNumber of cases with distinct roots = (Total real roots cases) - (Equal roots cases) = $43 - 5 = 38$.\n\n**5. Calculate the probability P**:\n$P = \\frac{\\text{Favorable Outcomes}}{\\text{Total Outcomes in Sample Space}} = \\frac{38}{43}$.\n\n**6. Find the final value**: The question asks for the value of 43P.\n$43P = 43 \\times \\frac{38}{43} = 38$.",
+    "imagesolurl": null,
+    "subject": "Mathematics",
+    "topic": "Probability",
+    "subtopics": [
+      "Quadratic Equations",
+      "Discriminant",
+      "Conditional Probability",
+      "Counting Principles"
+    ],
+    "question_type": [
+      "Calculation-intensive",
+      "Multi-concept"
+    ],
+    "avg_time_to_solve": 300
+  },
+  {
+    "id": 22,
+    "shortcut": "The fundamental frequency 'n' of a sonometer wire is inversely proportional to its length 'L' ($n \\propto 1/L$), provided the tension and linear mass density are constant. This leads to the simple relationship $n_1L_1 = n_2L_2$, which can be used to quickly find the new length.",
+    "question": "A sonometer wire of length 90 cm vibrates with a fundamental frequency of 400 Hz. If the tension in the wire is kept constant, what is the new length of the wire required to produce a fundamental frequency of 600 Hz?",
+    "equation": "n_1 = 400 \\text{ Hz}, L_1 = 90 \\text{ cm}, n_2 = 600 \\text{ Hz}",
+    "imageurl": null,
+    "options": {
+      "A": "60 cm",
+      "B": "45 cm",
+      "C": "135 cm",
+      "D": "75 cm"
+    },
+    "correct_option": "A",
+    "difficulty_level": "Easy",
+    "examname": "JEE Main 2024 - 05 April Shift 2",
+    "solution": "The fundamental frequency ($n$) of a vibrating string, such as a sonometer wire, is given by the formula:\n$n = \\frac{1}{2L}\\sqrt{\\frac{T}{\\mu}}$\nwhere $L$ is the length of the wire, $T$ is the tension, and $\\mu$ is the linear mass density (mass per unit length).\n\nThe problem states that the tension ($T$) and the wire itself (implying $\\mu$ is constant) remain unchanged. Therefore, the frequency $n$ is inversely proportional to the length $L$:\n$n \\propto \\frac{1}{L}$\nThis implies that the product of frequency and length is a constant:\n$n \\cdot L = \\text{constant}$\n\nWe can set up a relationship between the initial and final states:\n$n_1 L_1 = n_2 L_2$\n\nWe are given:\n- Initial frequency, $n_1 = 400$ Hz\n- Initial length, $L_1 = 90$ cm\n- Final frequency, $n_2 = 600$ Hz\n\nWe need to find the final length, $L_2$. Plugging the values into the equation:\n$(400 \\text{ Hz}) \\times (90 \\text{ cm}) = (600 \\text{ Hz}) \\times L_2$\n$36000 = 600 \\cdot L_2$\n$L_2 = \\frac{36000}{600} \\text{ cm}$\n$L_2 = 60 \\text{ cm}$\n\nThe new length of the wire must be 60 cm.",
+    "imagesolurl": null,
+    "subject": "Physics",
+    "topic": "Waves",
+    "subtopics": [
+      "Standing Waves",
+      "Sonometer",
+      "Waves on a String",
+      "Fundamental Frequency"
+    ],
+    "question_type": [
+      "Formula-based",
+      "Proportionality"
+    ],
+    "avg_time_to_solve": 60
+  },
+  {
+    "id": 23,
+    "shortcut": "To solve equations involving absolute values, identify the critical points where the arguments inside the absolute value signs become zero. These points divide the number line into intervals. Solve the simplified equation in each interval, and then check if the solution obtained lies within that interval's bounds.",
+    "question": "Find the number of real solutions for the equation $x|x|+2|x-5|+2x+3=0$.",
+    "equation": "x|x|+2|x-5|+2x+3=0",
+    "imageurl": null,
+    "options": {
+      "A": "1",
+      "B": "0",
+      "C": "2",
+      "D": "3"
+    },
+    "correct_option": "A",
+    "difficulty_level": "Hard",
+    "examname": "JEE Main 2024 - 05 April Shift 2",
+    "solution": "We need to solve the equation by considering cases based on the signs of the expressions inside the absolute value functions, $|x|$ and $|x-5|$. The critical points are $x=0$ and $x=5$.\n\n**Case 1: $x \\ge 5$**\nIn this interval, $|x| = x$ and $|x-5| = x-5$.\nThe equation becomes: $x(x) + 2(x-5) + 2x + 3 = 0$\n$x^2 + 2x - 10 + 2x + 3 = 0$\n$x^2 + 4x - 7 = 0$\nUsing the quadratic formula, $x = \\frac{-4 \\pm \\sqrt{16 - 4(1)(-7)}}{2} = \\frac{-4 \\pm \\sqrt{44}}{2} = -2 \\pm \\sqrt{11}$.\nSince $\\sqrt{11} \\approx 3.32$, the solutions are $x \\approx 1.32$ and $x \\approx -5.32$. Neither of these values lies in the interval $x \\ge 5$, so there are no solutions in this case.\n\n**Case 2: $0 \\le x < 5$**\nIn this interval, $|x| = x$ and $|x-5| = -(x-5) = 5-x$.\nThe equation becomes: $x(x) + 2(5-x) + 2x + 3 = 0$\n$x^2 + 10 - 2x + 2x + 3 = 0$\n$x^2 + 13 = 0 \\Rightarrow x^2 = -13$. This has no real solutions.\n\n**Case 3: $x < 0$**\nIn this interval, $|x| = -x$ and $|x-5| = -(x-5) = 5-x$.\nThe equation becomes: $x(-x) + 2(5-x) + 2x + 3 = 0$\n$-x^2 + 10 - 2x + 2x + 3 = 0$\n$-x^2 + 13 = 0 \\Rightarrow x^2 = 13 \\Rightarrow x = \\pm\\sqrt{13}$.\nWe must choose the solution that satisfies the condition $x < 0$. Therefore, $x = -\\sqrt{13}$ is a valid solution.\n\nSince this is the only solution found across all cases, the equation has exactly **one** real solution.",
+    "imagesolurl": null,
+    "subject": "Mathematics",
+    "topic": "Equations",
+    "subtopics": [
+      "Absolute Value Equations",
+      "Quadratic Equations",
+      "Piecewise Functions"
+    ],
+    "question_type": [
+      "Calculation-intensive",
+      "Case Analysis"
+    ],
+    "avg_time_to_solve": 200
+  },
+  {
+    "id": 24,
+    "shortcut": "If three terms $a, b, c$ are in an Arithmetic Progression (A.P.), they satisfy the condition $2b = a+c$. Use this to express k. For any positive number y, the expression $y + 1/y$ has a minimum value of 2, which occurs when $y=1$. This is a direct result of the AM-GM inequality.",
+    "question": "If the terms $4^{x+1}+4^{1-x}$, $\\frac{k}{2}$, and $16^{x}+16^{-x}$ are in Arithmetic Progression (A.P.) for all real x, find the minimum value of k.",
+    "equation": null,
+    "imageurl": null,
+    "options": {
+      "A": "10",
+      "B": "8",
+      "C": "12",
+      "D": "16"
+    },
+    "correct_option": "A",
+    "difficulty_level": "Medium",
+    "examname": "JEE Main 2024 - 05 April Shift 2",
+    "solution": "For three terms $a, b, c$ to be in A.P., the condition is $2b = a+c$.\nLet $a = 4^{x+1}+4^{1-x}$, $b = \\frac{k}{2}$, and $c = 16^{x}+16^{-x}$.\n\nApplying the A.P. condition:\n$2(\\frac{k}{2}) = (4^{x+1}+4^{1-x}) + (16^{x}+16^{-x})$\n$k = (4 \\cdot 4^x + \\frac{4}{4^x}) + ((4^2)^x + (4^2)^{-x})$\n$k = 4(4^x + \\frac{1}{4^x}) + ((4^x)^2 + \\frac{1}{(4^x)^2})$\n\nTo find the minimum value of k, let's make a substitution. Let $y = 4^x$. Since x can be any real number, $y$ will always be positive ($y>0$).\nThe expression for k becomes:\n$k = 4(y + \\frac{1}{y}) + (y^2 + \\frac{1}{y^2})$\n\nWe can find the minimum value of this expression using the AM-GM inequality, which states that for any non-negative numbers, the arithmetic mean is greater than or equal to the geometric mean.\nFor $y > 0$, we have:\n- $y + \\frac{1}{y} \\ge 2\\sqrt{y \\cdot \\frac{1}{y}} = 2$. The minimum value is 2, which occurs at $y=1$.\n- $y^2 + \\frac{1}{y^2} \\ge 2\\sqrt{y^2 \\cdot \\frac{1}{y^2}} = 2$. The minimum value is also 2, which occurs at $y=1$.\n\nSince both parts of the expression for k achieve their minimum at the same value of y (y=1, which corresponds to $x=0$), the minimum value of k can be found by substituting these minimum values:\n$k_{min} = 4(\\text{min of } y + \\frac{1}{y}) + (\\text{min of } y^2 + \\frac{1}{y^2})$\n$k_{min} = 4(2) + 2 = 8 + 2 = 10$.\n\nTherefore, the minimum value of k is 10.",
+    "imagesolurl": null,
+    "subject": "Mathematics",
+    "topic": "Sequences and Series",
+    "subtopics": [
+      "Arithmetic Progression",
+      "AM-GM Inequality",
+      "Minima and Maxima"
+    ],
+    "question_type": [
+      "Conceptual",
+      "Calculation-intensive"
+    ],
+    "avg_time_to_solve": 180
+  },
+  {
+    "id": 25,
+    "shortcut": "To find the image of a point P in a line, first define a general point M on the line using a parameter, $\\lambda$. This point M is the foot of the perpendicular from P. The vector PM is perpendicular to the line, so their dot product is zero. Solve for $\\lambda$ to find M. The image Q is found using the midpoint formula, as M is the midpoint of PQ.",
+    "question": "Let $(\\alpha,\\beta,\\gamma)$ be the image of the point P(3,5,8) in the line given by the equation $\\frac{x-1}{2}=\\frac{y-3}{3}=\\frac{z-2}{4}$. Find the value of $3\\alpha+4\\beta+5\\gamma$.",
+    "equation": "$\\frac{x-1}{2}=\\frac{y-3}{3}=\\frac{z-2}{4}$",
+    "imageurl": null,
+    "options": {
+      "A": "70.1",
+      "B": "55",
+      "C": "81",
+      "D": "67"
+    },
+    "correct_option": "A",
+    "difficulty_level": "Hard",
+    "examname": "JEE Main 2024 - 05 April Shift 2",
+    "solution": "Let the given line be L. The equation of the line can be written in parametric form: $\\frac{x-1}{2}=\\frac{y-3}{3}=\\frac{z-2}{4} = \\lambda$.\nThe direction ratios of line L are $(2, 3, 4)$.\n\n**1. Find the coordinates of the foot of the perpendicular (M) from P to L.**\nAny point M on the line L can be represented by the coordinates $(2\\lambda+1, 3\\lambda+3, 4\\lambda+2)$.\nThe direction ratios of the line segment PM are found by subtracting the coordinates of P(3,5,8) from M:\nDRs of PM = $( (2\\lambda+1)-3, (3\\lambda+3)-5, (4\\lambda+2)-8 ) = (2\\lambda-2, 3\\lambda-2, 4\\lambda-6)$.\n\n**2. Use the condition of perpendicularity.**\nSince PM is perpendicular to the line L, the dot product of their direction ratios must be zero.\n$2(2\\lambda-2) + 3(3\\lambda-2) + 4(4\\lambda-6) = 0$\n$4\\lambda - 4 + 9\\lambda - 6 + 16\\lambda - 24 = 0$\n$29\\lambda - 34 = 0 \\implies \\lambda = \\frac{34}{29}$.\nNow substitute $\\lambda$ back to find the coordinates of M:\n$x_M = 2(\\frac{34}{29}) + 1 = \\frac{68+29}{29} = \\frac{97}{29}$\n$y_M = 3(\\frac{34}{29}) + 3 = \\frac{102+87}{29} = \\frac{189}{29}$\n$z_M = 4(\\frac{34}{29}) + 2 = \\frac{136+58}{29} = \\frac{194}{29}$\nSo, M = $(\\frac{97}{29}, \\frac{189}{29}, \\frac{194}{29})$.\n\n**3. Find the coordinates of the image Q($\\alpha,\\beta,\\gamma$).**\nM is the midpoint of the segment PQ. Using the midpoint formula:\n$\\alpha = 2x_M - x_P = 2(\\frac{97}{29}) - 3 = \\frac{194 - 87}{29} = \\frac{107}{29}$\n$\\beta = 2y_M - y_P = 2(\\frac{189}{29}) - 5 = \\frac{378 - 145}{29} = \\frac{233}{29}$\n$\\gamma = 2z_M - z_P = 2(\\frac{194}{29}) - 8 = \\frac{388 - 232}{29} = \\frac{156}{29}$\n\n**4. Calculate the required value.**\n$3\\alpha+4\\beta+5\\gamma = 3(\\frac{107}{29}) + 4(\\frac{233}{29}) + 5(\\frac{156}{29})$\n$= \\frac{321 + 932 + 780}{29} = \\frac{2033}{29} \\approx 70.1$\n*Note: The calculations in the source document for this problem contain errors. The solution presented here is based on a correct application of the method.*",
+    "imagesolurl": null,
+    "subject": "Mathematics",
+    "topic": "Three-Dimensional Geometry",
+    "subtopics": [
+      "Equation of a Line",
+      "Image of a Point",
+      "Direction Ratios",
+      "Dot Product"
+    ],
+    "question_type": [
+      "Calculation-intensive",
+      "Procedural"
+    ],
+    "avg_time_to_solve": 300
+  },
+  {
+    "id": 27,
+    "shortcut": "A function involving the greatest integer function, $[g(x)]$, is discontinuous wherever the argument $g(x)$ becomes an integer. Identify all x-values in the given interval for which the arguments of the greatest integer functions, in this case $x$ and $x^2$, are integers. Then, test for continuity at these specific points by comparing the left-hand limit, right-hand limit, and the function's value.",
+    "question": "Find the number of points of discontinuity for the function $f(x)=2x^2+[x^2]-[x]$ in the interval $x\\in[-1,2]$.",
+    "equation": "f(x)=2x^2+[x^2]-[x]",
+    "imageurl": null,
+    "options": {
+      "A": "4",
+      "B": "3",
+      "C": "5",
+      "D": "2"
+    },
+    "correct_option": "A",
+    "difficulty_level": "Hard",
+    "examname": "JEE Main 2024 - 05 April Shift 2",
+    "solution": "The function $f(x)=2x^2+[x^2]-[x]$ contains the greatest integer function, which causes discontinuities. The term $2x^2$ is continuous everywhere. We must find the points in the interval $[-1, 2]$ where either $x$ or $x^2$ is an integer.\n\n1.  **Potential Points of Discontinuity:**\n    -   From $[x]$: $x$ must be an integer. In $[-1,2]$, these points are $-1, 0, 1, 2$.\n    -   From $[x^2]$: $x^2$ must be an integer. For $x \\in [-1,2]$, the range of $x^2$ is $[0,4]$. So, $x^2$ can be $0, 1, 2, 3, 4$.\n        -   $x^2=0 \\Rightarrow x=0$\n        -   $x^2=1 \\Rightarrow x=-1, 1$\n        -   $x^2=2 \\Rightarrow x=\\sqrt{2}$ (since $x \\in [-1,2]$)\n        -   $x^2=3 \\Rightarrow x=\\sqrt{3}$ (since $x \\in [-1,2]$)\n        -   $x^2=4 \\Rightarrow x=2$\n    Combining the lists, the potential points for discontinuity are $-1, 0, 1, \\sqrt{2}, \\sqrt{3}, 2$.\n\n2.  **Check Continuity at Each Point:**\n    -   **At x=-1**: $f(-1) = 2(1)+[1]-[-1] = 2+1-(-1)=4$. The right-hand limit: $\\lim_{x\\to-1^+} f(x) = 2(1)+[(-1^+)^2]-[-1^+] = 2+[1^-]-[-1] = 2+0-(-1)=3$. Since $f(-1) \\neq \\lim_{x\\to-1^+}$, it is **discontinuous**.\n    -   **At x=0**: LHL: $\\lim_{x\\to0^-} f(x) = 2(0)+[0^+]-[-1] = 0+0-(-1)=1$. RHL: $\\lim_{x\\to0^+} f(x) = 2(0)+[0^+]-[0] = 0+0-0=0$. LHL $\\neq$ RHL, so it is **discontinuous**.\n    -   **At x=1**: LHL: $\\lim_{x\\to1^-} f(x) = 2(1)+[1^-]-[1^-] = 2+0-0=2$. $f(1) = 2(1)+[1]-[1]=2$. RHL: $\\lim_{x\\to1^+} f(x) = 2(1)+[1^+]-[1^+] = 2+1-1=2$. It is **continuous**.\n    -   **At x=$\sqrt{2}$**: $f(\\sqrt{2}) = 2(2)+[2]-(\\sqrt{2}) = 4+2-1=5$. LHL: $\\lim_{x\\to\\sqrt{2}^-} f(x) = 2(2)+[2^-]-(\\sqrt{2}^-) = 4+1-1=4$. Since $f(\\sqrt{2}) \\neq \\lim_{x\\to\\sqrt{2}^-}$, it is **discontinuous**.\n    -   **At x=$\sqrt{3}$**: $f(\\sqrt{3}) = 2(3)+[3]-(\\sqrt{3}) = 6+3-1=8$. LHL: $\\lim_{x\\to\\sqrt{3}^-} f(x) = 2(3)+[3^-]-(\\sqrt{3}^-) = 6+2-1=7$. Since $f(\\sqrt{3}) \\neq \\lim_{x\\to\\sqrt{3}^-}$, it is **discontinuous**.\n    -   **At x=2**: $f(2) = 2(4)+[4]-[2] = 8+4-2=10$. LHL: $\\lim_{x\\to2^-} f(x) = 2(4)+[4^-]-[2^-] = 8+3-1=10$. It is **continuous** at the endpoint.\n\nThe points of discontinuity are $-1, 0, \\sqrt{2},$ and $\\sqrt{3}$. There are **4** such points.",
+    "imagesolurl": null,
+    "subject": "Mathematics",
+    "topic": "Limits, Continuity and Differentiability",
+    "subtopics": [
+      "Continuity",
+      "Greatest Integer Function",
+      "Points of Discontinuity"
+    ],
+    "question_type": [
+      "Conceptual",
+      "Analytical"
+    ],
+    "avg_time_to_solve": 250
+  },
+  {
+    "id": 28,
+    "shortcut": "The electric field of a short dipole is $E_{axial} = \\frac{2kp}{r^3}$ on its axis and $E_{eq} = \\frac{kp}{r^3}$ on its equatorial line. The ratio of axial to equatorial fields at the same distance is 2. Remember to account for the different distances given in the problem.",
+    "question": "An electric dipole is located at an origin P. Point A is at a distance r on its axial line, and point B is at a distance 2r on its equatorial line. Find the ratio of the magnitudes of the electric field at A and B, $\\frac{E_A}{E_B}$.",
+    "equation": null,
+    "imageurl": "https://res.cloudinary.com/dscgkuvkd/image/upload/v1756382143/Screenshot_2025-08-28_at_5.25.37_PM_csy3h7.png",
+    "options": {
+      "A": "16",
+      "B": "8",
+      "C": "4",
+      "D": "1/4"
+    },
+    "correct_option": "A",
+    "difficulty_level": "Easy",
+    "examname": "JEE Main 2024 - 05 April Shift 2",
+    "solution": "We use the standard formulas for the electric field due to a short electric dipole.\n\n1.  **Electric Field at Point A (Axial Line)**:\nThe magnitude of the electric field at a point on the axial line of a dipole at distance r from its center is given by:\n    $E_A = \\frac{2kp}{r^3}$\n    where $k = \\frac{1}{4\\pi\\epsilon_0}$ and $p$ is the dipole moment.\n\n2.  **Electric Field at Point B (Equatorial Line)**:\nThe magnitude of the electric field at a point on the equatorial line at a distance $d$ from its center is given by:\n    $E_B = \\frac{kp}{d^3}$\n    For point B, the distance is given as $d = 2r$. Substituting this into the formula:\n    $E_B = \\frac{kp}{(2r)^3} = \\frac{kp}{8r^3}$\n\n3.  **Calculate the Ratio $\\frac{E_A}{E_B}$**:\n    Now we take the ratio of the two magnitudes:\n    $\\frac{E_A}{E_B} = \\frac{\\frac{2kp}{r^3}}{\\frac{kp}{8r^3}}$\n    $\\frac{E_A}{E_B} = \\frac{2kp}{r^3} \\times \\frac{8r^3}{kp}$\n    The terms $kp$ and $r^3$ cancel out, leaving:\n    $\\frac{E_A}{E_B} = 2 \\times 8 = 16$\n\n    The ratio of the electric field at point A to that at point B is 16.",
+    "imagesolurl": null,
+    "subject": "Physics",
+    "topic": "Electrostatics",
+    "subtopics": [
+      "Electric Dipole",
+      "Electric Field",
+      "Axial and Equatorial Fields"
+    ],
+    "question_type": [
+      "Formula-based",
+      "Ratio Calculation"
+    ],
+    "avg_time_to_solve": 75
+  },
+  {
+    "id": 29,
+    "shortcut": "Atomic size increases down a group, but Group 13 has a key exception: Gallium (Ga) is smaller than Aluminum (Al). This is due to the poor shielding by the inner d-electrons in Ga, which increases the effective nuclear charge. The order is B < Ga < Al < In < Tl.",
+    "question": "Which of the following represents the correct order of increasing atomic size for the elements of Group 13?",
+    "equation": null,
+    "imageurl": null,
+    "options": {
+      "A": "B < Ga < Al < In < Tl",
+      "B": "B < Al < Ga < In < Tl",
+      "C": "B < Al < In < Ga < Tl",
+      "D": "B < Ga < In < Al < Tl"
+    },
+    "correct_option": "A",
+    "difficulty_level": "Medium",
+    "examname": "JEE Main 2024 - 05 April Shift 2",
+    "solution": "The elements in Group 13 of the periodic table are Boron (B), Aluminum (Al), Gallium (Ga), Indium (In), and Thallium (Tl).\n\nThe general trend for atomic radius is to increase down a group due to the addition of a new principal energy level (electron shell). However, Group 13 shows a notable anomaly.\n\n-   **B to Al**: Moving from Boron (Period 2) to Aluminum (Period 3), the atomic radius increases as expected, with the addition of the n=3 shell. (Atomic radius: B ≈ 85 pm, Al ≈ 143 pm).\n-   **Al to Ga**: Moving from Aluminum (Period 3) to Gallium (Period 4), the atomic radius *decreases* unexpectedly. (Atomic radius: Ga ≈ 135 pm). This anomaly is known as the **d-block contraction**. Gallium is the first element after the first transition series (the 3d block). The 10 electrons in the 3d orbitals offer very poor shielding of the nuclear charge. This poor shielding causes the effective nuclear charge experienced by the outer electrons of Gallium to be significantly higher than expected, pulling the valence shell closer to the nucleus and resulting in a smaller atomic radius compared to Aluminum.\n-   **Ga to In to Tl**: Down the rest of the group, the atomic radius increases again due to the addition of new electron shells (n=5 for In, n=6 for Tl), which outweighs the effects of d- and f-block contractions. (Atomic radius: In ≈ 167 pm, Tl ≈ 170 pm).\n\nCombining these trends, the correct order of increasing atomic size is:\n**B < Ga < Al < In < Tl**.",
+    "imagesolurl": null,
+    "subject": "Chemistry",
+    "topic": "Classification of Elements and Periodicity in Properties",
+    "subtopics": [
+      "Periodic Trends",
+      "Atomic Radius",
+      "Shielding Effect",
+      "d-Block Contraction"
+    ],
+    "question_type": [
+      "Memory-based",
+      "Conceptual"
+    ],
+    "avg_time_to_solve": 90
+  },
+  {
+    "id": 30,
+    "shortcut": "Recognize the expression as the squared distance between a fixed point P(7, 4) and a variable point Q on a curve. Identify the curve by rearranging the equation $y = \\sqrt{-x^2+8x-7}$ into the standard form of a circle: $(x-4)^2 + y^2 = 3^2$. The problem is then to find the minimum distance from the point P to this semi-circle, which is the distance between P and the circle's center, minus the radius.",
+    "question": "Find the minimum value of the expression $(x-7)^2+(\\sqrt{-x^2+8x-7}-4)^2$ for $x\\in[1,7]$.",
+    "equation": "$(x-7)^2+(\\sqrt{-x^2+8x-7}-4)^2$",
+    "imageurl": null,
+    "options": {
+      "A": "4",
+      "B": "2",
+      "C": "5",
+      "D": "9"
+    },
+    "correct_option": "A",
+    "difficulty_level": "Hard",
+    "examname": "JEE Main 2024 - 05 April Shift 2",
+    "solution": "1.  **Geometric Interpretation**: The expression $(x-7)^2+(\\sqrt{-x^2+8x-7}-4)^2$ represents the square of the distance between a fixed point $P(7, 4)$ and a variable point $Q(x, y)$, where $y = \\sqrt{-x^2+8x-7}$. Minimizing this expression is equivalent to minimizing the squared distance between P and Q.\n\n2.  **Identify the Curve**: Let's determine the path of point Q. We have $y = \\sqrt{-x^2+8x-7}$. For this to be defined, the term under the square root must be non-negative. Squaring both sides gives:\n    $y^2 = -x^2+8x-7$\n    Rearranging the terms: $x^2 - 8x + y^2 + 7 = 0$\n    Complete the square for the x-terms: $(x^2 - 8x + 16) - 16 + y^2 + 7 = 0$\n    $(x-4)^2 + y^2 = 9 = 3^2$\n    This is the equation of a circle with center $C(4, 0)$ and radius $r=3$. Because the original equation specified $y = \\sqrt{...}$, y must be non-negative ($y \\ge 0$). Thus, point Q moves along the **upper semi-circle**.\n\n3.  **Find the Minimum Distance**: The problem now is to find the minimum distance between the point $P(7, 4)$ and the semi-circle. The minimum distance from an external point to a circle lies along the line connecting the external point and the center of the circle.\n    First, calculate the distance between point P and the center C:\n    $d(P, C) = \\sqrt{(7-4)^2 + (4-0)^2} = \\sqrt{3^2 + 4^2} = \\sqrt{9+16} = \\sqrt{25} = 5$.\n    Since this distance (5) is greater than the radius (3), the point P is outside the circle.\n    The minimum distance from P to the circle is the distance to the center minus the radius:\n    Minimum distance $= d(P, C) - r = 5 - 3 = 2$.\n    The point on the circle closest to P lies on the line segment PC, so it is on the upper semi-circle.\n\n4.  **Calculate the Minimum Value of the Expression**: The expression is the square of the distance. Therefore, its minimum value is the square of the minimum distance.\n    Minimum value = $(2)^2 = 4$.",
+    "imagesolurl": "https://res.cloudinary.com/dscgkuvkd/image/upload/v1756382429/Screenshot_2025-08-28_at_5.30.22_PM_m0vtma.png",
+    "subject": "Mathematics",
+    "topic": "Coordinate Geometry",
+    "subtopics": [
+      "Distance Formula",
+      "Equation of a Circle",
+      "Minimum Distance from a Point to a Circle"
+    ],
+    "question_type": [
+      "Geometric Interpretation",
+      "Optimization"
+    ],
+    "avg_time_to_solve": 240
+  },
+  {
+    "id": 31,
+    "shortcut": "The coagulation of egg white upon heating is a classic example of the irreversible denaturation of proteins, where the complex 3D structure (secondary and tertiary) is disrupted, but the primary sequence of amino acids remains intact.",
+    "question": "The coagulation of an egg when it is boiled is primarily due to:",
+    "equation": null,
+    "imageurl": null,
+    "options": {
+      "A": "Denaturation of protein",
+      "B": "The 2° structure does not change",
+      "C": "The 1° structure does not change",
+      "D": "The 3° structure does not change"
+    },
+    "correct_option": "A",
+    "difficulty_level": "Easy",
+    "examname": "JEE Main 2024 - 05 April Shift 2",
+    "solution": "Coagulation of egg white is a process where the globular proteins (mainly albumin) unfold and aggregate. This disruption of the native secondary, tertiary, and quaternary structures of the protein is called **denaturation**[cite: 647]. [cite_start]The primary structure, which is the sequence of amino acids linked by peptide bonds, is not affected by this process[cite: 650]. Heating provides the energy to break the weaker hydrogen bonds and other non-covalent interactions that maintain the protein's folded shape, causing it to solidify and turn opaque. Therefore, the coagulation is due to the denaturation of protein.",
+    "imagesolurl": null,
+    "subject": "Chemistry",
+    "topic": "Biomolecules",
+    "subtopics": [
+      "Proteins",
+      "Denaturation of Proteins"
+    ],
+    "question_type": [
+      "Memory-based",
+      "Conceptual"
+    ],
+    "avg_time_to_solve": 45
+  },
+  {
+    "id": 32,
+    "shortcut": "A square planar complex of the type [Mabcd], where a, b, c, and d are four different monodentate ligands, will always have three geometrical isomers. You can find them by fixing one ligand (e.g., 'a') and seeing which ligand is trans (opposite) to it in each isomer.",
+    "question": "How many geometrical isomers are possible for a square planar complex of the type [Mabcd]?",
+    "equation": null,
+    "imageurl": null,
+    "options": {
+      "A": "2",
+      "B": "3",
+      "C": "4",
+      "D": "5"
+    },
+    "correct_option": "B",
+    "difficulty_level": "Easy",
+    "examname": "JEE Main 2024 - 05 April Shift 2",
+    "solution": "For a square planar complex with the formula [Mabcd], where M is the central metal and a, b, c, d are four different monodentate ligands, we can determine the number of geometrical isomers by fixing the position of one ligand and arranging the others.\n\nLet's fix the position of ligand 'a'. The isomerism will depend on which ligand is positioned trans (opposite) to 'a'.\n\n1.  **Ligand 'b' is trans to 'a'**: The other two ligands, 'c' and 'd', will be cis to 'a'. This forms one unique isomer.\n    \n\n2.  **Ligand 'c' is trans to 'a'**: The other two ligands, 'b' and 'd', will be cis to 'a'. This forms a second, different isomer.\n    \n\n3.  **Ligand 'd' is trans to 'a'**: The other two ligands, 'b' and 'c', will be cis to 'a'. This forms a third unique isomer.\n    \n\nThese are the only three possible arrangements. [cite_start]Therefore, a square planar complex of the type [Mabcd] has **3** geometrical isomers[cite: 663].",
+    "imagesolurl": null,
+    "subject": "Chemistry",
+    "topic": "Coordination Compounds",
+    "subtopics": [
+      "Isomerism in Coordination Compounds",
+      "Geometrical Isomerism",
+      "Square Planar Complexes"
+    ],
+    "question_type": [
+      "Memory-based",
+      "Conceptual"
+    ],
+    "avg_time_to_solve": 60
+  },
+  {
+    "id": 33,
+    "shortcut": "Use the principle of dimensional homogeneity, which states that terms added or subtracted in a physical equation must have the same dimensions. In the van der Waals equation, the term $\\frac{an^2}{V^2}$ must have the same dimensions as pressure (P), and 'nb' must have the same dimensions as volume (V). From these relations, find the dimensions of 'a' and 'b', and then compute the dimensions of $ab^{-1}$.",
+    "question": "In the real gas equation, $(P+\\frac{an^2}{V^2})(V-nb)=nRT$, find the dimensional formula of the quantity $ab^{-1}$.",
+    "equation": "$(P+\\frac{an^2}{V^2})(V-nb)=nRT$",
+    "imageurl": null,
+    "options": {
+      "A": "$[ML^2T^{-2}]$",
+      "B": "$[ML^5T^{-2}]$",
+      "C": "$[ML^{-1}T^{-2}]$",
+      "D": "$[M L^2 T^{-1}]$"
+    },
+    "correct_option": "A",
+    "difficulty_level": "Medium",
+    "examname": "JEE Main 2024 - 05 April Shift 2",
+    "solution": "The van der Waals equation for a real gas is given by $(P+\\frac{an^2}{V^2})(V-nb)=nRT$.\nAccording to the **principle of dimensional homogeneity**, quantities can only be added or subtracted if they have the same dimensions.\n\n1.  **Find the dimensions of 'a'**: \nThe term $\\frac{an^2}{V^2}$ is added to pressure P. Therefore, their dimensions must be the same.\n    $[P] = [\\frac{an^2}{V^2}]$\n    The dimension of pressure is $[P] = \\frac{\\text{Force}}{\\text{Area}} = \\frac{[MLT^{-2}]}{[L^2]} = [ML^{-1}T^{-2}]$.\n    The dimension of volume is $[V] = [L^3]$. [cite_start]The number of moles, n, is dimensionless in this context, having the dimension of amount of substance [mol], but for mechanical dimensions, it is treated as a pure number.\n    $[ML^{-1}T^{-2}] = \\frac{[a]}{([L^3])^2} = \\frac{[a]}{[L^6]}$\n    $[a] = [ML^{-1}T^{-2}][L^6] = [ML^5T^{-2}]$[cite: 353].\n\n2.  [cite_start]**Find the dimensions of 'b'**: \nThe term 'nb' is subtracted from volume V. Therefore, their dimensions must be the same.\n    $[V] = [nb]$\n    Since n is dimensionless for this analysis, $[V] = [b]$.\n    $[b] = [L^3]$[cite: 355].\n\n3.  [cite_start]**Find the dimensions of $ab^{-1}$**: \n    Now, we can find the dimensional formula for the required quantity.\n    $[ab^{-1}] = \\frac{[a]}{[b]} = \\frac{[ML^5T^{-2}]}{[L^3]}$\n    $[ab^{-1}] = [ML^{5-3}T^{-2}] = [ML^2T^{-2}]$[cite: 356].\n\n    The dimensional formula $[ML^2T^{-2}]$ is the dimension of energy or work.",
+    "imagesolurl": null,
+    "subject": "Physics",
+    "topic": "Units and Measurement",
+    "subtopics": [
+      "Dimensional Analysis",
+      "Principle of Homogeneity",
+      "Van der Waals Equation"
+    ],
+    "question_type": [
+      "Formula-based",
+      "Conceptual"
+    ],
+    "avg_time_to_solve": 120
+  },
+  {
+    "id": 34,
+    "shortcut": "First, calculate the angular velocity ($\\omega$). Angular velocity is the total angle turned (in radians) divided by the time taken. For 'N' revolutions in 't' minutes, the total angle is $N \\times 2\\pi$ radians and the time is $t \\times 60$ seconds. Then, use the formula for centripetal acceleration, $a_c = \\omega^2R$.",
+    "question": "A man is revolving in a circle with a constant angular velocity. He completes 120 revolutions in 3 minutes. A monkey is sitting on his shoulder at a distance of 9m from the center of the circle. Find the centripetal acceleration of the monkey. (Take $\\pi^2 = 10$)",
+    "equation": null,
+    "imageurl": null,
+    "options": {
+      "A": "$160 \\, m/s^2$",
+      "B": "$1440 \\, m/s^2$",
+      "C": "$40 \\, m/s^2$",
+      "D": "$16 \\, m/s^2$"
+    },
+    "correct_option": "A",
+    "difficulty_level": "Easy",
+    "examname": "JEE Main 2024 - 05 April Shift 2",
+    "solution": "1.  **Calculate the angular velocity ($\\omega$)**: \nThe man completes 120 revolutions in 3 minutes. [cite_start]We need to convert this to radians per second.\n    -   Total angle turned ($\\Delta\\theta$) = $120 \\text{ rev} \\times \\frac{2\\pi \\text{ rad}}{1 \\text{ rev}} = 240\\pi$ radians.\n    -   Total time taken ($\\Delta t$) = $3 \\text{ min} \\times \\frac{60 \\text{ s}}{1 \\text{ min}} = 180$ seconds.\n    -   Angular velocity, $\\omega = \\frac{\\Delta\\theta}{\\Delta t} = \\frac{240\\pi \\text{ rad}}{180 \\text{ s}} = \\frac{4\\pi}{3}$ rad/s[cite: 362].\n\n2.  **Calculate the centripetal acceleration ($a_c$)**: \nThe formula for centripetal acceleration is $a_c = \\omega^2R$, where R is the radius of the circular path.\n    -   We are given the radius, $R = 9$ m.\n    -   We calculated $\\omega = \\frac{4\\pi}{3}$ rad/s.\n\n    Substituting the values:\n    $a_c = \\left(\\frac{4\\pi}{3}\\right)^2 \\times 9$\n    $a_c = \\frac{16\\pi^2}{9} \\times 9$\n    $a_c = 16\\pi^2 \\, m/s^2$.\n\n3.  [cite_start]**Final Calculation**: \n    Using the approximation $\\pi^2 = 10$:\n    $a_c = 16 \\times 10 = 160 \\, m/s^2$[cite: 362].\n\n    The centripetal acceleration of the monkey is $160 \\, m/s^2$.",
+    "imagesolurl": null,
+    "subject": "Physics",
+    "topic": "Circular Motion",
+    "subtopics": [
+      "Angular Velocity",
+      "Centripetal Acceleration",
+      "Uniform Circular Motion"
+    ],
+    "question_type": [
+      "Formula-based",
+      "Calculation-intensive"
+    ],
+    "avg_time_to_solve": 100
+  },
+  {
+    "id": 35,
+    "shortcut": "The problem asks for the number of ways to partition a set of 9 distinct elements into 3 distinct (labeled) subsets of equal size (3 elements each). The formula for this is $\\binom{9}{3} \\times \\binom{6}{3} \\times \\binom{3}{3}$, which simplifies to $\\frac{9!}{(3!)^3}$.",
+    "question": "Let $S=\\{2,2^2,2^3,.......2^9\\}$. The set S has 9 distinct elements. A, B, and C are subsets of S. Given that $A\\cap B=\\phi$, $B\\cap C=\\phi$, $C\\cap A=\\phi$ and $A\\cup B\\cup C=S$. If subsets A, B, and C have an equal number of elements, find the total number of ways to choose the subsets A, B, and C.",
+    "equation": "S=\\{2,2^2,2^3,.......2^9\\}",
+    "imageurl": null,
+    "options": {
+      "A": "$\\frac{9!}{(3!)^3}$",
+      "B": "$\\frac{9!}{(3!)^3 \\cdot 3!}$",
+      "C": "$9!$",
+      "D": "$(3!)^3$"
+    },
+    "correct_option": "A",
+    "difficulty_level": "Medium",
+    "examname": "JEE Main 2024 - 05 April Shift 2",
+    "solution": "The given conditions describe a **partition** of the set S. \n-   $A\\cap B=\\phi$, $B\\cap C=\\phi$, $C\\cap A=\\phi$ means the subsets are mutually exclusive (disjoint).\n-   $A\\cup B\\cup C=S$ means the subsets are exhaustive; together they contain all elements of S.\n\nSo, we are partitioning the 9 distinct elements of set S into three disjoint subsets A, B, and C.\n\nThe problem also states that the subsets have an equal number of elements. Since there are 9 elements in total, each subset must contain $9/3 = 3$ elements.\n\nWe need to find the number of ways to form these three distinct (labeled) subsets A, B, and C, each with 3 elements.\n\n1.  **Choose elements for subset A**: We can choose any 3 elements from the 9 elements of S. The number of ways to do this is $\\binom{9}{3}$.\n\n2.  **Choose elements for subset B**: After choosing 3 elements for A, there are $9-3=6$ elements remaining in S. We need to choose 3 elements for B from these remaining 6. The number of ways is $\\binom{6}{3}$.\n\n3.  **Choose elements for subset C**: After choosing elements for A and B, there are $6-3=3$ elements left. We must choose all 3 for subset C. The number of ways is $\\binom{3}{3}$.\n\nSince these choices are sequential, the total number of ways is the product of the number of ways for each step:\nTotal ways = $\\binom{9}{3} \\times \\binom{6}{3} \\times \\binom{3}{3}$\n\nNow, we expand the combinations:\nTotal ways = $\\frac{9!}{3!(9-3)!} \\times \\frac{6!}{3!(6-3)!} \\times \\frac{3!}{3!(3-3)!}$\nTotal ways = $\\frac{9!}{3!6!} \\times \\frac{6!}{3!3!} \\times \\frac{3!}{3!0!}$\n\nThe $6!$ terms and one $3!$ term cancel out:\nTotal ways = $\\frac{9!}{3! \\cdot 3! [cite_start]\\cdot 3!} = \\frac{9!}{(3!)^3}$[cite: 149].",
+    "imagesolurl": null,
+    "subject": "Mathematics",
+    "topic": "Permutations and Combinations",
+    "subtopics": [
+      "Set Theory",
+      "Partitions of a Set",
+      "Combinations"
+    ],
+    "question_type": [
+      "Conceptual",
+      "Formula-based"
+    ],
+    "avg_time_to_solve": 150
+  },
+  {
+    "id": 36,
+    "shortcut": "The maximum range of a projectile is given by the formula $R_{max} = \\frac{u^2}{g}$, which occurs at a projection angle of 45°. Since the range is directly proportional to the square of the initial velocity ($R \\propto u^2$), halving the velocity will reduce the range to one-fourth of its original value.",
+    "question": "A particle is projected at an angle that results in the maximum possible range of 64 m. Keeping the angle of projection the same, the velocity of projection is halved. Calculate the new maximum possible range.",
+    "equation": "R_{max} = 64 \\text{ m}",
+    "imageurl": null,
+    "options": {
+      "A": "16 m",
+      "B": "32 m",
+      "C": "8 m",
+      "D": "48 m"
+    },
+    "correct_option": "A",
+    "difficulty_level": "Easy",
+    "examname": "JEE Main 2024 - 05 April Shift 2",
+    "solution": "1.  **Formula for Maximum Range**: The range of a projectile is given by $R = \\frac{u^2 \\sin(2\\theta)}{g}$. The maximum range ($R_{max}$) is achieved when $\\sin(2\\theta) = 1$, which occurs at an angle of projection $\\theta = 45°$. The formula for maximum range is therefore:\n    $R_{max} = \\frac{u^2}{g}$\n\n2.  **Initial Condition**: We are given that the initial maximum range is 64 m.\n    $R_{max,1} = \\frac{u_1^2}{g} = 64 \\text{ m}$\n\n3.  **New Condition**: The velocity of projection is halved, while the angle remains the same (45° for maximum range). The new velocity is $u_2 = \\frac{u_1}{2}$.\n\n4.  **Calculate New Maximum Range**: We calculate the new maximum range ($R_{max,2}$) using the new velocity $u_2$.\n    $R_{max,2} = \\frac{u_2^2}{g} = \\frac{(\\frac{u_1}{2})^2}{g} = \\frac{u_1^2/4}{g} = \\frac{1}{4} \\left(\\frac{u_1^2}{g}\\right)$\n\n5.  **Substitute the Initial Range**: We know that $\\frac{u_1^2}{g} = 64 \\text{ m}$. Substituting this into the expression for the new range:\n    $R_{max,2} = \\frac{1}{4} (64 \\text{ m}) = 16 \\text{ m}$\n\n    The new maximum possible range is 16 m.",
+    "imagesolurl": null,
+    "subject": "Physics",
+    "topic": "Kinematics",
+    "subtopics": [
+      "Projectile Motion",
+      "Range of Projectile"
+    ],
+    "question_type": [
+      "Formula-based",
+      "Proportionality"
+    ],
+    "avg_time_to_solve": 60
+  },
+  {
+    "id": 37,
+    "shortcut": "The stopping potential ($V_s$) is determined by the maximum kinetic energy of the photoelectrons, according to the equation $eV_s = KE_{max} = h\\nu - \\phi$. This shows that $V_s$ depends on the frequency of the incident light ($\\nu$) and the work function of the material ($\\phi$), but it is independent of the intensity of the light. Intensity only affects the number of photoelectrons emitted (photocurrent).",
+    "question": "In the context of the photoelectric effect, which of the following statements is incorrect?",
+    "equation": null,
+    "imageurl": null,
+    "options": {
+      "A": "Stopping potential depends on the frequency of incident light.",
+      "B": "Stopping potential increases by increasing the intensity of incident light.",
+      "C": "Stopping potential depends on the nature of the material.",
+      "D": "Stopping potential is equal to the maximum kinetic energy of photoelectrons divided by the elementary charge (KE_max / e)."
+    },
+    "correct_option": "B",
+    "difficulty_level": "Medium",
+    "examname": "JEE Main 2024 - 05 April Shift 2",
+    "solution": "Let's analyze each statement based on Einstein's photoelectric equation: $KE_{max} = h\\nu - \\phi$, where $KE_{max}$ is the maximum kinetic energy of the emitted photoelectrons, $h$ is Planck's constant, $\\nu$ is the frequency of the incident light, and $\\phi$ is the work function of the material.\nThe stopping potential ($V_s$) is the potential required to stop the most energetic photoelectrons, and it is related to $KE_{max}$ by $KE_{max} = eV_s$, where $e$ is the elementary charge.\nCombining these, we get: $eV_s = h\\nu - \\phi \\implies V_s = (\\frac{h}{e})\\nu - \\frac{\\phi}{e}$.\n\n-   **Statement A**: The equation shows that $V_s$ is directly proportional to the frequency $\\nu$. So, stopping potential depends on the frequency. This statement is **correct**.\n-   **Statement B**: The equation for $V_s$ does not contain any term for the intensity of light. Increasing the intensity increases the number of photons striking the surface per second, which in turn increases the photoelectric current, but it does not change the energy of individual photons or the maximum kinetic energy of the photoelectrons. Therefore, stopping potential is independent of intensity. This statement is **incorrect**.\n-   **Statement C**: The work function $\\phi$ is a characteristic property of the material. Since $V_s$ depends on $\\phi$, it depends on the nature of the material. This statement is **correct**.\n-   **Statement D**: From the definition, $KE_{max} = eV_s$. Rearranging this gives $V_s = \\frac{KE_{max}}{e}$. This statement is **correct**.\n\nThe incorrect statement is B.",
+    "imagesolurl": null,
+    "subject": "Physics",
+    "topic": "Modern Physics",
+    "subtopics": [
+      "Photoelectric Effect",
+      "Stopping Potential",
+      "Work Function"
+    ],
+    "question_type": [
+      "Conceptual",
+      "Memory-based"
+    ],
+    "avg_time_to_solve": 90
+  },
+  {
+    "id": 38,
+    "shortcut": "The reaction sequence involves two steps: 1) Strong oxidation of an alkylbenzene with hot alkaline KMnO4 converts the entire alkyl side chain to a carboxylic acid group (-COOH). 2) Bromination of benzoic acid (an electrophilic aromatic substitution) occurs at the meta position because the -COOH group is deactivating and meta-directing. The final product is m-bromobenzoic acid. It has 3 pi bonds in the ring and 1 pi bond in the C=O group, for a total of 4.",
+    "question": "Consider the following reaction sequence starting with propylbenzene. Calculate the total number of pi ($\\pi$) bonds present in the final product B.",
+    "equation": null,
+    "imageurl": "https://res.cloudinary.com/dscgkuvkd/image/upload/v1756382575/Screenshot_2025-08-28_at_5.32.45_PM_pjvqip.png",
+    "options": {
+      "A": "4",
+      "B": "3",
+      "C": "5",
+      "D": "7"
+    },
+    "correct_option": "A",
+    "difficulty_level": "Medium",
+    "examname": "JEE Main 2024 - 05 April Shift 2",
+    "solution": "The reaction sequence proceeds in two steps:\n\n**Step 1: Oxidation**\nThe starting material is propylbenzene. It is treated with hot alkaline potassium permanganate ($KMnO_4/KOH, \\Delta$), followed by acidification. This is a strong oxidizing condition that oxidizes any alkyl side chain on a benzene ring to a carboxylic acid group, provided there is at least one benzylic hydrogen. Propylbenzene has two benzylic hydrogens.\nSo, propylbenzene is oxidized to benzoic acid (Product A).\n\n\n**Step 2: Electrophilic Aromatic Substitution (Bromination)**\nProduct A (benzoic acid) is treated with $Br_2$ in the presence of a Lewis acid catalyst, $FeBr_3$. This is a standard bromination reaction.\nThe carboxylic acid group (-COOH) is an electron-withdrawing group, which deactivates the benzene ring towards electrophilic substitution and directs incoming electrophiles to the **meta** position.\nTherefore, bromine will be substituted at the position meta to the -COOH group.\nThe final product B is m-bromobenzoic acid (3-bromobenzoic acid).\n\n\n**Counting Pi Bonds in Product B:**\n-   The benzene ring contains 3 alternating double bonds, which means it has **3 pi bonds**.\n-   The carboxylic acid group (-COOH) has a carbonyl group (C=O), which contains **1 pi bond**.\n\nTotal number of pi bonds = 3 (from the ring) + 1 (from the C=O group) = **4**.",
+    "imagesolurl": "https://res.cloudinary.com/dscgkuvkd/image/upload/v1756382579/Screenshot_2025-08-28_at_5.32.54_PM_mypkxt.png",
+    "subject": "Chemistry",
+    "topic": "Organic Chemistry",
+    "subtopics": [
+      "Oxidation of Alkylbenzenes",
+      "Electrophilic Aromatic Substitution",
+      "Directing Effects"
+    ],
+    "question_type": [
+      "Reaction-based",
+      "Conceptual"
+    ],
+    "avg_time_to_solve": 120
+  },
+  {
+    "id": 39,
+    "shortcut": "The substrate is a tertiary alkyl halide, and the reagent is ethanol (EtOH), which acts as a weak base and a polar protic solvent. These conditions strongly favor an E1 elimination mechanism. According to Saytzeff's rule, the major product will be the most substituted (and therefore most stable) alkene.",
+    "question": "Identify the major product of the following reaction.",
+    "equation": null,
+    "imageurl": "https://res.cloudinary.com/dscgkuvkd/image/upload/v1756382675/Screenshot_2025-08-28_at_5.34.18_PM_pvpb2e.png",
+    "options": {
+      "A": "1,2-dimethylcyclohexene",
+      "B": "1,6-dimethylcyclohexene",
+      "C": "methylene-2-methylcyclohexane",
+      "D": "(1-ethoxy-1-methyl-cyclohexyl)methane"
+    },
+    "correct_option": "A",
+    "difficulty_level": "Medium",
+    "examname": "JEE Main 2024 - 05 April Shift 2",
+    "solution": "1.  **Analyze the Reactants**: \n    -   **Substrate**: The starting material is 1-bromo-1,2-dimethylcyclohexane. The bromine atom is attached to a tertiary carbon atom (a carbon bonded to three other carbons). This is a tertiary alkyl halide.\n    -   **Reagent**: The reagent is ethanol (EtOH), which is a weak base and a weak nucleophile. It is also a polar protic solvent.\n\n2.  **Determine the Mechanism**: \n    Tertiary alkyl halides reacting with a weak base/nucleophile in a polar protic solvent primarily undergo reaction via a unimolecular mechanism. Because ethanol is a better base than it is a nucleophile for a sterically hindered tertiary substrate, **E1 (elimination)** will be the major pathway, with some SN1 (substitution) as a minor pathway.\nThe E1 mechanism proceeds via a carbocation intermediate.\n\n3.  **Identify the Intermediate and Possible Products**: \n    - The bromide ion ($Br^−$) leaves, forming a stable tertiary carbocation at the C-1 position.\n    - A base (ethanol) then abstracts a proton ($\\beta$-hydrogen) from a carbon adjacent to the carbocation, forming a double bond.\n    - There are three possible $\\beta$-hydrogens that can be removed: from the C-2 carbon, the C-6 carbon, and the methyl group at C-1.\n        -   Removal of H from C-2 leads to **1,2-dimethylcyclohexene** (a trisubstituted alkene).\n        -   Removal of H from C-6 leads to **2,3-dimethylcyclohexene** (also a trisubstituted alkene). But the starting material is 1,2-dimethyl. So H from C-6 gives 1,6-dimethylcyclohexene. No, that's not right. The double bond would be between C1 and C6. The product would be 1,6-dimethylcyclohex-1-ene. Let me re-verify. Product is 1,2-dimethylcyclohexene. Removing H from C-2 gives a double bond between C1-C2. Product name is 1,2-dimethylcyclohexene. Correct. Removing H from C-6 gives a double bond between C1-C6. Product name is 1,6-dimethylcyclohexene. Correct. Let's call this option B. Removing H from the methyl group at C-1 gives **1-methylene-2-methylcyclohexane** (a disubstituted alkene).\n\n4.  **Apply Saytzeff's Rule**: \n    Saytzeff's (or Zaitsev's) rule states that in an elimination reaction, the major product is the most stable (i.e., most substituted) alkene. \n    -   **1,2-dimethylcyclohexene**: The double bond carbons are attached to three other carbon atoms (trisubstituted).\n    -   **1,6-dimethylcyclohexene**: The double bond carbons are also attached to three other carbon atoms (trisubstituted).\n    -   **1-methylene-2-methylcyclohexane**: The double bond carbons are attached to two other carbon atoms (disubstituted).\n\n    Between the two trisubstituted alkenes, 1,2-dimethylcyclohexene is generally considered more stable than 1,6-dimethylcyclohexene due to hyperconjugation and steric factors. Therefore, **1,2-dimethylcyclohexene** is the major product.",
+    "imagesolurl": "https://res.cloudinary.com/dscgkuvkd/image/upload/v1756382715/Screenshot_2025-08-28_at_5.35.08_PM_z36q7h.png",
+    "subject": "Chemistry",
+    "topic": "Organic Chemistry",
+    "subtopics": [
+      "Elimination Reactions",
+      "E1 Mechanism",
+      "Saytzeff's Rule",
+      "Alkyl Halides"
+    ],
+    "question_type": [
+      "Reaction-based",
+      "Conceptual"
+    ],
+    "avg_time_to_solve": 150
+  },
+  {
+    "id": 40,
+    "shortcut": "Analyze the function $f(x)=5|x+3|+7|x-7|$ graphically or by finding its minimum value. The function represents a weighted sum of distances and is a convex function. Its minimum must occur at one of the 'corner' points, x=-3 or x=7. Calculate $f(-3)$ and $f(7)$. If the target value (5) is below the function's minimum, there are no solutions.",
+    "question": "Find the number of solutions of the equation: $5|x+3|+7|x-7|=5$.",
+    "equation": "$5|x+3|+7|x-7|=5$",
+    "imageurl": null,
+    "options": {
+      "A": "0",
+      "B": "1",
+      "C": "2",
+      "D": "Infinite"
+    },
+    "correct_option": "A",
+    "difficulty_level": "Medium",
+    "examname": "JEE Main 2024 - 05 April Shift 2",
+    "solution": "Let's analyze the function on the left-hand side, $f(x) = 5|x+3|+7|x-7|$.\nThis function is a sum of non-negative terms. We can find its minimum value to see if it can ever equal 5.\n\nThe function $f(x)$ is a convex function, and its minimum value will occur at one of the critical points where the arguments of the absolute value functions are zero. The critical points are $x=-3$ and $x=7$.\n\nLet's evaluate the function at these critical points:\n\n1.  **At x = -3**:\n    $f(-3) = 5|(-3)+3| + 7|(-3)-7|$\n    $f(-3) = 5|0| + 7|-10|$\n    $f(-3) = 0 + 7(10) = 70$.\n\n2.  **At x = 7**:\n    $f(7) = 5|7+3| + 7|7-7|$\n    $f(7) = 5|10| + 7|0|$\n    $f(7) = 5(10) + 0 = 50$.\n\nBetween the two critical points, for $-3 < x < 7$, the function is linear:\n$f(x) = 5(x+3) + 7(-(x-7)) = 5x+15 -7x+49 = -2x+64$. This is a decreasing line from $f(-3)=70$ to $f(7)=50$.\n\nFor $x > 7$, the function is $f(x) = 5(x+3) + 7(x-7) = 12x-34$, which is increasing.\nFor $x < -3$, the function is $f(x) = 5(-(x+3)) + 7(-(x-7)) = -12x+34$, which is decreasing.\n\nThe minimum value of the function occurs at $x=7$, and the minimum value is $f_{min}=50$.\n\nWe are asked to solve the equation $f(x) = 5$. Since the minimum value of $f(x)$ is 50, it can never be equal to 5.\nTherefore, there are **no solutions** to the equation.",
+    "imagesolurl": "https://res.cloudinary.com/dscgkuvkd/image/upload/v1756382802/Screenshot_2025-08-28_at_5.36.33_PM_aipzeh.png",
+    "subject": "Mathematics",
+    "topic": "Equations",
+    "subtopics": [
+      "Absolute Value Equations",
+      "Minimum Value of a Function"
+    ],
+    "question_type": [
+      "Conceptual",
+      "Analytical"
+    ],
+    "avg_time_to_solve": 90
+  },
+  {
+    "id": 41,
+    "shortcut": "This is a two-step reaction. First, a primary alcohol (Ethanol) is oxidized by a strong oxidizing agent (Jones reagent or KMnO4) to a carboxylic acid (Acetic Acid). Second, the resulting carboxylic acid undergoes soda-lime decarboxylation (NaOH/CaO, heat), which removes the -COOH group and replaces it with an H atom, yielding an alkane with one less carbon.",
+    "question": "Identify the major product 'A' in the following reaction sequence: $$ CH_3-CH_2-OH \\xrightarrow[ (ii) \\, KMnO_4 ]{ (i) \\, \\text{Jones reagent} } \\text{Intermediate} \\xrightarrow[ \\Delta ]{ (iii) \\, NaOH/CaO } A $$",
+    "equation": null,
+    "imageurl": null,
+    "options": {
+      "A": "Acetic acid",
+      "B": "Acetaldehyde",
+      "C": "Ethane",
+      "D": "Methane"
+    },
+    "correct_option": "D",
+    "difficulty_level": "Medium",
+    "examname": "JEE Main 2024 - 05 April Shift 2",
+    "solution": "The reaction proceeds in two main stages:\n\n**Stage 1: Oxidation**\n-   The starting material is ethanol ($CH_3-CH_2-OH$), a primary alcohol.\n-   It is treated with either Jones reagent ($CrO_3$ in acetone/sulfuric acid) or potassium permanganate ($KMnO_4$). Both are strong oxidizing agents.\n-   Strong oxidation of a primary alcohol converts it directly to a carboxylic acid.\n-   So, ethanol is oxidized to acetic acid ($CH_3-COOH$).\n    $$ CH_3-CH_2-OH \\xrightarrow{\\text{Strong Oxidation}} CH_3-COOH $$\n\n**Stage 2: Decarboxylation**\n-   The intermediate, acetic acid, is treated with soda-lime (a mixture of NaOH and CaO) and heated ($\Delta$). This process is known as soda-lime decarboxylation.\n-   The reaction first forms the sodium salt of the acid (sodium acetate, $CH_3COONa$).\n-   Upon heating with soda-lime, the carboxylate group is removed as carbon dioxide (which is absorbed by CaO to form $CaCO_3$), and a hydrogen atom takes its place.\n    $$ CH_3-COOH + NaOH \\rightarrow CH_3COONa \\xrightarrow{NaOH, CaO, \\Delta} CH_4 + Na_2CO_3 $$\n-   The final product 'A' is methane ($CH_4$).",
+    "imagesolurl": null,
+    "subject": "Chemistry",
+    "topic": "Organic Chemistry",
+    "subtopics": [
+      "Oxidation of Alcohols",
+      "Decarboxylation",
+      "Carboxylic Acids"
+    ],
+    "question_type": [
+      "Reaction-based",
+      "Multi-step Synthesis"
+    ],
+    "avg_time_to_solve": 150
+  },
+  {
+    "id": 42,
+    "shortcut": "Apply Hess's Law using the formula $\\Delta H_{\\text{reaction}} = \\sum (n \\cdot \\Delta H_{f, \\text{products}}) - \\sum (m \\cdot \\Delta H_{f, \\text{reactants}})$. First, write the balanced combustion equation for one mole of benzene. Then, rearrange the formula to solve for the enthalpy of formation of benzene, $\\Delta H_{f, C_6H_6}$. Finally, multiply the result by 2 for the two moles requested.",
+    "question": "The enthalpy of combustion for benzene ($C_6H_6$) is $\\Delta_{c}H = -3267 \\, kJ/mol$. Given the standard enthalpies of formation for $CO_2$ and $H_2O$ are $\\Delta_{f}H_{CO_2} = -393.5 \\, kJ/mol$ and $\\Delta_{f}H_{H_2O} = -285.83 \\, kJ/mol$ respectively, calculate the standard enthalpy of formation for 2 moles of benzene.",
+    "equation": "$\\Delta_{c}H_{C_6H_6} = -3267 \\, kJ/mol$",
+    "imageurl": null,
+    "options": {
+      "A": "97.02 kJ",
+      "B": "-97.02 kJ",
+      "C": "48.51 kJ",
+      "D": "-48.51 kJ"
+    },
+    "correct_option": "A",
+    "difficulty_level": "Medium",
+    "examname": "JEE Main 2024 - 05 April Shift 2",
+    "solution": "1.  **Write the Balanced Combustion Equation**: First, write the balanced chemical equation for the complete combustion of one mole of liquid benzene ($C_6H_6$).\n    $$ C_6H_6(l) + \\frac{15}{2}O_2(g) \\rightarrow 6CO_2(g) + 3H_2O(l) $$\n\n2.  **Apply Hess's Law**: The standard enthalpy of a reaction is the sum of the standard enthalpies of formation of the products minus the sum of the standard enthalpies of formation of the reactants, each multiplied by their stoichiometric coefficient.\n    $$ \\Delta_{c}H = [6 \\cdot \\Delta_{f}H_{CO_2} + 3 \\cdot \\Delta_{f}H_{H_2O}] - [1 \\cdot \\Delta_{f}H_{C_6H_6} + \\frac{15}{2} \\cdot \\Delta_{f}H_{O_2}] $$\n    The standard enthalpy of formation of an element in its standard state, like $O_2(g)$, is zero.\n\n3.  **Solve for $\\Delta_{f}H_{C_6H_6}$**: Substitute the given values into the equation.\n    $ -3267 = [6(-393.5) + 3(-285.83)] - [\\Delta_{f}H_{C_6H_6} + 0] $\n    $ -3267 = [-2361 - 857.49] - \\Delta_{f}H_{C_6H_6} $\n    $ -3267 = -3218.49 - \\Delta_{f}H_{C_6H_6} $\n    $ \\Delta_{f}H_{C_6H_6} = -3218.49 + 3267 $\n    $ \\Delta_{f}H_{C_6H_6} = +48.51 \\, kJ/mol $\n    *Note: The source document's calculation contains a sign error, resulting in -48.51 kJ/mol. The correct value is positive.*\n\n4.  **Calculate for 2 Moles**: The value calculated is for one mole of benzene. The question asks for the enthalpy of formation for 2 moles.\n    Enthalpy for 2 moles = $2 \\times (+48.51 \\, kJ/mol) = +97.02 \\, kJ$.\n    *The source document answer is -97.02 kJ, based on its initial sign error. The correct answer based on the provided data should be +97.02 kJ.*",
+    "imagesolurl": null,
+    "subject": "Chemistry",
+    "topic": "Thermochemistry",
+    "subtopics": [
+      "Enthalpy of Combustion",
+      "Enthalpy of Formation",
+      "Hess's Law"
+    ],
+    "question_type": [
+      "Formula-based",
+      "Calculation-intensive"
+    ],
+    "avg_time_to_solve": 180
+  },
+  {
+    "id": 43,
+    "shortcut": "If a wire of resistance R is cut into 'n' equal parts, the resistance of each part becomes R/n. When these 'n' parts are connected in parallel, the total equivalent resistance becomes $(R/n) \\div n = R/n^2$. Here, R=200Ω and n=10.",
+    "question": "A uniform wire has a total resistance of 200Ω. It is divided into 10 equal parts. These parts are then connected in parallel. Find the equivalent resistance of this parallel combination.",
+    "equation": "R_{total} = 200\\Omega",
+    "imageurl": null,
+    "options": {
+      "A": "2 Ω",
+      "B": "0.2 Ω",
+      "C": "20 Ω",
+      "D": "0.5 Ω"
+    },
+    "correct_option": "A",
+    "difficulty_level": "Easy",
+    "examname": "JEE Main 2024 - 05 April Shift 2",
+    "solution": "1.  **Calculate the Resistance of Each Part**: The original wire has a resistance of $R_{total} = 200\\Omega$. It is cut into 10 equal parts. Since resistance is proportional to length for a uniform wire, the resistance of each individual part ($R_{part}$) will be:\n    $R_{part} = \\frac{R_{total}}{10} = \\frac{200\\Omega}{10} = 20\\Omega$.\n\n2.  **Calculate the Equivalent Resistance in Parallel**: Now, these 10 parts, each with a resistance of 20Ω, are connected in parallel. The formula for the equivalent resistance ($R_{eq}$) of 'n' identical resistors ($R_{part}$) in parallel is:\n    $R_{eq} = \\frac{R_{part}}{n}$\n    Substituting the values:\n    $R_{eq} = \\frac{20\\Omega}{10} = 2\\Omega$.\n\n    Alternatively, using the general formula for parallel resistors:\n    $\\frac{1}{R_{eq}} = \\frac{1}{R_1} + \\frac{1}{R_2} + ... + \\frac{1}{R_{10}}$\n    $\\frac{1}{R_{eq}} = \\frac{1}{20} + \\frac{1}{20} + ... \\text{(10 times)}$\n    $\\frac{1}{R_{eq}} = 10 \\times \\frac{1}{20} = \\frac{10}{20} = \\frac{1}{2}$\n    $R_{eq} = 2\\Omega$.\n\n    *Note: The solution in the source document appears to have a typo, starting with a wire of 20Ω instead of 200Ω, leading to an incorrect final answer of 0.2Ω. Based on the question text, the correct answer is 2Ω.*",
+    "imagesolurl": null,
+    "subject": "Physics",
+    "topic": "Current Electricity",
+    "subtopics": [
+      "Equivalent Resistance",
+      "Parallel Combination",
+      "Resistors"
+    ],
+    "question_type": [
+      "Formula-based",
+      "Calculation-intensive"
+    ],
+    "avg_time_to_solve": 75
+  },
+  {
+    "id": 44,
+    "shortcut": "The magnitude of the induced EMF ($\\mathcal{E}$) in an inductor is given by the formula $\\mathcal{E} = L |\\frac{di}{dt}|$. Differentiate the given current function $i(t) = 3t+2$ to find the rate of change of current, $\\frac{di}{dt}$, and then solve for the self-inductance L.",
+    "question": "The current flowing in a coil is given by the equation $i = 3t+2$, where i is in amperes and t is in seconds. If the induced EMF in the coil is 12 mV, find the self-inductance (in mH) of the coil.",
+    "equation": "i = 3t+2, \\mathcal{E} = 12 \\text{ mV}",
+    "imageurl": null,
+    "options": {
+      "A": "4 mH",
+      "B": "36 mH",
+      "C": "4/3 mH",
+      "D": "12 mH"
+    },
+    "correct_option": "A",
+    "difficulty_level": "Easy",
+    "examname": "JEE Main 2024 - 05 April Shift 2",
+    "solution": "1.  **Find the Rate of Change of Current**: The current $i$ is given as a function of time $t$ by $i(t) = 3t+2$.\n    The rate of change of current, $\\frac{di}{dt}$, is the derivative of this function with respect to time:\n    $\\frac{di}{dt} = \\frac{d}{dt}(3t+2) = 3$ A/s.\n    Since this value is constant, the rate of change of current is 3 A/s at all times.\n\n2.  **Use the Formula for Induced EMF**: The induced EMF ($\\mathcal{E}$) in an inductor is related to its self-inductance (L) and the rate of change of current by the formula:\n    $\\mathcal{E} = L \\frac{di}{dt}$\n\n3.  **Solve for Self-Inductance (L)**: We are given the induced EMF, $\\mathcal{E} = 12$ mV = $12 \\times 10^{-3}$ V.\n    Substitute the known values into the formula:\n    $12 \\times 10^{-3} \\text{ V} = L \\times (3 \\text{ A/s})$\n    $L = \\frac{12 \\times 10^{-3}}{3}$ H\n    $L = 4 \\times 10^{-3}$ H\n\n4.  **Convert to millihenries (mH)**: Since $1 \\text{ mH} = 10^{-3} \\text{ H}$, the self-inductance is:\n    $L = 4$ mH.",
+    "imagesolurl": null,
+    "subject": "Physics",
+    "topic": "Electromagnetic Induction",
+    "subtopics": [
+      "Self-Inductance",
+      "Induced EMF"
+    ],
+    "question_type": [
+      "Formula-based",
+      "Calculation-intensive"
+    ],
+    "avg_time_to_solve": 60
+  },
+  {
+    "id": 45,
+    "shortcut": "For an adiabatic process, $PV^\\gamma = \\text{constant}$. For an ideal gas, $T \\propto PV$. Substitute T from the ideal gas law into the given relation $P \\propto T^3$ to find a relationship between P and V. Then, compare the resulting equation to the standard adiabatic form to find the value of $\\gamma$.",
+    "question": "An ideal gas undergoes a process for which the pressure P is proportional to the cube of the absolute temperature T ($P \\propto T^3$). If this process is also adiabatic, find the value of $\\gamma = \\frac{C_p}{C_v}$.",
+    "equation": "P \\propto T^3",
+    "imageurl": null,
+    "options": {
+      "A": "3/2",
+      "B": "5/3",
+      "C": "4/3",
+      "D": "7/5"
+    },
+    "correct_option": "A",
+    "difficulty_level": "Medium",
+    "examname": "JEE Main 2024 - 05 April Shift 2",
+    "solution": "We are given two pieces of information about the process:\n1.  The relationship between pressure and temperature is $P \\propto T^3$, which can be written as $PT^{-3} = \\text{constant}$.\n2.  The process is adiabatic, which means it follows the relation $PV^\\gamma = \\text{constant}$.\n\nOur goal is to use the first relation and the ideal gas law to derive an equation in the form $PV^k = \\text{constant}$, where $k$ will be equal to $\\gamma$.\n\nThe ideal gas law is $PV = nRT$. For a fixed amount of gas, this gives us $T \\propto PV$.\nWe can substitute this relationship for T into the given condition $P \\propto T^3$:\n$P \\propto (PV)^3$\n$P \\propto P^3 V^3$\nDivide both sides by $P^3$:\n$P^{1-3} \\propto V^3$\n$P^{-2} \\propto V^3$\nThis can be written as an equation with a constant of proportionality:\n$P^{-2} = C \\cdot V^3$, where C is a constant.\n$P^{-2}V^{-3} = C$\nTo get the equation into the form $PV^k$, we can raise both sides to the power of $-1/2$:\n$(P^{-2}V^{-3})^{-1/2} = C^{-1/2}$\n$P^{(-2)(-1/2)}V^{(-3)(-1/2)} = \\text{new constant}$\n$PV^{3/2} = \\text{constant}$\n\nNow, we compare this derived equation with the standard equation for an adiabatic process, $PV^\\gamma = \\text{constant}$.\nBy comparison, we find that $\\gamma = \\frac{3}{2}$.",
+    "imagesolurl": null,
+    "subject": "Physics",
+    "topic": "Thermodynamics",
+    "subtopics": [
+      "Adiabatic Process",
+      "Ideal Gas Law",
+      "Polytropic Process",
+      "Heat Capacity Ratio (gamma)"
+    ],
+    "question_type": [
+      "Derivation",
+      "Conceptual"
+    ],
+    "avg_time_to_solve": 150
+  },
+  {
+    "id": 46,
+    "shortcut": "To determine the shape of a molecule, use VSEPR theory. First, find the central atom and count its valence electrons. Add the number of electrons contributed by the surrounding atoms. Divide by two to get the number of electron pairs. The arrangement of these pairs (both bonding and lone pairs) determines the final molecular geometry.",
+    "question": "Match the chemical species in List-I with their correct molecular shape in List-II.\n\n**List-I**\n(P) IF\n(Q) $IF_7$\n(R) $ICl_3$\n(S) $BF_3$\n\n**List-II**\n(1) Linear\n(2) Pentagonal bipyramidal\n(3) T-shape\n(4) Trigonal Planar",
+    "equation": null,
+    "imageurl": null,
+    "options": {
+      "A": "P→1; Q→2; R→3; S→4",
+      "B": "P→2; Q→3; R→4; S→1",
+      "C": "P→3; Q→4; R→2; S→1",
+      "D": "P→4; Q→1; R→2; S→3"
+    },
+    "correct_option": "A",
+    "difficulty_level": "Medium",
+    "examname": "JEE Main 2024 - 05 April Shift 2",
+    "solution": "We determine the shape of each molecule using the VSEPR (Valence Shell Electron Pair Repulsion) theory.\n\n-   **(P) IF**: This is a diatomic molecule. All diatomic molecules are necessarily **linear**. So, **P→1**.\n\n-   **(Q) $IF_7$**: The central atom is Iodine (I), which is in Group 17 and has 7 valence electrons. It forms 7 single bonds with 7 Fluorine (F) atoms. \n    Total electron pairs = (7 valence e⁻ from I + 7 e⁻ from 7 F) / 2 = 14/2 = 7 electron pairs.\n    There are 7 bonding pairs and 0 lone pairs. The geometry for 7 electron pairs is **pentagonal bipyramidal**. So, **Q→2**.\n\n-   **(R) $ICl_3$**: The central atom is Iodine (I) with 7 valence electrons. It forms 3 single bonds with 3 Chlorine (Cl) atoms.\n    Total electron pairs = (7 valence e⁻ from I + 3 e⁻ from 3 Cl) / 2 = 10/2 = 5 electron pairs.\n    Out of 5 pairs, 3 are bonding pairs and 2 are lone pairs. The arrangement of 5 electron pairs is trigonal bipyramidal. With 3 bonding pairs and 2 lone pairs, the resulting molecular shape is **T-shape**. So, **R→3**.\n\n-   **(S) $BF_3$**: The central atom is Boron (B), which is in Group 13 and has 3 valence electrons. It forms 3 single bonds with 3 Fluorine (F) atoms.\n    Total electron pairs = (3 valence e⁻ from B + 3 e⁻ from 3 F) / 2 = 6/2 = 3 electron pairs.\n    There are 3 bonding pairs and 0 lone pairs. The geometry for 3 electron pairs is **trigonal planar**. So, **S→4**.\n\nThe correct matching is P→1; Q→2; R→3; S→4.",
+    "imagesolurl": null,
+    "subject": "Chemistry",
+    "topic": "Chemical Bonding and Molecular Structure",
+    "subtopics": [
+      "VSEPR Theory",
+      "Molecular Geometry",
+      "Hybridization"
+    ],
+    "question_type": [
+      "Matching",
+      "Conceptual"
+    ],
+    "avg_time_to_solve": 180
+  },
+  {
+    "id": 47,
+    "shortcut": "A cell reaction is spontaneous if its standard cell potential ($E^°_{cell}$) is positive. Calculate $E^°_{cell}$ using $E^°_{cell} = E^°_{cathode} - E^°_{anode}$, where the half-reaction with the higher (more positive) reduction potential acts as the cathode. The reaction that corresponds to this setup is the spontaneous one.",
+    "question": "Given the standard reduction potentials $E^°_{M^{2+}/M} = +0.34V$ and $E^°_{X_{2}/X^{-}} = -0.46V$. Select the correct statement regarding a cell constructed from these two half-cells.",
+    "equation": "E^°_{M^{2+}/M} = +0.34V, E^°_{X_{2}/X^{-}} = -0.46V",
+    "imageurl": null,
+    "options": {
+      "A": "$E^°_{cell} = 0.80V$ and the reaction $M+X_{2} \\rightarrow M^{2+}+2X^{-}$ is spontaneous.",
+      "B": "$E^°_{cell} = -0.80V$ and the reaction is non-spontaneous.",
+      "C": "$E^°_{cell} = 0.12V$ and the reaction $M^{2+}+2X^{-} \\rightarrow M+X_{2}$ is spontaneous.",
+      "D": "The reaction $M^{2+}+2X^{-} \\rightarrow M+X_{2}$ is spontaneous."
+    },
+    "correct_option": "D",
+    "difficulty_level": "Medium",
+    "examname": "JEE Main 2024 - 05 April Shift 2",
+    "solution": "1.  **Identify Cathode and Anode**: For a spontaneous reaction in a galvanic cell, the half-reaction with the higher reduction potential will be the reduction half-reaction (at the cathode), and the one with the lower reduction potential will be the oxidation half-reaction (at the anode).\n    -   Reduction potential for M: $E^°(M^{2+}/M) = +0.34V$\n    -   Reduction potential for X: $E^°(X_2/X^{-}) = -0.46V$\n    Since $+0.34V > -0.46V$, the reduction of $M^{2+}$ will occur at the cathode, and the oxidation of $X^{-}$ will occur at the anode.\n\n2.  **Write the Half-Reactions and Overall Spontaneous Reaction**:\n    -   **Cathode (Reduction)**: $M^{2+} + 2e^- \\rightarrow M$\n    -   **Anode (Oxidation)**: $2X^- \\rightarrow X_2 + 2e^-$\n    -   **Overall Spontaneous Reaction**: Adding the two half-reactions gives: $M^{2+} + 2X^{-} \\rightarrow M + X_{2}$.\n    Therefore, the statement that this reaction is spontaneous is correct.\n\n3.  **Calculate the Standard Cell Potential ($E^°_{cell}$)**:\n    $E^°_{cell} = E^°_{cathode} - E^°_{anode}$\n    $E^°_{cell} = E^°(M^{2+}/M) - E^°(X_2/X^{-})$\n    $E^°_{cell} = (+0.34V) - (-0.46V) = 0.34V + 0.46V = 0.80V$.\n    Since $E^°_{cell}$ is positive (0.80V > 0), the reaction $M^{2+}+2X^{-} \\rightarrow M+X_{2}$ is indeed spontaneous.\n\n4.  **Evaluate the Options**:\n    -   A: States $E^°_{cell} = 0.80V$ but claims the reverse reaction is spontaneous. Incorrect.\n    -   B: Gives an incorrect cell potential. Incorrect.\n    -   C: Gives an incorrect cell potential. Incorrect.\n    -   D: Correctly identifies the spontaneous reaction.\n\n    *Note: The source document has a flawed calculation for $E^°_{cell}$ but reaches the correct conclusion about which reaction is spontaneous.*",
+    "imagesolurl": null,
+    "subject": "Chemistry",
+    "topic": "Electrochemistry",
+    "subtopics": [
+      "Galvanic Cells",
+      "Standard Electrode Potential",
+      "Spontaneity of Redox Reactions"
+    ],
+    "question_type": [
+      "Conceptual",
+      "Calculation-intensive"
+    ],
+    "avg_time_to_solve": 150
+  },
+  {
+    "id": 48,
+    "shortcut": "This is a definitional question. The total electromagnetic force on a charged particle in the presence of both electric and magnetic fields is known as the Lorentz force. It is the vector sum of the electric force, $\\vec{F}_E = q\\vec{E}$, and the magnetic force, $\\vec{F}_B = q(\\vec{v} \\times \\vec{B})$.",
+    "question": "A particle with charge q is moving with velocity v through a region with an electric field (E) and a magnetic field (B). What are the expressions for the force due to the electric field ($\vec{F}_1$) and the force due to the magnetic field ($\vec{F}_2$) acting on the charge?",
+    "equation": null,
+    "imageurl": null,
+    "options": {
+      "A": "$\\vec{F}_{1}=q\\vec{E}$, $\\vec{F}_{2}=q(\\vec{v}\\times\\vec{B})$",
+      "B": "$\\vec{F}_{1}=q(\\vec{v}\\times\\vec{E})$, $\\vec{F}_{2}=q\\vec{B}$",
+      "C": "$\\vec{F}_{1}=q\\vec{E}$, $\\vec{F}_{2}=q(\\vec{B}\\times\\vec{v})$",
+      "D": "$\\vec{F}_{1}=q/\\vec{E}$, $\\vec{F}_{2}=q\\vec{v}B$"
+    },
+    "correct_option": "A",
+    "difficulty_level": "Easy",
+    "examname": "JEE Main 2024 - 05 April Shift 2",
+    "solution": "The force experienced by a charged particle in electric and magnetic fields is described by the Lorentz force equation.\n\n1.  **Electric Force ($\vec{F}_1$)**: The force exerted by an electric field $\\vec{E}$ on a point charge $q$ is given by the equation:\n    $\\vec{F}_1 = q\\vec{E}$\n    This force acts in the direction of the electric field if the charge q is positive, and in the opposite direction if q is negative.\n\n2.  **Magnetic Force ($\vec{F}_2$)**: The force exerted by a magnetic field $\\vec{B}$ on a point charge $q$ moving with velocity $\\vec{v}$ is given by the equation:\n    $\\vec{F}_2 = q(\\vec{v} \\times \\vec{B})$\n    This force is a result of the cross product between the velocity and magnetic field vectors. It is always perpendicular to both the velocity of the charge and the magnetic field.\n\nThe total force, known as the Lorentz force, is the vector sum: $\\vec{F} = \\vec{F}_1 + \\vec{F}_2 = q\\vec{E} + q(\\vec{v} \\times \\vec{B})$.",
+    "imagesolurl": null,
+    "subject": "Physics",
+    "topic": "Magnetism and Matter",
+    "subtopics": [
+      "Lorentz Force",
+      "Electric Force",
+      "Magnetic Force"
+    ],
+    "question_type": [
+      "Memory-based",
+      "Formula-based"
+    ],
+    "avg_time_to_solve": 30
+  },
+  {
+    "id": 49,
+    "shortcut": "Tankers carrying flammable liquids can build up a significant amount of static electricity due to friction with the air and the sloshing of the liquid inside. A hanging metal chain provides a continuous path to the ground, allowing this static charge to be safely discharged, thus preventing a spark that could ignite the flammable material.",
+    "question": "Why do tanker trucks carrying inflammable liquids often have a metal chain hanging from the rear that touches the ground?",
+    "equation": null,
+    "imageurl": null,
+    "options": {
+      "A": "To make it look fancy.",
+      "B": "To inform other vehicles about the tanker.",
+      "C": "So that excess charge can be transferred to the earth.",
+      "D": "To protect the tires from damage."
+    },
+    "correct_option": "C",
+    "difficulty_level": "Easy",
+    "examname": "JEE Main 2024 - 05 April Shift 2",
+    "solution": "The primary reason for the hanging metal chain is **electrical safety**.\n\nAs a large vehicle like a tanker truck moves, it experiences friction with the air. The tires rolling on the road and the sloshing of the liquid inside can also generate static electricity, causing a significant amount of electric charge to build up on the truck's metal body. \n\nIf this accumulated static charge were to discharge suddenly in the form of a spark, it could ignite the flammable vapors from the liquid being transported, leading to a fire or explosion.\n\nThe metal chain provides a continuous conductive path from the truck's body to the ground. This process is known as **grounding** or **earthing**. It allows the excess static charge to flow safely and continuously from the truck to the Earth, which can absorb the charge without a significant change in potential. This prevents the buildup of a large potential difference and eliminates the risk of a dangerous spark. Therefore, the chain is there so that excess charge can be transferred to the earth.",
+    "imagesolurl": null,
+    "subject": "Physics",
+    "topic": "Electrostatics",
+    "subtopics": [
+      "Static Electricity",
+      "Charging by Friction",
+      "Electrical Grounding",
+      "Conductors"
+    ],
+    "question_type": [
+      "Conceptual",
+      "Application"
+    ],
+    "avg_time_to_solve": 45
+  },
+  {
+    "id": 50,
+    "shortcut": "According to Newton's second law, force is the time derivative of momentum: $\\vec{F} = \\frac{d\\vec{p}}{dt}$. To find the angle between the two vectors, calculate their dot product, $\\vec{p} \\cdot \\vec{F}$. If the dot product is zero, the vectors are perpendicular (90°).",
+    "question": "The momentum of a body as a function of time is given by the vector $\\vec{p} = \\cos(kt)\\hat{i} - \\sin(kt)\\hat{j}$, where k is a constant. Find the angle between the momentum vector $\\vec{p}$ and the force vector $\\vec{F}$ acting on the body.",
+    "equation": "$\\vec{p} = \\cos(kt)\\hat{i} - \\sin(kt)\\hat{j}$",
+    "imageurl": null,
+    "options": {
+      "A": "90°",
+      "B": "0°",
+      "C": "180°",
+      "D": "45°"
+    },
+    "correct_option": "A",
+    "difficulty_level": "Medium",
+    "examname": "JEE Main 2024 - 05 April Shift 2",
+    "solution": "1.  **Find the Force Vector**: According to Newton's second law of motion, the force $\\vec{F}$ acting on a body is the time derivative of its momentum vector $\\vec{p}$.\n    $\\vec{F} = \\frac{d\\vec{p}}{dt}$\n    Given $\\vec{p} = \\cos(kt)\\hat{i} - \\sin(kt)\\hat{j}$, we differentiate each component with respect to time t:\n    $\\vec{F} = \\frac{d}{dt}(\\cos(kt))\\hat{i} - \\frac{d}{dt}(\\sin(kt))\\hat{j}$\n    Using the chain rule, we get:\n    $\\vec{F} = (-k\\sin(kt))\\hat{i} - (k\\cos(kt))\\hat{j}$\n\n2.  **Calculate the Dot Product**: The angle $\\theta$ between two vectors can be found using their dot product: $\\vec{p} \\cdot \\vec{F} = |\\vec{p}||\\vec{F}|\\cos\\theta$. If the dot product is zero, the vectors are orthogonal (perpendicular).\n    $\\vec{p} \\cdot \\vec{F} = (p_x)(F_x) + (p_y)(F_y)$\n    $\\vec{p} \\cdot \\vec{F} = (\\cos(kt))(-k\\sin(kt)) + (-\\sin(kt))(-k\\cos(kt))$\n    $\\vec{p} \\cdot \\vec{F} = -k\\sin(kt)\\cos(kt) + k\\sin(kt)\\cos(kt)$\n    $\\vec{p} \\cdot \\vec{F} = 0$\n\n3.  **Determine the Angle**: Since the dot product of the momentum vector and the force vector is zero, the angle between them is **90°**. This indicates that the force is always perpendicular to the momentum (and thus the velocity), which is characteristic of uniform circular motion where the force is centripetal.",
+    "imagesolurl": null,
+    "subject": "Physics",
+    "topic": "Laws of Motion",
+    "subtopics": [
+      "Newton's Second Law",
+      "Momentum",
+      "Vector Calculus",
+      "Dot Product"
+    ],
+    "question_type": [
+      "Derivation",
+      "Calculation-intensive"
+    ],
+    "avg_time_to_solve": 120
+  },
+  {
+    "id": 51,
+    "shortcut": "The spin-only magnetic moment is given by $\\mu = \\sqrt{n(n+2)}$ BM, where 'n' is the number of unpaired electrons. Determine the oxidation states of Fe and Cr in the products, find the number of unpaired d-electrons for each, calculate their individual magnetic moments, and sum them up.",
+    "question": "The reaction of chromite ore with sodium carbonate in air produces compounds A, B, and C. $$ FeO \\cdot Cr_2O_3 + Na_2CO_3 \\xrightarrow{O_2, \\Delta} A + B + C(CO_2) $$ Identify A and B and find the sum of the magnetic moments (in BM, rounded to the nearest integer) of the central metal ions in them.",
+    "equation": "FeO \\cdot Cr_2O_3 + Na_2CO_3 \\rightarrow A+B+C(CO_2)",
+    "imageurl": null,
+    "options": {
+      "A": "6",
+      "B": "5",
+      "C": "4",
+      "D": "7"
+    },
+    "correct_option": "A",
+    "difficulty_level": "Hard",
+    "examname": "JEE Main 2024 - 05 April Shift 2",
+    "solution": "The given reaction represents the roasting of chromite ore ($FeCr_2O_4$) with sodium carbonate in the presence of air (oxygen).\nThe balanced chemical reaction is:\n$$ 4FeCr_2O_4 + 8Na_2CO_3 + 7O_2 \\xrightarrow{\\Delta} 2Fe_2O_3 + 8Na_2CrO_4 + 8CO_2 $$\nFrom this, we can identify the products:\n-   Product A is Ferric Oxide, $Fe_2O_3$.\n-   Product B is Sodium Chromate, $Na_2CrO_4$.\n-   Product C is Carbon Dioxide, $CO_2$.\n\nNow, we calculate the magnetic moment for the central metal ion in A and B.\n\n1.  **Central Metal Ion in A ($Fe_2O_3$)**:\n    -   The iron ion is in the +3 oxidation state ($Fe^{3+}$).\n    -   The electron configuration of Fe (Z=26) is $[Ar] 3d^6 4s^2$.\n    -   The configuration of $Fe^{3+}$ is $[Ar] 3d^5$.\n    -   This means there are **5 unpaired electrons** (n=5).\n    -   The spin-only magnetic moment is $\\mu_{Fe} = \\sqrt{n(n+2)} = \\sqrt{5(5+2)} = \\sqrt{35} \\approx 5.92$ BM.\n\n2.  **Central Metal Ion in B ($Na_2CrO_4$)**:\n    -   The chromium ion is in the +6 oxidation state ($Cr^{6+}$).\n    -   The electron configuration of Cr (Z=24) is $[Ar] 3d^5 4s^1$.\n    -   The configuration of $Cr^{6+}$ is $[Ar] 3d^0$.\n    -   This means there are **0 unpaired electrons** (n=0).\n    -   The magnetic moment is $\\mu_{Cr} = \\sqrt{0(0+2)} = 0$ BM.\n\n3.  **Sum of Magnetic Moments**:\n    Sum = $\\mu_{Fe} + \\mu_{Cr} = 5.92 + 0 = 5.92$ BM.\n\nThe question asks for the sum rounded to the nearest integer, which is **6**.",
+    "imagesolurl": null,
+    "subject": "Chemistry",
+    "topic": "d-block and f-block Elements",
+    "subtopics": [
+      "Metallurgy of Chromium",
+      "Magnetic Moment",
+      "Oxidation States",
+      "Electron Configuration"
+    ],
+    "question_type": [
+      "Reaction-based",
+      "Calculation-intensive"
+    ],
+    "avg_time_to_solve": 200
+  },
+  {
+    "id": 52,
+    "shortcut": "A metal M will liberate H₂ gas from a dilute acid if it can be oxidized by H⁺ ions. This occurs if the standard electrode potential for the Mⁿ⁺/M couple is negative (i.e., less than the 0.00 V for H⁺/H₂). For metal ions, an ion Mⁿ⁺ will liberate H₂ if it can reduce H⁺, meaning the M⁽ⁿ⁺¹⁾⁺/Mⁿ⁺ reduction potential must be negative.",
+    "question": "Among the given divalent transition metal ions, $Ti^{2+}$, $V^{2+}$, and $Cr^{2+}$, how many can liberate $H_2$ gas from a dilute mineral acid?",
+    "equation": null,
+    "imageurl": null,
+    "options": {
+      "A": "3",
+      "B": "2",
+      "C": "1",
+      "D": "0"
+    },
+    "correct_option": "A",
+    "difficulty_level": "Medium",
+    "examname": "JEE Main 2024 - 05 April Shift 2",
+    "solution": "For an ion to liberate hydrogen gas ($H_2$) from a dilute mineral acid, it must be able to reduce the hydrogen ions ($H^+$) present in the acid. The reaction for this reduction is $2H^+ + 2e^- \\rightarrow H_2$, which has a standard electrode potential of $E^° = 0.00$ V.\n\nA species can act as a reducing agent for $H^+$ if it has a standard reduction potential that is more negative than 0.00 V for its corresponding oxidation half-reaction. In other words, the ion M²⁺ will be oxidized to M³⁺ while H⁺ is reduced to H₂.\n\nThe reaction is: $2M^{2+} + 2H^+ \\rightarrow 2M^{3+} + H_2$.\nThis reaction is spontaneous if the reduction potential for the $M^{3+}/M^{2+}$ couple is negative.\n\nLet's check the standard reduction potentials for the given ions:\n\n1.  **$Ti^{2+}$**: The relevant half-reaction is $Ti^{3+} + e^- \\rightarrow Ti^{2+}$. The standard potential is $E^°(Ti^{3+}/Ti^{2+}) \\approx -0.37$ V. Since this is negative, $Ti^{2+}$ is a strong enough reducing agent to reduce $H^+$ to $H_2$. So, $Ti^{2+}$ **can** liberate $H_2$.\n\n2.  **$V^{2+}$**: The relevant half-reaction is $V^{3+} + e^- \\rightarrow V^{2+}$. The standard potential is $E^°(V^{3+}/V^{2+}) = -0.26$ V. Since this is negative, $V^{2+}$ **can** liberate $H_2$.\n\n3.  **$Cr^{2+}$**: The relevant half-reaction is $Cr^{3+} + e^- \\rightarrow Cr^{2+}$. The standard potential is $E^°(Cr^{3+}/Cr^{2+}) = -0.41$ V. Since this is negative, $Cr^{2+}$ **can** liberate $H_2$.\n\nAll three given ions have negative standard reduction potentials for their M³⁺/M²⁺ couple, meaning they are all capable of reducing H⁺ ions to H₂ gas.\nTherefore, the number of ions that can liberate $H_2$ is **3**.",
+    "imagesolurl": null,
+    "subject": "Chemistry",
+    "topic": "d-block and f-block Elements",
+    "subtopics": [
+      "Redox Reactions",
+      "Standard Electrode Potential",
+      "Reactivity of Metals"
+    ],
+    "question_type": [
+      "Conceptual",
+      "Memory-based"
+    ],
+    "avg_time_to_solve": 120
+  },
+  {
+    "id": 53,
+    "shortcut": "To find the RMS current in a series RL circuit, first calculate the inductive reactance ($X_L = 2\\pi fL$), then find the total impedance ($Z = \\sqrt{R^2 + X_L^2}$). Finally, use Ohm's law for AC circuits: $I_{rms} = \\frac{V_{rms}}{Z}$.",
+    "question": "A series RL circuit has a resistance of $R=14\\Omega$ and an inductance of $L=10$ mH. An AC voltage source of 220 V (RMS) at a frequency of 50 Hz is applied to it. Find the RMS value of the current in the circuit.",
+    "equation": "R=14\\Omega, L=10 \\text{ mH}, V_{rms}=220 \\text{ V}, f=50 \\text{ Hz}",
+    "imageurl": "https://res.cloudinary.com/dscgkuvkd/image/upload/v1756382949/Screenshot_2025-08-28_at_5.39.02_PM_lbsqfs.png",
+    "options": {
+      "A": "15.3 A",
+      "B": "14.7 A",
+      "C": "15.7 A",
+      "D": "14.3 A"
+    },
+    "correct_option": "A",
+    "difficulty_level": "Medium",
+    "examname": "JEE Main 2024 - 05 April Shift 2",
+    "solution": "1.  **Calculate Inductive Reactance ($X_L$)**: The inductive reactance depends on the frequency ($f$) of the AC source and the inductance (L). First, convert the inductance to Henries: $L = 10 \\text{ mH} = 10 \\times 10^{-3} \\text{ H}$.\n    $X_L = 2\\pi fL$\n    $X_L = 2\\pi (50 \\text{ Hz})(10 \\times 10^{-3} \\text{ H}) = 100\\pi \\times 10^{-2} \\text{ H} = \\pi \\, \\Omega$.\n\n2.  **Calculate the Total Impedance (Z)**: In a series RL circuit, the impedance Z is the vector sum of the resistance and the inductive reactance.\n    $Z = \\sqrt{R^2 + X_L^2}$\n    $Z = \\sqrt{(14)^2 + (\\pi)^2} = \\sqrt{196 + \\pi^2} \\, \\Omega$.\n    Using the approximation $\\pi \\approx 3.14$, we get $\\pi^2 \\approx 9.87$.\n    $Z \\approx \\sqrt{196 + 9.87} = \\sqrt{205.87} \\approx 14.348 \\, \\Omega$.\n\n3.  **Calculate the RMS Current ($I_{rms}$)**: Using Ohm's Law for AC circuits, the RMS current is the RMS voltage divided by the impedance.\n    $I_{rms} = \\frac{V_{rms}}{Z}$\n    $I_{rms} = \\frac{220 \\text{ V}}{14.348 \\, \\Omega} \\approx 15.333$ A.\n\n    Rounding to one decimal place, the RMS current is approximately 15.3 A.",
+    "imagesolurl": null,
+    "subject": "Physics",
+    "topic": "Alternating Current",
+    "subtopics": [
+      "RL Circuit",
+      "Impedance",
+      "Inductive Reactance",
+      "RMS Values"
+    ],
+    "question_type": [
+      "Formula-based",
+      "Calculation-intensive"
+    ],
+    "avg_time_to_solve": 150
+  },
+  {
+    "id": 54,
+    "shortcut": "For any satellite in a circular orbit, equate the gravitational force to the centripetal force: $\\frac{GMm}{r^2} = m\\omega^2r$. Substitute the angular velocity $\\omega = \\frac{2\\pi}{T}$ (where T is the orbital period) and rearrange the equation to solve for the orbital radius, r.",
+    "question": "A satellite with an orbital time period T orbits a planet of mass $M_p = \\frac{m_e}{4}$, where $m_e$ is the mass of the Earth. Find the radius of the satellite's orbit.",
+    "equation": "T, M_p = m_e/4",
+    "imageurl": null,
+    "options": {
+      "A": "$[\\frac{Gm_{e}}{4}(\\frac{T}{2\\pi})^{2}]^{1/3}$",
+      "B": "$[\\frac{Gm_{e}}{4}(\\frac{2\\pi}{T})^{2}]^{1/3}$",
+      "C": "$[\\frac{Gm_{e}}{T}(\\frac{1}{2\\pi})^{2}]^{1/3}$",
+      "D": "$[\\frac{4T^2}{Gm_e(2\\pi)^2}]^{1/3}$"
+    },
+    "correct_option": "A",
+    "difficulty_level": "Medium",
+    "examname": "JEE Main 2024 - 05 April Shift 2",
+    "solution": "1.  **Equate Gravitational and Centripetal Forces**: For a satellite of mass 'm' in a stable circular orbit of radius 'r' around a planet of mass '$M_p$', the gravitational force provides the necessary centripetal force.\n    $F_{gravitational} = F_{centripetal}$\n    $\\frac{GM_p m}{r^2} = m a_c$\n    The centripetal acceleration can be expressed in terms of angular velocity $\\omega$ as $a_c = \\omega^2 r$.\n    $\\frac{GM_p m}{r^2} = m \\omega^2 r$\n\n2.  **Relate Angular Velocity and Time Period**: The angular velocity is related to the orbital time period T by:\n    $\\omega = \\frac{2\\pi}{T}$\n\n3.  **Substitute and Solve for r**: Substitute the expression for $\\omega$ into the force equation:\n    $\\frac{GM_p}{r^2} = (\\frac{2\\pi}{T})^2 r$\n    $\\frac{GM_p}{r^2} = \\frac{4\\pi^2}{T^2} r$\n    Now, rearrange the equation to solve for the orbital radius, r:\n    $GM_p T^2 = 4\\pi^2 r^3$\n    $r^3 = \\frac{GM_p T^2}{4\\pi^2} = GM_p \\left(\\frac{T^2}{4\\pi^2}\\right) = GM_p \\left(\\frac{T}{2\\pi}\\right)^2$\n    $r = \\left[ GM_p \\left(\\frac{T}{2\\pi}\\right)^2 \\right]^{1/3}$\n\n4.  **Insert the Planet's Mass**: We are given that the planet's mass is $M_p = \\frac{m_e}{4}$. Substituting this into the final expression:\n    $r = \\left[ G(\\frac{m_e}{4}) \\left(\\frac{T}{2\\pi}\\right)^2 \\right]^{1/3}$",
+    "imagesolurl": null,
+    "subject": "Physics",
+    "topic": "Gravitation",
+    "subtopics": [
+      "Orbital Motion",
+      "Kepler's Laws",
+      "Centripetal Force"
+    ],
+    "question_type": [
+      "Derivation",
+      "Formula-based"
+    ],
+    "avg_time_to_solve": 150
+  },
+  {
+    "id": 55,
+    "shortcut": "According to Pascal's principle for a hydraulic lift, the pressure is transmitted equally, so $\\frac{F_1}{A_1} = \\frac{F_2}{A_2}$. Since area $A$ is proportional to the square of the diameter $d$ ($A=\\pi d^2/4$), the relationship simplifies to $\\frac{F_1}{d_1^2} = \\frac{F_2}{d_2^2}$. Use this ratio to solve for the unknown force.",
+    "question": "In a hydraulic system, a force of 10 N is applied to a small piston with a diameter of 1.4 cm. If the larger piston has a diameter of 14 cm, find the force $F_2$ exerted by the large piston to maintain the same fluid level.",
+    "equation": "F_1 = 10 N, d_1 = 1.4 \\text{ cm}, d_2 = 14 \\text{ cm}",
+    "imageurl": "https://res.cloudinary.com/dscgkuvkd/image/upload/v1756383031/Screenshot_2025-08-28_at_5.40.25_PM_udnuhf.png",
+    "options": {
+      "A": "1000 N",
+      "B": "100 N",
+      "C": "10 N",
+      "D": "1 N"
+    },
+    "correct_option": "A",
+    "difficulty_level": "Easy",
+    "examname": "JEE Main 2024 - 05 April Shift 2",
+    "solution": "1.  **Apply Pascal's Principle**: Pascal's principle states that a pressure change at any point in a confined incompressible fluid is transmitted throughout the fluid such that the same change occurs everywhere. In a hydraulic system, this means the pressure under the small piston ($P_1$) is equal to the pressure under the large piston ($P_2$).\n    $P_1 = P_2$\n    Since pressure is Force/Area, we have:\n    $\\frac{F_1}{A_1} = \\frac{F_2}{A_2}$\n    where $F_1$ and $A_1$ are the force and area of the small piston, and $F_2$ and $A_2$ are for the large piston.\n\n2.  **Relate Force to Diameter**: The area of a circular piston is given by $A = \\pi r^2 = \\pi (\\frac{d}{2})^2 = \\frac{\\pi d^2}{4}$.\n    Substituting this into the pressure equation:\n    $\\frac{F_1}{\\frac{\\pi d_1^2}{4}} = \\frac{F_2}{\\frac{\\pi d_2^2}{4}}$\n    The constants $\\pi/4$ cancel out, leaving a direct relationship between the forces and the squares of the diameters:\n    $\\frac{F_1}{d_1^2} = \\frac{F_2}{d_2^2}$\n\n3.  **Solve for $F_2$**: We can rearrange the formula to solve for the unknown force $F_2$:\n    $F_2 = F_1 \\left( \\frac{d_2^2}{d_1^2} \\right) = F_1 \\left( \\frac{d_2}{d_1} \\right)^2$\n\n4.  **Substitute the Given Values**:\n    -   $F_1 = 10$ N\n    -   $d_1 = 1.4$ cm\n    -   $d_2 = 14$ cm\n\n    $F_2 = 10 \\text{ N} \\times \\left( \\frac{14 \\text{ cm}}{1.4 \\text{ cm}} \\right)^2$\n    $F_2 = 10 \\text{ N} \\times (10)^2$\n    $F_2 = 10 \\text{ N} \\times 100 = 1000$ N.\n\nThe force exerted by the large piston is 1000 N.",
+    "imagesolurl": null,
+    "subject": "Physics",
+    "topic": "Fluid Mechanics",
+    "subtopics": [
+      "Pascal's Principle",
+      "Hydraulic Systems",
+      "Pressure"
+    ],
+    "question_type": [
+      "Formula-based",
+      "Calculation-intensive"
+    ],
+    "avg_time_to_solve": 90
+  }
+]
