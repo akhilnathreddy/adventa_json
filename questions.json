@@ -1620,5 +1620,1617 @@
       "Calculation-intensive"
     ],
     "avg_time_to_solve": 90
+  },
+  {
+    "id": 1,
+    "shortcut": "The inradius 'r' of an equilateral triangle with side 'a' is given by $r = a / (2\\sqrt{3})$. The diagonal of a square inscribed in a circle of radius 'r' is equal to the diameter of the circle, $2r$.",
+    "question": "An equilateral triangle of side 12 has a circle inscribed in it. A square is inscribed inside this circle. If the area and perimeter of the square are 'm' and 'n' respectively, find the value of $m+n^2$.",
+    "equation": "m+n^2",
+    "imageurl": null,
+    "options": {
+      "A": "408",
+      "B": "384",
+      "C": "412",
+      "D": "396"
+    },
+    "correct_option": "A",
+    "difficulty_level": "Medium",
+    "examname": "JEE(Main)-2024 | 06 April 2024 (Shift-1 Morning)",
+    "solution": "For an equilateral triangle with side length $a=12$, the inradius (radius of the inscribed circle) 'r' is given by the formula $r = \\frac{a}{2\\sqrt{3}}$.\nSubstituting $a=12$, we get $r = \\frac{12}{2\\sqrt{3}} = 2\\sqrt{3}$.\nWhen a square is inscribed in a circle of radius 'r', the diagonal of the square is equal to the diameter of the circle, which is $2r$. Let the side of the square be 's'.\nSo, the diagonal is $d = s\\sqrt{2} = 2r = 2(2\\sqrt{3}) = 4\\sqrt{3}$.\nTherefore, the side of the square is $s = \\frac{4\\sqrt{3}}{\\sqrt{2}} = 2\\sqrt{6}$.\nThe area of the square is $m = s^2 = (2\\sqrt{6})^2 = 4 \\times 6 = 24$. \nThe perimeter of the square is $n = 4s = 4(2\\sqrt{6}) = 8\\sqrt{6}$.\nWe need to find the value of $m+n^2$.\n$n^2 = (8\\sqrt{6})^2 = 64 \\times 6 = 384$.\nFinally, $m+n^2 = 24 + 384 = 408$.",
+    "imagesolurl": null,
+    "subject": "Mathematics",
+    "topic": "Geometry",
+    "subtopics": [
+      "Equilateral Triangle",
+      "Incircle",
+      "Inscribed Square",
+      "Mensuration"
+    ],
+    "question_type": [
+      "Formula-based",
+      "Calculation-intensive"
+    ],
+    "avg_time_to_solve": 120
+  },
+  {
+    "id": 2,
+    "shortcut": "To find the count of numbers in a range that are not divisible by 'a' or 'b', use the Principle of Inclusion-Exclusion: Total Numbers - (Divisible by 'a' + Divisible by 'b' - Divisible by LCM(a,b)).",
+    "question": "Let A = {100, 101, 102, ...., 700}. Find the number of elements in set A which are neither divisible by 3 nor by 4.",
+    "equation": "A = \\{100, 101, 102, ...., 700\\}",
+    "imageurl": null,
+    "options": {
+      "A": "301",
+      "B": "601",
+      "C": "300",
+      "D": "350"
+    },
+    "correct_option": "C",
+    "difficulty_level": "Medium",
+    "examname": "JEE(Main)-2024 | 06 April 2024 (Shift-1 Morning)",
+    "solution": "Let S be the set A. The total number of elements in S is $700 - 100 + 1 = 601$.\nLet $A_3$ be the set of numbers in S divisible by 3. The number of elements is $n(A_3) = \\lfloor \\frac{700}{3} \\rfloor - \\lfloor \\frac{99}{3} \\rfloor = 233 - 33 = 200$.\nLet $A_4$ be the set of numbers in S divisible by 4. The number of elements is $n(A_4) = \\lfloor \\frac{700}{4} \\rfloor - \\lfloor \\frac{99}{4} \\rfloor = 175 - 24 = 151$.\nLet $A_{12}$ be the set of numbers divisible by both 3 and 4, i.e., by their LCM, which is 12. The number of elements is $n(A_3 \\cap A_4) = n(A_{12}) = \\lfloor \\frac{700}{12} \\rfloor - \\lfloor \\frac{99}{12} \\rfloor = 58 - 8 = 50$.\nThe number of elements divisible by either 3 or 4 is given by the Principle of Inclusion-Exclusion: $n(A_3 \\cup A_4) = n(A_3) + n(A_4) - n(A_3 \\cap A_4) = 200 + 151 - 50 = 301$.\nThe number of elements which are neither divisible by 3 nor by 4 is Total elements - $n(A_3 \\cup A_4) = 601 - 301 = 300$.",
+    "imagesolurl": null,
+    "subject": "Mathematics",
+    "topic": "Set Theory",
+    "subtopics": [
+      "Principle of Inclusion-Exclusion",
+      "Number Theory",
+      "Divisibility"
+    ],
+    "question_type": [
+      "Formula-based",
+      "Logical"
+    ],
+    "avg_time_to_solve": 100
+  },
+  {
+    "id": 3,
+    "shortcut": "The prism formula is $\\mu = \\frac{\\sin((A+\\delta_{min})/2)}{\\sin(A/2)}$. If $\\delta_{min} = A$, the formula simplifies to $\\mu = \\frac{\\sin(A)}{\\sin(A/2)} = 2\\cos(A/2)$.",
+    "question": "In a prism, the ratio of the angle of minimum deviation to the prism angle is 1. The refractive index of the prism material is $\\sqrt{3}$. Find the prism angle.",
+    "equation": "$\\frac{\\delta_{min}}{A} = 1, \\mu = \\sqrt{3}$",
+    "imageurl": null,
+    "options": {
+      "A": "30°",
+      "B": "45°",
+      "C": "60°",
+      "D": "90°"
+    },
+    "correct_option": "C",
+    "difficulty_level": "Easy",
+    "examname": "JEE(Main)-2024 | 06 April 2024 (Shift-1 Morning)",
+    "solution": "We are given the relation between the angle of minimum deviation ($\\delta_{min}$) and the prism angle (A) as $\\frac{\\delta_{min}}{A} = 1$, which implies $\\delta_{min} = A$. \nThe refractive index of the prism is given as $\\mu = \\sqrt{3}$.\nThe prism formula is: \n$\\mu = \\frac{\\sin(\\frac{A+\\delta_{min}}{2})}{\\sin(\\frac{A}{2})}$.\nSubstituting $\\delta_{min} = A$ into the formula: \n$\\sqrt{3} = \\frac{\\sin(\\frac{A+A}{2})}{\\sin(\\frac{A}{2})} = \\frac{\\sin(\\frac{2A}{2})}{\\sin(\\frac{A}{2})} = \\frac{\\sin(A)}{\\sin(\\frac{A}{2})}$.\nUsing the trigonometric identity $\\sin(A) = 2\\sin(\\frac{A}{2})\\cos(\\frac{A}{2})$: \n$\\sqrt{3} = \\frac{2\\sin(\\frac{A}{2})\\cos(\\frac{A}{2})}{\\sin(\\frac{A}{2})}$.\n$\\sqrt{3} = 2\\cos(\\frac{A}{2})$.\n$\\cos(\\frac{A}{2}) = \\frac{\\sqrt{3}}{2}$.\nThis implies $\\frac{A}{2} = 30^{\\circ}$.\nTherefore, the prism angle $A = 60^{\\circ}$.",
+    "imagesolurl": null,
+    "subject": "Physics",
+    "topic": "Ray Optics",
+    "subtopics": [
+      "Prism",
+      "Refraction",
+      "Angle of Minimum Deviation"
+    ],
+    "question_type": [
+      "Formula-based",
+      "Calculation-intensive"
+    ],
+    "avg_time_to_solve": 90
+  },
+  {
+    "id": 4,
+    "shortcut": "If the potential at two points in the middle of a bridge circuit are equal (i.e., $V_B = V_D$), it's a balanced Wheatstone bridge. The condition for balance is $\\frac{R_{AB}}{R_{AD}} = \\frac{R_{BC}}{R_{CD}}$.",
+    "question": "In the circuit below, the potential at point B and the potential at point D are the same. Find the value of the resistance x.",
+    "equation": null,
+    "imageurl": "https://res.cloudinary.com/dscgkuvkd/image/upload/v1756651996/Screenshot_2025-08-31_at_8.22.34_PM_ofd4np.png",
+    "options": {
+      "A": "1 Ω",
+      "B": "2 Ω",
+      "C": "3 Ω",
+      "D": "6 Ω"
+    },
+    "correct_option": "C",
+    "difficulty_level": "Medium",
+    "examname": "JEE(Main)-2024 | 06 April 2024 (Shift-1 Morning)",
+    "solution": "The problem states that the potential at point B is equal to the potential at point D, i.e., $V_B = V_D$. This is the condition for a balanced Wheatstone bridge.\nThe condition for balance is $R_{AB} \\times R_{CD} = R_{BC} \\times R_{AD}$.\nBased on the interpretation used in the provided official solution (which seems inconsistent with the diagram's labeling but yields the intended answer):\nThe resistance in arm AB is taken as $R_{AB} = 6\\Omega$. \nThe resistance in arm BC is taken as $R_{BC} = 0.5\\Omega$. \nThe resistance in arm CD is taken as $R_{CD} = 0.5\\Omega$. \nThe resistance in arm AD is taken as $R_{AD} = (x+3)\\Omega$. \nSubstituting these values into the balance equation:\n$6 \\times (0.5) = (0.5) \\times (x+3)$\nDividing both sides by 0.5:\n$6 = x+3$\nSolving for x:\n$x = 6 - 3 = 3\\Omega$.",
+    "imagesolurl": null,
+    "subject": "Physics",
+    "topic": "Current Electricity",
+    "subtopics": [
+      "Wheatstone Bridge",
+      "Resistor Networks",
+      "Kirchhoff's Laws"
+    ],
+    "question_type": [
+      "Conceptual",
+      "Circuit Analysis"
+    ],
+    "avg_time_to_solve": 100
+  },
+  {
+    "id": 5,
+    "shortcut": "Birch reduction (Na/liq. NH3) of an internal alkyne gives a trans-alkene. Subsequent reaction with cold, dilute, alkaline KMnO4 (Baeyer's reagent) causes syn-dihydroxylation, adding two -OH groups across the double bond.",
+    "question": "Consider the following reaction sequence starting with But-2-yne: $CH_3-C\\equiv C-CH_3 \\xrightarrow{(1) Na/Liq. NH_3} \\xrightarrow{(2) KMnO_4/KOH/273K} P$. Find the total number of oxygen atoms in the final product (P).",
+    "equation": "$CH_3-C\\equiv C-CH_3 \\xrightarrow{(1) Na/Liq. NH_3} \\xrightarrow{(2) KMnO_4/KOH/273K} P$",
+    "imageurl": "https://res.cloudinary.com/dscgkuvkd/image/upload/v1756652082/Screenshot_2025-08-31_at_8.24.18_PM_mxlkzj.png",
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4"
+    },
+    "correct_option": "B",
+    "difficulty_level": "Medium",
+    "examname": "JEE(Main)-2024 | 06 April 2024 (Shift-1 Morning)",
+    "solution": "The reaction proceeds in two steps:\nStep 1: Reaction of But-2-yne with Na in liquid NH3. This is a Birch reduction specific to alkynes, which results in the anti-addition of hydrogen across the triple bond. This selectively forms a trans-alkene.\n$CH_3-C\\equiv C-CH_3 \\xrightarrow{Na/Liq. NH_3} trans-But-2-ene$.\nStep 2: Reaction of trans-But-2-ene with cold, dilute, alkaline KMnO4 (also known as Baeyer's reagent) at 273K. This reagent is a mild oxidizing agent that performs syn-dihydroxylation, adding two hydroxyl (-OH) groups to the same side of the double bond.\n$trans-But-2-ene \\xrightarrow{KMnO_4/KOH/273K} Butane-2,3-diol$.\nThe final product (P) is Butane-2,3-diol ($CH_3-CH(OH)-CH(OH)-CH_3$). This molecule contains two hydroxyl groups.\nTherefore, the total number of oxygen atoms in the product (P) is 2.",
+    "imagesolurl": "https://res.cloudinary.com/dscgkuvkd/image/upload/v1756652073/Screenshot_2025-08-31_at_8.24.27_PM_kt3gdh.png",
+    "subject": "Chemistry",
+    "topic": "Organic Chemistry",
+    "subtopics": [
+      "Alkynes",
+      "Birch Reduction",
+      "Alkenes",
+      "Oxidation of Alkenes",
+      "Baeyer's Test"
+    ],
+    "question_type": [
+      "Reaction-based",
+      "Conceptual"
+    ],
+    "avg_time_to_solve": 110
+  },
+  {
+    "id": 6,
+    "shortcut": "Recognize the form $\\frac{dy}{dx} + P(x)y = Q(x)$ as a linear differential equation. The solution is $y \\cdot I.F. = \\int Q(x) \\cdot I.F. dx$, where the integrating factor $I.F. = e^{\\int P(x)dx}$.",
+    "question": "Solve the differential equation $(1+x^2)\\frac{dy}{dx} + y = e^{\\tan^{-1}x}$, given the initial condition $y(1)=0$. Find the value of $y(0)$.",
+    "equation": "$(1+x^2)\\frac{dy}{dx} + y = e^{\\tan^{-1}x}; y(1)=0$",
+    "imageurl": null,
+    "options": {
+      "A": "1/2",
+      "B": "(1 - e^{\\pi/2})/2",
+      "C": "(1 - e^{\\pi/4})/2",
+      "D": "0"
+    },
+    "correct_option": "B",
+    "difficulty_level": "Medium",
+    "examname": "JEE(Main)-2024 | 06 April 2024 (Shift-1 Morning)",
+    "solution": "First, rewrite the equation in the standard linear form $\\frac{dy}{dx} + P(x)y = Q(x)$.\nDivide by $(1+x^2)$: $\\frac{dy}{dx} + \\frac{1}{1+x^2}y = \\frac{e^{\\tan^{-1}x}}{1+x^2}$.\nHere, $P(x) = \\frac{1}{1+x^2}$ and $Q(x) = \\frac{e^{\\tan^{-1}x}}{1+x^2}$.\nNext, find the integrating factor (I.F.):\n$I.F. = e^{\\int P(x)dx} = e^{\\int \\frac{1}{1+x^2}dx} = e^{\\tan^{-1}x}$.\nThe solution is given by $y \\cdot (I.F.) = \\int Q(x) \\cdot (I.F.) dx + C$.\n$y \\cdot e^{\\tan^{-1}x} = \\int \\frac{e^{\\tan^{-1}x}}{1+x^2} \\cdot e^{\\tan^{-1}x} dx + C$.\nLet $t = \\tan^{-1}x$, so $dt = \\frac{1}{1+x^2}dx$. The integral becomes:\n$y \\cdot e^t = \\int e^t \\cdot e^t dt + C = \\int e^{2t} dt + C$.\n$y \\cdot e^t = \\frac{e^{2t}}{2} + C$.\nSubstitute back $t = \\tan^{-1}x$:\n$y \\cdot e^{\\tan^{-1}x} = \\frac{e^{2\\tan^{-1}x}}{2} + C$.\n$y = \\frac{e^{\\tan^{-1}x}}{2} + C e^{-\\tan^{-1}x}$.\nNow use the initial condition $y(1)=0$. We know $\\tan^{-1}(1) = \\pi/4$.\n$0 = \\frac{e^{\\pi/4}}{2} + C e^{-\\pi/4}$.\n$C e^{-\\pi/4} = -\\frac{e^{\\pi/4}}{2}$.\n$C = -\\frac{e^{\\pi/4} \\cdot e^{\\pi/4}}{2} = -\\frac{e^{\\pi/2}}{2}$.\nThe particular solution is $y = \\frac{e^{\\tan^{-1}x}}{2} - \\frac{e^{\\pi/2}}{2} e^{-\\tan^{-1}x}$.\nFinally, find $y(0)$. We know $\\tan^{-1}(0) = 0$.\n$y(0) = \\frac{e^0}{2} - \\frac{e^{\\pi/2}}{2} e^{-0} = \\frac{1}{2} - \\frac{e^{\\pi/2}}{2} = \\frac{1 - e^{\\pi/2}}{2}$.",
+    "imagesolurl": null,
+    "subject": "Mathematics",
+    "topic": "Differential Equations",
+    "subtopics": [
+      "Linear Differential Equations",
+      "Integrating Factor",
+      "Initial Value Problem"
+    ],
+    "question_type": [
+      "Formula-based",
+      "Calculation-intensive"
+    ],
+    "avg_time_to_solve": 150
+  },
+  {
+    "id": 7,
+    "shortcut": "The electric field from an infinite non-conducting sheet is $E = \\sigma/(2\\epsilon_0)$, independent of distance. Use the superposition principle to add the fields from each sheet vectorially.",
+    "question": "There are 3 infinite non-conducting sheets of charge with surface charge densities σ, -2σ and σ respectively, arranged parallel to each other. Find the magnitude of the electric field at point P, located between the second and third sheets as shown in the figure.",
+    "equation": null,
+    "imageurl": "https://res.cloudinary.com/dscgkuvkd/image/upload/v1756652151/Screenshot_2025-08-31_at_8.25.46_PM_vcy3ll.png",
+    "options": {
+      "A": "$\\frac{\\sigma}{\\epsilon_0}$",
+      "B": "$\\frac{2\\sigma}{\\epsilon_0}$",
+      "C": "0",
+      "D": "$\\frac{\\sigma}{2\\epsilon_0}$"
+    },
+    "correct_option": "B",
+    "difficulty_level": "Easy",
+    "examname": "JEE(Main)-2024 | 06 April 2024 (Shift-1 Morning)",
+    "solution": "The magnitude of the electric field from an infinite non-conducting sheet with surface charge density $\\sigma'$ is given by $E = \\frac{|\\sigma'|}{2\\epsilon_0}$. The net electric field at point P is the vector sum of the fields from the three sheets. Based on the provided source's solution, the magnitudes of the fields are summed up to find the net field.\n1. Field from sheet 1 ($E_1$) with charge density $\\sigma$: Magnitude is $\\frac{\\sigma}{2\\epsilon_0}$.\n2. Field from sheet 2 ($E_2$) with charge density $-2\\sigma$: Magnitude is $\\frac{|-2\\sigma|}{2\\epsilon_0} = \\frac{2\\sigma}{2\\epsilon_0}$.\n3. Field from sheet 3 ($E_3$) with charge density $\\sigma$: Magnitude is $\\frac{\\sigma}{2\\epsilon_0}$.\nThe net electric field at P is calculated by summing these magnitudes: $E_{net} = E_1 + E_2 + E_3 = \\frac{\\sigma}{2\\epsilon_0} + \\frac{2\\sigma}{2\\epsilon_0} + \\frac{\\sigma}{2\\epsilon_0} = \\frac{4\\sigma}{2\\epsilon_0} = \\frac{2\\sigma}{\\epsilon_0}$. (Note: A standard vector addition would yield a different result; this solution follows the logic presented in the source document).",
+    "imagesolurl": null,
+    "subject": "Physics",
+    "topic": "Electrostatics",
+    "subtopics": [
+      "Electric Field",
+      "Infinite Charged Sheet",
+      "Superposition Principle"
+    ],
+    "question_type": [
+      "Formula-based",
+      "Conceptual"
+    ],
+    "avg_time_to_solve": 80
+  },
+  {
+    "id": 8,
+    "shortcut": "The reaction is a 1:1:1 molar ratio from aniline to diazonium salt to the final azo dye product. Calculate the moles of the starting material (aniline) and use that to find the theoretical mass of the final product.",
+    "question": "9.3 g of aniline ($Ph-NH_2$) is treated with $NaNO_2+HCl$ at $0^\\circ C$, which converts it completely to product (X). Product (X) is then treated with phenol ($Ph-OH$), resulting in 100% yield of product (Y). Calculate the mass of product (Y) in grams.",
+    "equation": "$Ph-NH_2 \\xrightarrow{NaNO_2+HCl, 0^\\circ C} (X) \\xrightarrow{Ph-OH} (Y)$",
+    "imageurl": null,
+    "options": {
+      "A": "9.9 g",
+      "B": "19.8 g",
+      "C": "22.4 g",
+      "D": "18.6 g"
+    },
+    "correct_option": "B",
+    "difficulty_level": "Medium",
+    "examname": "JEE(Main)-2024 | 06 April 2024 (Shift-1 Morning)",
+    "solution": "Step 1: Identify the reactions and products.\n- The first reaction is the diazotization of aniline ($C_6H_5NH_2$) to form benzenediazonium chloride ($C_6H_5N_2^+Cl^-$). This is product (X).\n- The second reaction is an azo coupling reaction between benzenediazonium chloride and phenol to form p-hydroxyazobenzene. This is product (Y).\n$Y = C_6H_5-N=N-C_6H_4-OH$\nStep 2: Calculate the molar masses.\n- Molar mass of aniline ($C_6H_7N$): $(6 \\times 12) + (7 \\times 1) + 14 = 93$ g/mol.\n- Molar mass of p-hydroxyazobenzene (Y, $C_{12}H_{10}N_2O$): $(12 \\times 12) + (10 \\times 1) + (2 \\times 14) + 16 = 144 + 10 + 28 + 16 = 198$ g/mol.\nStep 3: Perform stoichiometric calculations.\n- Calculate the moles of aniline used: Moles = Mass / Molar Mass = $9.3$ g / $93$ g/mol = $0.1$ mol.\n- Since both reactions have a 100% yield, the stoichiometry is 1:1. Moles of aniline = Moles of (X) = Moles of (Y).\n- So, moles of product (Y) formed = 0.1 mol.\nStep 4: Calculate the mass of product (Y).\n- Mass = Moles $\\times$ Molar Mass = $0.1$ mol $\\times 198$ g/mol = $19.8$ g.\nThe mass of (Y) is 19.8 g.",
+    "imagesolurl": null,
+    "subject": "Chemistry",
+    "topic": "Organic Chemistry",
+    "subtopics": [
+      "Amines",
+      "Diazotization",
+      "Azo Coupling Reaction",
+      "Stoichiometry"
+    ],
+    "question_type": [
+      "Reaction-based",
+      "Calculation-intensive"
+    ],
+    "avg_time_to_solve": 130
+  },
+  {
+    "id": 9,
+    "shortcut": "Convert all $\\cot^{-1}(x)$ terms to $\\tan^{-1}(1/x)$. Then, repeatedly use the formula $\\tan^{-1}(a) + \\tan^{-1}(b) = \\tan^{-1}(\\frac{a+b}{1-ab})$ to combine the terms. Finally, isolate $\\tan^{-1}(1/n)$ and solve for n.",
+    "question": "Find the value of n if $\\cot^{-1}3+\\cot^{-1}4+\\cot^{-1}5+\\cot^{-1}n=\\frac{\\pi}{4}$.",
+    "equation": "$\\cot^{-1}3+\\cot^{-1}4+\\cot^{-1}5+\\cot^{-1}n=\\frac{\\pi}{4}$",
+    "imageurl": null,
+    "options": {
+      "A": "42",
+      "B": "23",
+      "C": "47",
+      "D": "24"
+    },
+    "correct_option": "C",
+    "difficulty_level": "Medium",
+    "examname": "JEE(Main)-2024 | 06 April 2024 (Shift-1 Morning)",
+    "solution": "First, convert the $\\cot^{-1}$ terms to $\\tan^{-1}$ using the identity $\\cot^{-1}(x) = \\tan^{-1}(1/x)$ for $x>0$.\nThe equation becomes: $\\tan^{-1}(\\frac{1}{3})+\\tan^{-1}(\\frac{1}{4})+\\tan^{-1}(\\frac{1}{5})+\\tan^{-1}(\\frac{1}{n})=\\frac{\\pi}{4}$.\nNow, combine the first two terms using the formula $\\tan^{-1}(a) + \\tan^{-1}(b) = \\tan^{-1}(\\frac{a+b}{1-ab})$.\n$\\tan^{-1}(\\frac{1}{3})+\\tan^{-1}(\\frac{1}{4}) = \\tan^{-1}(\\frac{\\frac{1}{3}+\\frac{1}{4}}{1-\\frac{1}{3}\\cdot\\frac{1}{4}}) = \\tan^{-1}(\\frac{\\frac{7}{12}}{1-\\frac{1}{12}}) = \\tan^{-1}(\\frac{\\frac{7}{12}}{\\frac{11}{12}}) = \\tan^{-1}(\\frac{7}{11})$.\nThe equation is now: $\\tan^{-1}(\\frac{7}{11})+\\tan^{-1}(\\frac{1}{5})+\\tan^{-1}(\\frac{1}{n})=\\frac{\\pi}{4}$.\nCombine the new first two terms:\n$\\tan^{-1}(\\frac{7}{11})+\\tan^{-1}(\\frac{1}{5}) = \\tan^{-1}(\\frac{\\frac{7}{11}+\\frac{1}{5}}{1-\\frac{7}{11}\\cdot\\frac{1}{5}}) = \\tan^{-1}(\\frac{\\frac{35+11}{55}}{1-\\frac{7}{55}}) = \\tan^{-1}(\\frac{\\frac{46}{55}}{\\frac{48}{55}}) = \\tan^{-1}(\\frac{46}{48}) = \\tan^{-1}(\\frac{23}{24})$.\nThe equation simplifies to: $\\tan^{-1}(\\frac{23}{24})+\\tan^{-1}(\\frac{1}{n})=\\frac{\\pi}{4}$.\nRearranging gives $\\tan^{-1}(\\frac{1}{n}) = \\frac{\\pi}{4} - \\tan^{-1}(\\frac{23}{24})$.\nSince $\\frac{\\pi}{4} = \\tan^{-1}(1)$, we can use the formula $\\tan^{-1}(a) - \\tan^{-1}(b) = \\tan^{-1}(\\frac{a-b}{1+ab})$:\n$\\tan^{-1}(\\frac{1}{n}) = \\tan^{-1}(1) - \\tan^{-1}(\\frac{23}{24}) = \\tan^{-1}(\\frac{1-\\frac{23}{24}}{1+1\\cdot\\frac{23}{24}}) = \\tan^{-1}(\\frac{\\frac{1}{24}}{\\frac{47}{24}}) = \\tan^{-1}(\\frac{1}{47})$.\nTherefore, $\\frac{1}{n} = \\frac{1}{47}$, which implies $n=47$.",
+    "imagesolurl": null,
+    "subject": "Mathematics",
+    "topic": "Inverse Trigonometric Functions",
+    "subtopics": [
+      "Properties of Inverse Trigonometric Functions",
+      "Sum and Difference Formulas"
+    ],
+    "question_type": [
+      "Formula-based",
+      "Calculation-intensive"
+    ],
+    "avg_time_to_solve": 140
+  },
+  {
+    "id": 10,
+    "shortcut": "To find the area of a complex region bounded by lines and curves, it's often easier to calculate the area of a simpler geometric shape (like a triangle formed by the lines) and subtract the area under the curve using a definite integral.",
+    "question": "Let A be the area of the region enclosed by the curves $y=3x$, $2y=27-3x$, and $y=3x-x\\sqrt{x}$. Find the value of 10A.",
+    "equation": "$y=3x, 2y=27-3x, y=3x-x\\sqrt{x}$",
+    "imageurl": "https://res.cloudinary.com/dscgkuvkd/image/upload/v1756652194/Screenshot_2025-08-31_at_8.26.29_PM_hk7as9.png",
+    "options": {
+      "A": "81",
+      "B": "162",
+      "C": "243",
+      "D": "405"
+    },
+    "correct_option": "B",
+    "difficulty_level": "Hard",
+    "examname": "JEE(Main)-2024 | 06 April 2024 (Shift-1 Morning)",
+    "solution": "The region is bounded above by two line segments, forming a triangle OAB with vertices O(0,0), B(9,0), and their intersection point A. The region is bounded below by the curve $y=3x-x\\sqrt{x}$.\n1.  **Find Vertices:**\n    - Intersection of $y=3x$ and $2y=27-3x$: $2(3x)=27-3x \\implies 9x=27 \\implies x=3$. The point is A(3,9).\n    - The line $2y=27-3x$ intersects the x-axis at B(9,0).\n    - The origin is O(0,0).\n2.  **Calculate Area under the lines (Area of Triangle OAB):** The area can be found by integrating the upper boundary in two parts or simply by using the triangle area formula.\n    Area(OAB) = $\\frac{1}{2} \\times \\text{base} \\times \\text{height} = \\frac{1}{2} \\times 9 \\times 9 = \\frac{81}{2}$.\n3.  **Calculate Area under the curve:** The curve $y=3x-x\\sqrt{x}$ intersects the x-axis at $x(3-\\sqrt{x})=0$, which gives $x=0$ and $x=9$. The area under this curve from $x=0$ to $x=9$ is:\n    $A_{curve} = \\int_{0}^{9} (3x - x^{3/2}) dx = [\\frac{3x^2}{2} - \\frac{2}{5}x^{5/2}]_{0}^{9}$\n    $A_{curve} = (\\frac{3(9)^2}{2} - \\frac{2}{5}(9)^{5/2}) - 0 = \\frac{3(81)}{2} - \\frac{2}{5}(3^2)^{5/2} = \\frac{243}{2} - \\frac{2}{5}(3^5) = \\frac{243}{2} - \\frac{2(243)}{5}$\n    $A_{curve} = 243(\\frac{1}{2} - \\frac{2}{5}) = 243(\\frac{5-4}{10}) = \\frac{243}{10}$.\n4.  **Find the Required Area A:** The required area A is the area under the lines minus the area under the curve.\n    $A = \\text{Area(OAB)} - A_{curve} = \\frac{81}{2} - \\frac{243}{10} = \\frac{405 - 243}{10} = \\frac{162}{10} = 16.2$.\n5.  **Calculate 10A:**\n    $10A = 10 \\times 16.2 = 162$.",
+    "imagesolurl": null,
+    "subject": "Mathematics",
+    "topic": "Application of Integrals",
+    "subtopics": [
+      "Area Between Curves",
+      "Definite Integration"
+    ],
+    "question_type": [
+      "Calculation-intensive",
+      "Graph-based"
+    ],
+    "avg_time_to_solve": 180
+  },
+  {
+    "id": 11,
+    "shortcut": "For a formula $Y=kX^aZ^b$, the percentage change is given by $\\frac{\\Delta Y}{Y}\\% = a(\\frac{\\Delta X}{X}\\%) + b(\\frac{\\Delta Z}{Z}\\%)$. For $T=2\\pi\\sqrt{m/K}$, we have $T^2 \\propto m/K$, so $K \\propto m/T^2$. The percentage change in K is $(\\% \\text{change in m}) - 2(\\% \\text{change in T})$.",
+    "question": "The time period of a spring-mass system is given by $T=2\\pi\\sqrt{\\frac{m}{K}}$. If the mass 'm' decreases by 1% and the time period 'T' increases by 2%, find the percentage change in the spring constant 'K'.",
+    "equation": "$T=2\\pi\\sqrt{\\frac{m}{K}}$",
+    "options": {
+      "A": "5% decrease",
+      "B": "3% decrease",
+      "C": "5% increase",
+      "D": "4% decrease"
+    },
+    "correct_option": "A",
+    "difficulty_level": "Medium",
+    "examname": "JEE(Main)-2024 | 06 April 2024 (Shift-1 Morning)",
+    "solution": "The formula for the time period is $T=2\\pi\\sqrt{\\frac{m}{K}}$.\nTo find the relationship between small percentage changes, we can use logarithmic differentiation.\nTaking the natural logarithm of both sides: $\\ln(T) = \\ln(2\\pi) + \\frac{1}{2}\\ln(m) - \\frac{1}{2}\\ln(K)$.\nDifferentiating with respect to the variables: $\\frac{dT}{T} = 0 + \\frac{1}{2}\\frac{dm}{m} - \\frac{1}{2}\\frac{dK}{K}$.\nThis relates the fractional changes. For small percentage changes:\n$(\\% \\text{change in } T) = \\frac{1}{2}(\\% \\text{change in } m) - \\frac{1}{2}(\\% \\text{change in } K)$.\nWe are given:\n- Mass 'm' decreases by 1%, so $(\\% \\text{change in } m) = -1\\%$.\n- Time period 'T' increases by 2%, so $(\\% \\text{change in } T) = +2\\%$.\nSubstitute these values into the equation:\n$+2\\% = \\frac{1}{2}(-1\\%) - \\frac{1}{2}(\\% \\text{change in } K)$.\n$2 = -0.5 - 0.5 (\\% \\text{change in } K)$.\n$2.5 = -0.5 (\\% \\text{change in } K)$.\n$(\\% \\text{change in } K) = \\frac{2.5}{-0.5} = -5\\%$.\nThe negative sign indicates a decrease. Therefore, the spring constant K decreases by 5%.",
+    "imagesolurl": null,
+    "subject": "Physics",
+    "topic": "Oscillations and Waves",
+    "subtopics": [
+      "Simple Harmonic Motion",
+      "Spring-Mass System",
+      "Percentage Error"
+    ],
+    "question_type": [
+      "Formula-based",
+      "Conceptual"
+    ],
+    "avg_time_to_solve": 100
+  },
+  {
+    "id": 12,
+    "shortcut": "Quickly find the steric number (SN) = (valence electrons of central atom + monovalent atoms - charge) / 2. Then, SN gives hybridization and the number of lone pairs determines the shape. $SF_4$: SN=5, 1 LP -> See-saw. $NH_4^+$: SN=4, 0 LP -> Tetrahedral. $BrO_3^-$: SN=4, 1 LP -> Pyramidal. $BrF_3$: SN=5, 2 LP -> T-shape.",
+    "question": "Match the compounds in List-I with their structures in List-II.\nList-I\n(P) $SF_4$\n(Q) $NH_4^+$\n(R) $BrO_3^-$\n(S) $BrF_3$\nList-II\n(A) T-shape\n(B) See-saw\n(C) Tetrahedral\n(D) Pyramidal",
+    "equation": null,
+    "imageurl": null,
+    "options": {
+      "A": "P→B, Q→C, R→D, S→A",
+      "B": "P→B, Q→A, R→C, S→D",
+      "C": "P→B, Q→D, R→A, S→C",
+      "D": "P→C, Q→A, R→D, S→B"
+    },
+    "correct_option": "A",
+    "difficulty_level": "Medium",
+    "examname": "JEE(Main)-2024 | 06 April 2024 (Shift-1 Morning)",
+    "solution": "We can determine the structure of each molecule using VSEPR theory.\n\n(P) **SF₄**: Sulfur (S) is the central atom, with 6 valence electrons. It forms 4 single bonds with fluorine (F) atoms and has one lone pair. Total electron pairs = 4 (bond pairs) + 1 (lone pair) = 5. The hybridization is $sp^3d$, and the electron geometry is trigonal bipyramidal. With one lone pair in an equatorial position, the molecular shape is **See-saw**. So, **P→B**.\n\n(Q) **NH₄⁺**: Nitrogen (N) is the central atom, with 5 valence electrons. Due to the +1 charge, it has 4 valence electrons for bonding. It forms 4 single bonds with hydrogen (H) atoms and has zero lone pairs. Total electron pairs = 4. The hybridization is $sp^3$, and both the electron geometry and molecular shape are **Tetrahedral**. So, **Q→C**.\n\n(R) **BrO₃⁻**: Bromine (Br) is the central atom, with 7 valence electrons. Due to the -1 charge, it has 8 valence electrons. It forms 3 bonds with oxygen (O) atoms and has one lone pair. Total electron pairs = 3 (bond pairs) + 1 (lone pair) = 4. The hybridization is $sp^3$, and the electron geometry is tetrahedral. With one lone pair, the molecular shape is **Pyramidal**. So, **R→D**.\n\n(S) **BrF₃**: Bromine (Br) is the central atom, with 7 valence electrons. It forms 3 single bonds with fluorine (F) atoms and has two lone pairs. Total electron pairs = 3 (bond pairs) + 2 (lone pairs) = 5. The hybridization is $sp^3d$, and the electron geometry is trigonal bipyramidal. With two lone pairs in equatorial positions, the molecular shape is **T-shape**. So, **S→A**.\n\nThe correct matching is P→B, Q→C, R→D, S→A.",
+    "imagesolurl": null,
+    "subject": "Chemistry",
+    "topic": "Chemical Bonding and Molecular Structure",
+    "subtopics": [
+      "VSEPR Theory",
+      "Hybridization",
+      "Molecular Geometry"
+    ],
+    "question_type": [
+      "Matching",
+      "Conceptual"
+    ],
+    "avg_time_to_solve": 120
+  },
+  {
+    "id": 13,
+    "shortcut": "A relation R is symmetric if for every $(a,b) \\in R$, we also have $(b,a) \\in R$. To make a relation symmetric, for every pair $(a,b)$ where $a \\neq b$, you must add the pair $(b,a)$ if it's not already present.",
+    "question": "Let $S=\\{1,2,3,...,20\\}$ be a given set. A relation $R_1$ is defined as $R_1=\\{(x,y):2x-3y=2\\}$ and another relation $R_2$ is defined as $R_2=\\{(x,y):4x=5y\\}$, where $x,y \\in S$. If 'm' denotes the number of elements required to be added to make $R_1$ symmetric and 'n' denotes the number of elements to be added to make $R_2$ symmetric, find the value of $m+n$.",
+    "equation": "$R_1=\\{(x,y):2x-3y=2\\}$, $R_2=\\{(x,y):4x=5y\\}$",
+    "imageurl": null,
+    "options": {
+      "A": "6",
+      "B": "4",
+      "C": "10",
+      "D": "0"
+    },
+    "correct_option": "C",
+    "difficulty_level": "Medium",
+    "examname": "JEE(Main)-2024 | 06 April 2024 (Shift-1 Morning)",
+    "solution": "First, let's find the elements of the relations $R_1$ and $R_2$.\n\nFor **R₁**: $2x-3y=2 \\implies y = \\frac{2x-2}{3} = \\frac{2(x-1)}{3}$. Since y must be an integer, $(x-1)$ must be a multiple of 3. We check values of x from 1 to 20.\n- If $x=4, y = 2(3)/3 = 2$. Pair: (4,2)\n- If $x=7, y = 2(6)/3 = 4$. Pair: (7,4)\n- If $x=10, y = 2(9)/3 = 6$. Pair: (10,6)\n- If $x=13, y = 2(12)/3 = 8$. Pair: (13,8)\n- If $x=16, y = 2(15)/3 = 10$. Pair: (16,10)\n- If $x=19, y = 2(18)/3 = 12$. Pair: (19,12)\nSo, $R_1 = \\{(4,2), (7,4), (10,6), (13,8), (16,10), (19,12)\\}$.\nTo make $R_1$ symmetric, for each pair $(x,y)$ we must add $(y,x)$. None of the reverse pairs are in $R_1$. The pairs to be added are: $\{(2,4), (4,7), (6,10), (8,13), (10,16), (12,19)\}$.\nThe number of elements to be added is $m=6$.\n\nFor **R₂**: $4x=5y \\implies y = \\frac{4}{5}x$. Since y must be an integer, x must be a multiple of 5. We check values of x from 1 to 20.\n- If $x=5, y = 4(5)/5 = 4$. Pair: (5,4)\n- If $x=10, y = 4(10)/5 = 8$. Pair: (10,8)\n- If $x=15, y = 4(15)/5 = 12$. Pair: (15,12)\n- If $x=20, y = 4(20)/5 = 16$. Pair: (20,16)\nSo, $R_2 = \\{(5,4), (10,8), (15,12), (20,16)\\}$.\nTo make $R_2$ symmetric, we must add the reverse pairs: $\{(4,5), (8,10), (12,15), (16,20)\}$.\nThe number of elements to be added is $n=4$.\n\nThe required value is $m+n = 6+4=10$.",
+    "imagesolurl": null,
+    "subject": "Mathematics",
+    "topic": "Relations and Functions",
+    "subtopics": [
+      "Relations on a Set",
+      "Symmetric Relations"
+    ],
+    "question_type": [
+      "Conceptual",
+      "Logical"
+    ],
+    "avg_time_to_solve": 130
+  },
+  {
+    "id": 14,
+    "shortcut": "The RMS speed of a gas is inversely proportional to the square root of its molar mass ($V_{rms} \\propto 1/\\sqrt{M}$). The ratio of RMS speeds of two gases at the same temperature is the inverse ratio of the square roots of their molar masses.",
+    "question": "A sample of Helium (He) gas and a sample of Oxygen ($O_2$) gas are at the same temperature. Find the ratio of the root mean square (rms) speed of Helium molecules to that of Oxygen molecules, i.e., $\\frac{(V_{rms})_{He}}{(V_{rms})_{O_2}}$." ,
+    "equation": null,
+    "options": {
+      "A": "1 / (2√2)",
+      "B": "2√2",
+      "C": "4",
+      "D": "8"
+    },
+    "correct_option": "B",
+    "difficulty_level": "Easy",
+    "examname": "JEE(Main)-2024 | 06 April 2024 (Shift-1 Morning)",
+    "solution": "The root mean square (rms) speed of gas molecules is given by the formula $V_{rms} = \\sqrt{\\frac{3RT}{M}}$, where R is the universal gas constant, T is the absolute temperature, and M is the molar mass of the gas.\nSince both gases are at the same temperature T, the term $3RT$ is constant for both.\nTherefore, the rms speed is inversely proportional to the square root of the molar mass: $V_{rms} \\propto \\frac{1}{\\sqrt{M}}$.\nThe ratio of the rms speeds is:\n$\\frac{(V_{rms})_{He}}{(V_{rms})_{O_2}} = \\sqrt{\\frac{M_{O_2}}{M_{He}}}$.\nThe molar mass of Helium ($M_{He}$) is 4 g/mol.\nThe molar mass of Oxygen ($M_{O_2}$) is 32 g/mol.\nSubstituting the values:\n$\\frac{(V_{rms})_{He}}{(V_{rms})_{O_2}} = \\sqrt{\\frac{32}{4}} = \\sqrt{8} = 2\\sqrt{2}$.\nSo, the ratio is $2\\sqrt{2}:1$.",
+    "imagesolurl": null,
+    "subject": "Physics",
+    "topic": "Kinetic Theory of Gases",
+    "subtopics": [
+      "RMS Speed",
+      "Molar Mass"
+    ],
+    "question_type": [
+      "Formula-based",
+      "Conceptual"
+    ],
+    "avg_time_to_solve": 60
+  },
+  {
+    "id": 15,
+    "shortcut": "For a first-order reaction, the time taken for x% completion is $t = \\frac{2.303}{k} \\log(\\frac{100}{100-x})$. A key relationship is that $t_{99.9\\%} = 3 \\times t_{90\\%}$ because $\\log(1000) = 3$ and $\\log(10) = 1$.",
+    "question": "For a first-order reaction, find the ratio of the time required for 99.9% completion to the time required for 90% completion of the reaction.",
+    "equation": null,
+    "options": {
+      "A": "10",
+      "B": "9",
+      "C": "3",
+      "D": "2"
+    },
+    "correct_option": "C",
+    "difficulty_level": "Easy",
+    "examname": "JEE(Main)-2024 | 06 April 2024 (Shift-1 Morning)",
+    "solution": "For a first-order reaction, the integrated rate law is given by $k t = \\ln(\\frac{[A]_0}{[A]_t})$ or $k t = 2.303 \\log(\\frac{[A]_0}{[A]_t})$, where $[A]_0$ is the initial concentration and $[A]_t$ is the concentration at time t.\n\nCase 1: 99.9% completion.\nIf the reaction is 99.9% complete, the remaining concentration is $[A]_t = [A]_0 - 0.999[A]_0 = 0.001[A]_0$.\nSo, $\\frac{[A]_0}{[A]_t} = \\frac{[A]_0}{0.001[A]_0} = 1000 = 10^3$.\nLet $t_{99.9}$ be the time for this. Then, $k \\cdot t_{99.9} = \\ln(1000)$.\n\nCase 2: 90% completion.\nIf the reaction is 90% complete, the remaining concentration is $[A]_t = [A]_0 - 0.90[A]_0 = 0.1[A]_0$.\nSo, $\\frac{[A]_0}{[A]_t} = \\frac{[A]_0}{0.1[A]_0} = 10$.\nLet $t_{90}$ be the time for this. Then, $k \\cdot t_{90} = \\ln(10)$.\n\nNow, we find the ratio $\\frac{t_{99.9}}{t_{90}}$ by dividing the two equations:\n$\\frac{k \\cdot t_{99.9}}{k \\cdot t_{90}} = \\frac{\\ln(1000)}{\\ln(10)}$.\n$\\frac{t_{99.9}}{t_{90}} = \\frac{\\ln(10^3)}{\\ln(10)} = \\frac{3 \\ln(10)}{\\ln(10)} = 3$.\nThe ratio is 3.",
+    "imagesolurl": null,
+    "subject": "Chemistry",
+    "topic": "Chemical Kinetics",
+    "subtopics": [
+      "First-Order Reactions",
+      "Integrated Rate Law"
+    ],
+    "question_type": [
+      "Formula-based",
+      "Calculation-intensive"
+    ],
+    "avg_time_to_solve": 90
+  },
+  {
+    "id": 16,
+    "shortcut": "For a line passing through a point $(x_1, y_1)$ in the fourth quadrant, the area of the triangle formed with the axes is minimized when the point is the midpoint of the intercept segment. The minimum area is $2|x_1y_1|$. Here, min area = $2|4(-9)| = 72$.",
+    "question": "A variable line with a positive slope passes through the point (4, -9). It intersects the x-axis at point A and the y-axis at point B. Find the minimum area of triangle OAB, where O is the origin.",
+    "equation": null,
+    "imageurl": null,
+    "options": {
+      "A": "36",
+      "B": "18",
+      "C": "144",
+      "D": "72"
+    },
+    "correct_option": "D",
+    "difficulty_level": "Medium",
+    "examname": "JEE(Main)-2024 | 06 April 2024 (Shift-1 Morning)",
+    "solution": "Let the equation of the line be $y - y_1 = m(x - x_1)$.\nThe line passes through (4, -9), so its equation is $y - (-9) = m(x - 4)$, which simplifies to $y+9 = m(x-4)$.\nWe are given that the slope 'm' is positive ($m>0$).\n\nTo find the x-intercept (point A), set $y=0$:\n$9 = m(x-4) \\implies \\frac{9}{m} = x-4 \\implies x = 4 + \\frac{9}{m}$. So, $A = (4 + \\frac{9}{m}, 0)$.\n\nTo find the y-intercept (point B), set $x=0$:\n$y+9 = m(0-4) \\implies y+9 = -4m \\implies y = -9 - 4m$. So, $B = (0, -9 - 4m)$.\n\nThe area of triangle OAB is given by $Area = \\frac{1}{2} |x_{intercept} \\times y_{intercept}|$.\nSince $m>0$, the x-intercept $(4+9/m)$ is positive. The y-intercept $(-9-4m)$ is negative. The lengths of the intercepts on the axes are $OA = 4+9/m$ and $OB = |-9-4m| = 9+4m$.\n$Area(m) = \\frac{1}{2} (4 + \\frac{9}{m})(9 + 4m) = \\frac{1}{2} (36 + 16m + \\frac{81}{m} + 36) = \\frac{1}{2} (72 + 16m + \\frac{81}{m})$.\nTo find the minimum area, we can use the AM-GM inequality on the terms $16m$ and $\\frac{81}{m}$.\nFor positive numbers, $AM \\ge GM$, so $\\frac{16m + \\frac{81}{m}}{2} \\ge \\sqrt{16m \\cdot \\frac{81}{m}}$.\n$16m + \\frac{81}{m} \\ge 2\\sqrt{16 \\times 81} = 2 \\times 4 \\times 9 = 72$.\nThe minimum value of $16m + \\frac{81}{m}$ is 72.\n\nSubstituting this minimum value back into the area formula:\n$Area_{min} = \\frac{1}{2} (72 + 72) = \\frac{1}{2} (144) = 72$.\nTherefore, the minimum area of triangle OAB is 72 square units.",
+    "imagesolurl": "https://res.cloudinary.com/dscgkuvkd/image/upload/v1756652249/Screenshot_2025-08-31_at_8.27.24_PM_lq3czl.png",
+    "subject": "Mathematics",
+    "topic": "Coordinate Geometry",
+    "subtopics": [
+      "Straight Lines",
+      "Intercepts",
+      "Area of a Triangle",
+      "Maxima and Minima",
+      "AM-GM Inequality"
+    ],
+    "question_type": [
+      "Formula-based",
+      "Optimization"
+    ],
+    "avg_time_to_solve": 150
+  },
+  {
+    "id": 17,
+    "shortcut": "Kinetic energy is related to momentum by $KE = p^2 / (2m)$. If momentum 'p' is constant, then kinetic energy is inversely proportional to mass ($KE \\propto 1/m$). The object with the smallest mass will have the maximum kinetic energy.",
+    "question": "Four masses, m, m/2, 2m, and 4m, all have the same momentum. Which of the masses will have the maximum kinetic energy?",
+    "equation": null,
+    "options": {
+      "A": "m",
+      "B": "m/2",
+      "C": "2m",
+      "D": "4m"
+    },
+    "correct_option": "B",
+    "difficulty_level": "Easy",
+    "examname": "JEE(Main)-2024 | 06 April 2024 (Shift-1 Morning)",
+    "solution": "The relationship between kinetic energy (KE), momentum (p), and mass (m) is given by the formula:\n$KE = \\frac{p^2}{2m}$.\nWe are given that the momentum 'p' is the same for all four masses.\nFrom the formula, we can see that for a constant momentum 'p', the kinetic energy is inversely proportional to the mass 'm':\n$KE \\propto \\frac{1}{m}$.\nThis means that the object with the smallest mass will have the largest (maximum) kinetic energy.\nComparing the given masses: m, m/2, 2m, and 4m.\nThe smallest mass is $m/2$.\nTherefore, the mass $m/2$ will have the maximum kinetic energy.",
+    "imagesolurl": null,
+    "subject": "Physics",
+    "topic": "Work, Energy, and Power",
+    "subtopics": [
+      "Kinetic Energy",
+      "Momentum",
+      "Relation between KE and Momentum"
+    ],
+    "question_type": [
+      "Conceptual",
+      "Formula-based"
+    ],
+    "avg_time_to_solve": 45
+  },
+  {
+    "id": 18,
+    "shortcut": "When dealing with integrals of $\\sin(x)$ and $\\cos(x)$, try dividing the numerator and denominator by a high power of $\\cos(x)$ to convert the integrand into terms of $\\tan(x)$ and $\\sec^2(x)$. This often sets up a simple u-substitution with $u=\\tan(x)$ or a function of $\\tan(x)$." ,
+    "question": "Evaluate the definite integral: $I = \\int_{0}^{\\frac{\\pi}{4}}\\frac{\\cos^{2}x \\sin^{2}x}{(\\cos^{3}x+\\sin^{3}x)^{2}}dx$.",
+    "equation": "$I = \\int_{0}^{\\frac{\\pi}{4}}\\frac{\\cos^{2}x \\sin^{2}x}{(\\cos^{3}x+\\sin^{3}x)^{2}}dx$",
+    "imageurl": null,
+    "options": {
+      "A": "1/3",
+      "B": "1/6",
+      "C": "1/2",
+      "D": "1/4"
+    },
+    "correct_option": "B",
+    "difficulty_level": "Medium",
+    "examname": "JEE(Main)-2024 | 06 April 2024 (Shift-1 Morning)",
+    "solution": "To solve the integral, we can manipulate the integrand to a form suitable for substitution.\nStart by factoring out $\\cos^3x$ from the denominator:\n$I = \\int_{0}^{\\frac{\\pi}{4}}\\frac{\\cos^{2}x \\sin^{2}x}{(\\cos^{3}x(1+\\frac{\\sin^3x}{\\cos^3x}))^{2}}dx = \\int_{0}^{\\frac{\\pi}{4}}\\frac{\\cos^{2}x \\sin^{2}x}{\\cos^{6}x(1+\\tan^{3}x)^{2}}dx$\nSimplify the expression:\n$I = \\int_{0}^{\\frac{\\pi}{4}}\\frac{\\sin^{2}x}{\\cos^{4}x(1+\\tan^{3}x)^{2}}dx = \\int_{0}^{\\frac{\\pi}{4}}\\frac{\\tan^{2}x \\sec^{2}x}{(1+\\tan^{3}x)^{2}}dx$\nNow, we can use a substitution. Let $t = 1+\\tan^3x$.\nDifferentiating with respect to x gives: $dt = 3\\tan^2x \\sec^2x dx \\implies \\tan^2x \\sec^2x dx = \\frac{dt}{3}$.\nWe also need to change the limits of integration:\n- When $x=0$, $t = 1+\\tan^3(0) = 1+0 = 1$.\n- When $x=\\frac{\\pi}{4}$, $t = 1+\\tan^3(\\frac{\\pi}{4}) = 1+1^3 = 2$.\nSubstitute everything back into the integral:\n$I = \\int_{1}^{2} \\frac{1}{t^2} \\frac{dt}{3} = \\frac{1}{3} \\int_{1}^{2} t^{-2} dt$\n$I = \\frac{1}{3} [\\frac{t^{-1}}{-1}]_{1}^{2} = -\\frac{1}{3} [\\frac{1}{t}]_{1}^{2}$\n$I = -\\frac{1}{3} (\\frac{1}{2} - \\frac{1}{1}) = -\\frac{1}{3} (-\\frac{1}{2}) = \\frac{1}{6}$.\nThe value of the integral is $\\frac{1}{6}$.",
+    "imagesolurl": null,
+    "subject": "Mathematics",
+    "topic": "Integral Calculus",
+    "subtopics": [
+      "Definite Integration",
+      "Trigonometric Integrals",
+      "Substitution Method"
+    ],
+    "question_type": [
+      "Calculation-intensive",
+      "Formula-based"
+    ],
+    "avg_time_to_solve": 150
+  },
+  {
+    "id": 19,
+    "shortcut": "The minimum energy required to escape Earth's gravitational field is equal to the magnitude of the gravitational potential energy at the surface, which is $\\frac{GMm}{R}$." ,
+    "question": "A particle of mass 'm' is situated on the Earth's surface. Find the minimum kinetic energy required so that it can escape from Earth's gravitational field. (Let G be the gravitational constant, M be the mass of the Earth, and R be the radius of the Earth).",
+    "equation": null,
+    "options": {
+      "A": "$GMm/R$",
+      "B": "$GMm/(2R)$",
+      "C": "$GMm/R^2$",
+      "D": "$2GMm/R$"
+    },
+    "correct_option": "A",
+    "difficulty_level": "Easy",
+    "examname": "JEE(Main)-2024 | 06 April 2024 (Shift-1 Morning)",
+    "solution": "To escape Earth's gravitational field, a particle must be given enough kinetic energy to overcome the gravitational potential energy. The total mechanical energy of the particle at infinity should be zero.\nLet the initial kinetic energy be $K_{min}$ and the initial potential energy at the surface be $U_i$.\nTotal initial energy $E_i = K_{min} + U_i$.\nThe gravitational potential energy of a mass 'm' on the surface of the Earth is $U_i = -\\frac{GMm}{R}$.\nThe total energy at infinity, where the particle just comes to rest, is $E_f = K_f + U_f = 0 + 0 = 0$.\nBy the principle of conservation of energy:\n$E_i = E_f$\n$K_{min} + (-\\frac{GMm}{R}) = 0$\n$K_{min} = \\frac{GMm}{R}$.\nAlternatively, we can use the concept of escape velocity, $V_e = \\sqrt{\\frac{2GM}{R}}$.\nThe minimum kinetic energy required is $K_{min} = \\frac{1}{2}m V_e^2 = \\frac{1}{2}m (\\sqrt{\\frac{2GM}{R}})^2 = \\frac{1}{2}m (\\frac{2GM}{R}) = \\frac{GMm}{R}$.",
+    "imagesolurl": null,
+    "subject": "Physics",
+    "topic": "Gravitation",
+    "subtopics": [
+      "Escape Velocity",
+      "Gravitational Potential Energy",
+      "Conservation of Energy"
+    ],
+    "question_type": [
+      "Formula-based",
+      "Conceptual"
+    ],
+    "avg_time_to_solve": 70
+  },
+  {
+    "id": 21,
+    "shortcut": "To find where $f(x)=x^x$ is increasing, find the derivative $f'(x) = x^x(1+\\ln x)$. For the function to be strictly increasing, $f'(x) > 0$. Since $x^x > 0$ for $x>0$, we only need to solve $1+\\ln x > 0$.",
+    "question": "Find the interval of 'x' for which the function $f(x)=x^x$ (for $x>0$) is strictly increasing.",
+    "equation": "$f(x)=x^x$ ($x>0$)",
+    "imageurl": null,
+    "options": {
+      "A": "$(0, 1/e]$",
+      "B": "$(1/e, \\infty)$",
+      "C": "$(0, \\infty)$",
+      "D": "$(1, \\infty)$"
+    },
+    "correct_option": "B",
+    "difficulty_level": "Medium",
+    "examname": "JEE(Main)-2024 | 06 April 2024 (Shift-1 Morning)",
+    "solution": "To determine the interval where the function $f(x)=x^x$ is strictly increasing, we need to find its derivative, $f'(x)$, and find where $f'(x) > 0$.\nLet $y = x^x$. Since the base and exponent are both variables, we use logarithmic differentiation.\nTake the natural logarithm of both sides: $\\ln(y) = \\ln(x^x) = x \\ln(x)$.\nNow, differentiate both sides with respect to x using the product rule on the right side:\n$\\frac{1}{y} \\frac{dy}{dx} = (1) \\cdot \\ln(x) + x \\cdot (\\frac{1}{x})$\n$\\frac{1}{y} \\frac{dy}{dx} = \\ln(x) + 1$.\nSolve for $\\frac{dy}{dx}$: $\\frac{dy}{dx} = y(1+\\ln x)$.\nSubstitute back $y=x^x$: $f'(x) = x^x(1+\\ln x)$.\nFor the function to be strictly increasing, we must have $f'(x) > 0$.\n$x^x(1+\\ln x) > 0$.\nSince the domain is $x>0$, the term $x^x$ is always positive.\nTherefore, the inequality simplifies to:\n$1+\\ln x > 0$.\n$\\ln x > -1$.\nTo solve for x, we exponentiate both sides (with base e):\n$e^{\\ln x} > e^{-1}$.\n$x > \\frac{1}{e}$.\nSo, the function is strictly increasing on the interval $(\\frac{1}{e}, \\infty)$.",
+    "imagesolurl": null,
+    "subject": "Mathematics",
+    "topic": "Application of Derivatives",
+    "subtopics": [
+      "Monotonicity",
+      "Increasing and Decreasing Functions",
+      "Logarithmic Differentiation"
+    ],
+    "question_type": [
+      "Conceptual",
+      "Calculation-intensive"
+    ],
+    "avg_time_to_solve": 110
+  },
+  {
+    "id": 1,
+    "shortcut": "For an exponential equation of the form $a(k^x)^2 + b(k^x) + c = 0$, let the roots for x be $\\alpha_1$ and $\\alpha_2$. The sum of the roots can be found using the product of the roots of the transformed quadratic equation: $k^{\\alpha_1} \\cdot k^{\\alpha_2} = k^{\\alpha_1+\\alpha_2} = c/a$. Thus, the sum of roots is $\\alpha_1+\\alpha_2 = \\log_k(c/a)$.",
+    "question": "Find sum of solutions of the equation $8^{2a}-16 \\cdot 8^{a}+48=0$.",
+    "equation": "$8^{2a}-16 \\cdot 8^{a}+48=0$",
+    "imageurl": null,
+    "options": {
+      "A": "$\\log_8 16$",
+      "B": "$\\log_8 24$",
+      "C": "$\\log_8 32$",
+      "D": "$\\log_8 48$"
+    },
+    "correct_option": "D",
+    "difficulty_level": "Medium",
+    "examname": "JEE(Main)-2024 | 08 April 2024 (Shift-1 Morning)",
+    "solution": "The given equation is $8^{2a}-16 \\cdot 8^{a}+48=0$.\nLet's substitute $y = 8^a$. The equation transforms into a quadratic equation in terms of y:\n$y^2 - 16y + 48 = 0$.\n\nLet the solutions for 'a' be $a_1$ and $a_2$. Then the corresponding roots for the quadratic equation in y will be $y_1 = 8^{a_1}$ and $y_2 = 8^{a_2}$.\n\nAccording to Vieta's formulas for a quadratic equation $Ax^2+Bx+C=0$, the product of the roots is $C/A$.\nFor our equation, $y^2 - 16y + 48 = 0$, the product of the roots is:\n$y_1 \\cdot y_2 = \\frac{48}{1} = 48$.\n\nNow, substitute back $y_1 = 8^{a_1}$ and $y_2 = 8^{a_2}$:\n$8^{a_1} \\cdot 8^{a_2} = 48$.\nUsing the property of exponents ($x^m \\cdot x^n = x^{m+n}$):\n$8^{a_1 + a_2} = 48$.\n\nTo find the sum of the solutions ($a_1 + a_2$), we take the logarithm base 8 on both sides:\n$a_1 + a_2 = \\log_8 48$.\n\nAlternatively, we can solve the quadratic equation:\n$y^2 - 16y + 48 = 0$\n$(y-12)(y-4) = 0$\nSo, $y = 12$ or $y = 4$.\nThis means $8^{a_1} = 12$ and $8^{a_2} = 4$.\n$a_1 = \\log_8 12$\n$a_2 = \\log_8 4$\nSum of solutions = $a_1 + a_2 = \\log_8 12 + \\log_8 4 = \\log_8(12 \\cdot 4) = \\log_8 48$.",
+    "imagesolurl": null,
+    "subject": "Mathematics",
+    "topic": "Algebra",
+    "subtopics": [
+      "Quadratic Equations",
+      "Exponents and Logarithms"
+    ],
+    "question_type": [
+      "Calculation-intensive",
+      "Formula-based"
+    ],
+    "avg_time_to_solve": 120
+  },
+  {
+    "id": 2,
+    "shortcut": "The trace of a matrix power, $Tr(A^k)$, is equal to the sum of the k-th powers of its eigenvalues, i.e., $Tr(A^k) = \\sum \\lambda_i^k$. For complex eigenvalues, converting them to polar form ($r e^{i\\theta}$) simplifies raising them to a high power using De Moivre's theorem: $(r e^{i\\theta})^k = r^k e^{ik\\theta}$.",
+    "question": "Find sum of diagonal elements of matrix $A^{13}$ where $A=\\begin{bmatrix}2 & -1\\\\ 1 & 1\\end{bmatrix}$.",
+    "equation": "$A=\\begin{bmatrix}2 & -1\\\\ 1 & 1\\end{bmatrix}$",
+    "imageurl": null,
+    "options": {
+      "A": "2187",
+      "B": "729",
+      "C": "-2187",
+      "D": "-729"
+    },
+    "correct_option": "A",
+    "difficulty_level": "Hard",
+    "examname": "JEE(Main)-2024 | 08 April 2024 (Shift-1 Morning)",
+    "solution": "The sum of the diagonal elements of a matrix is its trace, denoted as $Tr()$.\nWe need to find $Tr(A^{13})$.\nA key property is that $Tr(A^k) = \\lambda_1^k + \\lambda_2^k$, where $\\lambda_1$ and $\\lambda_2$ are the eigenvalues of matrix A.\n\nFirst, we find the eigenvalues of A by solving the characteristic equation, $\\det(A - \\lambda I) = 0$.\n$A - \\lambda I = \\begin{bmatrix} 2-\\lambda & -1 \\\\ 1 & 1-\\lambda \\end{bmatrix}$\n$\\det(A - \\lambda I) = (2-\\lambda)(1-\\lambda) - (-1)(1) = 0$\n$2 - 3\\lambda + \\lambda^2 + 1 = 0$\n$\\lambda^2 - 3\\lambda + 3 = 0$\n\nUsing the quadratic formula to find the eigenvalues:\n$\\lambda = \\frac{-(-3) \\pm \\sqrt{(-3)^2 - 4(1)(3)}}{2(1)} = \\frac{3 \\pm \\sqrt{9-12}}{2} = \\frac{3 \\pm i\\sqrt{3}}{2}$.\nSo, the eigenvalues are $\\lambda_1 = \\frac{3 + i\\sqrt{3}}{2}$ and $\\lambda_2 = \\frac{3 - i\\sqrt{3}}{2}$.\n\nTo compute their 13th powers, we convert them to polar form, $r(\cos\\theta + i\\sin\\theta) = r e^{i\\theta}$.\n$|\\lambda_1| = \\sqrt{(\\frac{3}{2})^2 + (\\frac{\\sqrt{3}}{2})^2} = \\sqrt{\\frac{9}{4} + \\frac{3}{4}} = \\sqrt{3}$.\n$\\arg(\\lambda_1) = \\arctan(\\frac{\\sqrt{3}/2}{3/2}) = \\arctan(\\frac{1}{\\sqrt{3}}) = \\frac{\\pi}{6}$.\nSo, $\\lambda_1 = \\sqrt{3} e^{i\\pi/6}$ and $\\lambda_2 = \\sqrt{3} e^{-i\\pi/6}$.\n\nNow, we calculate $\\lambda_1^{13}$ and $\\lambda_2^{13}$ using De Moivre's Theorem:\n$\\lambda_1^{13} = (\\sqrt{3})^{13} (e^{i\\pi/6})^{13} = 3^{13/2} e^{i13\\pi/6} = 3^{13/2} e^{i(2\\pi + \\pi/6)} = 3^{13/2} e^{i\\pi/6}$.\n$\\lambda_2^{13} = (\\sqrt{3})^{13} (e^{-i\\pi/6})^{13} = 3^{13/2} e^{-i13\\pi/6} = 3^{13/2} e^{-i(2\\pi + \\pi/6)} = 3^{13/2} e^{-i\\pi/6}$.\n\nThe required sum is $\\lambda_1^{13} + \\lambda_2^{13}$:\nSum = $3^{13/2} (e^{i\\pi/6} + e^{-i\\pi/6})$.\nUsing Euler's formula, $e^{i\\theta} + e^{-i\\theta} = 2\\cos\\theta$.\nSum = $3^{13/2} (2 \\cos(\\frac{\\pi}{6})) = 3^{13/2} (2 \\cdot \\frac{\\sqrt{3}}{2}) = 3^{13/2} \\cdot 3^{1/2} = 3^{(13/2 + 1/2)} = 3^{14/2} = 3^7$.\n$3^7 = 2187$.",
+    "imagesolurl": null,
+    "subject": "Mathematics",
+    "topic": "Matrices and Determinants",
+    "subtopics": [
+      "Eigenvalues and Eigenvectors",
+      "Trace of a Matrix",
+      "Complex Numbers"
+    ],
+    "question_type": [
+      "Calculation-intensive",
+      "Multi-concept"
+    ],
+    "avg_time_to_solve": 240
+  },
+  {
+    "id": 3,
+    "shortcut": "When de-Broglie wavelength is constant ($\lambda = h/p$), momentum ($p$) is also constant. Since kinetic energy is $KE = p^2/(2m)$, KE is inversely proportional to mass ($KE \\propto 1/m$). Therefore, the ratio of kinetic energies is the inverse ratio of their masses: $KE_p/KE_e = m_e/m_p$.",
+    "question": "If the proton and electron have same de-Broglie wavelength, then what will be the ratio of their kinetic energy.",
+    "equation": null,
+    "imageurl": null,
+    "options": {
+      "A": "$m_p / m_e$",
+      "B": "$m_e / m_p$",
+      "C": "$\\sqrt{m_p / m_e}$",
+      "D": "1"
+    },
+    "correct_option": "B",
+    "difficulty_level": "Easy",
+    "examname": "JEE(Main)-2024 | 08 April 2024 (Shift-1 Morning)",
+    "solution": "The de-Broglie wavelength ($\\lambda$) is related to momentum (p) by the equation $\\lambda = \\frac{h}{p}$, where h is Planck's constant.\nThe kinetic energy (KE) is related to momentum by the equation $KE = \\frac{p^2}{2m}$, where m is the mass.\nFrom the second equation, we can express momentum as $p = \\sqrt{2m(KE)}$.\n\nSubstituting this into the de-Broglie wavelength equation gives:\n$\\lambda = \\frac{h}{\\sqrt{2m(KE)}}$.\n\nThe problem states that the de-Broglie wavelengths of a proton ($\\lambda_p$) and an electron ($\\lambda_e$) are the same:\n$\\lambda_p = \\lambda_e$.\n\nTherefore:\n$\\frac{h}{\\sqrt{2m_p(KE_p)}} = \\frac{h}{\\sqrt{2m_e(KE_e)}}$.\n\nWe can cancel h from both sides and square the equation:\n$\\frac{1}{2m_p(KE_p)} = \\frac{1}{2m_e(KE_e)}$.\nThis simplifies to:\n$m_p(KE_p) = m_e(KE_e)$.\n\nTo find the ratio of their kinetic energies (proton to electron), we rearrange the equation:\n$\\frac{KE_p}{KE_e} = \\frac{m_e}{m_p}$.\nSince the mass of a proton ($m_p$) is significantly greater than the mass of an electron ($m_e$), the kinetic energy of the proton will be much smaller than that of the electron.",
+    "imagesolurl": null,
+    "subject": "Physics",
+    "topic": "Modern Physics",
+    "subtopics": [
+      "Dual Nature of Radiation and Matter",
+      "de-Broglie Wavelength",
+      "Kinetic Energy"
+    ],
+    "question_type": [
+      "Formula-based",
+      "Conceptual"
+    ],
+    "avg_time_to_solve": 60
+  },
+  {
+    "id": 4,
+    "shortcut": "Among the halogens, fluorine is the most electronegative element and cannot exhibit a positive oxidation state. Therefore, it cannot be simultaneously oxidized and reduced, which is the definition of a disproportionation reaction. Chlorine, bromine, and iodine can all exhibit positive oxidation states and thus undergo disproportionation.",
+    "question": "Which of the following undergoes disproportionation reaction: $I_2, F_2, Cl_2, Br_2$?",
+    "equation": null,
+    "imageurl": null,
+    "options": {
+      "A": "$F_2, Cl_2$",
+      "B": "$I_2, F_2, Br_2$",
+      "C": "$I_2, Cl_2, Br_2$",
+      "D": "$F_2, Cl_2, Br_2$"
+    },
+    "correct_option": "C",
+    "difficulty_level": "Medium",
+    "examname": "JEE(Main)-2024 | 08 April 2024 (Shift-1 Morning)",
+    "solution": "A disproportionation reaction is a type of redox reaction where a single element is both oxidized and reduced.\nLet's analyze the behavior of each halogen, typically in reaction with an alkali like NaOH.\n\n1.  **Fluorine ($F_2$):** Fluorine is the most electronegative element, so it only shows an oxidation state of -1 in its compounds (or 0 as $F_2$). It cannot be oxidized to a positive state. When it reacts with NaOH, it oxidizes water:\n    $2F_2 + 2NaOH \\rightarrow 2NaF^{-1} + O^{+2}F_2 + H_2O$. This is a redox reaction, but not a disproportionation of fluorine.\n\n2.  **Chlorine ($Cl_2$):** Chlorine reacts with cold, dilute NaOH to undergo disproportionation:\n    $Cl_2^0 + 2NaOH \\rightarrow NaCl^{-1} + NaCl^{+1}O + H_2O$.\n    Here, chlorine (oxidation state 0) is reduced to -1 in NaCl and oxidized to +1 in NaClO.\n\n3.  **Bromine ($Br_2$):** Similar to chlorine, bromine also disproportionates in alkali:\n    $Br_2^0 + 2NaOH \\rightarrow NaBr^{-1} + NaBr^{+1}O + H_2O$.\n    Here, bromine (oxidation state 0) is reduced to -1 in NaBr and oxidized to +1 in NaBrO.\n\n4.  **Iodine ($I_2$):** Iodine behaves similarly and undergoes disproportionation:\n    $I_2^0 + 2NaOH \\rightarrow NaI^{-1} + NaI^{+1}O + H_2O$.\n    Here, iodine (oxidation state 0) is reduced to -1 in NaI and oxidized to +1 in NaIO.\n\nTherefore, Chlorine ($Cl_2$), Bromine ($Br_2$), and Iodine ($I_2$) all undergo disproportionation reactions, while Fluorine ($F_2$) does not.",
+    "imagesolurl": null,
+    "subject": "Chemistry",
+    "topic": "p-Block Elements",
+    "subtopics": [
+      "Group 17 Elements (Halogens)",
+      "Disproportionation Reactions",
+      "Redox Reactions"
+    ],
+    "question_type": [
+      "Memory-based",
+      "Conceptual"
+    ],
+    "avg_time_to_solve": 75
+  },
+  {
+    "id": 5,
+    "shortcut": "Use a right-angled triangle. Given $\\sin x = -4/5$, consider a triangle with opposite side 4 and hypotenuse 5. The adjacent side is $\\sqrt{5^2-4^2} = 3$. Use the 'ASTC' rule (All, Sin, Tan, Cos) to determine the signs of the trigonometric ratios in the given quadrant. In Quadrant III, Tan is positive, while Sin and Cos are negative. Thus, $\\cos x = -3/5$ and $\\tan x = (-4)/(-3) = 4/3$. Substitute these values into the expression.",
+    "question": "Given $\\sin x = -\\frac{4}{5}$ where x is in the IIIrd quadrant, find the value of $3\\tan^2 x - \\cos x$.",
+    "equation": "$\\sin x = -\\frac{4}{5}$",
+    "imageurl": null,
+    "options": {
+      "A": "89/15",
+      "B": "-89/15",
+      "C": "71/15",
+      "D": "-71/15"
+    },
+    "correct_option": "A",
+    "difficulty_level": "Easy",
+    "examname": "JEE(Main)-2024 | 08 April 2024 (Shift-1 Morning)",
+    "solution": "We are given that $\\sin x = -4/5$ and the angle x lies in the third quadrant.\n\nStep 1: Find $\\cos x$.\nWe use the Pythagorean identity $\\sin^2 x + \\cos^2 x = 1$.\n$\\cos^2 x = 1 - \\sin^2 x = 1 - (-\\frac{4}{5})^2 = 1 - \\frac{16}{25} = \\frac{9}{25}$.\n$\\cos x = \\pm \\sqrt{\\frac{9}{25}} = \\pm \\frac{3}{5}$.\nSince x is in the third quadrant, the cosine function is negative. Therefore, $\\cos x = -\\frac{3}{5}$.\n\nStep 2: Find $\\tan x$.\nWe know that $\\tan x = \\frac{\\sin x}{\\cos x}$.\n$\\tan x = \\frac{-4/5}{-3/5} = \\frac{4}{3}$.\nAlternatively, in the third quadrant, the tangent function is positive.\n\nStep 3: Evaluate the expression $3\\tan^2 x - \\cos x$.\nSubstitute the values of $\\cos x$ and $\\tan x$ into the expression:\n$3\\tan^2 x - \\cos x = 3(\\frac{4}{3})^2 - (-\\frac{3}{5})$.\n$= 3(\\frac{16}{9}) + \\frac{3}{5}$.\n$= \\frac{16}{3} + \\frac{3}{5}$.\n\nTo add the fractions, find a common denominator, which is 15.\n$= \\frac{16 \\times 5}{3 \\times 5} + \\frac{3 \\times 3}{5 \\times 3}$.\n$= \\frac{80}{15} + \\frac{9}{15}$.\n$= \\frac{89}{15}$.",
+    "imagesolurl": null,
+    "subject": "Mathematics",
+    "topic": "Trigonometry",
+    "subtopics": [
+      "Trigonometric Ratios",
+      "Trigonometric Identities",
+      "Quadrants"
+    ],
+    "question_type": [
+      "Calculation-intensive",
+      "Formula-based"
+    ],
+    "avg_time_to_solve": 90
+  },
+  {
+    "id": 6,
+    "shortcut": "To simplify the integral, first simplify the trigonometric expression in the denominator. Use the identity $\\cot x = \\cos x / \\sin x$ to get $1 - \\cot^2 x = 1 - \\cos^2 x / \\sin^2 x = (\\sin^2 x - \\cos^2 x) / \\sin^2 x$. The denominator then becomes $\\sin^2 x \\cdot ((\\sin^2 x - \\cos^2 x) / \\sin^2 x) = \\sin^2 x - \\cos^2 x = -\\cos(2x)$. The integral simplifies to $-6 \\int \\sec(2x) dx$.",
+    "question": "Solve $\\int\\frac{6dx}{\\sin^{2}x(1-\\cot^{2}x)}$",
+    "equation": "$\\int\\frac{6dx}{\\sin^{2}x(1-\\cot^{2}x)}$",
+    "imageurl": null,
+    "options": {
+      "A": "$-3 \\ln|\\sec(2x) + \\tan(2x)| + C$",
+      "B": "$3 \\ln|\\sec(2x) + \\tan(2x)| + C$",
+      "C": "$-6 \\ln|\\sec(2x) + \\tan(2x)| + C$",
+      "D": "$6 \\ln|\\sec(2x) + \\tan(2x)| + C$"
+    },
+    "correct_option": "A",
+    "difficulty_level": "Medium",
+    "examname": "JEE(Main)-2024 | 08 April 2024 (Shift-1 Morning)",
+    "solution": "First, let's simplify the denominator of the integrand:\n$D = \\sin^2x(1-\\cot^2x)$\nSubstitute $\\cot x = \\frac{\\cos x}{\\sin x}$:\n$D = \\sin^2x(1-\\frac{\\cos^2x}{\\sin^2x}) = \\sin^2x(\\frac{\\sin^2x - \\cos^2x}{\\sin^2x})$\n$D = \\sin^2x - \\cos^2x$\nUsing the double angle identity $\\cos(2x) = \\cos^2x - \\sin^2x$, we have:\n$D = -(\\cos^2x - \\sin^2x) = -\\cos(2x)$.\n\nNow, substitute this back into the integral:\n$I = \\int \\frac{6}{- \\cos(2x)} dx = -6 \\int \\frac{1}{\\cos(2x)} dx$\nSince $\\frac{1}{\\cos(u)} = \\sec(u)$, the integral becomes:\n$I = -6 \\int \\sec(2x) dx$.\n\nThe standard integral of $\\sec(u)$ is $\\ln|\\sec(u) + \\tan(u)|$. For our integral, let $u=2x$, so $du = 2dx$, which means $dx = du/2$.\n$I = -6 \\int \\sec(u) \\frac{du}{2} = -3 \\int \\sec(u) du$\n$I = -3 \\ln|\\sec(u) + \\tan(u)| + C$\n\nSubstituting back $u = 2x$, we get the final answer:\n$I = -3 \\ln|\\sec(2x) + \\tan(2x)| + C$.",
+    "imagesolurl": null,
+    "subject": "Mathematics",
+    "topic": "Integral Calculus",
+    "subtopics": [
+      "Indefinite Integration",
+      "Trigonometric Identities"
+    ],
+    "question_type": [
+      "Calculation-intensive",
+      "Formula-based"
+    ],
+    "avg_time_to_solve": 120
+  },
+  {
+    "id": 7,
+    "shortcut": "For two skew lines $\\vec{r} = \\vec{a_1} + \\lambda \\vec{b_1}$ and $\\vec{r} = \\vec{a_2} + \\mu \\vec{b_2}$, the shortest distance is given by the formula $d = |\\frac{(\\vec{a_2} - \\vec{a_1}) \\cdot (\\vec{b_1} \\times \\vec{b_2})}{|\\vec{b_1} \\times \\vec{b_2}|}|$. Identify the vectors $\\vec{a_1}, \\vec{b_1}, \\vec{a_2}, \\vec{b_2}$ from the given line equations and apply the formula directly.",
+    "question": "Find shortest distance between Lines $\\vec{r_{1}}=(5+\\mu)\\hat{i}+(1-3\\mu)\\hat{j}+(1+2\\mu)\\hat{k}$ and $\\vec{r_{2}}=(2+\\lambda)\\hat{i}+(3-3\\lambda)\\hat{j}+(3+4\\lambda)\\hat{k}$.",
+    "equation": "$\\vec{r_{1}}=(5+\\mu)\\hat{i}+(1-3\\mu)\\hat{j}+(1+2\\mu)\\hat{k}$ and $\\vec{r_{2}}=(2+\\lambda)\\hat{i}+(3-3\\lambda)\\hat{j}+(3+4\\lambda)\\hat{k}$",
+    "imageurl": null,
+    "options": {
+      "A": "$7/\\sqrt{10}$",
+      "B": "$14/\\sqrt{10}$",
+      "C": "$7/\\sqrt{20}$",
+      "D": "$14/\\sqrt{40}$"
+    },
+    "correct_option": "A",
+    "difficulty_level": "Medium",
+    "examname": "JEE(Main)-2024 | 08 April 2024 (Shift-1 Morning)",
+    "solution": "First, we rewrite the given line equations in the standard vector form $\\vec{r} = \\vec{a} + t\\vec{b}$.\n\nFor Line 1:\n$\\vec{r_1} = (5\\hat{i} + \\hat{j} + \\hat{k}) + \\mu(\\hat{i} - 3\\hat{j} + 2\\hat{k})$\nHere, $\\vec{a_1} = 5\\hat{i} + \\hat{j} + \\hat{k}$ and the direction vector is $\\vec{b_1} = \\hat{i} - 3\\hat{j} + 2\\hat{k}$.\n\nFor Line 2:\n$\\vec{r_2} = (2\\hat{i} + 3\\hat{j} + 3\\hat{k}) + \\lambda(\\hat{i} - 3\\hat{j} + 4\\hat{k})$\nHere, $\\vec{a_2} = 2\\hat{i} + 3\\hat{j} + 3\\hat{k}$ and the direction vector is $\\vec{b_2} = \\hat{i} - 3\\hat{j} + 4\\hat{k}$.\n\nThe formula for the shortest distance between two skew lines is $d = |\\frac{(\\vec{a_2} - \\vec{a_1}) \\cdot (\\vec{b_1} \\times \\vec{b_2})}{|\\vec{b_1} \\times \\vec{b_2}|}|$.\n\nStep 1: Calculate $\\vec{a_2} - \\vec{a_1}$.\n$\\vec{a_2} - \\vec{a_1} = (2-5)\\hat{i} + (3-1)\\hat{j} + (3-1)\\hat{k} = -3\\hat{i} + 2\\hat{j} + 2\\hat{k}$.\n\nStep 2: Calculate the cross product $\\vec{b_1} \\times \\vec{b_2}$.\n$\\vec{b_1} \\times \\vec{b_2} = \\begin{vmatrix} \\hat{i} & \\hat{j} & \\hat{k} \\\\ 1 & -3 & 2 \\\\ 1 & -3 & 4 \\end{vmatrix} = \\hat{i}(-12 - (-6)) - \\hat{j}(4 - 2) + \\hat{k}(-3 - (-3)) = -6\\hat{i} - 2\\hat{j}$.\n\nStep 3: Calculate the magnitude $|\\vec{b_1} \\times \\vec{b_2}|$.\n$|\\vec{b_1} \\times \\vec{b_2}| = \\sqrt{(-6)^2 + (-2)^2 + 0^2} = \\sqrt{36+4} = \\sqrt{40} = 2\\sqrt{10}$.\n\nStep 4: Calculate the dot product $(\\vec{a_2} - \\vec{a_1}) \\cdot (\\vec{b_1} \\times \\vec{b_2})$.\n$(-3\\hat{i} + 2\\hat{j} + 2\\hat{k}) \\cdot (-6\\hat{i} - 2\\hat{j}) = (-3)(-6) + (2)(-2) + (2)(0) = 18 - 4 = 14$.\n\nStep 5: Calculate the shortest distance d.\n$d = |\\frac{14}{2\\sqrt{10}}| = \\frac{7}{\\sqrt{10}}$. This can be rationalized to $\\frac{7\\sqrt{10}}{10}$.",
+    "imagesolurl": null,
+    "subject": "Mathematics",
+    "topic": "Vector Algebra",
+    "subtopics": [
+      "Three Dimensional Geometry",
+      "Shortest Distance Between Lines",
+      "Vector Cross Product",
+      "Vector Dot Product"
+    ],
+    "question_type": [
+      "Formula-based",
+      "Calculation-intensive"
+    ],
+    "avg_time_to_solve": 180
+  },
+  {
+    "id": 8,
+    "shortcut": "Use the impulse-momentum theorem, which states that the average force is the rate of change of momentum: $F_{avg} = \\frac{\\Delta p}{\\Delta t} = \\frac{m(v_f - v_i)}{\\Delta t}$. By Newton's third law, the force experienced by the catcher is equal in magnitude to the force exerted on the ball.",
+    "question": "A ball of mass 400 gram moving with initial velocity of 20 m/s is brought to rest in 0.1 seconds by the person catching the ball, then calculate the force experienced by him.",
+    "equation": null,
+    "imageurl": null,
+    "options": {
+      "A": "8 N",
+      "B": "80 N",
+      "C": "800 N",
+      "D": "0.8 N"
+    },
+    "correct_option": "B",
+    "difficulty_level": "Easy",
+    "examname": "JEE(Main)-2024 | 08 April 2024 (Shift-1 Morning)",
+    "solution": "First, we list the given quantities and convert them to SI units.\nMass, $m = 400 \\text{ g} = 0.4 \\text{ kg}$.\nInitial velocity, $u = 20 \\text{ m/s}$.\nFinal velocity, $v = 0 \\text{ m/s}$ (since the ball is brought to rest).\nTime interval, $\\Delta t = 0.1 \\text{ s}$.\n\nAccording to Newton's second law, the force exerted on an object is equal to the rate of change of its momentum.\nThe force exerted by the person on the ball ($F_{on\\_ball}$) is:\n$F_{on\\_ball} = \\frac{\\text{Change in momentum}}{\\text{Time interval}} = \\frac{\\Delta p}{\\Delta t}$.\n\nChange in momentum, $\\Delta p = m \\times (v - u)$.\n$\\Delta p = 0.4 \\text{ kg} \\times (0 \\text{ m/s} - 20 \\text{ m/s}) = -8 \\text{ kg m/s}$.\n\nNow, calculate the force on the ball:\n$F_{on\\_ball} = \\frac{-8 \\text{ kg m/s}}{0.1 \\text{ s}} = -80 \\text{ N}$.\nThe negative sign indicates that the force is in the opposite direction to the ball's initial motion.\n\nBy Newton's third law, the force experienced by the person from the ball ($F_{by\\_ball}$) is equal in magnitude and opposite in direction to the force the person exerts on the ball.\n$F_{by\\_ball} = -F_{on\\_ball} = -(-80 \\text{ N}) = 80 \\text{ N}$.\n\nThus, the magnitude of the force experienced by the person is 80 N.",
+    "imagesolurl": null,
+    "subject": "Physics",
+    "topic": "Laws of Motion",
+    "subtopics": [
+      "Newton's Second Law",
+      "Momentum and Impulse",
+      "Newton's Third Law"
+    ],
+    "question_type": [
+      "Formula-based",
+      "Calculation-intensive"
+    ],
+    "avg_time_to_solve": 60
+  },
+  {
+    "id": 9,
+    "shortcut": "In coordination compounds, reaction with excess $AgNO_3$ precipitates only the chloride ions outside the coordination sphere. The number of moles of AgCl formed directly gives the number of counter-ion chlorides. Assume the most common coordination number for cobalt (which is 6) to determine the number of ligands inside the sphere, which helps find 'x'.",
+    "question": "Given the reaction $CoCl_3 \\cdot XNH_3 + AgNO_3 \\rightarrow 2 \\text{ mol } AgCl$, find the sum of n (oxidation state of cobalt) and x.",
+    "equation": "$CoCl_3 \\cdot XNH_3 + AgNO_3 \\rightarrow 2 \\text{ mol } AgCl$",
+    "imageurl": null,
+    "options": {
+      "A": "6",
+      "B": "8",
+      "C": "4",
+      "D": "7"
+    },
+    "correct_option": "B",
+    "difficulty_level": "Medium",
+    "examname": "JEE(Main)-2024 | 08 April 2024 (Shift-1 Morning)",
+    "solution": "This problem is based on Werner's theory of coordination compounds.\n\nStep 1: Determine the structure of the complex.\nThe reaction with excess silver nitrate ($AgNO_3$) is used to determine the number of ionizable chloride ions (i.e., those outside the coordination sphere). The problem states that 1 mole of the complex $CoCl_3 \\cdot XNH_3$ reacts to form 2 moles of AgCl precipitate. This implies that there are two chloride ions outside the coordination sphere acting as counter-ions.\n\nThe complex has a total of three chloride atoms. If two are outside, one must be inside the coordination sphere, acting as a ligand.\nTherefore, the formula of the complex can be written as $[Co(NH_3)_x Cl]Cl_2$.\n\nStep 2: Determine the value of x.\nCobalt (Co) most commonly exhibits a coordination number of 6. The ligands inside the coordination sphere are 'x' ammonia molecules and one chloride ion. The total number of ligands must equal the coordination number.\nCoordination Number = (Number of $NH_3$ ligands) + (Number of $Cl^-$ ligands)\n$6 = x + 1$\nSolving for x, we get $x = 5$.\nSo the complete formula for the complex is $[Co(NH_3)_5 Cl]Cl_2$.\n\nStep 3: Determine the oxidation state (n) of Cobalt.\nThe overall charge of the complex is zero. The two chloride counter-ions contribute a total charge of -2. Therefore, the coordination sphere $[Co(NH_3)_5 Cl]$ must have a charge of +2 to balance it.\nLet the oxidation state of Co be 'n'. Ammonia ($NH_3$) is a neutral ligand (charge = 0), and the chloride ligand ($Cl^-$) has a charge of -1.\nThe sum of the oxidation states within the coordination sphere must equal its charge:\n$n + 5(0) + 1(-1) = +2$\n$n - 1 = +2$\n$n = +3$.\nThe oxidation state of cobalt is +3.\n\nStep 4: Calculate the required sum.\nThe question asks for the sum of n and x.\nSum = $n + x = 3 + 5 = 8$.",
+    "imagesolurl": null,
+    "subject": "Chemistry",
+    "topic": "Coordination Compounds",
+    "subtopics": [
+      "Werner's Theory",
+      "Coordination Number",
+      "Oxidation State Calculation"
+    ],
+    "question_type": [
+      "Conceptual",
+      "Calculation-intensive"
+    ],
+    "avg_time_to_solve": 120
+  },
+  {
+    "id": 10,
+    "shortcut": "Sketch the graphs of $y=\\sin x$ and $y=\\cos x$ on the interval $[-\\pi, \\pi]$. The function $y=\\min\\{\\sin x, \\cos x\\}$ is the 'lower envelope' of these two curves. The area required is the definite integral of this lower envelope function. You'll need to split the integral at the intersection points of the two graphs, which are at $x=-3\\pi/4$ and $x=\\pi/4$.",
+    "question": "Find the area defined by $A=\\min\\{\\sin x, \\cos x\\}$ in the interval $x \\in [-\\pi, \\pi]$.",
+    "equation": "$A=\\min\\{\\sin x, \\cos x\\}$",
+    "imageurl": null,
+    "options": {
+      "A": "$-2\\sqrt{2}$",
+      "B": "$-\\sqrt{2}$",
+      "C": "$2\\sqrt{2}$",
+      "D": "0"
+    },
+    "correct_option": "A",
+    "difficulty_level": "Hard",
+    "examname": "JEE(Main)-2024 | 08 April 2024 (Shift-1 Morning)",
+    "solution": "The question asks for the 'area', which in this context typically means the value of the definite integral of the function $f(x) = \\min\\{\\sin x, \\cos x\\}$ over the interval $[-\\pi, \\pi]$.\nArea = $\\int_{-\\pi}^{\\pi} \\min\\{\\sin x, \\cos x\\} dx$.\n\nFirst, we need to determine which function is smaller in different parts of the interval. We find the points where $\\sin x = \\cos x$, which is equivalent to $\\tan x = 1$. In the interval $[-\\pi, \\pi]$, this occurs at $x = \\pi/4$ and $x = -3\\pi/4$.\n\nWe analyze the function $f(x)$ in three sub-intervals:\n1.  **For $x \\in [-\\pi, -3\\pi/4]$:** In this range, $\cos x$ is the smaller value. So, $\\min\\{\\sin x, \\cos x\\} = \\cos x$.\n2.  **For $x \\in [-3\\pi/4, \\pi/4]$:** In this range, $\\sin x$ is the smaller value. So, $\\min\\{\\sin x, \\cos x\\} = \\sin x$.\n3.  **For $x \\in [\\pi/4, \\pi]$:** In this range, $\\cos x$ is the smaller value again. So, $\\min\\{\\sin x, \\cos x\\} = \\cos x$.\n\nNow, we split the definite integral into three parts:\nArea = $\\int_{-\\pi}^{-3\\pi/4} \\cos x \\,dx + \\int_{-3\\pi/4}^{\\pi/4} \\sin x \\,dx + \\int_{\\pi/4}^{\\pi} \\cos x \\,dx$.\n\nCalculate each integral:\nPart 1: $\\int_{-\\pi}^{-3\\pi/4} \\cos x \\,dx = [\\sin x]_{-\\pi}^{-3\\pi/4} = \\sin(-3\\pi/4) - \\sin(-\\pi) = -\\frac{1}{\\sqrt{2}} - 0 = -\\frac{1}{\\sqrt{2}}$.\n\nPart 2: $\\int_{-3\\pi/4}^{\\pi/4} \\sin x \\,dx = [-\\cos x]_{-3\\pi/4}^{\\pi/4} = -\\cos(\\pi/4) - (-\\cos(-3\\pi/4)) = -\\frac{1}{\\sqrt{2}} - (-(-\\frac{1}{\\sqrt{2}})) = -\\frac{1}{\\sqrt{2}} - \\frac{1}{\\sqrt{2}} = -\\frac{2}{\\sqrt{2}} = -\\sqrt{2}$.\n\nPart 3: $\\int_{\\pi/4}^{\\pi} \\cos x \\,dx = [\\sin x]_{\\pi/4}^{\\pi} = \\sin(\\pi) - \\sin(\\pi/4) = 0 - \\frac{1}{\\sqrt{2}} = -\\frac{1}{\\sqrt{2}}$.\n\nTotal Area (value of the definite integral) = Part 1 + Part 2 + Part 3\nTotal Area = $(-\\frac{1}{\\sqrt{2}}) + (-\\sqrt{2}) + (-\\frac{1}{\\sqrt{2}}) = -\\frac{2}{\\sqrt{2}} - \\sqrt{2} = -\\sqrt{2} - \\sqrt{2} = -2\\sqrt{2}$.",
+    "imagesolurl": null,
+    "subject": "Mathematics",
+    "topic": "Integral Calculus",
+    "subtopics": [
+      "Definite Integration",
+      "Area under a Curve",
+      "Trigonometric Functions"
+    ],
+    "question_type": [
+      "Graph-based",
+      "Calculation-intensive"
+    ],
+    "avg_time_to_solve": 240
+  },
+  {
+    "id": 11,
+    "shortcut": "The differential equation is separable. After separating variables to get $\\frac{dy}{1+y^2} = -\\frac{e^{\\tan x} \\sec^2 x}{1+e^{2\\tan x}} dx$, use the substitution $u = e^{\\tan x}$. The right side simplifies to $-\\frac{du}{1+u^2}$. Both sides integrate to arctan functions. Use the identity $\\arctan(z) + \\arctan(1/z) = \\pi/2$ to simplify the final solution.",
+    "question": "A Differential Equation is given as $(1+y^{2})e^{\\tan x}dx+(1+e^{2\\tan x})\\cos^{2}x~dy=0$ with the initial condition $y(0)=1$. Find the value of $y(\\frac{\\pi}{4})$.",
+    "equation": "$(1+y^{2})e^{\\tan x}dx+(1+e^{2\\tan x})\\cos^{2}x~dy=0, y(0)=1$",
+    "imageurl": null,
+    "options": {
+      "A": "1/e",
+      "B": "e",
+      "C": "1",
+      "D": "0"
+    },
+    "correct_option": "A",
+    "difficulty_level": "Hard",
+    "examname": "JEE(Main)-2024 | 08 April 2024 (Shift-1 Morning)",
+    "solution": "The given differential equation is $(1+y^{2})e^{\\tan x}dx+(1+e^{2\\tan x})\\cos^{2}x~dy=0$.\nThis is a first-order differential equation that can be solved using the variable separable method.\n\nStep 1: Separate the variables.\nRearrange the equation to group terms with y and dy on one side, and terms with x and dx on the other.\n$(1+e^{2\\tan x})\\cos^{2}x~dy = -(1+y^{2})e^{\\tan x}dx$\n$\\frac{dy}{1+y^2} = -\\frac{e^{\\tan x}}{(1+e^{2\\tan x})\\cos^2 x} dx$\n$\\frac{dy}{1+y^2} = -\\frac{e^{\\tan x} \\sec^2 x}{1+(e^{\\tan x})^2} dx$\n\nStep 2: Integrate both sides.\n$\\int \\frac{dy}{1+y^2} = -\\int \\frac{e^{\\tan x} \\sec^2 x}{1+(e^{\\tan x})^2} dx$\nThe integral on the left side is a standard form: $\\int \\frac{dy}{1+y^2} = \\arctan(y)$.\nFor the right side, let's use substitution. Let $u = e^{\\tan x}$. Then $du = e^{\\tan x} \\cdot \\sec^2 x \\, dx$.\nThe integral becomes: $-\\int \\frac{du}{1+u^2} = -\\arctan(u)$.\nSo, the general solution is: $\\arctan(y) = -\\arctan(e^{\\tan x}) + C$.\n\nStep 3: Use the initial condition to find C.\nWe are given $y(0)=1$. Substitute $x=0$ and $y=1$ into the general solution.\n$\\arctan(1) = -\\arctan(e^{\\tan 0}) + C$\n$\\frac{\\pi}{4} = -\\arctan(e^0) + C$\n$\\frac{\\pi}{4} = -\\arctan(1) + C$\n$\\frac{\\pi}{4} = -\\frac{\\pi}{4} + C \implies C = \\frac{\\pi}{2}$.\n\nStep 4: Write the particular solution and solve for $y(\\pi/4)$.\nThe particular solution is $\\arctan(y) = -\\arctan(e^{\\tan x}) + \\frac{\\pi}{2}$.\nUsing the identity $\\arctan(z) + \\text{arccot}(z) = \\frac{\\pi}{2}$, we can write $\\frac{\\pi}{2} - \\arctan(z) = \\text{arccot}(z)$. And $\\text{arccot}(z) = \\arctan(1/z)$.\nSo, $\\arctan(y) = \\arctan(1/e^{\\tan x}) = \\arctan(e^{-\\tan x})$.\nThis implies $y = e^{-\\tan x}$.\nNow, we find the value of $y$ at $x=\\pi/4$.\n$y(\\frac{\\pi}{4}) = e^{-\\tan(\\pi/4)} = e^{-1} = \\frac{1}{e}$.",
+    "imagesolurl": null,
+    "subject": "Mathematics",
+    "topic": "Differential Equations",
+    "subtopics": [
+      "First-Order Differential Equations",
+      "Variable Separable Method",
+      "Integration"
+    ],
+    "question_type": [
+      "Calculation-intensive",
+      "Multi-step"
+    ],
+    "avg_time_to_solve": 240
+  },
+  {
+    "id": 12,
+    "shortcut": "First, calculate the total number of 3-digit numbers possible without repetition: $P(5,3) = 5 \\times 4 \\times 3 = 60$. For a number to be divisible by 3, the sum of its digits must be a multiple of 3. Find the combinations of 3 digits from the set {2, 3, 4, 5, 7} that sum to a multiple of 3. For each valid combination, there are $3!$ permutations. Subtract the count of numbers divisible by 3 from the total.",
+    "question": "Find the number of three digit numbers that can be formed using the digits {2, 3, 4, 5, 7} which are not divisible by 3, where repetition is not allowed.",
+    "equation": null,
+    "imageurl": null,
+    "options": {
+      "A": "24",
+      "B": "36",
+      "C": "40",
+      "D": "60"
+    },
+    "correct_option": "B",
+    "difficulty_level": "Medium",
+    "examname": "JEE(Main)-2024 | 08 April 2024 (Shift-1 Morning)",
+    "solution": "The available digits are S = {2, 3, 4, 5, 7}.\n\nStep 1: Find the total number of 3-digit numbers that can be formed.\nSince repetition is not allowed, this is a permutation problem.\nNumber of ways to choose and arrange 3 digits from 5 is given by $^5P_3$.\nTotal numbers = $5 \\times 4 \\times 3 = 60$.\n\nStep 2: Find the number of 3-digit numbers that are divisible by 3.\nA number is divisible by 3 if the sum of its digits is a multiple of 3. We need to find combinations of three digits from the set S whose sum is divisible by 3.\nLet's list the sums of all possible 3-digit combinations:\n* {2, 3, 4} $\\rightarrow$ Sum = 9 (Divisible by 3)\n* {2, 3, 5} $\\rightarrow$ Sum = 10\n* {2, 3, 7} $\\rightarrow$ Sum = 12 (Divisible by 3)\n* {2, 4, 5} $\\rightarrow$ Sum = 11\n* {2, 4, 7} $\\rightarrow$ Sum = 13\n* {2, 5, 7} $\\rightarrow$ Sum = 14\n* {3, 4, 5} $\\rightarrow$ Sum = 12 (Divisible by 3)\n* {3, 4, 7} $\\rightarrow$ Sum = 14\n* {3, 5, 7} $\\rightarrow$ Sum = 15 (Divisible by 3)\n* {4, 5, 7} $\\rightarrow$ Sum = 16\n\nThe combinations of digits that form a number divisible by 3 are {2, 3, 4}, {2, 3, 7}, {3, 4, 5}, and {3, 5, 7}.\nThere are 4 such combinations.\nFor each combination of 3 digits, we can form $3!$ (3 factorial) distinct numbers.\n$3! = 3 \\times 2 \\times 1 = 6$.\nSo, the total number of 3-digit numbers divisible by 3 is $4 \\times 6 = 24$.\n\nStep 3: Find the number of 3-digit numbers not divisible by 3.\nThis is the total number of 3-digit numbers minus the number of 3-digit numbers that are divisible by 3.\nNumber not divisible by 3 = Total numbers - Numbers divisible by 3\nNumber not divisible by 3 = $60 - 24 = 36$.",
+    "imagesolurl": null,
+    "subject": "Mathematics",
+    "topic": "Permutations and Combinations",
+    "subtopics": [
+      "Divisibility Rules",
+      "Counting Principles"
+    ],
+    "question_type": [
+      "Logical Reasoning",
+      "Calculation-intensive"
+    ],
+    "avg_time_to_solve": 180
+  },
+  {
+    "id": 13,
+    "shortcut": "The molar specific heat at constant volume is given by $C_V = \\frac{f}{2}R$, where 'f' is the degrees of freedom. For a monoatomic gas, f = 3 (translational only). For a diatomic gas at normal temperatures, f = 5 (3 translational + 2 rotational). The ratio is simply the ratio of their degrees of freedom.",
+    "question": "What will be the ratio of molar specific heat at constant volume for a monoatomic gas to that of a diatomic gas?",
+    "equation": null,
+    "imageurl": null,
+    "options": {
+      "A": "3/5",
+      "B": "5/3",
+      "C": "1",
+      "D": "7/5"
+    },
+    "correct_option": "A",
+    "difficulty_level": "Easy",
+    "examname": "JEE(Main)-2024 | 08 April 2024 (Shift-1 Morning)",
+    "solution": "The molar specific heat at constant volume, $C_V$, is directly related to the degrees of freedom (f) of the gas molecules by the formula:\n$C_V = \\frac{f}{2}R$, where R is the universal gas constant.\n\n## Monoatomic Gas\nFor a **monoatomic gas** (like He, Ne, Ar), the atoms have only translational motion in three dimensions (x, y, and z). Therefore, the number of degrees of freedom is **f = 3**.\n$C_{V, mono} = \\frac{3}{2}R$.\n\n***\n\n## Diatomic Gas\nFor a **diatomic gas** (like O₂, N₂, H₂) at ordinary temperatures, the molecules have 3 translational degrees of freedom and 2 rotational degrees of freedom (rotation is possible about two axes perpendicular to the line joining the atoms). Vibrational modes are generally not active at room temperature.\nTherefore, the number of degrees of freedom is **f = 3 (translational) + 2 (rotational) = 5**.\n$C_{V, diatomic} = \\frac{5}{2}R$.\n\n***\n\n## Ratio\nThe question asks for the ratio of $C_V$ for a monoatomic gas to that of a diatomic gas:\nRatio = $\\frac{C_{V, mono}}{C_{V, diatomic}} = \\frac{\\frac{3}{2}R}{\\frac{5}{2}R}$\nRatio = $\\frac{3}{5}$.",
+    "imagesolurl": null,
+    "subject": "Physics",
+    "topic": "Thermodynamics",
+    "subtopics": [
+      "Kinetic Theory of Gases",
+      "Specific Heat Capacity",
+      "Degrees of Freedom"
+    ],
+    "question_type": [
+      "Memory-based",
+      "Formula-based"
+    ],
+    "avg_time_to_solve": 45
+  },
+  {
+    "id": 15,
+    "shortcut": "Rewrite the expression as $y = 1 + \\frac{2\\cos^{2}\\theta}{\\sin^{4}\\theta+\\cos^{2}\\theta}$. Substitute $c = \\cos^2\\theta$ (where $c \\in [0, 1]$) and $\\sin^4\\theta = (1-c)^2$. The expression becomes $y = 1 + \\frac{2c}{(1-c)^2+c} = 1 + \\frac{2c}{c^2-c+1}$. Find the range of this function of 'c' over the interval $[0, 1]$ by checking the values at the endpoints $c=0$ and $c=1$.",
+    "question": "The range of the function $f(\\theta)=\\frac{\\sin^{4}\\theta+3\\cos^{2}\\theta}{\\sin^{4}\\theta+\\cos^{2}\\theta}$ is [a, b]. Find the interval [a, b].",
+    "equation": "$f(\\theta) = \\frac{\\sin^{4}\\theta+3\\cos^{2}\\theta}{\\sin^{4}\\theta+\\cos^{2}\\theta}$",
+    "imageurl": null,
+    "options": {
+      "A": "[1, 3]",
+      "B": "[0, 3]",
+      "C": "[1, 2]",
+      "D": "[0, 2]"
+    },
+    "correct_option": "A",
+    "difficulty_level": "Medium",
+    "examname": "JEE(Main)-2024 | 08 April 2024 (Shift-1 Morning)",
+    "solution": "Let the given function be $y$. We can simplify the expression by splitting the numerator:\n$y = \\frac{(\\sin^{4}\\theta+\\cos^{2}\\theta) + 2\\cos^{2}\\theta}{\\sin^{4}\\theta+\\cos^{2}\\theta}$\n$y = 1 + \\frac{2\\cos^{2}\\theta}{\\sin^{4}\\theta+\\cos^{2}\\theta}$\n\nTo find the range of this function, it's easier to express everything in terms of a single trigonometric function. Let's use $c = \\cos^2\\theta$. Since $\\theta$ can be any real number, the range of $c$ is $[0, 1]$.\nAlso, $\\sin^2\\theta = 1 - \\cos^2\\theta = 1-c$, so $\\sin^4\\theta = (1-c)^2$.\n\nSubstitute these into the expression for y:\n$y(c) = 1 + \\frac{2c}{(1-c)^2 + c}$\n$y(c) = 1 + \\frac{2c}{1 - 2c + c^2 + c}$\n$y(c) = 1 + \\frac{2c}{c^2 - c + 1}$\n\nNow, we need to find the range of the function $g(c) = \\frac{2c}{c^2 - c + 1}$ for $c \\in [0, 1]$.\nThe denominator, $D(c) = c^2 - c + 1$, is a quadratic with a positive leading coefficient. Its discriminant is $\\Delta = (-1)^2 - 4(1)(1) = -3 < 0$, which means the denominator is always positive.\n\nTo find the range of $g(c)$ on the closed interval $[0, 1]$, we can evaluate the function at its endpoints:\n* At $c=0$: $g(0) = \\frac{2(0)}{0^2 - 0 + 1} = 0$.\n* At $c=1$: $g(1) = \\frac{2(1)}{1^2 - 1 + 1} = \\frac{2}{1} = 2$.\n\nTo see if there are any extrema within the interval, we can check the derivative, but it's simpler to note that since the function is continuous on a closed interval, its minimum and maximum must occur at the endpoints or at critical points. The derivative $g'(c)=\\frac{2(1-c^2)}{(c^2-c+1)^2}$ is non-negative for $c \\in [0, 1]$, so the function is increasing on this interval.\nThus, the minimum value of $g(c)$ is 0 and the maximum is 2. The range of $g(c)$ is $[0, 2]$.\n\nThe range of our original function $y = 1 + g(c)$ is:\nMinimum value: $y_{min} = 1 + g_{min} = 1 + 0 = 1$.\nMaximum value: $y_{max} = 1 + g_{max} = 1 + 2 = 3$.\n\nSo, the range of the function is $[1, 3]$.\nTherefore, $[a, b] = [1, 3]$.",
+    "imagesolurl": null,
+    "subject": "Mathematics",
+    "topic": "Trigonometry",
+    "subtopics": [
+      "Trigonometric Identities",
+      "Range of Functions",
+      "Calculus Application"
+    ],
+    "question_type": [
+      "Calculation-intensive",
+      "Analytical"
+    ],
+    "avg_time_to_solve": 180
+  },
+  {
+    "id": 16,
+    "shortcut": "To find the maximum and minimum values of a function on a closed interval, first find the derivative, $f'(x)$. For $f(x) = \\cos x - x + 1$, the derivative is $f'(x) = -\\sin x - 1$. In the interval $[0, \\pi]$, $\\sin x \\ge 0$, which means $f'(x)$ is always negative. A function with a consistently negative derivative is strictly decreasing. Therefore, its maximum value will be at the start of the interval ($x=0$) and its minimum value will be at the end ($x=\\pi$).",
+    "question": "Let $f(x)=\\cos x - x + 1$ for all $x \\in [0, \\pi]$. Let M and m be the maximum and minimum values of $f(x)$, respectively. Find the value of $(M-m)$.",
+    "equation": "$f(x)=\\cos x - x + 1$",
+    "imageurl": null,
+    "options": {
+      "A": "2 + \\pi",
+      "B": "2 - \\pi",
+      "C": "\\pi",
+      "D": "2"
+    },
+    "correct_option": "A",
+    "difficulty_level": "Medium",
+    "examname": "JEE(Main)-2024 | 08 April 2024 (Shift-1 Morning)",
+    "solution": "We are given the function $f(x) = \\cos x - x + 1$ on the closed interval $[0, \\pi]$.\n\n**Step 1: Find the derivative of the function.**\nTo find the extrema (maximum and minimum values), we first need to find the critical points by taking the derivative of $f(x)$ with respect to x.\n$f'(x) = \\frac{d}{dx}(\\cos x - x + 1) = -\\sin x - 1$.\n\n**Step 2: Analyze the derivative on the given interval.**\nWe look for critical points by setting $f'(x) = 0$.\n$-\\sin x - 1 = 0 \\implies \\sin x = -1$.\nHowever, for the interval $x \\in [0, \\pi]$, the range of the sine function is $0 \\le \\sin x \\le 1$. Thus, there are no solutions to $\\sin x = -1$ in this interval, and there are no critical points in $(0, \\pi)$.\n\nLet's examine the sign of $f'(x)$ on the interval. Since $0 \\le \\sin x \\le 1$ for $x \\in [0, \\pi]$, it follows that $-1 \\le -\\sin x \\le 0$.\nTherefore, $f'(x) = -\\sin x - 1$ will always be negative. Specifically, $-2 \\le f'(x) \\le -1$.\nSince $f'(x) < 0$ for all $x \\in [0, \\pi]$, the function $f(x)$ is strictly decreasing over the entire interval.\n\n**Step 3: Find the maximum and minimum values.**\nFor a strictly decreasing function on a closed interval, the maximum value occurs at the left endpoint, and the minimum value occurs at the right endpoint.\n* **Maximum value (M):** at $x=0$\n    $M = f(0) = \\cos(0) - 0 + 1 = 1 - 0 + 1 = 2$.\n* **Minimum value (m):** at $x=\\pi$\n    $m = f(\\pi) = \\cos(\\pi) - \\pi + 1 = -1 - \\pi + 1 = -\\pi$.\n\n**Step 4: Calculate (M-m).**\n$M - m = 2 - (-\\pi) = 2 + \\pi$.",
+    "imagesolurl": null,
+    "subject": "Mathematics",
+    "topic": "Application of Derivatives",
+    "subtopics": [
+      "Maxima and Minima",
+      "Monotonic Functions"
+    ],
+    "question_type": [
+      "Calculation-intensive",
+      "Conceptual"
+    ],
+    "avg_time_to_solve": 120
+  },
+  {
+    "id": 17,
+    "shortcut": "The problem can be solved by finding a recurrence relation for $I_n$ using integration by parts. This yields $\\frac{I_n}{I_{n-1}} = \\frac{nk}{nk+1}$. The numbers in the question, $147I_{21}=148I_{20}$, appear to have a typo as they lead to a negative k. Assuming the intended relation was $148I_{21}=147I_{20}$, we get $\\frac{I_{21}}{I_{20}} = \\frac{147}{148}$. Setting $n=21$ in the recurrence relation gives $\\frac{21k}{21k+1} = \\frac{147}{148}$, which can be solved for k.",
+    "question": "If $I_{n}=\\int_{0}^{1}(1-x^{k})^{n} dx$ and $147I_{21}=148I_{20}$, then find the value of k. (Note: The constants in the given relation are likely swapped, the solution assumes the intended relation is $148I_{21}=147I_{20}$)",
+    "equation": "$I_{n}=\\int_{0}^{1}(1-x^{k})^{n} dx$, $147I_{21}=148I_{20}$",
+    "imageurl": null,
+    "options": {
+      "A": "7",
+      "B": "1/7",
+      "C": "21",
+      "D": "147"
+    },
+    "correct_option": "A",
+    "difficulty_level": "Hard",
+    "examname": "JEE(Main)-2024 | 08 April 2024 (Shift-1 Morning)",
+    "solution": "We need to find a recurrence relation for $I_n = \\int_{0}^{1}(1-x^{k})^{n} dx$.\nWe can write $I_n = \\int_{0}^{1}(1-x^{k})^{n} \\cdot 1 \\, dx$ and use integration by parts, $\\int u \\, dv = uv - \\int v \\, du$.\nLet $u = (1-x^k)^n$ and $dv = 1 \\, dx$.\nThen $du = n(1-x^k)^{n-1}(-kx^{k-1}) \\, dx$ and $v = x$.\n\nApplying the formula:\n$I_n = [x(1-x^k)^n]_0^1 - \\int_0^1 x \\cdot n(1-x^k)^{n-1}(-kx^{k-1}) \\, dx$\n$I_n = (1(1-1)^n - 0(1-0)^n) + nk \\int_0^1 x^k (1-x^k)^{n-1} \\, dx$\n$I_n = nk \\int_0^1 x^k (1-x^k)^{n-1} \\, dx$\n\nTo relate this back to $I_n$ and $I_{n-1}$, we rewrite $x^k$ as $1 - (1-x^k)$:\n$I_n = nk \\int_0^1 [1 - (1-x^k)](1-x^k)^{n-1} \\, dx$\n$I_n = nk \\left[ \\int_0^1 (1-x^k)^{n-1} \\, dx - \\int_0^1 (1-x^k)^n \\, dx \\right]$\n$I_n = nk [I_{n-1} - I_n]$\n$I_n = nkI_{n-1} - nkI_n$\n$I_n(1+nk) = nkI_{n-1}$\nThis gives the recurrence relation: $\\frac{I_n}{I_{n-1}} = \\frac{nk}{nk+1}$.\n\nThe problem gives the relation $147I_{21}=148I_{20}$. This leads to $\\frac{I_{21}}{I_{20}} = \\frac{148}{147}$. Equating this with our derived relation for $n=21$ gives $\\frac{21k}{21k+1} = \\frac{148}{147}$, which results in a negative value for k. This suggests a typo in the question's constants. A common pattern in such problems would be $148I_{21}=147I_{20}$. Let's solve with this assumed correction.\n\nAssuming $148I_{21}=147I_{20}$, we get $\\frac{I_{21}}{I_{20}} = \\frac{147}{148}$.\nLet $n=21$ in our recurrence relation:\n$\\frac{I_{21}}{I_{20}} = \\frac{21k}{21k+1}$.\nEquating the two expressions:\n$\\frac{21k}{21k+1} = \\frac{147}{148}$\n$148(21k) = 147(21k+1)$\n$3108k = 3087k + 147$\n$3108k - 3087k = 147$\n$21k = 147$\n$k = \\frac{147}{21} = 7$.",
+    "imagesolurl": null,
+    "subject": "Mathematics",
+    "topic": "Integral Calculus",
+    "subtopics": [
+      "Definite Integration",
+      "Integration by Parts",
+      "Recurrence Relations"
+    ],
+    "question_type": [
+      "Calculation-intensive",
+      "Problem Solving"
+    ],
+    "avg_time_to_solve": 240
+  },
+  {
+    "id": 18,
+    "shortcut": "Resolve each vector into its x and y components. Sum the x-components and y-components separately to find the components of the resultant vector. The magnitude of the resultant is then $\\sqrt{R_x^2 + R_y^2}$. Using the identity $(a+b)^2+(a-b)^2 = 2(a^2+b^2)$ can speed up the final calculation.",
+    "question": "Three vectors, each of magnitude A, are arranged as shown in the diagram. One is along the positive y-axis, one along the positive x-axis, and the third is at a 45-degree angle below the positive x-axis. If the resultant magnitude is $A\\sqrt{x}$, find the value of x.",
+    "equation": null,
+    "imageurl": "https://res.cloudinary.com/dscgkuvkd/image/upload/v1756699665/Screenshot_2025-09-01_at_9.37.35_AM_xydhzu.png",
+    "options": {
+      "A": "3",
+      "B": "2",
+      "C": "5",
+      "D": "√3"
+    },
+    "correct_option": "A",
+    "difficulty_level": "Medium",
+    "examname": "JEE(Main)-2024 | 08 April 2024 (Shift-1 Morning)",
+    "solution": "**Step 1: Express each vector in component form.**\nLet's denote the three vectors as $\\vec{V_1}$, $\\vec{V_2}$, and $\\vec{V_3}$, each with magnitude A.\n* Vector along positive y-axis: $\\vec{V_1} = 0\\hat{i} + A\\hat{j}$\n* Vector along positive x-axis: $\\vec{V_2} = A\\hat{i} + 0\\hat{j}$\n* Vector at 45° below the positive x-axis (i.e., at -45° or 315°): \n    $\\vec{V_3} = (A \\cos(-45^{\\circ}))\\hat{i} + (A \\sin(-45^{\\circ}))\\hat{j} = (A \\cdot \\frac{1}{\\sqrt{2}})\\hat{i} + (A \\cdot -\\frac{1}{\\sqrt{2}})\\hat{j} = \\frac{A}{\\sqrt{2}}\\hat{i} - \\frac{A}{\\sqrt{2}}\\hat{j}$\n\n**Step 2: Find the resultant vector by adding the components.**\nThe resultant vector $\\vec{R} = \\vec{V_1} + \\vec{V_2} + \\vec{V_3}$.\n$R_x = 0 + A + \\frac{A}{\\sqrt{2}} = A(1 + \\frac{1}{\\sqrt{2}})$\n$R_y = A + 0 - \\frac{A}{\\sqrt{2}} = A(1 - \\frac{1}{\\sqrt{2}})$\nSo, $\\vec{R} = A(1 + \\frac{1}{\\sqrt{2}})\\hat{i} + A(1 - \\frac{1}{\\sqrt{2}})\\hat{j}$.\n\n**Step 3: Calculate the magnitude of the resultant vector.**\n$|\\vec{R}| = \\sqrt{R_x^2 + R_y^2}$\n$|\\vec{R}|^2 = \\left[A(1 + \\frac{1}{\\sqrt{2}})\\right]^2 + \\left[A(1 - \\frac{1}{\\sqrt{2}})\\right]^2$\n$|\\vec{R}|^2 = A^2 \\left[ (1 + \\frac{1}{\\sqrt{2}})^2 + (1 - \\frac{1}{\\sqrt{2}})^2 \\right]$\nUsing the algebraic identity $(a+b)^2 + (a-b)^2 = 2(a^2+b^2)$ with $a=1$ and $b=\\frac{1}{\\sqrt{2}}$:\n$|\\vec{R}|^2 = A^2 \\cdot 2 \\left[ 1^2 + (\\frac{1}{\\sqrt{2}})^2 \\right]$\n$|\\vec{R}|^2 = 2A^2 \\left[ 1 + \\frac{1}{2} \\right] = 2A^2 \\left[ \\frac{3}{2} \\right] = 3A^2$.\nTaking the square root, the magnitude is $|\\vec{R}| = \\sqrt{3A^2} = A\\sqrt{3}$.\n\n**Step 4: Compare with the given expression.**\nThe problem states the resultant magnitude is $A\\sqrt{x}$.\nComparing our result, $A\\sqrt{3}$, with the given expression, we can see that **x = 3**.",
+    "imagesolurl": null,
+    "subject": "Physics",
+    "topic": "Vectors",
+    "subtopics": [
+      "Vector Addition",
+      "Vector Components",
+      "Resultant Vector"
+    ],
+    "question_type": [
+      "Calculation-intensive",
+      "Graph-based"
+    ],
+    "avg_time_to_solve": 120
+  },
+  {
+    "id": 19,
+    "shortcut": "The term 'optical isomers' refers specifically to stereoisomers that are optically active. For a symmetrical molecule like 2,3-dibromobutane with two chiral centers, there will be one pair of enantiomers (which are optically active) and one meso compound (which is optically inactive). Therefore, there are only 2 optical isomers.",
+    "question": "Count the number of optical isomers for 2,3-dibromobutane ($CH_3-CH(Br)-CH(Br)-CH_3$).",
+    "equation": null,
+    "imageurl": "https://res.cloudinary.com/dscgkuvkd/image/upload/v1756699728/Screenshot_2025-09-01_at_9.38.43_AM_f8qzew.png",
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4"
+    },
+    "correct_option": "B",
+    "difficulty_level": "Medium",
+    "examname": "JEE(Main)-2024 | 08 April 2024 (Shift-1 Morning)",
+    "solution": "**Step 1: Identify Chiral Centers.**\nThe molecule is 2,3-dibromobutane, with the structure $CH_3-CH(Br)-CH(Br)-CH_3$. \nA chiral center is a carbon atom bonded to four different groups.\n* Carbon-2 is bonded to H, Br, $CH_3$, and the $-CH(Br)CH_3$ group. These four groups are different, so C-2 is a chiral center.\n* Carbon-3 is bonded to H, Br, $CH_3$, and the $-CH(Br)CH_3$ group. These four groups are also different, so C-3 is a chiral center.\nThe molecule has **n=2** chiral centers.\n\n**Step 2: Check for Molecular Symmetry.**\nThe maximum number of stereoisomers is $2^n = 2^2 = 4$. However, we must check if the molecule is symmetrical, which could lead to a meso compound.\nThe molecule is symmetrical because the groups attached to C-2 are the same as the groups attached to C-3.\n\n**Step 3: Identify the Stereoisomers.**\nDue to the symmetry, we can have a pair of enantiomers and a meso compound.\n1.  **Enantiomers:** These are non-superimposable mirror images of each other. They are the (2R, 3R) and (2S, 3S) isomers. Both of these isomers are chiral and therefore optically active.\n2.  **Meso Compound:** This is the (2R, 3S) isomer. Its mirror image is the (2S, 3R) isomer, but due to an internal plane of symmetry, they are the same, superimposable molecule. A meso compound is achiral and optically inactive, despite having chiral centers.\n\n**Step 4: Count the Optical Isomers.**\nThe term **optical isomers** refers to stereoisomers that are optically active. In this case, only the enantiomeric pair, (2R, 3R) and (2S, 3S), are optically active.\nThe meso form is a stereoisomer, but it is optically inactive.\nTherefore, there are **2** optical isomers of 2,3-dibromobutane.",
+    "imagesolurl": null,
+    "subject": "Chemistry",
+    "topic": "Organic Chemistry",
+    "subtopics": [
+      "Stereochemistry",
+      "Chirality",
+      "Enantiomers",
+      "Meso Compounds"
+    ],
+    "question_type": [
+      "Conceptual",
+      "Definitions"
+    ],
+    "avg_time_to_solve": 120
+  },
+  {
+    "id": 20,
+    "shortcut": "The terminal voltage is the voltage across the external part of the circuit. First, find the equivalent resistance of the two parallel 4Ω resistors ($R_{eq} = 2\\Omega$). Then, use the voltage divider formula to find the terminal voltage: $V_T = E \\times \\frac{R_{eq}}{R_{eq} + r} = 3V \\times \\frac{2\\Omega}{2\\Omega + 2\\Omega}$.",
+    "question": "Find the value of terminal voltage in the given circuit, which has a 3V battery with 2Ω internal resistance connected to two parallel 4Ω resistors.",
+    "equation": null,
+    "imageurl": "https://res.cloudinary.com/dscgkuvkd/image/upload/v1756699795/Screenshot_2025-09-01_at_9.39.49_AM_gbq1xs.png",
+    "options": {
+      "A": "1.5 V",
+      "B": "3.0 V",
+      "C": "0.75 V",
+      "D": "2.0 V"
+    },
+    "correct_option": "A",
+    "difficulty_level": "Easy",
+    "examname": "JEE(Main)-2024 | 08 April 2024 (Shift-1 Morning)",
+    "solution": "The circuit has a battery with EMF $E = 3V$ and internal resistance $r = 2\\Omega$. This battery is connected to an external load of two $4\\Omega$ resistors in parallel.\n\n**Step 1: Calculate the equivalent external resistance ($R_{eq}$).**\nFor two resistors $R_1$ and $R_2$ in parallel, the equivalent resistance is given by:\n$\\frac{1}{R_{eq}} = \\frac{1}{R_1} + \\frac{1}{R_2}$\n$\\frac{1}{R_{eq}} = \\frac{1}{4\\Omega} + \\frac{1}{4\\Omega} = \\frac{2}{4\\Omega} = \\frac{1}{2\\Omega}$\nTherefore, $R_{eq} = 2\\Omega$.\n\n**Step 2: Calculate the total current (I) in the circuit.**\nThe total resistance of the circuit is the sum of the external and internal resistances: $R_{total} = R_{eq} + r$.\n$R_{total} = 2\\Omega + 2\\Omega = 4\\Omega$.\nUsing Ohm's Law, the total current drawn from the battery is:\n$I = \\frac{E}{R_{total}} = \\frac{3V}{4\\Omega} = 0.75 A$.\n\n**Step 3: Calculate the terminal voltage ($V_T$).**\nThe terminal voltage is the potential difference across the terminals of the battery. It can be found using the formula $V_T = E - Ir$.\n$V_T = 3V - (0.75 A \\times 2\\Omega)$\n$V_T = 3V - 1.5V$\n$V_T = 1.5V$.\n\nAlternatively, the terminal voltage is equal to the potential difference across the equivalent external resistance ($V_T = I R_{eq}$).\n$V_T = 0.75 A \\times 2\\Omega = 1.5V$.\n\nThe terminal voltage of the battery is **1.5 V**.",
+    "imagesolurl": null,
+    "subject": "Physics",
+    "topic": "Current Electricity",
+    "subtopics": [
+      "Ohm's Law",
+      "EMF and Internal Resistance",
+      "Terminal Voltage",
+      "Equivalent Resistance"
+    ],
+    "question_type": [
+      "Circuit Analysis",
+      "Formula-based"
+    ],
+    "avg_time_to_solve": 90
+  },
+  {
+    "id": 21,
+    "shortcut": "The product of two numbers with a fixed sum is maximum when the numbers are equal. For $A+B=24$, the max product is at $A=B=12$. The condition $AB \\ge 108$ translates to a quadratic inequality $A^2 - 24A + 108 \\le 0$. Solving this gives the range of favorable values for A. The probability is the number of integers in this range divided by the total possible integer values for A.",
+    "question": "There are two natural numbers, A and B, such that their sum is 24. Find the probability that their product is not less than 3/4 of their maximum possible product.",
+    "equation": "$A+B=24, A, B \\in \\mathbb{N}$",
+    "imageurl": null,
+    "options": {
+      "A": "13/23",
+      "B": "7/12",
+      "C": "3/4",
+      "D": "6/11"
+    },
+    "correct_option": "A",
+    "difficulty_level": "Medium",
+    "examname": "JEE(Main)-2024 | 08 April 2024 (Shift-1 Morning)",
+    "solution": "**Step 1: Define the sample space.**\nWe are given two natural numbers A and B such that $A+B=24$. Natural numbers are positive integers, so $A \\ge 1$ and $B \\ge 1$. Since $B = 24-A$, we must have $24-A \\ge 1$, which means $A \\le 23$. So, A can be any integer from 1 to 23. This gives 23 possible ordered pairs (A, B): (1, 23), (2, 22), ..., (23, 1). The total number of possible outcomes is 23.\n\n**Step 2: Find the maximum product.**\nFor a constant sum, the product of two numbers is maximum when they are as close as possible. For $A+B=24$, the product $AB$ is maximized when $A=B=12$. \nMaximum Product = $12 \\times 12 = 144$.\n\n**Step 3: Define the condition for favorable outcomes.**\nThe product $AB$ must be 'not less than' (i.e., greater than or equal to) 3/4 of the maximum product.\nCondition: $AB \\ge \\frac{3}{4} \\times 144$\n$AB \\ge 108$.\n\n**Step 4: Find the number of favorable outcomes.**\nSubstitute $B = 24-A$ into the inequality:\n$A(24-A) \\ge 108$\n$24A - A^2 \\ge 108$\n$0 \\ge A^2 - 24A + 108$\nTo solve the quadratic inequality $A^2 - 24A + 108 \\le 0$, we first find the roots of $A^2 - 24A + 108 = 0$.\nFactoring, we get $(A-6)(A-18) = 0$. The roots are $A=6$ and $A=18$.\nSince the parabola opens upwards, the inequality holds for values of A between the roots (inclusive).\n$6 \\le A \\le 18$.\n\nThe possible integer values for A are 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18. \nThe number of favorable outcomes is $18 - 6 + 1 = 13$.\n\n**Step 5: Calculate the probability.**\nProbability = $\\frac{\\text{Number of Favorable Outcomes}}{\\text{Total Number of Outcomes}} = \\frac{13}{23}$.",
+    "imagesolurl": null,
+    "subject": "Mathematics",
+    "topic": "Probability",
+    "subtopics": [
+      "Quadratic Inequalities",
+      "Counting Principles"
+    ],
+    "question_type": [
+      "Problem Solving",
+      "Calculation-intensive"
+    ],
+    "avg_time_to_solve": 180
+  },
+  {
+    "id": 22,
+    "shortcut": "Use the Taylor series approximation for small x: $\\cos(u) \\approx 1 - u^2/2$. Also, use the binomial approximation $(1-z)^k \\approx 1-kz$ for small z. The product term $\\prod_{n=1}^{10} (1 - \\frac{nx^2}{2})$ can be approximated by $1 - \\sum_{n=1}^{10} \\frac{nx^2}{2}$. This simplifies the numerator, allowing for direct evaluation of the limit.",
+    "question": "Find the value of $2 \\lim_{x\\to0} \\frac{1-\\cos(x)\\sqrt{\\cos(2x)}\\sqrt[3]{\\cos(3x)}\\dots\\sqrt[10]{\\cos(10x)}}{x^2}$.",
+    "equation": "$2 \\lim_{x\\to0} \\frac{1-\\cos(x)\\sqrt{\\cos(2x)}\\sqrt[3]{\\cos(3x)}\\dots\\sqrt[10]{\\cos(10x)}}{x^2}$",
+    "imageurl": null,
+    "options": {
+      "A": "55",
+      "B": "110",
+      "C": "55/2",
+      "D": "10"
+    },
+    "correct_option": "A",
+    "difficulty_level": "Hard",
+    "examname": "JEE(Main)-2024 | 08 April 2024 (Shift-1 Morning)",
+    "solution": "Let the limit be $L = \\lim_{x\\to0} \\frac{1 - \\prod_{n=1}^{10} (\\cos(nx))^{1/n}}{x^2}$. We need to find $2L$.\nThis is an indeterminate form of $\\frac{0}{0}$. We will use Taylor series expansions for $x \\to 0$.\n\n**Step 1: Approximate the general term $(\\cos(nx))^{1/n}$.**\nWe know the expansion for $\\cos(u) \\approx 1 - \\frac{u^2}{2}$ for small $u$.\nSo, $\\cos(nx) \\approx 1 - \\frac{(nx)^2}{2} = 1 - \\frac{n^2x^2}{2}$.\nNow, for the term $(\\cos(nx))^{1/n}$, we have:\n$(\\cos(nx))^{1/n} \\approx (1 - \\frac{n^2x^2}{2})^{1/n}$.\nUsing the binomial approximation $(1-z)^k \\approx 1-kz$ for small $z$:\nHere, $z = \\frac{n^2x^2}{2}$ and $k = \\frac{1}{n}$.\n$(1 - \\frac{n^2x^2}{2})^{1/n} \\approx 1 - (\\frac{1}{n})(\\frac{n^2x^2}{2}) = 1 - \\frac{nx^2}{2}$.\n\n**Step 2: Approximate the product.**\nThe product in the numerator is $P = \\prod_{n=1}^{10} (\\cos(nx))^{1/n} \\approx \\prod_{n=1}^{10} (1 - \\frac{nx^2}{2})$.\nWhen multiplying many terms of the form $(1-a_i)$, where each $a_i$ is small, the product can be approximated by ignoring terms of order higher than $x^2$. \n$P \\approx (1 - \\frac{1x^2}{2})(1 - \\frac{2x^2}{2})...(1 - \\frac{10x^2}{2}) \\approx 1 - (\\frac{1x^2}{2} + \\frac{2x^2}{2} + ... + \\frac{10x^2}{2})$\n$P \\approx 1 - \\frac{x^2}{2} \\sum_{n=1}^{10} n$.\n\n**Step 3: Calculate the sum and substitute back into the limit.**\nThe sum of the first 10 integers is $\\sum_{n=1}^{10} n = \\frac{10(10+1)}{2} = 55$.\nSo, the product is approximately $P \\approx 1 - \\frac{55x^2}{2}$.\nNow, substitute this into the limit expression for L:\n$L = \\lim_{x\\to0} \\frac{1 - (1 - \\frac{55x^2}{2})}{x^2} = \\lim_{x\\to0} \\frac{\\frac{55x^2}{2}}{x^2} = \\frac{55}{2}$.\n\n**Step 4: Find the final value.**\nThe question asks for the value of $2L$.\nValue = $2 \\times L = 2 \\times \\frac{55}{2} = 55$.",
+    "imagesolurl": null,
+    "subject": "Mathematics",
+    "topic": "Limits, Continuity and Differentiability",
+    "subtopics": [
+      "Limits",
+      "Taylor Series Expansion",
+      "Binomial Approximation"
+    ],
+    "question_type": [
+      "Calculation-intensive",
+      "Approximation"
+    ],
+    "avg_time_to_solve": 240
+  },
+  {
+    "id": 23,
+    "shortcut": "The formula relating the critical angle (C) and the refractive indices of the denser ($\\mu_1$) and rarer ($\\mu_2$) media is $\\sin(C) = \\frac{\\mu_2}{\\mu_1}$. The question asks for the reciprocal, $\\frac{\\mu_1}{\\mu_2} = \\frac{1}{\\sin(C)}$.",
+    "question": "If a light ray passes from a denser medium (refractive index $\\mu_{1}$) to a rarer medium (refractive index $\\mu_{2}$) with a critical angle of $45^{\\circ}$, what is the value of the ratio $\\mu_{1}/\mu_{2}$?",
+    "equation": null,
+    "imageurl": null,
+    "options": {
+      "A": "$\\sqrt{2}$",
+      "B": "$1/\\sqrt{2}$",
+      "C": "2",
+      "D": "1/2"
+    },
+    "correct_option": "A",
+    "difficulty_level": "Easy",
+    "examname": "JEE(Main)-2024 | 08 April 2024 (Shift-1 Morning)",
+    "solution": "The critical angle is the specific angle of incidence in a denser medium for which the angle of refraction in the rarer medium is $90^\\circ$. This phenomenon is governed by Snell's Law.\n\n**Snell's Law:**\n$\\mu_1 \\sin(i) = \\mu_2 \\sin(r)$\nwhere:\n* $\\mu_1$ is the refractive index of the first (denser) medium.\n* $i$ is the angle of incidence.\n* $\\mu_2$ is the refractive index of the second (rarer) medium.\n* $r$ is the angle of refraction.\n\n**At the Critical Angle (C):**\nBy definition, when the angle of incidence is the critical angle ($i=C$), the angle of refraction is $90^\\circ$ ($r=90^\\circ$).\nSubstituting these into Snell's Law:\n$\\mu_1 \\sin(C) = \\mu_2 \\sin(90^\\circ)$\n\n**Calculation:**\nWe are given that the critical angle $C = 45^\\circ$. We also know that $\\sin(90^\\circ) = 1$.\n$\\mu_1 \\sin(45^\\circ) = \\mu_2 \\times 1$\nWe know that $\\sin(45^\\circ) = \\frac{1}{\\sqrt{2}}$.\n$\\mu_1 \\left( \\frac{1}{\\sqrt{2}} \\right) = \\mu_2$\n\nThe question asks for the ratio $\\frac{\\mu_1}{\\mu_2}$. Rearranging the equation above:\n$\\frac{\\mu_1}{\\mu_2} = \\sqrt{2}$.",
+    "imagesolurl": null,
+    "subject": "Physics",
+    "topic": "Optics",
+    "subtopics": [
+      "Refraction",
+      "Snell's Law",
+      "Total Internal Reflection",
+      "Critical Angle"
+    ],
+    "question_type": [
+      "Formula-based"
+    ],
+    "avg_time_to_solve": 45
+  },
+  {
+    "id": 24,
+    "shortcut": "When a series of chemical reactions are added to obtain a net reaction, the equilibrium constant for the net reaction ($K_{eq}$) is the product of the equilibrium constants of the individual reactions ($K_1, K_2, K_3, \\dots$). So, $K_{eq} = K_1 \\times K_2 \\times K_3$.",
+    "question": "For a sequence of reversible reactions $W \\rightleftharpoons X \\rightleftharpoons Y \\rightleftharpoons Z$, the equilibrium constants for the individual steps are $K_1=1$, $K_2=2$, and $K_3=4$, respectively. Find the equilibrium constant ($K_{eq}$) for the overall reaction $W \\rightleftharpoons Z$.",
+    "equation": "$K_1=1, K_2=2, K_3=4$",
+    "imageurl": null,
+    "options": {
+      "A": "2",
+      "B": "8",
+      "C": "6",
+      "D": "4"
+    },
+    "correct_option": "B",
+    "difficulty_level": "Easy",
+    "examname": "JEE(Main)-2024 | 08 April 2024 (Shift-1 Morning)",
+    "solution": "We are given a sequence of three elementary reversible reactions:\n1.  $W \\rightleftharpoons X$ ; $K_1 = \\frac{[X]}{[W]} = 1$\n2.  $X \\rightleftharpoons Y$ ; $K_2 = \\frac{[Y]}{[X]} = 2$\n3.  $Y \\rightleftharpoons Z$ ; $K_3 = \\frac{[Z]}{[Y]} = 4$\n\nThe overall reaction is $W \\rightleftharpoons Z$. The equilibrium constant for this overall reaction, $K_{eq}$, is given by:\n$K_{eq} = \\frac{[Z]}{[W]}$\n\nTo obtain the overall reaction, we can add the three individual reaction steps. When chemical equilibria are added, their respective equilibrium constants are multiplied.\n\nNet Reaction: $(W \\rightleftharpoons X) + (X \\rightleftharpoons Y) + (Y \\rightleftharpoons Z) = (W \\rightleftharpoons Z)$\nThe intermediates X and Y cancel out.\n\nOverall Equilibrium Constant:\n$K_{eq} = K_1 \\times K_2 \\times K_3$\n\nSubstituting the given values:\n$K_{eq} = 1 \\times 2 \\times 4 = 8$.\n\nAlternatively, we can show this by algebraic manipulation:\n$K_{eq} = \\frac{[Z]}{[W]} = \\frac{[X]}{[W]} \\times \\frac{[Y]}{[X]} \\times \\frac{[Z]}{[Y]} = K_1 \\times K_2 \\times K_3 = 1 \\times 2 \\times 4 = 8$.",
+    "imagesolurl": null,
+    "subject": "Chemistry",
+    "topic": "Chemical Equilibrium",
+    "subtopics": [
+      "Equilibrium Constant",
+      "Combining Equilibria"
+    ],
+    "question_type": [
+      "Conceptual",
+      "Formula-based"
+    ],
+    "avg_time_to_solve": 30
+  },
+  {
+    "id": 25,
+    "shortcut": "This question relates to the 'inert pair effect'. For heavier p-block elements like Tl, the ns² electrons are held tightly due to poor shielding by d and f electrons, making the lower oxidation state (Group number - 2) more stable. Thus, the stability of the +1 state increases down Group 13. Both statements are correct, and the second explains the first.",
+    "question": "Consider the following statements for Group 13 elements.\n**Statement-I:** The stability of the +1 oxidation state follows the order: $Ga^{+}<In^{+}<Tl^{+}$.\n**Statement-II:** On moving down the group, the stability of the lower oxidation state increases due to the poor shielding of d & f electrons.\nChoose the most appropriate answer from the options.",
+    "equation": null,
+    "imageurl": null,
+    "options": {
+      "A": "Both Statement-I and Statement-II are false.",
+      "B": "Statement-I is false but Statement-II is true.",
+      "C": "Both Statement-I and Statement-II are true.",
+      "D": "Statement-I is true but Statement-II is false."
+    },
+    "correct_option": "C",
+    "difficulty_level": "Easy",
+    "examname": "JEE(Main)-2024 | 08 April 2024 (Shift-1 Morning)",
+    "solution": "## Analysis of Statement-I\nThe elements in Group 13 are Boron (B), Aluminum (Al), Gallium (Ga), Indium (In), and Thallium (Tl). Their general valence electron configuration is $ns^2 np^1$. They can exhibit oxidation states of +3 and +1.\nAs we move down the group from Ga to Tl, the stability of the lower (+1) oxidation state increases relative to the higher (+3) oxidation state. This is due to the **inert pair effect**. Therefore, Thallium predominantly shows a +1 oxidation state, while for Gallium, the +3 state is much more stable. Indium is intermediate. The order of stability for the +1 oxidation state is indeed $Ga^{+} < In^{+} < Tl^{+}$. \n**Thus, Statement-I is true.**\n\n## Analysis of Statement-II\nThis statement provides the explanation for the trend observed in Statement-I. The **inert pair effect** is the reluctance of the outermost s-electrons to participate in bonding in heavier p-block elements. This occurs because the electrons in the intervening d and f orbitals (present in Ga, In, and Tl) are poor at shielding the outer s-electrons from the pull of the nucleus. This increased effective nuclear charge holds the $ns^2$ electrons more tightly, making them 'inert'. Consequently, only the single $np^1$ electron is readily lost, leading to a stable +1 oxidation state.\n**Thus, Statement-II is the correct explanation and is also true.**\n\n## Conclusion\nBoth Statement-I and Statement-II are true, and Statement-II is the correct reason for Statement-I.",
+    "imagesolurl": null,
+    "subject": "Chemistry",
+    "topic": "p-Block Elements",
+    "subtopics": [
+      "Group 13 Elements",
+      "Inert Pair Effect",
+      "Oxidation States",
+      "Shielding Effect"
+    ],
+    "question_type": [
+      "Conceptual",
+      "Memory-based"
+    ],
+    "avg_time_to_solve": 60
+  },
+  {
+    "id": 26,
+    "shortcut": "To find local maxima, calculate the first derivative $f'(x)$ and find its roots (critical points). For $f(x)=4\\cos^{3}x+3\\sqrt{3}\\cos^{2}x-1$, the derivative is $f'(x) = -6\\sin x \\cos x (2\\cos x + \\sqrt{3})$. Find the roots in $(0, 2\\pi)$. Then, use the first derivative test: a local maximum occurs where the sign of $f'(x)$ changes from positive to negative.",
+    "question": "Find the number of local maxima of the function $f(x)=4\\cos^{3}x+3\\sqrt{3}\\cos^{2}x-1$ for all $x \\in (0, 2\\pi)$.",
+    "equation": "$f(x)=4\\cos^{3}x+3\\sqrt{3}\\cos^{2}x-1$",
+    "imageurl": null,
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4"
+    },
+    "correct_option": "B",
+    "difficulty_level": "Hard",
+    "examname": "JEE(Main)-2024 | 08 April 2024 (Shift-1 Morning)",
+    "solution": "**Step 1: Find the first derivative of the function.**\nTo locate the critical points (where local maxima or minima can occur), we need to find the derivative of $f(x)$ and set it to zero.\n$f'(x) = \\frac{d}{dx}(4\\cos^3x + 3\\sqrt{3}\\cos^2x - 1)$\nUsing the chain rule:\n$f'(x) = 4(3\\cos^2x)(-\\sin x) + 3\\sqrt{3}(2\\cos x)(-\\sin x)$\n$f'(x) = -12\\sin x\\cos^2x - 6\\sqrt{3}\\sin x\\cos x$\n\n**Step 2: Find the critical points.**\nFactor the derivative and set it to zero to find the critical points in the interval $(0, 2\\pi)$.\n$f'(x) = -6\\sin x\\cos x (2\\cos x + \\sqrt{3}) = 0$\nThis equation is satisfied if any of the factors are zero:\n1.  $\\sin x = 0 \\implies x = \\pi$\n2.  $\\cos x = 0 \\implies x = \\frac{\\pi}{2}, \\frac{3\\pi}{2}$\n3.  $2\\cos x + \\sqrt{3} = 0 \\implies \\cos x = -\\frac{\\sqrt{3}}{2} \\implies x = \\frac{5\\pi}{6}, \\frac{7\\pi}{6}$\nThe critical points in increasing order are $\\frac{\\pi}{2}, \\frac{5\\pi}{6}, \\pi, \\frac{7\\pi}{6}, \\frac{3\\pi}{2}$.\n\n**Step 3: Use the First Derivative Test to classify the critical points.**\nWe check the sign of $f'(x)$ in the intervals between the critical points.\n* For $x \\in (\\frac{\\pi}{2}, \\frac{5\\pi}{6})$: $f'(x)$ is positive. ($f'(x)$ changes from - to + at $x=\\pi/2 \\implies$ local min)\n* For $x \\in (\\frac{5\\pi}{6}, \\pi)$: $f'(x)$ is negative. ($f'(x)$ changes from + to - at $x=5\\pi/6 \\implies$ **local max**)\n* For $x \\in (\\pi, \\frac{7\\pi}{6})$: $f'(x)$ is positive. ($f'(x)$ changes from - to + at $x=\\pi \\implies$ local min)\n* For $x \\in (\\frac{7\\pi}{6}, \\frac{3\\pi}{2})$: $f'(x)$ is negative. ($f'(x)$ changes from + to - at $x=7\\pi/6 \\implies$ **local max**)\n* For $x \\in (\\frac{3\\pi}{2}, 2\\pi)$: $f'(x)$ is positive. ($f'(x)$ changes from - to + at $x=3\\pi/2 \\implies$ local min)\n\nThe function has local maxima at $x = \\frac{5\\pi}{6}$ and $x = \\frac{7\\pi}{6}$.\nTherefore, there are **2** local maxima.",
+    "imagesolurl": null,
+    "subject": "Mathematics",
+    "topic": "Application of Derivatives",
+    "subtopics": [
+      "Maxima and Minima",
+      "Trigonometric Functions"
+    ],
+    "question_type": [
+      "Calculation-intensive"
+    ],
+    "avg_time_to_solve": 240
+  },
+  {
+    "id": 27,
+    "shortcut": "For IUPAC naming of substituted benzenes, substituents are listed alphabetically. For Statement I, 'chloro' comes before 'dinitro', so the correct name is 1-chloro-2,4-dinitrobenzene. For Statement II, 'aniline' is the accepted parent name, and 'ethyl' comes before 'methyl' alphabetically, so 4-ethyl-2-methylaniline is correct.",
+    "question": "Evaluate the following two statements regarding IUPAC nomenclature.\n**Statement-I:** The IUPAC name of the compound shown (1-chloro-2,4-dinitrobenzene) is 2,4-dinitro-1-chlorobenzene.\n**Statement-II:** The IUPAC name of the compound shown (4-ethyl-2-methylaniline) is 4-ethyl-2-methyl Aniline.",
+    "equation": null,
+    "imageurl": [
+      "https://res.cloudinary.com/dscgkuvkd/image/upload/v1756700123/Screenshot_2025-09-01_at_9.41.15_AM_vxpg2m.png",
+      "https://res.cloudinary.com/dscgkuvkd/image/upload/v1756699888/Screenshot_2025-09-01_at_9.41.22_AM_etqpan.png"
+    ],
+    "options": {
+      "A": "Both Statement-I and Statement-II are false.",
+      "B": "Statement-I is false but Statement-II is true.",
+      "C": "Both Statement-I and Statement-II are true.",
+      "D": "Statement-I is true but Statement-II is false."
+    },
+    "correct_option": "B",
+    "difficulty_level": "Medium",
+    "examname": "JEE(Main)-2024 | 08 April 2024 (Shift-1 Morning)",
+    "solution": "**Analysis of Statement-I:**\nThe structure is a benzene ring substituted with one chloro group and two nitro groups. According to IUPAC rules, when no principal functional group is present, the substituents are cited in alphabetical order. 'Chloro' comes before 'dinitro'. Numbering should be done to give the lowest possible locants to the substituents. Starting the numbering from the carbon atom attached to the chlorine gives the locants 1, 2, and 4. The correct IUPAC name is **1-chloro-2,4-dinitrobenzene**. The name given in the statement, 2,4-dinitro-1-chlorobenzene, violates the alphabetical citation rule. Therefore, **Statement-I is false**.\n\n**Analysis of Statement-II:**\nThe structure is a benzene ring substituted with an amino group ($-NH_2$), a methyl group, and an ethyl group. 'Aniline' is an accepted IUPAC common name for aminobenzene and is used as the parent compound. The numbering of the ring starts from the carbon atom attached to the amino group, making it position 1. This places the methyl group at position 2 and the ethyl group at position 4. When listing the substituents, they must be in alphabetical order. 'Ethyl' comes before 'methyl'. Thus, the correct name is **4-ethyl-2-methylaniline**. The name given in the statement is 4-ethyl-2-methyl Aniline, which is correct. Therefore, **Statement-II is true**.\n\n**Conclusion:**\nStatement-I is false, and Statement-II is true.",
+    "imagesolurl": null,
+    "subject": "Chemistry",
+    "topic": "Organic Chemistry",
+    "subtopics": [
+      "IUPAC Nomenclature",
+      "Aromatic Compounds"
+    ],
+    "question_type": [
+      "Memory-based",
+      "Conceptual"
+    ],
+    "avg_time_to_solve": 90
+  },
+  {
+    "id": 28,
+    "shortcut": "Use the subtraction method for Center of Mass (COM). Since the rectangular plate and the removed section are both symmetric about the vertical line $x=1.5$, the X-coordinate of the COM of the remaining part will also be $X=1.5$. You only need to calculate the Y-coordinate using the formula $Y = \\frac{A_1 y_1 - A_2 y_2}{A_1 - A_2}$, where A is the area and (x,y) are the COM coordinates of the original and removed parts.",
+    "question": "From a uniform rectangular plate PQVW of mass 10 Kg, section RSUT (as shown in the figure) is removed. If the coordinates of the Center of Mass (COM) of the remaining plate are (X,Y), then find the value of X/Y.",
+    "equation": null,
+    "imageurl": "https://res.cloudinary.com/dscgkuvkd/image/upload/v1756700239/Screenshot_2025-09-01_at_9.47.13_AM_wbfvzy.png",
+    "options": {
+      "A": "5/3",
+      "B": "3/5",
+      "C": "1.5/0.9",
+      "D": "1"
+    },
+    "correct_option": "A",
+    "difficulty_level": "Medium",
+    "examname": "JEE(Main)-2024 | 08 April 2024 (Shift-1 Morning)",
+    "solution": "We will use the subtraction method to find the center of mass (COM) of the remaining plate. Let's denote the original plate as body 1 and the removed section as body 2.\n\n**Step 1: Analyze the original plate (PQVW).**\n* Coordinates: P(0,0), Q(0,2), V(3,2), W(3,0).\n* Dimensions: width = 3, height = 2.\n* Area: $A_1 = 3 \\times 2 = 6$ sq. units.\n* Mass: $M_1 = 10$ Kg.\n* COM coordinates: $(x_1, y_1) = (\\frac{0+3}{2}, \\frac{0+2}{2}) = (1.5, 1)$.\n\n**Step 2: Analyze the removed section (RSUT).**\n* Coordinates: R(1,2), S(1,1), U(2,2), T(2,1).\n* Dimensions: width = 1, height = 1.\n* Area: $A_2 = 1 \\times 1 = 1$ sq. unit.\n* Since the plate is uniform, its mass is proportional to its area. The mass per unit area is $\\sigma = \\frac{M_1}{A_1} = \\frac{10}{6} = \\frac{5}{3}$ Kg/sq. unit.\n* Mass: $M_2 = A_2 \\times \\sigma = 1 \\times \\frac{5}{3} = \\frac{5}{3}$ Kg.\n* COM coordinates: $(x_2, y_2) = (\\frac{1+2}{2}, \\frac{1+2}{2}) = (1.5, 1.5)$.\n\n**Step 3: Calculate the COM of the remaining plate (X, Y).**\nThe mass of the remaining plate is $M_{rem} = M_1 - M_2 = 10 - \\frac{5}{3} = \\frac{25}{3}$ Kg.\nThe coordinates of the COM are given by:\n$X = \\frac{M_1 x_1 - M_2 x_2}{M_1 - M_2} = \\frac{10(1.5) - \\frac{5}{3}(1.5)}{25/3} = \\frac{15 - 2.5}{25/3} = \\frac{12.5}{25/3} = \\frac{25/2}{25/3} = \\frac{3}{2} = 1.5$.\n$Y = \\frac{M_1 y_1 - M_2 y_2}{M_1 - M_2} = \\frac{10(1) - \\frac{5}{3}(1.5)}{25/3} = \\frac{10 - 2.5}{25/3} = \\frac{7.5}{25/3} = \\frac{15/2}{25/3} = \\frac{15}{2} \\times \\frac{3}{25} = \\frac{45}{50} = \\frac{9}{10} = 0.9$.\nSo the COM of the remaining plate is $(X, Y) = (1.5, 0.9)$.\n\n**Step 4: Find the required ratio.**\nThe question asks for the value of $\\frac{X}{Y}$.\n$\\frac{X}{Y} = \\frac{1.5}{0.9} = \\frac{15}{9} = \\frac{5}{3}$.",
+    "imagesolurl": null,
+    "subject": "Physics",
+    "topic": "Center of Mass",
+    "subtopics": [
+      "Center of Mass of Continuous Bodies",
+      "Subtraction Method"
+    ],
+    "question_type": [
+      "Calculation-intensive",
+      "Graph-based"
+    ],
+    "avg_time_to_solve": 180
+  },
+  {
+    "id": 29,
+    "shortcut": "The octet rule requires the central atom to have exactly 8 valence electrons. Quickly check each molecule: Be in $BeF_2$ (4e), B in $BF_3$ (6e) have incomplete octets. P in $PCl_5$ (10e), S in $H_2SO_4$ (12e), Br in $BrF_5$ (12e) have expanded octets. $NO_2$ is an odd-electron molecule. The remaining molecules like $CO_2, CH_4, NH_3$ etc., are standard examples that follow the rule.",
+    "question": "Identify which of the following molecules follow the octet rule: $BeF_{2}, BF_{3}, H_{2}SO_{4}, NO_{2}, PCl_{5}, BrF_{5}, CO_{2}, SiH_{4}, CH_{4}, NH_{3}, CCl_{4}, C_{2}H_{6}$.",
+    "equation": null,
+    "imageurl": null,
+    "options": {
+      "A": "All molecules listed",
+      "B": "$CO_{2}, SiH_{4}, CH_{4}, NH_{3}, CCl_{4}, C_{2}H_{6}$",
+      "C": "$BeF_{2}, BF_{3}, PCl_{5}$",
+      "D": "$CO_2, CH_4, NH_3$ only"
+    },
+    "correct_option": "B",
+    "difficulty_level": "Medium",
+    "examname": "JEE(Main)-2024 | 08 April 2024 (Shift-1 Morning)",
+    "solution": "The octet rule states that atoms are most stable when their valence shell is filled with eight electrons. We need to check the number of valence electrons around the central atom(s) in each molecule.\n\n**Molecules that DO NOT follow the octet rule:**\n* **$BeF_2$**: Beryllium (Be) forms two single bonds with fluorine. It has only $2 \\times 2 = 4$ valence electrons. (Incomplete Octet)\n* **$BF_3$**: Boron (B) forms three single bonds with fluorine. It has $3 \\times 2 = 6$ valence electrons. (Incomplete Octet)\n* **$H_2SO_4$**: In the most common representation of sulfuric acid, Sulfur (S) forms two single bonds and two double bonds, having a total of $4+4+4=12$ valence electrons. (Expanded Octet)\n* **$NO_2$**: Nitrogen dioxide is an odd-electron molecule. Nitrogen has a total of 7 valence electrons. (Odd Electron Species)\n* **$PCl_5$**: Phosphorus (P) forms five single bonds with chlorine. It has $5 \\times 2 = 10$ valence electrons. (Expanded Octet)\n* **$BrF_5$**: Bromine (Br) forms five single bonds with fluorine and has one lone pair. It has $(5 \\times 2) + 2 = 12$ valence electrons. (Expanded Octet)\n\n**Molecules that DO follow the octet rule:**\n* **$CO_2$**: Carbon (C) forms two double bonds with oxygen. It has $2 \\times 4 = 8$ valence electrons. Each oxygen also has an octet.\n* **$SiH_4$**: Silicon (Si) forms four single bonds with hydrogen. It has $4 \\times 2 = 8$ valence electrons.\n* **$CH_4$**: Carbon (C) forms four single bonds with hydrogen. It has $4 \\times 2 = 8$ valence electrons.\n* **$NH_3$**: Nitrogen (N) forms three single bonds with hydrogen and has one lone pair. It has $(3 \\times 2) + 2 = 8$ valence electrons.\n* **$CCl_4$**: Carbon (C) forms four single bonds with chlorine. It has $4 \\times 2 = 8$ valence electrons. Each chlorine also has an octet.\n* **$C_2H_6$**: In ethane, each Carbon (C) forms four single bonds (one to the other C, and three to H). Each C has $4 \\times 2 = 8$ valence electrons.\n\nThe molecules that follow the octet rule are: **$CO_{2}, SiH_{4}, CH_{4}, NH_{3}, CCl_{4}, C_{2}H_{6}$**.",
+    "imagesolurl": null,
+    "subject": "Chemistry",
+    "topic": "Chemical Bonding",
+    "subtopics": [
+      "Lewis Structures",
+      "Octet Rule",
+      "Exceptions to the Octet Rule"
+    ],
+    "question_type": [
+      "Conceptual",
+      "Memory-based"
+    ],
+    "avg_time_to_solve": 180
+  },
+  {
+    "id": 30,
+    "shortcut": "First, find the number of integer solutions (m) for $A+5B=42$ where $A,B \\ge 1$. This is $B \\in \\{1..8\\}$, so $m=8$. For the sum, recognize that for $n \\ge 4$, $n!$ is a multiple of 4, so $i^{n!} = 1$. This means terms for $n=4$ through $n=8$ are zero. You only need to calculate the sum for n=1, 2, and 3.",
+    "question": "Given that $A+5B=42$ where A and B are natural numbers. The number of pairs of (A, B) is m. If $\\sum_{n=1}^{m}(1-i^{n!})=x+iy$, then find the value of $x+y+m$.",
+    "equation": "$A+5B=42$, $\\sum_{n=1}^{m}(1-i^{n!})=x+iy$",
+    "imageurl": null,
+    "options": {
+      "A": "12",
+      "B": "14",
+      "C": "8",
+      "D": "5"
+    },
+    "correct_option": "A",
+    "difficulty_level": "Medium",
+    "examname": "JEE(Main)-2024 | 08 April 2024 (Shift-1 Morning)",
+    "solution": "**Step 1: Find the number of pairs, m.**\nWe are given the linear Diophantine equation $A+5B=42$, where A and B are natural numbers (positive integers, $A, B \\ge 1$).\nWe can express A in terms of B: $A = 42 - 5B$.\nSince $A \\ge 1$, we must have:\n$42 - 5B \\ge 1$\n$41 \\ge 5B$\n$B \\le \\frac{41}{5} \\implies B \\le 8.2$.\nSince B must be a natural number, the possible values for B are {1, 2, 3, 4, 5, 6, 7, 8}. Each of these values gives a valid natural number for A. \nTherefore, there are 8 possible pairs (A, B). So, **m = 8**.\n\n**Step 2: Evaluate the complex sum.**\nWe need to calculate the sum $S = \\sum_{n=1}^{8}(1-i^{n!})$.\nLet's evaluate the term $i^{n!}$ for the first few values of n:\n* $n=1: n!=1 \\implies i^{1!} = i$\n* $n=2: n!=2 \\implies i^{2!} = i^2 = -1$\n* $n=3: n!=6 \\implies i^{3!} = i^6 = i^{4+2} = i^2 = -1$\n* $n=4: n!=24 \\implies i^{4!} = i^{24} = (i^4)^6 = 1^6 = 1$\nFor any integer $n \\ge 4$, $n!$ contains $4$ as a factor, so $n!$ is a multiple of 4. Therefore, $i^{n!} = 1$ for all $n \\ge 4$.\n\nNow we can evaluate the sum:\n$S = (1-i^{1!}) + (1-i^{2!}) + (1-i^{3!}) + (1-i^{4!}) + (1-i^{5!}) + (1-i^{6!}) + (1-i^{7!}) + (1-i^{8!})$\n$S = (1-i) + (1-(-1)) + (1-(-1)) + (1-1) + (1-1) + (1-1) + (1-1) + (1-1)$\n$S = (1-i) + 2 + 2 + 0 + 0 + 0 + 0 + 0$\n$S = 5 - i$.\n\n**Step 3: Find x, y and the final expression.**\nWe are given that the sum is equal to $x+iy$.\nSo, $x+iy = 5-i$.\nBy comparing the real and imaginary parts, we get **x = 5** and **y = -1**.\n\nThe question asks for the value of $x+y+m$.\n$x+y+m = 5 + (-1) + 8 = 4 + 8 = 12$.",
+    "imagesolurl": null,
+    "subject": "Mathematics",
+    "topic": "Complex Numbers",
+    "subtopics": [
+      "Linear Diophantine Equations",
+      "Powers of Iota",
+      "Factorials",
+      "Summation of Series"
+    ],
+    "question_type": [
+      "Multi-concept",
+      "Calculation-intensive"
+    ],
+    "avg_time_to_solve": 180
+  },
+  {
+    "id": 31,
+    "shortcut": "The problem can be solved by combining the formula for angular momentum in a circular gravitational orbit ($L = m\\sqrt{GMr}$) with Kepler's Third Law ($T^2 \\propto r^3$). This leads to the relationship $T \\propto \\frac{L^3}{m^3}$. Since the masses of the planets are not given, assume they are equal ($m_1=m_2$), which is a common simplification in such problems.",
+    "question": "Two planets of masses m₁ and m₂ are revolving around the sun. Their angular momenta are in the ratio 1:3. What is the ratio of their time periods (T₁/T₂)? (Assume the planets have equal mass and are in circular orbits).",
+    "equation": "$\\frac{L_1}{L_2} = \\frac{1}{3}$",
+    "imageurl": null,
+    "options": {
+      "A": "1/27",
+      "B": "1/9",
+      "C": "1/3",
+      "D": "1"
+    },
+    "correct_option": "A",
+    "difficulty_level": "Hard",
+    "examname": "JEE(Main)-204 | 08 April 2024 (Shift-1 Morning)",
+    "solution": "**Step 1: Relate Angular Momentum (L) to Orbital Radius (r).**\nFor a planet of mass 'm' in a circular orbit of radius 'r' around the Sun (mass M), the gravitational force provides the centripetal force.\n$\\frac{G M m}{r^2} = \\frac{m v^2}{r} \\implies v = \\sqrt{\\frac{G M}{r}}$.\nThe angular momentum is $L = mvr$. Substituting for v:\n$L = m \\left(\\sqrt{\\frac{G M}{r}}\\right) r = m\\sqrt{GMr}$.\nSquaring and rearranging for r gives: $L^2 = m^2 G M r \\implies r = \\frac{L^2}{m^2 G M}$.\n\n**Step 2: Relate Time Period (T) to Orbital Radius (r).**\nKepler's Third Law states that the square of the time period is proportional to the cube of the orbital radius: $T^2 \\propto r^3$.\n\n**Step 3: Combine the relationships.**\nSubstitute the expression for r from Step 1 into Kepler's Law:\n$T^2 \\propto \\left(\\frac{L^2}{m^2 G M}\\right)^3$.\nSince G and M are constants, we have the proportionality:\n$T^2 \\propto \\frac{L^6}{m^6} \\implies T \\propto \\frac{L^3}{m^3}$.\n\n**Step 4: Calculate the ratio of the time periods.**\n$\\frac{T_1}{T_2} = \\frac{L_1^3/m_1^3}{L_2^3/m_2^3} = \\left(\\frac{L_1}{L_2}\\right)^3 \\left(\\frac{m_2}{m_1}\\right)^3$.\nThe problem does not provide the ratio of masses, so we make the reasonable assumption that they are equal ($m_1 = m_2$).\nThen the mass term cancels out.\nWe are given $\\frac{L_1}{L_2} = \\frac{1}{3}$.\n$\\frac{T_1}{T_2} = \\left(\\frac{1}{3}\\right)^3 = \\frac{1}{27}$.",
+    "imagesolurl": null,
+    "subject": "Physics",
+    "topic": "Gravitation",
+    "subtopics": [
+      "Kepler's Laws",
+      "Orbital Motion",
+      "Angular Momentum"
+    ],
+    "question_type": [
+      "Formula-based",
+      "Multi-concept"
+    ],
+    "avg_time_to_solve": 180
+  },
+  {
+    "id": 32,
+    "shortcut": "Let $w = z+2$. The given conditions simplify to $|w|=1$ and $Im(\\frac{w-1}{w}) = \\frac{1}{5}$. Let $w=x+iy$. From $|w|=1$, we have $x^2+y^2=1$. Simplify $\\frac{w-1}{w}$ to $1-x+iy$. From the imaginary part, we find $y=1/5$. Then use $x^2+y^2=1$ to find $|x|$. The required value is $|Re(\\overline{z+2})| = |Re(\\bar{w})| = |x|$.",
+    "question": "Given two conditions for a complex number z: $Im(\\frac{z+1}{z+2})=\\frac{1}{5}$ and $|z+2|=1$. Find the value of $|Re(\\overline{z+2})|$.",
+    "equation": "$Im(\\frac{z+1}{z+2})=\\frac{1}{5}, |z+2|=1$",
+    "imageurl": null,
+    "options": {
+      "A": "2√6/5",
+      "B": "1/5",
+      "C": "24/25",
+      "D": "1"
+    },
+    "correct_option": "A",
+    "difficulty_level": "Medium",
+    "examname": "JEE(Main)-2024 | 08 April 2024 (Shift-1 Morning)",
+    "solution": "**Step 1: Simplify the problem with a substitution.**\nLet $w = z+2$. This simplifies the given conditions:\n1. $|w| = 1$\n2. The expression $\\frac{z+1}{z+2}$ becomes $\\frac{(w-2)+1}{w} = \\frac{w-1}{w}$. So, $Im(\\frac{w-1}{w}) = \\frac{1}{5}$.\n\n**Step 2: Use the conditions to find the components of w.**\nLet $w = x+iy$, where x and y are real numbers.\nFrom the first condition, $|w|=1$, we know that $\\sqrt{x^2+y^2}=1$, which means $x^2+y^2=1$.\n\nNow, let's analyze the second condition:\n$\\frac{w-1}{w} = \\frac{(x-1)+iy}{x+iy}$\nMultiply the numerator and denominator by the conjugate of the denominator:\n$\\frac{((x-1)+iy)(x-iy)}{(x+iy)(x-iy)} = \\frac{x(x-1) - i(x-1)y + ixy - i^2y^2}{x^2+y^2}$\nSince $x^2+y^2=1$, the expression simplifies to:\n$x^2-x -ixy+iy+ixy+y^2 = (x^2+y^2) - x + iy = 1 - x + iy$.\n\nWe are given that the imaginary part of this expression is $1/5$.\n$Im(1-x+iy) = y = \\frac{1}{5}$.\n\n**Step 3: Calculate the required value.**\nThe question asks for $|Re(\\overline{z+2})|$.\nUsing our substitution, this is $|Re(\\bar{w})|$.\nSince $w = x+iy$, its conjugate is $\\bar{w} = x-iy$.\nThe real part of $\\bar{w}$ is $Re(\\bar{w}) = x$.\nSo we need to find $|x|$.\n\nUsing the relation $x^2+y^2=1$ and our value for y:\n$x^2 + (\\frac{1}{5})^2 = 1$\n$x^2 + \\frac{1}{25} = 1$\n$x^2 = 1 - \\frac{1}{25} = \\frac{24}{25}$\n$x = \\pm \\sqrt{\\frac{24}{25}} = \\pm \\frac{\\sqrt{24}}{5} = \\pm \\frac{2\\sqrt{6}}{5}$.\nFinally, $|x| = |\\pm \\frac{2\\sqrt{6}}{5}| = \\frac{2\\sqrt{6}}{5}$.",
+    "imagesolurl": null,
+    "subject": "Mathematics",
+    "topic": "Complex Numbers",
+    "subtopics": [
+      "Properties of Complex Numbers",
+      "Modulus and Argument"
+    ],
+    "question_type": [
+      "Calculation-intensive"
+    ],
+    "avg_time_to_solve": 180
+  },
+  {
+    "id": 33,
+    "shortcut": "Use the formula for boiling point elevation, $\\Delta T_b = i \\cdot K_b \\cdot m$. First, calculate the molality (m). Then calculate $\\Delta T_b$ from the given temperatures. Solve for the van't Hoff factor 'i'. Finally, use the formula $i = 1 + (n-1)\\alpha$ to find the degree of dissociation $\\alpha$, where n is the number of ions the solute dissociates into (for $AB_2$, n=3).",
+    "question": "100 gm of a solid solute $AB_{2}$ (molar mass 200 g/mol) is dissolved in 1000 gm of water. The boiling temperature of the solution at 1 atm is $100.52^{\\circ}C$. Find the percentage of dissociation of the solute. (Given: $K_{b}$ for water = 0.52 K kg/mol)",
+    "equation": null,
+    "imageurl": null,
+    "options": {
+      "A": "50%",
+      "B": "100%",
+      "C": "25%",
+      "D": "75%"
+    },
+    "correct_option": "A",
+    "difficulty_level": "Medium",
+    "examname": "JEE(Main)-2024 | 08 April 2024 (Shift-1 Morning)",
+    "solution": "**Step 1: Calculate the elevation in boiling point ($\\Delta T_b$).**\nThe normal boiling point of water is $100^{\\circ}C$. The solution boils at $100.52^{\\circ}C$.\n$\\Delta T_b = T_{solution} - T_{pure} = 100.52^{\\circ}C - 100^{\\circ}C = 0.52^{\\circ}C$.\nA change of $0.52^{\\circ}C$ is equal to a change of $0.52$ K.\n\n**Step 2: Calculate the molality (m) of the solution.**\n* Moles of solute ($AB_2$) = $\\frac{\\text{mass of solute}}{\\text{molar mass}} = \\frac{100 \\text{ g}}{200 \\text{ g/mol}} = 0.5$ mol.\n* Mass of solvent (water) = 1000 g = 1 kg.\n* Molality (m) = $\\frac{\\text{moles of solute}}{\\text{mass of solvent (kg)}} = \\frac{0.5 \\text{ mol}}{1 \\text{ kg}} = 0.5$ m.\n\n**Step 3: Determine the van't Hoff factor (i).**\nThe formula for boiling point elevation is $\\Delta T_b = i \\cdot K_b \\cdot m$, where 'i' is the van't Hoff factor.\n$0.52 = i \\times 0.52 \\times 0.5$\n$1 = i \\times 0.5$\n$i = \\frac{1}{0.5} = 2$.\n\n**Step 4: Calculate the degree of dissociation ($\\alpha$).**\nThe solute $AB_2$ is an electrolyte that dissociates, likely as: $AB_2 \\rightleftharpoons A^{2+} + 2B^-$.\nThis means that one formula unit of $AB_2$ produces a total of **n=3** ions upon complete dissociation.\nThe relationship between i, n, and the degree of dissociation $\\alpha$ is given by:\n$i = 1 + (n-1)\\alpha$\n$2 = 1 + (3-1)\\alpha$\n$2 = 1 + 2\\alpha$\n$1 = 2\\alpha$\n$\\alpha = 0.5$.\n\n**Step 5: Express the result as a percentage.**\nPercentage of dissociation = $\\alpha \\times 100\\% = 0.5 \\times 100\\% = 50\\%$.",
+    "imagesolurl": null,
+    "subject": "Chemistry",
+    "topic": "Solutions",
+    "subtopics": [
+      "Colligative Properties",
+      "Elevation in Boiling Point",
+      "van't Hoff Factor",
+      "Degree of Dissociation"
+    ],
+    "question_type": [
+      "Formula-based",
+      "Calculation-intensive"
+    ],
+    "avg_time_to_solve": 150
+  },
+  {
+    "id": 34,
+    "shortcut": "For any explosion from rest, the conservation of momentum dictates that the momenta of the fragments are equal in magnitude and opposite in direction ($p_1 = p_2$). Since kinetic energy can be expressed as $KE = p^2/(2m)$, the ratio of kinetic energies is $\\frac{KE_1}{KE_2} = \\frac{p_1^2/(2m_1)}{p_2^2/(2m_2)} = \\frac{m_2}{m_1}$. The KE is inversely proportional to the mass.",
+    "question": "An object of mass 5 kg is initially at rest. It explodes into two parts of mass m₁ and m₂. If the velocities of the parts are V₁ and V₂ in opposite directions, find the ratio of their kinetic energies (KE₁/KE₂).",
+    "equation": null,
+    "imageurl": null,
+    "options": {
+      "A": "m₂ / m₁",
+      "B": "m₁ / m₂",
+      "C": "(m₂ / m₁)²",
+      "D": "1"
+    },
+    "correct_option": "A",
+    "difficulty_level": "Easy",
+    "examname": "JEE(Main)-2024 | 08 April 2024 (Shift-1 Morning)",
+    "solution": "**Step 1: Apply the Law of Conservation of Momentum.**\nThe initial object is at rest, so its initial momentum ($P_i$) is zero.\nAfter the explosion, the object breaks into two parts, $m_1$ and $m_2$. Their respective velocities are $\\vec{v_1}$ and $\\vec{v_2}$. The total final momentum is $P_f = m_1 \\vec{v_1} + m_2 \\vec{v_2}$.\nAccording to the conservation of linear momentum, $P_i = P_f$.\n$0 = m_1 \\vec{v_1} + m_2 \\vec{v_2}$\nThis implies that $m_1 \\vec{v_1} = -m_2 \\vec{v_2}$.\nThis equation shows that the momenta of the two parts are equal in magnitude and opposite in direction. Let $p_1 = m_1v_1$ and $p_2 = m_2v_2$ be the magnitudes of the momenta. Then, $p_1 = p_2$.\n\n**Step 2: Relate Kinetic Energy and Momentum.**\nThe kinetic energy (KE) of an object is given by $KE = \\frac{1}{2}mv^2$. We can also express it in terms of momentum ($p=mv$) as:\n$KE = \\frac{p^2}{2m}$.\n\n**Step 3: Find the ratio of the kinetic energies.**\nWe want to find the ratio $\\frac{KE_1}{KE_2}$.\n$\\frac{KE_1}{KE_2} = \\frac{p_1^2 / (2m_1)}{p_2^2 / (2m_2)}$.\nSince we found that the magnitudes of the momenta are equal ($p_1 = p_2$), the $p^2$ terms cancel out:\n$\\frac{KE_1}{KE_2} = \\frac{1 / (2m_1)}{1 / (2m_2)} = \\frac{2m_2}{2m_1} = \\frac{m_2}{m_1}$.\n\nThe ratio of the kinetic energies is the inverse ratio of their masses. The initial mass of 5 kg is extra information not needed for the final ratio.",
+    "imagesolurl": null,
+    "subject": "Physics",
+    "topic": "Laws of Motion",
+    "subtopics": [
+      "Conservation of Momentum",
+      "Kinetic Energy",
+      "Explosions"
+    ],
+    "question_type": [
+      "Conceptual",
+      "Derivation"
+    ],
+    "avg_time_to_solve": 60
+  },
+  {
+    "id": 35,
+    "shortcut": "The Cayley-Hamilton theorem states that a matrix satisfies its own characteristic equation, $\\lambda^3 - Tr(A)\\lambda^2 + C_2\\lambda - det(A) = 0$, which implies $A^3 = Tr(A)A^2 - C_2A + det(A)I$. By comparing the coefficients of this equation with the given relation $A^3 = 3A^2+2I$, you can create a system of equations to solve for a and b.",
+    "question": "Let A be a $3\\times3$ matrix where $A=\\begin{bmatrix}2&a&0\\\\ 1&3&1\\\\ 0&1&b\\end{bmatrix}$ and it satisfies the relation $A^{3}=3A^{2}+2I$. Find the value of $3a+b$.",
+    "equation": "$A=\\begin{bmatrix}2&a&0\\\\ 1&3&1\\\\ 0&1&b\\end{bmatrix}, A^{3}=3A^{2}+2I$",
+    "imageurl": null,
+    "options": {
+      "A": "-17",
+      "B": "17",
+      "C": "-13",
+      "D": "13"
+    },
+    "correct_option": "A",
+    "difficulty_level": "Hard",
+    "examname": "JEE(Main)-2024 | 08 April 2024 (Shift-1 Morning)",
+    "solution": "**Step 1: Use the Cayley-Hamilton Theorem.**\nAccording to the Cayley-Hamilton theorem, every square matrix satisfies its own characteristic equation. The characteristic equation for a 3x3 matrix A is given by:\n$\\lambda^3 - Tr(A)\\lambda^2 + M\\lambda - det(A) = 0$\nwhere $Tr(A)$ is the trace of A, and M is the sum of the cofactors of the diagonal elements.\nBy the theorem, A satisfies: $A^3 - Tr(A)A^2 + MA - det(A)I = 0$, or\n$A^3 = Tr(A)A^2 - MA + det(A)I$.\n\n**Step 2: Calculate the Trace and other coefficients.**\n* **Trace (Tr(A)):** Sum of the diagonal elements.\n    $Tr(A) = 2 + 3 + b = 5+b$.\n* **M (Sum of diagonal minors/cofactors):**\n    $M = \\begin{vmatrix}3&1\\\\1&b\\end{vmatrix} + \\begin{vmatrix}2&0\\\\0&b\\end{vmatrix} + \\begin{vmatrix}2&a\\\\1&3\\end{vmatrix} = (3b-1) + (2b) + (6-a) = 5b - a + 5$.\n* **Determinant (det(A)):**\n    $det(A) = 2(3b-1) - a(b-0) + 0 = 6b - 2 - ab$.\n\n**Step 3: Set up the matrix equation.**\nSubstituting these into the Cayley-Hamilton equation for A:\n$A^3 = (5+b)A^2 - (5b-a+5)A + (6b-2-ab)I$.\n\n**Step 4: Compare coefficients with the given relation.**\nWe are given the relation: $A^3 = 3A^2 + 0A + 2I$.\nBy comparing the coefficients of the powers of A in both equations, we get a system of equations:\n1.  Coefficient of $A^2$: $5+b = 3$\n2.  Coefficient of $A$: $-(5b-a+5) = 0 \implies 5b-a+5 = 0$\n3.  Coefficient of $I$: $6b-2-ab = 2$\n\n**Step 5: Solve for a and b.**\nFrom equation (1): $b = 3 - 5 = -2$.\nSubstitute $b=-2$ into equation (2):\n$5(-2) - a + 5 = 0$\n$-10 - a + 5 = 0$\n$-5 - a = 0 \implies a = -5$.\n\n(Note: If we check these values in equation (3), $6(-2)-2-(-5)(-2) = -12-2-10 = -24$, which is not equal to 2. This indicates a typo in the constant term of the problem statement as given in the memory-based paper. However, a and b are uniquely determined by the first two consistent equations.)\n\n**Step 6: Find the required value.**\nThe question asks for the value of $3a+b$.\n$3a+b = 3(-5) + (-2) = -15 - 2 = -17$.",
+    "imagesolurl": null,
+    "subject": "Mathematics",
+    "topic": "Matrices and Determinants",
+    "subtopics": [
+      "Cayley-Hamilton Theorem",
+      "Characteristic Equation"
+    ],
+    "question_type": [
+      "Calculation-intensive",
+      "Problem Solving"
+    ],
+    "avg_time_to_solve": 240
   }
 ]
